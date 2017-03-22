@@ -2,12 +2,9 @@ src/public_src/style/css/style.css
 
 README.html
 
-build
+public/
+dist/
 build/
-members_build
-members_build/
-public_build
-public_build/
 
 .sass-cache/
 *~
