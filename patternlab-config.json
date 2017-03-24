@@ -41,7 +41,7 @@
     "full": false,
     "random": false,
     "disco": false,
-    "hay": true,
+    "hay": false,
     "mqs": false,
     "find": false,
     "views-all": false,
