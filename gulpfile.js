@@ -1,13 +1,23 @@
 /******************************************************
  * PATTERN LAB NODE
  * EDITION-NODE-GULP
+
  * The gulp wrapper around patternlab-node core, providing tasks to interact with the core library and move supporting frontend assets.
 ******************************************************/
-var gulp = require('gulp'),
-  path = require('path'),
-  browserSync = require('browser-sync').create(),
-  argv = require('minimist')(process.argv.slice(2)),
-  chalk = require('chalk');
+
+var gulp     = require('gulp'),
+path         = require('path'),
+browserSync  = require('browser-sync').create(),
+argv         = require('minimist')(process.argv.slice(2)),
+chalk        = require('chalk'),
+pkg          = require('./package.json'),
+sass         = require('gulp-sass')
+sourcemaps   = require('gulp-sourcemaps'),
+postcss      = require('gulp-postcss'),
+autoprefixer = require('autoprefixer');
+
+
+
 
 /**
  * Normalize all paths to be plain, paths with no leading './',
@@ -29,9 +39,12 @@ function normalizePath() {
     .replace(/\\/g, "/");
 }
 
+
 /******************************************************
  * COPY TASKS - stream assets from source to destination
 ******************************************************/
+
+
 // JS copy
 gulp.task('pl-copy:js', function () {
   return gulp.src('**/*.js', {cwd: normalizePath(paths().source.js)} )
@@ -81,6 +94,23 @@ gulp.task('pl-copy:styleguide-css', function () {
     .pipe(browserSync.stream());
 });
 
+
+/******************************************************
+ * SASS TASKS - build style file
+******************************************************/
+
+gulp.task('sass', function () {
+  var browserlist = pkg.browserlist;
+  var plugins = [ autoprefixer({ browsers: browserlist }) ];
+  return gulp.src(normalizePath(paths().source.css) + '/scss/**/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(postcss(plugins))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(normalizePath(paths().public.css)))
+});
+
+
 /******************************************************
  * PATTERN LAB CONFIGURATION - API with core library
 ******************************************************/
@@ -115,6 +145,7 @@ function build(done) {
 }
 
 gulp.task('pl-assets', gulp.series(
+  'sass', 
   'pl-copy:js',
   'pl-copy:img',
   'pl-copy:favicon',
@@ -196,6 +227,12 @@ function watch() {
       tasks: gulp.series('pl-copy:css', reloadCSS)
     },
     {
+      name: 'SCSS',
+      paths: [normalizePath(paths().source.scss, '**', '*.scss')],
+      config: { awaitWriteFinish: true },
+      tasks: gulp.series('sass', reloadCSS)
+    },
+    {
       name: 'Styleguide Files',
       paths: [normalizePath(paths().source.styleguide, '**', '*')],
       config: { awaitWriteFinish: true },
@@ -258,9 +295,14 @@ gulp.task('patternlab:connect', gulp.series(function (done) {
   });
 }));
 
+
 /******************************************************
  * COMPOUND TASKS
 ******************************************************/
 gulp.task('default', gulp.series('patternlab:build'));
 gulp.task('patternlab:watch', gulp.series('patternlab:build', watch));
 gulp.task('patternlab:serve', gulp.series('patternlab:build', 'patternlab:connect', watch));
+
+
+
+
