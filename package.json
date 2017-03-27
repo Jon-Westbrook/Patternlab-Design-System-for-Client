@@ -8,6 +8,7 @@
     "gulp": "gulpjs/gulp#4.0",
     "minimist": "^1.2.0",
     "patternlab-node": "^2.0.0",
+    "plugin-node-uiextension": "^1.0.0-alpha",
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
   },
