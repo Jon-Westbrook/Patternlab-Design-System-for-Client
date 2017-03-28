@@ -6,7 +6,7 @@
  * Fade Animation
  */
 .animate-fade {
-	@include transition(opacity, 0.3s, ease-out);
+	@include transition(opacity, 0.2s, ease-out);
 	&:hover {
 		opacity: 0;
 	}

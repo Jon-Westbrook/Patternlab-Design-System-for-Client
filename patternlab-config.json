@@ -6,7 +6,7 @@
       "data": "./source/_data/",
       "meta": "./source/_meta/",
       "annotations": "./source/_annotations/",
-      "styleguide": "./styleguidekit-assets-default/dist/",
+      "styleguide": "./vendor/pattern-lab/styleguidekit-assets-default/dist/",
       "patternlabFiles": "./node_modules/styleguidekit-mustache-default/views/",
       "js": "./source/js",
       "images": "./source/images",
@@ -28,7 +28,7 @@
   },
   "styleGuideExcludes": [],
   "defaultPattern": "all",
-  "defaultShowPatternInfo": true,
+  "defaultShowPatternInfo": false,
   "cleanPublic": true,
   "patternExtension": "mustache",
   "ignored-extensions": [

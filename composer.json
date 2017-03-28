@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pattern-lab/styleguidekit-assets-default": "^3.4"
+    }
+}

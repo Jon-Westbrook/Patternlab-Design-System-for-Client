@@ -6,8 +6,9 @@
  * Body base styles
  */
 body {
-	background: $color-white;
-	color: $color-gray-50;
+  font-family: 'Sophia Pro', sans-serif;
+	background: $icsc-bg-1;
+	color: $icsc-black;
 	font: 100%/1.5 $font;
 	-webkit-text-size-adjust: 100%;
 	min-height: 100vh;

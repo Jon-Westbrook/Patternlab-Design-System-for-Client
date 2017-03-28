@@ -1,0 +1,63 @@
+[
+    {
+        "name": "pattern-lab/styleguidekit-assets-default",
+        "version": "v3.4.0",
+        "version_normalized": "3.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pattern-lab/styleguidekit-assets-default.git",
+            "reference": "e6017ed4b958fd01094cb2f74259299fb1f713df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pattern-lab/styleguidekit-assets-default/zipball/e6017ed4b958fd01094cb2f74259299fb1f713df",
+            "reference": "e6017ed4b958fd01094cb2f74259299fb1f713df",
+            "shasum": ""
+        },
+        "time": "2016-12-22T15:55:50+00:00",
+        "type": "patternlab-styleguidekit",
+        "extra": {
+            "patternlab": {
+                "dist": {
+                    "publicDir": [
+                        {
+                            "*": "*"
+                        }
+                    ]
+                },
+                "config": {
+                    "ishMinimum": "240",
+                    "ishMaximum": "2600",
+                    "ishControlsHide": [
+                        "hay"
+                    ]
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dave Olsen",
+                "email": "dmolsen@gmail.com",
+                "homepage": "http://dmolsen.com",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Brad Frost",
+                "homepage": "http://bradfrostweb.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "The assets for the default StyleguideKit for Pattern Lab. Contains styles and mark-up for Pattern Lab's front-end.",
+        "homepage": "http://patternlab.io",
+        "keywords": [
+            "mustache",
+            "pattern lab",
+            "styleguide"
+        ]
+    }
+]
