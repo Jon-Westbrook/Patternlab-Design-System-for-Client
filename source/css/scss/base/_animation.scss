@@ -1,13 +1,3 @@
 /*------------------------------------*\
     #ANIMATION
 \*------------------------------------*/
-
-/**
- * Fade Animation
- */
-.animate-fade {
-	@include transition(opacity, 0.2s, ease-out);
-	&:hover {
-		opacity: 0;
-	}
-}

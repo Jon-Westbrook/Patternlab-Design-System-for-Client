@@ -5,13 +5,13 @@
 /**
  * Links
  */
+
 a {
-	color: $color-gray-50;
+	color: $red;
 	text-decoration: none;
 	outline: 0;
-	transition: all $anim-speed-quick $anim-ease;
-
+  transition: $transition-hover-default;
 	&:hover, &:focus {
-		color: $color-gray-73;
+		color: $bg-1;
 	}
 }

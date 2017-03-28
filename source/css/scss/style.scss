@@ -1,32 +1,29 @@
 
-
 /*------------------------------------*\
-    $ABSTRACTS
+    # ABSTRACTS
 \*------------------------------------*/
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 
 
 /*------------------------------------*\
-    $BASE
+    # BASE
 \*------------------------------------*/
+
+@import 'base/type';
 @import 'base/body';
 @import 'base/animation';
 @import 'base/forms';
-@import 'base/global-classes';
-@import 'base/headings';
 @import 'base/links';
-@import 'base/lists';
-@import 'base/main';
 @import 'base/media';
 @import 'base/reset';
 @import 'base/tables';
-@import 'base/type';
 
 
 /*------------------------------------*\
-    $COMPONENTS
+    # COMPONENTS
 \*------------------------------------*/
+
 @import 'components/blocks';
 @import 'components/buttons';
 @import 'components/carousels';
@@ -49,6 +46,7 @@
 
 
 /*------------------------------------*\
-    $LAYOUT
+    # LAYOUT
 \*------------------------------------*/
+
 @import 'layout/layout';

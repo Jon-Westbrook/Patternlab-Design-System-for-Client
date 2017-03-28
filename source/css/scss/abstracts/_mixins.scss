@@ -1,23 +1,89 @@
 /*------------------------------------*\
-    #MIXINS
+    # MIXINS
 \*------------------------------------*/
 
 
-/** CSS Transition
- *	Usage: @include transition(width,0.3s,ease-out);
- */
-@mixin transition($transition-property, $transition-time, $method) {
-	transition: $transition-property $transition-time $method;
+/*------------------------------------*\
+    # BULLETPROOF FONT FACE GENERATOR
+\*------------------------------------*/
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+    eot: '?',
+    svg: '#' + str-replace($name, ' ', '_')
+  );
+
+  $formats: (
+    otf: 'opentype',
+    ttf: 'truetype'
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + '.' + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
 }
 
 
-/** Rem Unit font sizes with relative fallback http:/seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback  
- *	Usage: @include font-size(1, large);
- */
+/*------------------------------------*\
+    # RESPONSIVE DESIGN HELPERS
+\*------------------------------------*/
 
-@mixin font-size($decimal-size, $keyword: null) {
-  @if $keyword { font-size: $keyword; }
-  @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
-  font-size: $decimal-size * 1rem;
+@mixin respond-to-sm {
+  @media (min-width: $screen-sm-min) {
+    @content;
+  }
 }
 
+@mixin respond-to-md {
+  @media (min-width: $screen-md-min) {
+    @content;
+  }
+}
+
+@mixin respond-to-lg {
+  @media (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+@mixin respond-to-xl {
+  @media (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+
+/*------------------------------------*\
+    # TARGET ALL LINK STATES
+\*------------------------------------*/
+
+@mixin all-states {
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
+
+
+/*--------------------------------------------------*\
+    # DEBUG MODE, INCLUDE ANYWHERE TO SEE ALL BLOCKS
+\*--------------------------------------------------*/
+
+@mixin debug {
+  &, * {
+    background: $placeholder-background;
+  }
+}

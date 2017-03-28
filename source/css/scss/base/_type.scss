@@ -1,4 +1,55 @@
+
 /*------------------------------------*\
     # TYPE
 \*------------------------------------*/
+
+@include font-face('Sophia Pro', '../font/Sofia-Pro-Regular', regular);
+
+
+// Text Sizes and Headlines
+// ====================
+
+.icsc-type-1 {
+  font-size: $type-1-xs;
+  line-height: $type-1-lh-xs;
+  font-family: $font-family;
+  @include respond-to-sm {
+    font-size: $type-1-sm;
+    line-height: $type-1-lh-sm;
+  }
+  @include respond-to-md {
+    font-size: $type-1-md;
+    line-height: $type-1-lh-md;
+  }
+  @include respond-to-lg {
+    font-size: $type-1-lg;
+    line-height: $type-1-lh-lg;
+  }
+  @include respond-to-xl {
+    font-size: $type-1-xl;
+    line-height: $type-1-lh-xl;
+  }
+}
+
+h1 {
+  font-size: $type-4-xs;
+  line-height: $type-4-lh-xs;
+  font-family: $font-family;
+  @include respond-to-sm {
+    font-size: $type-4-sm;
+    line-height: $type-4-lh-sm;
+  }
+  @include respond-to-md {
+    font-size: $type-4-md;
+    line-height: $type-4-lh-md;
+  }
+  @include respond-to-lg {
+    font-size: $type-4-lg;
+    line-height: $type-4-lh-lg;
+  }
+  @include respond-to-xl {
+    font-size: $type-4-xl;
+    line-height: $type-4-lh-xl;
+  }
+}
 
