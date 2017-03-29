@@ -12,6 +12,6 @@ a {
 	outline: 0;
   transition: $transition-hover-default;
 	&:hover, &:focus {
-		color: $bg-1;
+		color: $original-red;
 	}
 }
