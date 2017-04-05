@@ -2,4 +2,4 @@
 title: Header
 ---
 
-[Insert description here]
+The global navigation header.

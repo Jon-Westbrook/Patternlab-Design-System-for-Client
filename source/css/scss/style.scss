@@ -1,37 +1,8 @@
+@import 'bootstrap/scss/bootstrap';
 
-/*------------------------------------*\
-    # ABSTRACTS
-\*------------------------------------*/
-@import 'abstracts/mixins';
-@import 'abstracts/variables';
-
-
-/*------------------------------------*\
-    # BASE
-\*------------------------------------*/
-
-@import 'base/type';
-@import 'base/animation';
-@import 'base/forms';
-@import 'base/links';
-
-
-/*------------------------------------*\
-    # COMPONENTS
-\*------------------------------------*/
-
-@import 'components/buttons';
-@import 'components/carousels';
-@import 'components/nav';
-@import 'components/footer';
-@import 'components/footer-nav';
-@import 'components/header';
-@import 'components/icons';
-@import 'components/text';
-
-
-/*------------------------------------*\
-    # LAYOUT
-\*------------------------------------*/
-
-@import 'layout/layout';
+@import 'custom/bootstrap-variable-overrides';
+@import 'custom/00-atoms';
+@import 'custom/01-molecules';
+@import 'custom/02-organisms';
+@import 'custom/03-templates';
+@import 'custom/04-pages';
