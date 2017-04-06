@@ -4,7 +4,6 @@ README.html
 
 public
 public/
-dist/
 build/
 
 .sass-cache/

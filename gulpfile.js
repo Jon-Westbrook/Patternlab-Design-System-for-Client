@@ -51,6 +51,12 @@ gulp.task('pl-copy:js', function () {
     .pipe(gulp.dest(normalizePath(paths().public.js)));
 });
 
+// Bootstrap JS copy
+gulp.task('pl-copy:js', function () {
+  return gulp.src('**/*.js', {cwd: normalizePath(paths().source.bootstrap_JS)} )
+    .pipe(gulp.dest(normalizePath(paths().public.js)));
+});
+
 // Images copy
 gulp.task('pl-copy:img', function () {
   return gulp.src('**/*.*',{cwd: normalizePath(paths().source.images)} )
