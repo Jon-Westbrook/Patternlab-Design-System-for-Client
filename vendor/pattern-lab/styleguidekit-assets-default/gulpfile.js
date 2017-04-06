@@ -125,13 +125,14 @@ gulp.task('build:js-pattern', ['build:js-viewer'], function() {
 		.pipe(copyPublic("styleguide/js"));
 });
 
-gulp.task('default', ['build:bower', 'build:css-patternlab', 'build:html', 'build:js-pattern'], function () {
+gulp.task('default', ['build:bower', 'build:css-patternlab', 'build:html', 'build:js-pattern','build:fonts'], function () {
 	if (args.watch !== undefined) {
 		gulp.watch(['src/bower_components/**/*'], ['build:bower']);
 		gulp.watch(['src/css/prism-okaidia.css'],['build:css-general']);
 		gulp.watch(['src/sass/styleguide.scss'], ['build:css-patternlab']);
 		gulp.watch(['src/html/*'], ['build:html']);
 		gulp.watch(['src/js/*'], ['build:js-pattern']);
+		gulp.watch(['src/fonts/*'], ['build:fonts']);
 	}
 	
 });

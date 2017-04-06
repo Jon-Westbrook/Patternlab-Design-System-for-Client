@@ -29,7 +29,7 @@
   },
   "styleGuideExcludes": [],
   "defaultPattern": "all",
-  "defaultShowPatternInfo": false,
+  "defaultShowPatternInfo": true,
   "cleanPublic": true,
   "patternExtension": "mustache",
   "ignored-extensions": [

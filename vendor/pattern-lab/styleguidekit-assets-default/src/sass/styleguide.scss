@@ -46,9 +46,6 @@
 */
 
 
-
-
-
 /*------------------------------------*\
 #VARIABLES
 \*------------------------------------*/
@@ -57,8 +54,17 @@
 * indepenedently of any project-specific styles
 */
 
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia-pro-regular.woff2') format('woff2'),
+         url('../fonts/sofia-pro-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 // Fonts
-$sg-font: 'Sofia Pro', 'Helvetica', 'Arial', sans-serif; 
+$sg-font: 'Sofia Pro', sans-serif;
+
 
 // Colors
 $sg-black: #000;
@@ -68,8 +74,8 @@ $sg-gray-light: #eee;
 $sg-gray-light-2: #ddd;
 $sg-gray-light-3: #ccc;
 $sg-gray-light-4: #999;
-$sg-gray: #808080;
-$sg-gray-dark: #222;
+$sg-gray: #343434;
+$sg-gray-dark: #000;
 $sg-tint: rgba(255, 255, 255, 0.05);
 $sg-tint-2: rgba(255, 255, 255, 0.75);
 $sg-tone: rgba(0, 0, 0, 0.1);
@@ -100,25 +106,6 @@ $sg-border-radius: 3px;
 $sg-border-radius-med: 6px;
 
 
-
-
-/*------------------------------------*\
-#RESET
-\*------------------------------------*/
-
-/**
-* Apply border-box to all elements
-*
-* 1) This is a broadly-applied style that affects every
-* element on the screen. This can bleed into user's styles
-* but since it's been a best practice for years now we're
-* going to default to this.
-*/
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 
 
@@ -172,7 +159,7 @@ $sg-border-radius-med: 6px;
 */
 
 .sg-header {
-    background: $sg-red;
+    background: #FC2B2B;
     color: $sg-white;
     font-family: $sg-font;
     text-transform: uppercase;
@@ -318,6 +305,7 @@ $sg-border-radius-med: 6px;
     }
 
     &:hover, &:focus {
+        outline: none;
         &:after {
             color: $sg-gray;
         }
@@ -464,7 +452,7 @@ $sg-border-radius-med: 6px;
 .sg-current-size {
     font-size: 70%;
     color: $sg-white;
-    padding: 0.85em 0.7em;
+    padding: 0.7em 0.7em;
 
     @media all and (min-width: $sg-bp-large) {
         float: left;
@@ -484,7 +472,7 @@ $sg-border-radius-med: 6px;
 * Size input fields
 */
 .sg-input {
-    margin: -2px 0px 0 0;
+    margin: -2px 4px 0 0;
     padding: 0.1em;
     border: 0;
     border-radius: $sg-border-radius;
@@ -906,10 +894,11 @@ $sg-border-radius-med: 6px;
 */
 .sg-pattern-title {
     font-family: $sg-font !important;
-    font-size: 0.85rem !important;
+    font-size: 1rem !important;
     line-height: 1 !important;
     font-weight: bold !important;
     margin: 0 !important;
+    margin-left: 4px;
     padding: 0 !important;
     text-transform: capitalize !important;
 
@@ -920,6 +909,7 @@ $sg-border-radius-med: 6px;
         text-decoration: none;
         cursor: pointer;
         font-weight: bold;
+        margin-bottom: 14px;
 
         &:hover, &:focus {
             color: $sg-black  !important;
@@ -1000,7 +990,7 @@ $sg-border-radius-med: 6px;
 
     &.active {
         border: 1px solid $sg-gray-light-2;
-        border-radius: $sg-border-radius-med;
+        // border-radius: $sg-border-radius-med;
         border-top-right-radius: 0;
         max-height: 50em;
     }
@@ -1120,7 +1110,7 @@ $sg-border-radius-med: 6px;
 * Pattern Category Title
 */
 .sg-pattern-category-title {
-    font-size: 1.4rem !important;
+    font-size: 2.4rem !important;
     color: $sg-gray-dark !important;
     margin: 0 0 0.2rem;
     text-transform: capitalize;
@@ -1128,6 +1118,7 @@ $sg-border-radius-med: 6px;
 
     a {
         transition: color $sg-animate-quick ease-out;
+        color: #000;
         &:hover {
             text-decoration: none;
         }
