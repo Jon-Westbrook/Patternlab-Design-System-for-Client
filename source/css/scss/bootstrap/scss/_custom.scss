@@ -115,14 +115,15 @@ $enable-gradients:          true;
 // // Font, line-height, and color for body text, headings, and more.
 
 @font-face {
-  font-family: 'Sofia Pro';
-  src: url('../fonts/sofia-pro-regular.woff2') format('woff2'),
-       url('../fonts/sofia-pro-regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'sofia_pro_regularregular';
+    src: url('../fonts/sofia-pro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sofia-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-$font-family-sans-serif: 'Sophia Pro', sans-serif;
+$font-family-sans-serif: 'sofia_pro_regularregular', sans-serif;
+
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 // $font-family-base:       $font-family-sans-serif;
@@ -146,8 +147,8 @@ $font-family-sans-serif: 'Sophia Pro', sans-serif;
 // $font-size-h6: 1rem;
 
 // $headings-margin-bottom: ($spacer / 2);
-// $headings-font-family:   inherit;
-// $headings-font-weight:   500;
+$headings-font-family:   $font-family-sans-serif;
+$headings-font-weight:   400;
 // $headings-line-height:   1.1;
 // $headings-color:         inherit;
 
@@ -156,10 +157,16 @@ $font-family-sans-serif: 'Sophia Pro', sans-serif;
 // $display3-size: 4.5rem;
 // $display4-size: 3.5rem;
 
-// $display1-weight:     300;
-// $display2-weight:     300;
-// $display3-weight:     300;
-// $display4-weight:     300;
+$display1-weight:     700;
+$display2-weight:     700;
+$display3-weight:     700;
+$display4-weight:     700;
+$display5-weight:     700;
+$display6-weight:     700;
+$display7-weight:     700;
+$display8-weight:     700;
+$display9-weight:     700;
+
 // $display-line-height: $headings-line-height;
 
 // $lead-font-size:   1.25rem;
@@ -188,64 +195,72 @@ $font-family-sans-serif: 'Sophia Pro', sans-serif;
 
 // $list-inline-padding: 5px;
 
+
 /*------------------------------------*\
-# TYPE
+# CUSTOM TYPE VARIABLES
 \*------------------------------------*/
 
-$type-1-xs: 72px;
-$type-1-lh-xs: 86px;
-$type-1-sm: 72px;
-$type-1-lh-sm: 86px;
-$type-1-md: 72px;
-$type-1-lh-md: 86px;
-$type-1-lg: 72px;
-$type-1-lh-lg: 86px;
-$type-1-xl: 72px;
-$type-1-lh-xl: 86px;
+$display1-size: 72px;
+$display1-line-height: 86px;
+$display1-size-sm: 72px;
+$display1-line-height-sm: 86px;
 
-$type-2-xs: 56px;
-$type-2-lh-xs: 68px;
-$type-2-sm: 56px;
-$type-2-lh-sm: 68px;
-$type-2-md: 56px;
-$type-2-lh-md: 68px;
-$type-2-lg: 56px;
-$type-2-lh-lg: 68px;
-$type-2-xl: 56px;
-$type-2-lh-xl: 68px;
+$display2-size: 56px;
+$display2-line-height: 68px;
 
-$type-3-xs: 48px;
-$type-3-lh-xs: 60px;
-$type-3-sm: 48px;
-$type-3-lh-sm: 60px;
-$type-3-md: 48px;
-$type-3-lh-md: 60px;
-$type-3-lg: 48px;
-$type-3-lh-lg: 60px;
-$type-3-xl: 48px;
-$type-3-lh-xl: 60px;
 
-$type-4-xs: 36px;
-$type-4-lh-xs: 44px;
-$type-4-sm: 36px;
-$type-4-lh-sm: 44px;
-$type-4-md: 36px;
-$type-4-lh-md: 44px;
-$type-4-lg: 36px;
-$type-4-lh-lg: 44px;
-$type-4-xl: 36px;
-$type-4-lh-xl: 44px;
+$display-1-sm: 72px;
+$display-1-lh-sm: 86px;
+$display-1-md: 72px;
+$display-1-lh-md: 86px;
+$display-1-lg: 72px;
+$display-1-lh-lg: 86px;
+$display-1-xl: 72px;
+$display-1-lh-xl: 86px;
 
-$type-5-xs: 28px;
-$type-5-lh-xs: 36px;
-$type-5-sm: 28px;
-$type-5-lh-sm: 36px;
-$type-5-md: 28px;
-$type-5-lh-md: 36px;
-$type-5-lg: 28px;
-$type-5-lh-lg: 36px;
-$type-5-xl: 28px;
-$type-5-lh-xl: 36px;
+$display-2-xs: 56px;
+$display-2-lh-xs: 68px;
+$display-2-sm: 56px;
+$display-2-lh-sm: 68px;
+$display-2-md: 56px;
+$display-2-lh-md: 68px;
+$display-2-lg: 56px;
+$display-2-lh-lg: 68px;
+$display-2-xl: 56px;
+$display-2-lh-xl: 68px;
+
+$display-3-xs: 48px;
+$display-3-lh-xs: 60px;
+$display-3-sm: 48px;
+$display-3-lh-sm: 60px;
+$display-3-md: 48px;
+$display-3-lh-md: 60px;
+$display-3-lg: 48px;
+$display-3-lh-lg: 60px;
+$display-3-xl: 48px;
+$display-3-lh-xl: 60px;
+
+$display-4-xs: 36px;
+$display-4-lh-xs: 44px;
+$display-4-sm: 36px;
+$display-4-lh-sm: 44px;
+$display-4-md: 36px;
+$display-4-lh-md: 44px;
+$display-4-lg: 36px;
+$display-4-lh-lg: 44px;
+$display-4-xl: 36px;
+$display-4-lh-xl: 44px;
+
+$display-5-xs: 28px;
+$display-5-lh-xs: 36px;
+$display-5-sm: 28px;
+$display-5-lh-sm: 36px;
+$display-5-md: 28px;
+$display-5-lh-md: 36px;
+$display-5-lg: 28px;
+$display-5-lh-lg: 36px;
+$display-5-xl: 28px;
+$display-5-lh-xl: 36px;
 
 
 
