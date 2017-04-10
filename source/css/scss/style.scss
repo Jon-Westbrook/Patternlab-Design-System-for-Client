@@ -1,5 +1,11 @@
+
+// Include Bootstrap First
 @import 'bootstrap/scss/bootstrap';
-@import 'custom/typography.scss';
+
+// Include Custom SASS Second
+@import 'custom/mixins';
+@import 'custom/global';
+@import 'custom/typography';
 @import 'custom/header';
 
 

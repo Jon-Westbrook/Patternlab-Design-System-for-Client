@@ -95,7 +95,7 @@
 .sg-header {
   background: #FC2B2B;
   color: #fff;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: "sofia_pro_regularregular", sans-serif;
   text-transform: uppercase;
   position: fixed;
   top: 0;
@@ -758,7 +758,7 @@
 * Pattern Title
 */
 .sg-pattern-title {
-  font-family: "Sofia Pro", sans-serif !important;
+  font-family: "sofia_pro_regularregular", sans-serif !important;
   font-weight: bold !important;
   margin: 0 !important;
   margin-left: 4px;
@@ -968,7 +968,7 @@
 */
 .sg-pattern-category {
   margin-top: 6rem;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: "sofia_pro_regularregular", sans-serif;
 }
 .sg-pattern-category:first-of-type {
   margin-top: 2rem;
@@ -982,7 +982,7 @@
   color: #000 !important;
   margin: 0 0 0.2rem;
   text-transform: capitalize;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: "sofia_pro_regularregular", sans-serif;
 }
 .sg-pattern-category-title a {
   -webkit-transition: color 0.1s ease-out;
@@ -1031,7 +1031,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font: "Sofia Pro", sans-serif !important;
+  font: "sofia_pro_regularregular", sans-serif !important;
 }
 
 .sg-tabs-list {
@@ -1124,7 +1124,7 @@
 * on the pattern detail screen.
 */
 .sg-modal {
-  font-family: "Sofia Pro", sans-serif;
+  font-family: "sofia_pro_regularregular", sans-serif;
   line-height: 1.4;
   font-size: 90%;
   background: #000;
@@ -1202,7 +1202,7 @@
 }
 .sg-modal .sg-pattern-desc {
   border-bottom-color: #343434;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: "sofia_pro_regularregular", sans-serif;
 }
 .sg-modal .sg-annotations {
   border-top-color: #343434;
