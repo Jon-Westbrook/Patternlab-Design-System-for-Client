@@ -310,8 +310,8 @@ $display9-line-height-xl: 1.25rem;
 // $border-radius-lg:       .3rem;
 // $border-radius-sm:       .2rem;
 
-// $component-active-color: $white;
-// $component-active-bg:    $brand-primary;
+$component-active-color: $white;
+$component-active-bg:    $brand-primary;
 
 // $caret-width:            .3em;
 
@@ -607,9 +607,9 @@ $display9-line-height-xl: 1.25rem;
 // $navbar-inverse-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-inverse-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
 // $navbar-inverse-toggler-border:        rgba($white,.1);
 
-// $navbar-light-color:                rgba($black,.5);
+$navbar-light-color:                rgba($black,.9);
 // $navbar-light-hover-color:          rgba($black,.7);
-// $navbar-light-active-color:         rgba($black,.9);
+$navbar-light-active-color:         $original-red;
 // $navbar-light-disabled-color:       rgba($black,.3);
 // $navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
 // $navbar-light-toggler-border:       rgba($black,.1);

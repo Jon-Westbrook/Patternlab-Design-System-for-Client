@@ -1,2 +1,6 @@
 {
+  "imgMagnifier": {
+    "src": "../../images/magnifying-glass.svg",
+    "alt": "Search Icon"
+  }
 }
