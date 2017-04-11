@@ -2,6 +2,14 @@
 // Text Sizes and Headline Overrides
 // =================================
 
+p {
+  font-size: $display8-size;
+  &.light {
+    opacity: 1;
+    color: $white;
+  }
+}
+
 .display1 {
   font-size: $display1-size;
   line-height: $display1-line-height;
@@ -558,10 +566,14 @@ h6, .h6 {
 }
 
 
-// .lead {
-//   font-size: $lead-font-size;
-//   font-weight: $lead-font-weight;
-// }
+.lead {
+  // font-size: $lead-font-size;
+  // font-weight: $lead-font-weight;
+  &.light {
+    opacity: 1;
+    color: $white;
+  }
+}
 
 
 // //

@@ -1,31 +1,42 @@
 
 .header {
- 
- height: 140px;
+  background: $white;
+  height: 140px;
 
- .navbar-toggler-left {
-  left: 6rem;
-  top: 2rem;
- }
+  .container {
+    height: 100%;
+  }
 
-.navbar-nav {
+  .collapse {
+    background: $white;
+    height: 100%;
+    z-index: $zindex-navbar;
+  }
 
-  .nav-link {
-    color: $black;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    &.active {
-      color: $original-red;
-      border-bottom: 6px solid $original-red;
+  .navbar-toggler-left {
+    left: 6rem;
+    top: 2rem;
+  }
+
+  .navbar {
+    height: 100%;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $black;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+      &.active {
+        color: $original-red;
+        border-bottom: 6px solid $original-red;
+      }
     }
-   }
-
- .search-icon {
-  margin-top: -4px;
- }
-
+    .search-icon {
+      margin-top: -4px;
+    }
+  }
 }
 
-}
