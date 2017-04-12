@@ -3,16 +3,28 @@
 // =================================
 
 p {
-  font-size: $display8-size;
-  &.light {
-    opacity: 1;
-    color: $white;
+  font-size: $display8-size-xs;
+  @include media-breakpoint-only(sm) {
+    font-size: $display8-size-sm;
+    line-height: $display8-line-height-sm;
+  }
+  @include media-breakpoint-only(md) {
+    font-size: $display8-size-md;
+    line-height: $display8-line-height-md;
+  }
+  @include media-breakpoint-only(lg) {
+    font-size: $display8-size-lg;
+    line-height: $display8-line-height-lg;
+  }
+  @include media-breakpoint-only(xl) {
+    font-size: $display8-size-xl;
+    line-height: $display8-line-height-xl;
   }
 }
 
 .display1 {
-  font-size: $display1-size;
-  line-height: $display1-line-height;
+  font-size: $display1-size-xs;
+  line-height: $display1-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -31,25 +43,11 @@ p {
     font-size: $display1-size-xl;
     line-height: $display1-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display2 {
-  font-size: $display2-size;
-  line-height: $display2-line-height;
+  font-size: $display2-size-xs;
+  line-height: $display2-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -68,25 +66,11 @@ p {
     font-size: $display2-size-xl;
     line-height: $display2-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display3 {
-  font-size: $display3-size;
-  line-height: $display3-line-height;
+  font-size: $display3-size-xs;
+  line-height: $display3-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -105,25 +89,12 @@ p {
     font-size: $display3-size-xl;
     line-height: $display3-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
+  
 }
 
 .display4 {
-  font-size: $display4-size;
-  line-height: $display4-line-height;
+  font-size: $display4-size-xs;
+  line-height: $display4-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -142,25 +113,11 @@ p {
     font-size: $display4-size-xl;
     line-height: $display4-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display5 {
-  font-size: $display5-size;
-  line-height: $display5-line-height;
+  font-size: $display5-size-xs;
+  line-height: $display5-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -179,25 +136,11 @@ p {
     font-size: $display5-size-xl;
     line-height: $display5-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display6 {
-  font-size: $display6-size;
-  line-height: $display6-line-height;
+  font-size: $display6-size-xs;
+  line-height: $display6-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -216,25 +159,11 @@ p {
     font-size: $display6-size-xl;
     line-height: $display6-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display7 {
-  font-size: $display7-size;
-  line-height: $display7-line-height;
+  font-size: $display7-size-xs;
+  line-height: $display7-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -253,25 +182,11 @@ p {
     font-size: $display7-size-xl;
     line-height: $display7-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display8 {
-  font-size: $display8-size;
-  line-height: $display8-line-height;
+  font-size: $display8-size-xs;
+  line-height: $display8-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -290,25 +205,11 @@ p {
     font-size: $display8-size-xl;
     line-height: $display8-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 .display9 {
-  font-size: $display9-size;
-  line-height: $display9-line-height;
+  font-size: $display9-size-xs;
+  line-height: $display9-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -327,25 +228,11 @@ p {
     font-size: $display9-size-xl;
     line-height: $display9-line-height-xl;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
 }
 
 h1, .h1 {
-  font-size: $display4-size;
-  line-height: $display4-line-height;
+  font-size: $display4-size-xs;
+  line-height: $display4-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -363,26 +250,12 @@ h1, .h1 {
   @include media-breakpoint-only(xl) {
     font-size: $display4-size-sm;
     line-height: $display4-line-height-sm;
-  }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
   }
 }
 
 h2, .h2 {
-  font-size: $display5-size;
-  line-height: $display5-line-height;
+  font-size: $display5-size-xs;
+  line-height: $display5-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -400,26 +273,12 @@ h2, .h2 {
   @include media-breakpoint-only(xl) {
     font-size: $display5-size-sm;
     line-height: $display5-line-height-sm;
-  }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
   }
 }
 
 h3, .h3 {
-  font-size: $display6-size;
-  line-height: $display6-line-height;
+  font-size: $display6-size-xs;
+  line-height: $display6-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -437,26 +296,12 @@ h3, .h3 {
   @include media-breakpoint-only(xl) {
     font-size: $display6-size-sm;
     line-height: $display6-line-height-sm;
-  }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
   }
 }
 
 h4, .h4 {
-  font-size: $display7-size;
-  line-height: $display7-line-height;
+  font-size: $display7-size-xs;
+  line-height: $display7-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -474,26 +319,12 @@ h4, .h4 {
   @include media-breakpoint-only(xl) {
     font-size: $display7-size-sm;
     line-height: $display7-line-height-sm;
-  }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
   }
 }
 
 h5, .h5 {
-  font-size: $display8-size;
-  line-height: $display8-line-height;
+  font-size: $display8-size-xs;
+  line-height: $display8-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -511,26 +342,12 @@ h5, .h5 {
   @include media-breakpoint-only(xl) {
     font-size: $display8-size-sm;
     line-height: $display8-line-height-sm;
-  }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
-  &.light {
-    opacity: 1;
-    color: $white;
   }
 }
 
 h6, .h6 {
-  font-size: $display9-size;
-  line-height: $display9-line-height;
+  font-size: $display9-size-xs;
+  line-height: $display9-line-height-xs;
   opacity: .9;
   font-weight: 700;
   @include media-breakpoint-only(sm) {
@@ -549,30 +366,28 @@ h6, .h6 {
     font-size: $display9-size-sm;
     line-height: $display9-line-height-sm;
   }
-  &.secondary {
-    opacity: .6;
-  }
-  &.disabled {
-    opacity: .2;
-  }
-  &.accent {
-    opacity: 1;
-    color: $original-red;
-  }
+}
+
+.lead {
   &.light {
     opacity: 1;
     color: $white;
   }
 }
 
-
-.lead {
-  // font-size: $lead-font-size;
-  // font-weight: $lead-font-weight;
-  &.light {
-    opacity: 1;
-    color: $white;
-  }
+.secondary {
+  opacity: .6;
+}
+.disabled {
+  opacity: .2;
+}
+.accent {
+  opacity: 1;
+  color: $original-red;
+}
+.light {
+  opacity: 1;
+  color: $white;
 }
 
 
