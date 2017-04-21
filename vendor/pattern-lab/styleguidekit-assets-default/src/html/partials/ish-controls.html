@@ -9,6 +9,9 @@
         </form><!--end #sg-form-->
       </div><!--end #sg-current-size-->
       <ul class="sg-size-options">
+        {{^ ishControlsHide.xs }}
+          <li><a href="#" id="sg-size-xs">XS</a></li>
+        {{/ ishControlsHide.xs }}
         {{^ ishControlsHide.s }}
           <li><a href="#" id="sg-size-s">S</a></li>
         {{/ ishControlsHide.s }}
@@ -18,6 +21,9 @@
         {{^ ishControlsHide.l }}
           <li><a href="#" id="sg-size-l">L</a></li>
         {{/ ishControlsHide.l }}
+        {{^ ishControlsHide.xl }}
+          <li><a href="#" id="sg-size-xl">XL</a></li>
+        {{/ ishControlsHide.xl }}
         {{^ ishControlsHide.full }}
           <li><a href="#" id="sg-size-full">Full</a></li>
         {{/ ishControlsHide.full }}
