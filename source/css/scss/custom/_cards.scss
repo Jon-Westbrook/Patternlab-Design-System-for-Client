@@ -1,0 +1,25 @@
+
+.card:not(:first-of-type) {
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  height: 145px;
+  object-fit: cover;
+}
+
+.card-img-right {
+  // max-width: 190px;
+  // max-height: 120px;
+  object-fit: cover;
+}
+
+.card-icons {
+  border-top: 1px solid $gray-border;
+}
+
+.art-list-item-icons {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+}
