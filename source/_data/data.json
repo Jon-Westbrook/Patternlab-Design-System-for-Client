@@ -2,5 +2,13 @@
   "imgMagnifier": {
     "src": "../../images/magnifying-glass.svg",
     "alt": "Search Icon"
-  }
+  },
+  "heroTitle": "Sed posuere consectetur est at lobortis",
+  "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit",
+  "articleCardCat": "SCT",
+  "articleCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
+  "articleCardImg":"../../images/article-thumb-FPO@2x.png",
+  "articleThumb": "Article Thumb",
+  "shareImg": "../../images/icon-share.svg",
+  "saveImg": "../../images/icon-save.svg"
 }
