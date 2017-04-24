@@ -1,5 +1,5 @@
 ---
-title: Article Card
+title: Member Card
 ---
 
-Everything you'd expect from an article card. 
+All beings can now be encapsulated into one simple, easy to read card. 

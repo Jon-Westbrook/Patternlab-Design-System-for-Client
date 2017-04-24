@@ -14,5 +14,11 @@
   "eventTitle": "Omaha Capitol District Walking Tour and Networking",
   "eventDate": "December 5-6",
   "eventLocale": "Javits Center",
-  "eventCity": "New York, NY"
+  "eventCity": "New York, NY",
+  "memberCardImg": "../../images/member@2x.png",
+  "memberAlt": "CowPerson",
+  "memberName": "Ellen Dean",
+  "memberTitle": "Economic Development Director",
+  "memberCompany": "Real Big Company",
+  "memberLocale": "New York, NY"
 }

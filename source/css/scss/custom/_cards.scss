@@ -9,8 +9,6 @@
 }
 
 .card-img-right {
-  // max-width: 190px;
-  // max-height: 120px;
   object-fit: cover;
 }
 
@@ -31,3 +29,13 @@
 .event-card-list {
   border-left: 6px solid $original-red;
 }
+
+.member-card-img {
+  height: 70px;
+  width: 70px;
+  @include media-breakpoint-up(md) {
+    height: 100px;
+    width: 100px;
+  }
+}
+
