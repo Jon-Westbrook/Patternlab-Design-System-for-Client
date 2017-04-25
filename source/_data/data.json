@@ -16,9 +16,13 @@
   "eventLocale": "Javits Center",
   "eventCity": "New York, NY",
   "memberCardImg": "../../images/member@2x.png",
-  "memberAlt": "CowPerson",
   "memberName": "Ellen Dean",
   "memberTitle": "Economic Development Director",
   "memberCompany": "Real Big Company",
-  "memberLocale": "New York, NY"
+  "memberLocale": "New York, NY",
+  "memberCountry": "United States",
+  "pubCardImg": "../../images/book@2x.jpg",
+  "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
+  "pubCat": "eBook, Print Edition"
+
 }

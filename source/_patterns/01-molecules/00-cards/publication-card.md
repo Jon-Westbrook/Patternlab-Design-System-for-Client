@@ -1,5 +1,5 @@
 ---
-title: Article Card
+title: Publication Card
 ---
 
-Everything you'd expect from an article card. 
+Everything you'd expect from a rootin' tootin' publication card. 

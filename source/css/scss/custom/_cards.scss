@@ -14,12 +14,24 @@
 
 .card-icons {
   border-top: 1px solid $gray-border;
+  img {
+    cursor: pointer;
+    &:hover {
+      opacity: .7;
+    }
+  }
 }
 
 .art-list-item-icons {
   position: absolute;
   right: 1.25rem;
   bottom: 1.25rem;
+  img {
+    cursor: pointer;
+    &:hover {
+      opacity: .7;
+    }
+  }
 }
 
 .event-card {
@@ -33,6 +45,15 @@
 .member-card-img {
   height: 70px;
   width: 70px;
+  @include media-breakpoint-up(md) {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.publication-card-img {
+  height: 163px;
+  width: 148px;
   @include media-breakpoint-up(md) {
     height: 100px;
     width: 100px;
