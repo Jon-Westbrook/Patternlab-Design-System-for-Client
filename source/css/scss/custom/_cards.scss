@@ -52,11 +52,12 @@
 }
 
 .publication-card-img {
-  height: 163px;
-  width: 148px;
+  height: 120px;
+  width: 90pxpx;
+  object-fit: cover;
   @include media-breakpoint-up(md) {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 90px;
   }
 }
 
