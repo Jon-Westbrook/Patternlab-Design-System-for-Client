@@ -1,42 +1,50 @@
 
-.header {
+.collapse {
   background: $white;
-  height: 140px;
+}
 
-  .container {
-    height: 100%;
-  }
+.navbar-toggler-left {
+  left: 85px;
+  top: 20px;
+}
 
-  .collapse {
-    background: $white;
-    height: 100%;
-    z-index: $zindex-navbar;
-  }
-
-  .navbar-toggler-left {
-    left: 6rem;
-    top: 2rem;
-  }
-
-  .navbar {
-    height: 100%;
-  }
-
-  .navbar-nav {
-    .nav-link {
-      color: $black;
-      padding-left: 0;
-      padding-right: 0;
-      margin-left: 20px;
-      margin-right: 20px;
-      &.active {
-        color: $original-red;
-        border-bottom: 6px solid $original-red;
+.navbar-nav {
+  text-align: right;
+  .nav-link {
+    color: $black;
+    &.active {
+      color: $original-red;
+      border-bottom: 6px solid $original-red;
+      @include media-breakpoint-down(sm) {
+        border-bottom: 3px solid $original-red;
       }
     }
-    .search-icon {
-      margin-top: -4px;
-    }
+  } 
+}
+
+.search-icon {
+  margin-top: -4px;
+}
+
+.mobile-search-icon {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.mag-mobile {
+  width: 30px;
+}
+
+.topMenu li {
+  @include media-breakpoint-down(sm) {
+    font-size: 16px;
   }
 }
 
+.icsc-logo {
+  width: 70px;
+  @include media-breakpoint-up(md) {
+    width: 70px;
+  }
+}

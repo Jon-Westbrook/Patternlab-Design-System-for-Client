@@ -2,5 +2,27 @@
   "imgMagnifier": {
     "src": "../../images/magnifying-glass.svg",
     "alt": "Search Icon"
-  }
+  },
+  "heroTitle": "Sed posuere consectetur est at lobortis",
+  "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit",
+  "articleCardCat": "SCT",
+  "articleCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
+  "articleCardImg":"../../images/article-thumb-FPO@2x.png",
+  "articleThumb": "Article Thumb",
+  "shareImg": "../../images/icon-share.svg",
+  "saveImg": "../../images/icon-save.svg",
+  "eventTitle": "Omaha Capitol District Walking Tour and Networking",
+  "eventDate": "December 5-6",
+  "eventLocale": "Javits Center",
+  "eventCity": "New York, NY",
+  "memberCardImg": "../../images/member@2x.png",
+  "memberName": "Ellen Dean",
+  "memberTitle": "Economic Development Director",
+  "memberCompany": "Real Big Company",
+  "memberLocale": "New York, NY",
+  "memberCountry": "United States",
+  "pubCardImg": "../../images/book@2x.jpg",
+  "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
+  "pubCat": "eBook, Print Edition"
+
 }
