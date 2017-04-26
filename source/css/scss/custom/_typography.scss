@@ -185,6 +185,52 @@ p {
   }
 }
 
+.display8 {
+  font-size: $display8-size-xs;
+  line-height: $display8-line-height-xs;
+  opacity: .9;
+  font-weight: 400;
+  @include media-breakpoint-only(sm) {
+    font-size: $display8-size-sm;
+    line-height: $display8-line-height-sm;
+  }
+  @include media-breakpoint-only(md) {
+    font-size: $display8-size-md;
+    line-height: $display8-line-height-md;
+  }
+  @include media-breakpoint-only(lg) {
+    font-size: $display8-size-lg;
+    line-height: $display8-line-height-lg;
+  }
+  @include media-breakpoint-only(xl) {
+    font-size: $display8-size-xl;
+    line-height: $display8-line-height-xl;
+  }
+}
+
+.display9 {
+  font-size: $display9-size-xs;
+  line-height: $display9-line-height-xs;
+  opacity: .9;
+  font-weight: 400;
+  @include media-breakpoint-only(sm) {
+    font-size: $display9-size-sm;
+    line-height: $display9-line-height-sm;
+  }
+  @include media-breakpoint-only(md) {
+    font-size: $display9-size-md;
+    line-height: $display9-line-height-md;
+  }
+  @include media-breakpoint-only(lg) {
+    font-size: $display9-size-lg;
+    line-height: $display9-line-height-lg;
+  }
+  @include media-breakpoint-only(xl) {
+    font-size: $display9-size-xl;
+    line-height: $display9-line-height-xl;
+  }
+}
+
 h1, .h1 {
   font-size: $display3-size-xs;
   line-height: $display3-line-height-xs;
