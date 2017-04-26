@@ -1,15 +1,16 @@
 
 //when adding new custom classes do not forget to update this map
 $all-colors: (
-	red : $red,
-	original-red: $original-red,
-	white: $white,
+	red : $primary1,
+	white: $primary3,
 	gray-dark: $gray-dark,
 	gray: $gray,
 	gray-light: $gray-light,
 	gray-lighter: $gray-lighter,
 	gray-lightest: $gray-lightest,
-	gray-ultra-light: $gray-ultra-light
+	gray-ultra-light: $gray-ultra-light,
+	footer-gray: $footer-gray,
+	footer-gray2: $footer-gray2
 );
 
 //Include all custom colors in background color classes

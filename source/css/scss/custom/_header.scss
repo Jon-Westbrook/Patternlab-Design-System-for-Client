@@ -17,10 +17,10 @@
   .nav-link {
     color: $black;
     &.active {
-      color: $original-red;
-      border-bottom: 4px solid $original-red;
+      color: $primary1;
+      border-bottom: 4px solid $primary1;
       @include media-breakpoint-down(sm) {
-        border-bottom: 3px solid $original-red;
+        border-bottom: 3px solid $primary1;
       }
     }
   } 

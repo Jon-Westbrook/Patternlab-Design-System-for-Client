@@ -5,34 +5,41 @@
 
 //WHEN ADDING CUSTOM COLOR CLASSES DO NOT FORGET TO UPDATE THE MAP IN CUSTOM > _color_dissemination.scss
 
-// ICSC Red
-$red:    #fc2b2b;
-$original-red: #e31837;
-$black: #000;
+// ICSC Custom Color Variables
+$primary1: #e31837;
+$primary2: #000;
+$primary3: #fff;
 
 // ICSC Special Colors
-$accent-1: #d7edd0;
-$accent-2: #dad7c4;
-$accent-3: #def2f7;
-$accent-4: #ffdcc2;
-$accent-5: #fffbbd;
+$secondary1: #a7a1ab;
+$secondary2: #7c7cad;
+$secondary3: #58a1ac;
+$secondary4: #9f7b98;
 
-// ICSC Grayscale
-$gray-dark:                 #343434;
-$gray:                      #4a4a4a;
-$gray-light:                #f7f7fb;
-$gray-lighter:              #ededed;
-$gray-lightest:             #f9f9f9;
-$gray-ultra-light:          #f7f7f7;
+$tertiary1: #f9f9f9;
+$tertiary2: #f5f5f5;
+$tertiary3: #eceff1;
+$tertiary4: #e4eaef;
+$tertiary5: #cfd8dc;
+$tertiary6: #4a4a4a;
+
+// Bootstrap Grays
+$gray-dark:                 $tertiary6;
+$gray:                      $tertiary5;
+$gray-light:                $tertiary4;
+$gray-lighter:              $tertiary3;
+$gray-lightest:             $tertiary2;
+$gray-ultra-light:          $tertiary1;
 $gray-border:               #e5ebf0;
-
+$footer-gray:               #3f3f3f;
+$footer-gray2:              #343434;
 // // Reassign color vars to semantic color scheme
-$brand-primary:             $black;
-$brand-success:             $accent-1;
-$brand-info:                $accent-3;
-$brand-warning:             $accent-5;
-$brand-danger:              $original-red;
-$brand-inverse:             $black;
+$brand-primary:             $primary2;
+$brand-success:             $secondary3;
+$brand-info:                $secondary2;
+$brand-warning:             $primary1;
+$brand-danger:              $primary1;
+$brand-inverse:             $primary2;
 
 // Grid breakpoints
 //
@@ -144,10 +151,10 @@ $spacers: (
 // //
 // // Style anchor elements.
 
-$link-color:            $red;
-// $link-decoration:       none;
+// $link-color:            $primary1;
+$link-decoration:       none;
 // $link-hover-color:      darken($link-color, 15%);
-// $link-hover-decoration: underline;
+$link-hover-decoration: none;
 
 
 // // Fonts
@@ -647,7 +654,7 @@ $component-active-bg:    $brand-primary;
 
 $navbar-light-color:                rgba($black,.9);
 // $navbar-light-hover-color:          rgba($black,.7);
-$navbar-light-active-color:         $original-red;
+$navbar-light-active-color:         $primary1;
 // $navbar-light-disabled-color:       rgba($black,.3);
 // $navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
 // $navbar-light-toggler-border:       rgba($black,.1);
