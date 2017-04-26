@@ -8,6 +8,10 @@
   top: 20px;
 }
 
+.navbar {
+  box-shadow: 0 8px 6px -6px rgba(160, 160, 160, 0.67);
+}
+
 .navbar-nav {
   text-align: right;
   .nav-link {
@@ -28,12 +32,12 @@
 
 .mobile-search-icon {
   position: absolute;
-  right: 0;
+  right: 15px;
   top: 25px;
 }
 
 .mag-mobile {
-  width: 30px;
+  width: 15px;
 }
 
 .topMenu li {
@@ -43,9 +47,9 @@
 }
 
 .icsc-logo {
-  width: 70px;
+  height: 38px;
   @include media-breakpoint-up(md) {
-    width: 70px;
+    height: 72px;
   }
 }
 
@@ -53,3 +57,12 @@
   display: inline-block;
   width: 30px;
 }
+
+.navbar-toggleable-sm > .container {
+  @include media-breakpoint-only(xs) {
+   width: 100%;
+  }
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
