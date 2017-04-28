@@ -3,11 +3,13 @@
 }
 
 .navbar {
-  box-shadow: 0 8px 6px -6px rgba(160, 160, 160, 0.67);
+  @include media-breakpoint-up(md) {
+    // box-shadow: 0 8px 6px -6px rgba(160, 160, 160, 0.67);
+  }
 }
 
 
-.nav-link {
+.header-menus .nav-link {
   &.active {
     color: $primary1;
     border-bottom: 4px solid $primary1;
@@ -17,7 +19,7 @@
   }
 }
 
-.nav-item .nav-link {
+.header-menus .nav-item .nav-link {
   margin-top: 24px;
   @include media-breakpoint-up(md) {
     margin-top: 0;
@@ -25,7 +27,7 @@
   }
 }
 
-.nav-item:not(:first-of-type) .nav-link {
+.header-menus .nav-item:not(:first-of-type) .nav-link {
   @include media-breakpoint-down(sm) {
     margin-top: 2rem;
   }
@@ -33,13 +35,14 @@
 
 .search-icon {
   margin-top: -4px;
-  width: 14px;
+  width: 17px;
 }
 
 .topMenu li {
-  @include media-breakpoint-down(sm) {
-    font-size: 16px;
-    color: $primary2;
+  font-size: 16px;
+  color: $primary2;
+  @include media-breakpoint-up(md) {
+    opacity: .6;
   }
 }
 
@@ -51,7 +54,7 @@
   @include media-breakpoint-up(md) {
     height: 72px;
     width: 56px;
-    background: url('../../images/ICSC-logo.jpg') no-repeat;
+    background: url('../../images/ICSC-logo.svg') no-repeat;
     background-size: contain;
   }
 }
@@ -62,17 +65,22 @@
   height: 24px;
 }
 
-.navbar-toggleable-sm > .container {
-  @include media-breakpoint-only(xs) {
+.navbar > .container {
+  @include media-breakpoint-down(sm) {
     width: 100%;
   }
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-.divider {
+.mobile-buttons {
+  border-bottom: 2px solid $tertiary3;
+  @include media-breakpoint-up(md) {
+    box-shadow: none;
+  }
+}
+
+.nav-divider {
   height: 100%;
-  border-left: 2px solid $gray-border;
+  border-left: 2px solid $tertiary3;
 }
 
 .button-group {
