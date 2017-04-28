@@ -1,49 +1,71 @@
-.collapse {
+
+.nav {
   background: $primary3;
 }
 
-.navbar {
-  @include media-breakpoint-up(md) {
-    // box-shadow: 0 8px 6px -6px rgba(160, 160, 160, 0.67);
+.navbar > .container {
+  @include media-breakpoint-down(sm) {
+    width: 100%;
   }
 }
 
+.header-menus {
 
-.header-menus .nav-link {
-  &.active {
-    color: $primary1;
-    border-bottom: 4px solid $primary1;
-    @include media-breakpoint-down(sm) {
-      border-bottom: 3px solid $primary1;
+  .navbar-nav {
+    width: 100%;
+    margin-right: 17px;
+    margin-left: 17px;
+    @include media-breakpoint-up(md) {
+      width: auto;
+      margin-right: 0;
+      margin-left: 0;
     }
   }
-}
-
-.header-menus .nav-item .nav-link {
-  margin-top: 24px;
-  @include media-breakpoint-up(md) {
-    margin-top: 0;
-    margin-bottom: 0;
+  
+  .nav-link {
+    &.active {
+      color: $primary1;
+      @include media-breakpoint-up(md) {
+        border-bottom: 3px solid $primary1;
+      }
+    }
   }
-}
 
-.header-menus .nav-item:not(:first-of-type) .nav-link {
-  @include media-breakpoint-down(sm) {
-    margin-top: 2rem;
+  .mainMenu .nav-link:first-of-type, .topMenu .nav-link:first-of-type {
+    margin-top: 24px;
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .header-menus .nav-item:not(:first-of-type) .nav-link {
+    @include media-breakpoint-down(sm) {
+      margin-top: 2rem;
+    }
+  }
+
+  .nav-item:last-of-type, .signup-list-item {
+    margin-bottom: 24px;
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .topMenu li {
+    font-size: 1rem;
+    color: $primary2;
+    @include media-breakpoint-up(md) {
+      opacity: .6;
+      font-size: .75rem;
+    }
   }
 }
 
 .search-icon {
   margin-top: -4px;
   width: 17px;
-}
-
-.topMenu li {
-  font-size: 16px;
-  color: $primary2;
-  @include media-breakpoint-up(md) {
-    opacity: .6;
-  }
 }
 
 .icsc-logo {
@@ -65,12 +87,6 @@
   height: 24px;
 }
 
-.navbar > .container {
-  @include media-breakpoint-down(sm) {
-    width: 100%;
-  }
-}
-
 .mobile-buttons {
   border-bottom: 2px solid $tertiary3;
   @include media-breakpoint-up(md) {
@@ -90,5 +106,11 @@
   @include media-breakpoint-up(md) {
     width: auto;
   }
+}
+
+.arrow-toggle {
+  height: 6px;
+  width: 5px;
+  background: url('../../images/down-arrow.svg') no-repeat;
 }
 
