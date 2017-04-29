@@ -2,22 +2,22 @@
 <div class="card member-card-list w-100">
   <div class="row">
     <div class="col-4 col-md-3 d-flex align-items-center">
-      <img class="publication-card-img mx-auto mt-4 mb-4" src="{{ pubCardImg }}" alt="{{ memberName }}">
+      <img class="publication-card-img mx-auto mt-4 mb-4" src="{{ cards.pubCardImg }}" alt="{{ cards.memberName }}">
     </div>
     <div class="col-8 col-sm-6 col-md-4 m-0">
       <div class="card-block my-4 p-0">
-        <h3 class="card-title display5"><strong>{{ pubTitle }}</strong></h3>
+        <h3 class="card-title display5"><strong>{{ cards.pubTitle }}</strong></h3>
       </div>
     </div>
     <div class="col-1 hidden-sm-down">&nbsp;</div>
     <div class="col-2 my-4 p-0 hidden-sm-down">
-      <p class="display7 secondary mt-1 mb-0">{{ pubCat }}</p>
-      <p class="display7 secondary m-0">{{ memberCountry }}</p>
+      <p class="display7 secondary mt-1 mb-0">{{ cards.pubCat }}</p>
+      <p class="display7 secondary m-0">{{ cards.memberCountry }}</p>
     </div>
   </div>
   <div class="art-list-item-icons hidden-sm-down">
-    <img class="mr-5" src="{{ shareImg }}" alt="Share Icon">
-    <img class="mr-3" src="{{ saveImg }}" alt="Favorite Icon">
+    <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
+    <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
   </div>
 </div>
 

@@ -2,14 +2,14 @@
 <div class="col-md-4">
   <div class="card event-card">
     <div class="card-block col-10 pt-0 pb-0">
-      <h3 class="card-title mt-5 mt-md-6 mb-0 display5"><strong>{{ eventTitle }}</strong></h3>
-      <p class="display7 secondary mt-3 mb-0">{{ eventDate }}</p>
-      <p class="display7 secondary mt-5 mb-0">{{ eventLocale }}</p>
-      <p class="display7 secondary mt-2">{{ eventCity }}</p>
+      <h3 class="card-title mt-5 mt-md-6 mb-0 display5"><strong>{{ cards.eventTitle }}</strong></h3>
+      <p class="display7 secondary mt-3 mb-0">{{ cards.eventDate }}</p>
+      <p class="display7 secondary mt-5 mb-0">{{ cards.eventLocale }}</p>
+      <p class="display7 secondary mt-2">{{ cards.eventCity }}</p>
     </div>
     <div class="card-icons m-0 mt-3 mt-md-5 p-3 w-100 d-flex justify-content-end">
-      <img class="mr-5" src="{{ shareImg }}" alt="Share Icon">
-      <img class="mr-3" src="{{ saveImg }}" alt="Favorite Icon">
+      <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
+      <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
     </div>
   </div>
 </div>
