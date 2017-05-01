@@ -1,5 +1,12 @@
 
 .members-promo {
-    background: url('../images/promo-red-arrow-bg.jpg') no-repeat center center; 
+    background: url('../images/promo-red-arrow-bg.jpg') no-repeat;
+    background-position: left center;  
     background-size: cover; 
+    @include media-breakpoint-up(md) {
+      background-position: center center;
+    }
+    .hero-desc {
+      max-width: 612px;
+    }
 }

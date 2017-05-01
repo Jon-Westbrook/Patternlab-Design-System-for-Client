@@ -1,14 +1,21 @@
 
-<div class="jumbotron jumbotron-fluid m-0 pt-7 pb-7">
-  <div class="container">
+<div class="jumbotron jumbotron-fluid ev-listing-hero p-0">
+  <div class="container py-7">
     <h1 class="display3 text-center"><strong>{{ eventListing.heroTitle }}</strong></h1>
-    <p class="display3 text-center accent"><strong>{{ eventListing.heroCat }}</strong></p>
+    <p class="display3 d-flex justify-content-center accent heroCat"><strong>{{ eventListing.heroCat }}</strong></p>
+    <div class="input-group hidden-sm-down">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary border-0 bg-red py-3 px-7" type="button"> <img src="{{ searchIcon.src }}" alt="Search Icon" class="p-0"></button>
+      </span>
+    </div>
   </div>
+  
 </div>
 
+<!-- Filters -->
 <div class="container">
-  <!-- Nav tabs -->
-  <ul class="nav nav-pills listing-filters justify-content-end my-md-5">
+  <ul class="nav nav-pills listing-filters justify-content-end my-md-6">
     <li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
       <a aria-expanded="false" aria-haspopup="true" class="nav-link display9 p-0" data-toggle="dropdown" href="#">Best match</a>
       <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
@@ -17,10 +24,10 @@
         <a class="dropdown-item display9" href="#">Favorite</a>
       </div>
     </li>
-    <li class="nav-item">
+    <li class="nav-item hidden-sm-down">
       <a class="nav-link active" data-toggle="tab" href="#cards" role="tab">Cards</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item hidden-sm-down">
       <a class="nav-link" data-toggle="tab" href="#list-items" role="tab">List</a>
     </li>
   </ul>

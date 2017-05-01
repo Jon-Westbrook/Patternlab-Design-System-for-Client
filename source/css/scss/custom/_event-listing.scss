@@ -1,4 +1,15 @@
 
+.ev-listing-hero {
+  position: relative;
+  .input-group {
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+    box-shadow: 0 1px 6px 0 rgba(160, 160, 160, 0.67);
+    border: solid 1px #ccd4dc;
+  }
+}
+
 .listing-filters {
-  
+
 }

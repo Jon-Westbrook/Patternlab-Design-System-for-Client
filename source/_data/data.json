@@ -12,10 +12,6 @@
       {"navLink": "Attend &amp; Learn", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
       {"navLink": "Find &amp; Connect", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] }
     ],
-    "imgMagnifier": {
-      "src": "../../images/magnifying-glass.svg",
-      "alt": "Search Icon"
-    },
     "avatar": "../../images/member@2x.png",
     "userName": "Willa Catheter",
     "backArrow": "../../images/back-arrow.svg"
@@ -54,6 +50,14 @@
     "heroTitle": "Members get the VIP treatment.",
     "heroDesc": "Anyone can enroll in our webinars and online courses, but members do it on a discount.",
     "ctaTxt": "Join ICSC today"
+  },
+  "mobileSearchIcon": {
+    "src": "../../images/magnifying-glass.svg",
+    "alt": "Search Icon"
+  },
+  "searchIcon": {
+    "src": "../../images/icon-search-glass.svg",
+    "alt": "Search Icon"
   }
 }
 
