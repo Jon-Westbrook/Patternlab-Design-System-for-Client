@@ -2,14 +2,27 @@
 .ev-listing-hero {
   position: relative;
   .input-group {
+    background: #fff;
     position: absolute;
     bottom: -38px;
     left: 0;
+    border: 0 !important;
     box-shadow: 0 1px 6px 0 rgba(160, 160, 160, 0.67);
     border: solid 1px #ccd4dc;
   }
+  .search-date {
+    border: 0 !important;
+  //   box-shadow: 0 1px 6px 0 rgba(160, 160, 160, 0.67);
+  }
+
 }
 
 .listing-filters {
 
+}
+
+.pagination {
+  .active {
+    border-bottom: solid 3px $primary1;
+  }
 }

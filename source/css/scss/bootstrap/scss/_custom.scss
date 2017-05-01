@@ -151,9 +151,9 @@ $spacers: (
 // //
 // // Style anchor elements.
 
-// $link-color:            $primary1;
+$link-color:            $primary1;
 $link-decoration:       none;
-// $link-hover-color:      darken($link-color, 15%);
+$link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: none;
 
 
@@ -684,7 +684,7 @@ $navbar-light-active-color:         $primary1;
 
 // // Pagination
 
-// $pagination-padding-x:                .75rem;
+$pagination-padding-x:                   1.25rem;
 // $pagination-padding-y:                .5rem;
 // $pagination-padding-x-sm:             .5rem;
 // $pagination-padding-y-sm:             .25rem;
@@ -692,7 +692,7 @@ $navbar-light-active-color:         $primary1;
 // $pagination-padding-y-lg:             .75rem;
 // $pagination-line-height:              1.25;
 
-// $pagination-color:                     $link-color;
+$pagination-color:                     $primary2;
 // $pagination-bg:                        $white;
 // $pagination-border-width:              $border-width;
 // $pagination-border-color:              #ddd;
