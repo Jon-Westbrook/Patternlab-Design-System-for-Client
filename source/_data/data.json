@@ -44,6 +44,11 @@
     "pubCardImg": "../../images/book@2x.jpg",
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
     "pubCat": "eBook, Print Edition"
+  },
+  "eventListing": {
+    "heroTitle": "210 results found in",
+    "heroCat": "Events",
+    "placeholder": "SEARCH"
   }
 }
 

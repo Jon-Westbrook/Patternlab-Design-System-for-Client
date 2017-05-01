@@ -1,0 +1,59 @@
+
+<div class="jumbotron jumbotron-fluid m-0 pt-7 pb-7">
+  <div class="container">
+    <h1 class="display3 text-center"><strong>{{ eventListing.heroTitle }}</strong></h1>
+    <p class="display3 text-center accent"><strong>{{ eventListing.heroCat }}</strong></p>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills listing-filters justify-content-end my-md-5">
+    <li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link display9 p-0" data-toggle="dropdown" href="#">Best match</a>
+      <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item display9" href="#">Date</a>
+        <a class="dropdown-item display9" href="#">Distance</a>
+        <a class="dropdown-item display9" href="#">Favorite</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#cards" role="tab">Cards</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#list-items" role="tab">List</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="cards" role="tabpanel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">{{> components-event-card }}</div>
+        <div class="col-md-4">{{> components-event-card }}</div>
+        <div class="col-md-4">{{> components-event-card }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="list-items" role="tabpanel">
+    <div class="tab-pane active" id="cards" role="tabpanel">
+    <div class="container">
+      {{> components-event-list-item }}
+      {{> components-event-list-item }}
+      {{> components-event-list-item }}
+    </div>
+  </div>
+  </div>
+</div>
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination justify-content-center my-md-5">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
