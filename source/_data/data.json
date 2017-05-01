@@ -49,6 +49,11 @@
     "heroTitle": "210 results found in",
     "heroCat": "Events",
     "placeholder": "SEARCH"
+  },
+  "members-promo": {
+    "heroTitle": "Members get the VIP treatment.",
+    "heroDesc": "Anyone can enroll in our webinars and online courses, but members do it on a discount.",
+    "ctaTxt": "Join ICSC today"
   }
 }
 

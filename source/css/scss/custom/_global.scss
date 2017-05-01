@@ -8,3 +8,13 @@ body {
 .active {
   color: $primary1;
 }
+
+
+// Button Override: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
+
+.btn-outline-secondary:hover {
+  color: $primary1;
+  
+}
+
+
