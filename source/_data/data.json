@@ -51,7 +51,7 @@
     "heroDesc": "Anyone can enroll in our webinars and online courses, but members do it on a discount.",
     "ctaTxt": "Join ICSC today"
   },
-  "mobileSearchIcon": {
+  "searchIconBlk": {
     "src": "../../images/magnifying-glass.svg",
     "alt": "Search Icon"
   },
