@@ -32,7 +32,7 @@
     "eventLocale": "Javits Center",
     "eventCity": "New York, NY",
     "memberCardImg": "../../images/member@2x.png",
-    "memberName": "Willa Cather",
+    "memberName": "Willa Catheter",
     "memberTitle": "Economic Development Director",
     "memberCompany": "Real Big Company",
     "memberLocale": "New York, NY",
@@ -58,6 +58,7 @@
   "searchIcon": {
     "src": "../../images/icon-search-glass.svg",
     "alt": "Search Icon"
-  }
+  },
+  "imagePath": "../../"
 }
 
