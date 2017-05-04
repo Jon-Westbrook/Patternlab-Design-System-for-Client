@@ -258,7 +258,7 @@ function watch() {
         normalizePath(paths().source.annotations, '**', '*')
       ].concat(getTemplateWatches()),
       config: { awaitWriteFinish: true },
-      tasks: gulp.series(build, reload)
+      tasks: gulp.series(build, 'pl-assets', reload)
     }
   ];
 
