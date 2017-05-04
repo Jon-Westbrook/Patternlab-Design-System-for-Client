@@ -1,6 +1,6 @@
 <!-- Search and Results Overlay -->
 <div id="search-module" class="search-module" >
-  <div id="input-container" class="search-module__input-container" >
+  <div id="input-container" class="search-module__input-container  d-flex align-items-center" >
     <div class="container">
       <button class="close-btn" >
         <svg class="close" viewBox="0 0 21.3 19.5">
@@ -40,7 +40,7 @@
       <div class="button-group d-flex align-items-center m-0 p-0">
         <a href="#" class="hidden-md-up" routerLink="../">
           <span class="d-inline-block my-auto ml-3 mr-3">
-            <img src="{{ header.backArrow }}" class="d-block my-auto">
+            <img src="{{ imagePath }}images/back-arrow.svg" class="d-block my-auto">
           </span>
         </a>
         <span class="nav-divider d-inline-block hidden-md-up">&nbsp;</span>
@@ -53,7 +53,7 @@
         <div class="icsc-logo my-auto mr- ml-4">&nbsp;</div>
       </a>
       <a href="#" class="mobile-search-icon search-trigger button-group hidden-md-up d-flex justify-content-end">
-        <img src="{{ searchIconBlk.src }}" alt="Magnifier" class="d-block my-auto mr-3 search-icon">
+        <img src="{{ imagePath }}images/magnifying-glass.svg" alt="Search Icon" class="d-block my-auto mr-3 search-icon">
       </a>
     </div>
     <!-- End Mobile Buttons --> 
@@ -96,7 +96,7 @@
             <li class="nav-item mr-md-4">
               <a class="nav-link login-link p-0 d-flex flex-md-row-reverse">
                 <span class="display9 d-inline-block mr-3 mr-md-0 my-auto" routerLink="/login" >My ICSC</span>
-                <img src="{{ header.avatar }}" alt="{{ userName }}" class="avatar mr-3">
+                <img src="{{ imagePath }}images/member@2x.png" alt="{{ userName }}" class="avatar mr-3">
               </a>
             </li>
             <li class="nav-item mr-md-4 d-inline-block my-md-auto">
