@@ -4,7 +4,7 @@
     <!-- Mobile Buttons --> 
     <div class="d-flex justify-content-between align-items-center mobile-buttons hidden-md-up">
       <div class="button-group d-flex align-items-center m-0 p-0">
-        <a href="#" class="hidden-md-up">
+        <a href="#" class="hidden-md-up" routerLink="../">
           <span class="d-inline-block my-auto ml-3 mr-3">
             <img src="{{ header.backArrow }}" class="d-block my-auto">
           </span>
@@ -15,10 +15,10 @@
            <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <a class="navbar-brand button-group my-2 hidden-md-up" href="#">
+      <a class="navbar-brand button-group my-2 hidden-md-up" href="#" routerLink="/">
         <div class="icsc-logo my-auto mr- ml-4">&nbsp;</div>
       </a>
-      <a href="#" class="mobile-search-icon button-group hidden-md-up d-flex justify-content-end">
+      <a href="#" class="mobile-search-icon search-trigger button-group hidden-md-up d-flex justify-content-end">
         <img src="{{ searchIconBlk.src }}" alt="Magnifier" class="d-block my-auto mr-3 search-icon">
       </a>
     </div>
@@ -27,8 +27,7 @@
 
     <!-- Menus -->
     <div class="container header-menus">
-
-      <a class="navbar-brand hidden-sm-down m-0 p-0" href="#">
+      <a class="navbar-brand hidden-sm-down m-0 p-0" href="#" routerLink="/">
         <div class="icsc-logo">&nbsp;</div>
       </a>   
 
@@ -37,30 +36,24 @@
         <!-- Main Menu --> 
         <div class="mainMenu m-1 mt-md-4 mb-md-3 d-flex justify-content-md-end">
           <ul class="navbar-nav">
-            
             {{#header.mainLinks }}
               <li class="nav-item dropdown m-0 p-0 ml-md-3 ml-lg-5">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 p-0 py-0" data-toggle="dropdown" href="#">{{{ navLink }}}</a>
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 p-0 py-0" data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
                 <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right border-right-0 border-left-0 mt-3 mb-3 py-3">
                   {{# subLinks }}
-                    <a class="dropdown-item display8 p-0  my-0-0 accent" href="#" >{{ name }}</a>
+                    <a class="dropdown-item display8 p-0  my-0-0 accent" href="#" {{{ route }}} >{{ name }}</a>
                   {{/ subLinks }}
                 </div>
               </li>
             {{/header.mainLinks }}
-
-            <li class="nav-item ml-md-3 ml-lg-5 signup-list-item">
-              <a class="nav-link display8 p-0" href="#">Join</a>
-            </li>
             <li class="nav-item ml-md-4 ml-lg-5 hidden-sm-down">
-              <a class="nav-link display8 p-0" href="#" id="desktop-menu-search-icon">
+              <a class="nav-link search-trigger display8 p-0" href="#">
                 <img src="{{ imagePath }}images/magnifying-glass.svg" class="search-icon">
               </a>
             </li>
-
           </ul>
         </div>
-        
+
         <div class="dropdown-divider hidden-md-up w-100 m-0 p-0"></div>
 
         <!-- Top Menu --> 
@@ -68,21 +61,21 @@
           <ul class="navbar-nav ">
             <li class="nav-item mr-md-4">
               <a class="nav-link login-link p-0 d-flex flex-md-row-reverse">
-                <span class="display9 d-inline-block mr-3 mr-md-0 my-auto ">My ICSC</span>
+                <span class="display9 d-inline-block mr-3 mr-md-0 my-auto" routerLink="/login" >My ICSC</span>
                 <img src="{{ header.avatar }}" alt="{{ userName }}" class="avatar mr-3">
               </a>
             </li>
             <li class="nav-item mr-md-4 d-inline-block my-md-auto">
-              <a class="nav-link display9 p-0" href="#">Contact Us</a>
+              <a class="nav-link display9 p-0" href="#" routerLink="/contact-us" >Contact Us</a>
             </li>
             <li class="nav-item mr-md-4 d-inline-block my-md-auto">
-              <a class="nav-link display9  p-0" href="#">Media</a>
+              <a class="nav-link display9  p-0" href="#" routerLink="/media" >Media</a>
             </li>
             <li class="nav-item dropdown d-inline-block my-md-auto">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link display9 p-0" data-toggle="dropdown" href="#">NY, USA</a>
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link display9 p-0" data-toggle="dropdown" href="#" routerLink="/">NY, USA</a>
               <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item display9" href="#">London, UK</a>
-                <a class="dropdown-item display9" href="#">Tokyo, JP</a>
+                <a class="dropdown-item display9" href="#" routerLink="/">London, UK</a>
+                <a class="dropdown-item display9" href="#" routerLink="/">Tokyo, JP</a>
               </div>
             </li>
           </ul>

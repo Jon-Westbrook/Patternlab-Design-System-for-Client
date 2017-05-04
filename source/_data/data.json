@@ -1,16 +1,12 @@
 {
+  "imagePath": "../../",
   "header": {
     "mainLinks": [ 
-      {"navLink": "Who We Are", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "News &amp; Views", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "Attend &amp; Learn", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "Find &amp; Connect", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] }
-    ],
-    "topLinks": [ 
-      {"navLink": "Who We Are", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "News &amp; Views", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "Attend &amp; Learn", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] },
-      {"navLink": "Find &amp; Connect", "subLinks": [{ "name": "Our Mission" }, { "name": "Leadership"}, { "name": "Foundation"}, { "name": "Community Development"}, { "name": "Awards and Recognition"} ] }
+      {"navLink": "Who We Are","subLinks": [{ "name": "Our Mission", "route": "routerLink=\"\/mission\"" }, { "name": "Our Leadership", "route": "routerLink=\"\/leadership\"" }, { "name": "Foundation", "route": "routerLink=\"\/foundation\"" }, { "name": "Community Development", "route": "routerLink=\"\/community-development\""}, { "name": "Volunteer", "route": "routerLink=\"\/volunteer\""},  { "name": "Awards and Recognition", "route": "routerLink=\"\/awards\""} ] },
+      {"navLink": "News &amp; Views", "subLinks": [{ "name": "ICSC Exchange", "route": "routerLink=\"\/icsc-exchange\"" }, { "name": "Newsstand", "route": "routerLink=\"\/newsstand\"" }, { "name": "Public Policy", "route": "routerLink=\"\/public-policy\"" }, { "name": "SCT", "route": "routerLink=\"\/sct\"" }, { "name": "Research", "route": "routerLink=\"\/research\"" } ] },
+      {"navLink": "Attend &amp; Learn", "subLinks": [{ "name": "Events", "route": "routerLink=\"\/events\"" }, { "name": "Professional Development", "route": "routerLink=\"\/professional-dev\""} ] },
+      {"navLink": "Find &amp; Connect", "subLinks": [{ "name": "Find Members", "route": "routerLink=\"\/find-members\"" }, { "name": "Find Outlets", "route": "routerLink=\"\/find-outlets\"" }, { "name": "Find Jobs", "route": "routerLink=\"\/find-jobs\"" } ] },
+      {"navLink": "Join", "subLinks": [{ "name": "Become a Member", "route": "routerLink=\"\/join\"" } ] }
     ],
     "avatar": "../../images/member@2x.png",
     "userName": "Willa Catheter",
@@ -58,7 +54,5 @@
   "searchIcon": {
     "src": "../../images/icon-search-glass.svg",
     "alt": "Search Icon"
-  },
-  "imagePath": "../../"
+  }
 }
-
