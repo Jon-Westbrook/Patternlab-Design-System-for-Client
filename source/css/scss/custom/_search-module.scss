@@ -5,35 +5,34 @@
     left: 0;
     z-index: 50;
     width: 100vw;
-    font-family: inherit;
+    font-family: $font-family-sans-serif;
     font-weight: 600;
-    transform: translateY(2.025rem) scale(1.1);
+    transform: translateY(1.025rem) scale(1.1);
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    visibility: hidden
+    visibility: hidden;
+    box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
 }
 
 .search-module .close-btn {
     position: absolute;
-    top: 1rem;
+    top: .25rem;
     right: 1rem;
-    fill: #fff
+    fill: #fff;
+    background: transparent;
+    border: 0;
 }
 
-@media only screen and (min-width: 1px) and (max-width:767px) {
-    .search-module .close-btn {
-        display:none
-    }
-}
 
 .search-module .close-btn svg {
-    width: 2.5rem;
-    height: 2.5rem
+    width: 1.5rem;
+    height: 1.5rem
 }
 
 .search-module .close-btn:hover {
-    fill: #ff3530
+    fill: $primary3;
+    opacity: 1;
 }
 
 .search-module--open {
@@ -45,11 +44,11 @@
 }
 
 .search-module__input-container {
-    background: #1a1a1a;
-    min-height: 13.5rem;
-    padding-top: 40px;
+    background: $primary1;
+    min-height: 7rem;
     position: relative;
-    z-index: 10
+    z-index: 10;
+    padding-top: 38px;
 }
 
 @media only screen and (min-width: 1px) and (max-width:767px) {
@@ -65,7 +64,7 @@
     position: relative;
     z-index: 10;
     transition: height .3s,background-color .2s ease-out;
-    height: calc(100vh - 13.5rem)
+    height: calc(100vh - 7rem)
 }
 
 @media only screen and (min-width: 1px) and (max-width:767px) {
@@ -288,7 +287,7 @@
     border-bottom: 2px solid #2b2b2b;
     border-radius: 1px;
     z-index: 5;
-    margin-right: 5%
+    margin-right: 5%;
 }
 
 .search-input--static {
@@ -304,7 +303,6 @@
     position: relative;
     background: transparent;
     border: 0;
-    font-size: 4.8rem;
     line-height: 1.04167;
     outline: none;
     font-weight: 300
@@ -329,13 +327,13 @@
 .search-input__input {
     z-index: 15;
     width: 100%;
-    margin-bottom: .2rem;
-    color: #f7f7f7;
+    margin-bottom: .3rem;
+    color: $primary3;
     padding: 0
 }
 
 .search-input__input::-webkit-input-placeholder {
-    color: #2b2b2b;
+    color: $primary3;
     line-height: 1.35
 }
 
@@ -382,7 +380,7 @@
     -ms-user-select: none;
     user-select: none;
     max-width: 100%;
-    border-top: 3px solid #ff3530;
+    border-top: 3px solid $primary3;
     border-radius: 2px;
     min-width: 3px
 }
