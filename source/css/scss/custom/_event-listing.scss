@@ -16,8 +16,75 @@
   }
 }
 
+.dropdown-item.active {
+  background-color: $primary1;
+}
+
 .listing-filters {
-  background: pink;
+  // background: pink;
+
+  .btn-filter {
+    background-color: #fff;
+    border: 1px solid $gray;
+    cursor: pointer;
+    &:after {
+      content: "";
+      display: block;
+      background: url('../../images/filter.svg') no-repeat;
+      width: 19px;
+      height: 19px;
+      float: right;
+      margin: 3px 14px 0 0;
+    }
+  }
+
+  .nav-item.show .nav-link {
+    background-color: inherit;
+    color: $primary1;
+  }
+
+  .sort-list {
+    &:after {
+      content: "";
+      display: block;
+      background: url('../../images/down-arrow.svg') no-repeat;
+      width: 9px;
+      height: 9px;
+      float: right;
+      margin: 10px 4px 0 14px;
+    }
+  }
+
+  .cards {
+    .nav-link {
+      cursor: pointer;
+      height: 24px; 
+      width: 24px;
+      padding: 20px;
+      border: 1px solid $gray-lightest;
+      background: url('../images/cards.svg') no-repeat center center;
+      border-right: none;
+      &.active {
+        background: url('../images/cards-active.svg') no-repeat center center;
+        cursor: default;
+      }
+    }
+  }
+
+  .list {
+    .nav-link { 
+      cursor: pointer;
+      height: 24px; 
+      width: 24px;
+      padding: 20px;
+      border: 1px solid $gray-lightest;
+      background: url('../images/list.svg') no-repeat center center;
+      &.active {
+        background: url('../images/list-active.svg') no-repeat center center;
+        cursor: default;
+      }
+    }
+  }
 }
 
 .pagination {

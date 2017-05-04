@@ -8,7 +8,7 @@
       {"navLink": "Find &amp; Connect", "subLinks": [{ "name": "Find Members", "route": "routerLink=\"\/find-members\"" }, { "name": "Find Outlets", "route": "routerLink=\"\/find-outlets\"" }, { "name": "Find Jobs", "route": "routerLink=\"\/find-jobs\"" } ] },
       {"navLink": "Join", "subLinks": [{ "name": "Become a Member", "route": "routerLink=\"\/join\"" } ] }
     ],
-    "userName": "Willa Catheter"
+    "userName": "Willa Cather"
   },
   "simple-hero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
@@ -38,7 +38,9 @@
   "eventListing": {
     "heroTitle": "210 results found in",
     "heroCat": "Events",
-    "placeholder": "SEARCH"
+    "placeholder": "SEARCH",
+    "pageRange": "1-12",
+    "resultCount":  "472"
   },
   "members-promo": {
     "heroTitle": "Members get the VIP treatment.",
@@ -48,5 +50,9 @@
   "searchIcon": {
     "src": "../../images/icon-search-glass.svg",
     "alt": "Search Icon"
+  },
+  "pagination": {
+    "back": "../../images/back-arrow.svg",
+    "forward": "../../images/forward.svg"
   }
 }
