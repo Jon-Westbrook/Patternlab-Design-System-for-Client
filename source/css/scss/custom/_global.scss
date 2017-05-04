@@ -1,5 +1,6 @@
 
-// @include debug;
+// Debug utility that makes grey boxes behind all blocks, for layout debugging
+@include debug;
 
 body {
   font-family: $font-family-sans-serif;
@@ -11,9 +12,13 @@ body {
 
 
 // Button Override: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
-
 .btn-outline-secondary:hover {
   color: $primary1;
 }
 
+
+// Ellipse class for 3 lines max! 
+.ellipse3 {
+   @include limitLines(3, 36px);
+}
 

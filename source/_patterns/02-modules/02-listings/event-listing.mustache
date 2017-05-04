@@ -1,17 +1,19 @@
 
-<div class="jumbotron jumbotron-fluid ev-listing-hero p-0">
+<div class="jumbotron jumbotron-fluid ev-listing-hero m-0 p-0">
   <div class="container py-7">
     <h1 class="display3 text-center"><strong>{{ eventListing.heroTitle }}</strong></h1>
     <p class="display3 d-flex justify-content-center accent heroCat"><strong>{{ eventListing.heroCat }}</strong></p>
-    <div class="input-group hidden-sm-down">
+    <!-- <div class="input-group hidden-sm-down">
       <input type="text" class="form-control border-right-0" placeholder="Search for..." >
       <span class=" x-5 py-2 search-date">Blah Blah</span>
       <span class="input-group-btn">
         <button class="btn btn-secondary border-0 bg-red py-2 px-7" type="button"><img src="{{ searchIcon.src }}" alt="Search Icon" class="p-0"></button>
       </span>
-    </div>
+    </div> -->
   </div>
 </div>
+
+{{> components-search-bar }}
 
 <!-- Filters -->
 <div class="container">
