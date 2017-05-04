@@ -5,6 +5,7 @@
 p {
   font-size: $display6-size-xs;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display6-size-sm;
     line-height: $display6-line-height-sm;
@@ -28,6 +29,7 @@ p {
   line-height: $display1-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display1-size-sm;
     line-height: $display1-line-height-sm;
@@ -51,6 +53,7 @@ p {
   line-height: $display2-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display2-size-sm;
     line-height: $display2-line-height-sm;
@@ -73,6 +76,7 @@ p {
   font-size: $display3-size-xs;
   line-height: $display3-line-height-xs;
   opacity: .9;
+  font-family: $font-family-sans-serif;
   font-weight: 400;
   @include media-breakpoint-only(sm) {
     font-size: $display3-size-sm;
@@ -98,6 +102,7 @@ p {
   line-height: $display4-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display4-size-sm;
     line-height: $display4-line-height-sm;
@@ -121,6 +126,7 @@ p {
   line-height: $display5-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display5-size-sm;
     line-height: $display5-line-height-sm;
@@ -144,6 +150,7 @@ p {
   line-height: $display6-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display6-size-sm;
     line-height: $display6-line-height-sm;
@@ -167,6 +174,7 @@ p {
   line-height: $display7-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display7-size-sm;
     line-height: $display7-line-height-sm;
@@ -190,6 +198,7 @@ p {
   line-height: $display8-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display8-size-sm;
     line-height: $display8-line-height-sm;
@@ -213,6 +222,7 @@ p {
   line-height: $display9-line-height-xs;
   opacity: .9;
   font-weight: 400;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display9-size-sm;
     line-height: $display9-line-height-sm;
@@ -236,6 +246,7 @@ h1, .h1 {
   line-height: $display3-line-height-xs;
   opacity: .9;
   font-weight: 700;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display3-size-sm;
     line-height: $display3-line-height-sm;
@@ -259,6 +270,7 @@ h2, .h2 {
   line-height: $display4-line-height-xs;
   opacity: .9;
   font-weight: 700;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display4-size-sm;
     line-height: $display4-line-height-sm;
@@ -282,6 +294,7 @@ h3, .h3 {
   line-height: $display5-line-height-xs;
   opacity: .9;
   font-weight: 700;
+  font-family: $font-family-sans-serif;
   @include media-breakpoint-only(sm) {
     font-size: $display5-size-sm;
     line-height: $display5-line-height-sm;

@@ -51,9 +51,9 @@
     padding-top: 38px;
 }
 
-@media only screen and (min-width: 1px) and (max-width:767px) {
+@include media-breakpoint-down(sm) {
     .search-module__input-container {
-        min-height:12.5rem;
+        min-height:100vh;
         padding-top: 3rem
     }
 }
@@ -65,6 +65,7 @@
     z-index: 10;
     transition: height .3s,background-color .2s ease-out;
     height: calc(100vh - 7rem)
+
 }
 
 @media only screen and (min-width: 1px) and (max-width:767px) {
@@ -308,21 +309,6 @@
     font-weight: 300
 }
 
-@media only screen and (min-width: 1px) and (max-width:767px) {
-    .search-input__highlight,.search-input__input {
-        font-size:3rem
-    }
-}
-
-.search-input__highlight--static,.search-input__input--static {
-    font-size: 3.6rem
-}
-
-@media only screen and (min-width: 1px) and (max-width:767px) {
-    .search-input__highlight--static,.search-input__input--static {
-        font-size:3.2rem
-    }
-}
 
 .search-input__input {
     z-index: 15;
