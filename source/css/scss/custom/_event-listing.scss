@@ -12,7 +12,6 @@
 }
 
 .listing-filters {
-  // background: pink;
 
   .btn-filter {
     background-color: #fff;
@@ -35,6 +34,7 @@
   }
 
   .sort-list {
+
     &:after {
       content: "";
       display: block;
