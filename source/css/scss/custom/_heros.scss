@@ -1,0 +1,19 @@
+
+.simple-hero {
+  background: url('../images/Hero_FPO.png') no-repeat center center; 
+  background-size: cover; 
+}
+
+.ev-listing-hero {
+  .heroCat {
+    &:after {
+      content: "";
+      display: block;
+      background: url('../../images/down-arrow.svg') no-repeat;
+      background-size: cover;
+      width: 20px;
+      height: 14px;
+      margin: 24px 0 0 14px;
+    }
+  }
+}

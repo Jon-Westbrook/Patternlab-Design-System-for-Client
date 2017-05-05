@@ -321,6 +321,11 @@ h3, .h3 {
   }
 }
 
+.bold {
+ font-family: $font-family-bold;
+ font-weight: 400;
+}
+
 .secondary {
   opacity: .6;
 }

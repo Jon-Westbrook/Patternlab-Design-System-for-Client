@@ -68,11 +68,11 @@
       <div class="collapse navbar-collapse flex-sm-column-reverse" id="menus">
         
         <!-- Main Menu --> 
-        <div class="mainMenu m-1 mt-md-4 mb-md-3 d-flex justify-content-md-end">
+        <div class="mainMenu m-1 mt-md-4 mb-md-0 d-flex justify-content-md-end">
           <ul class="navbar-nav">
             {{#header.mainLinks }}
               <li class="nav-item dropdown m-0 p-0 ml-md-3 ml-lg-5">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 p-0 py-0" data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 p-0 pb-md-3 py-0" data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
                 <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right border-right-0 border-left-0 mt-3 mb-3 py-3">
                   {{# subLinks }}
                     <a class="dropdown-item display8 p-0  my-0-0 accent" href="#" {{{ route }}} >{{ name }}</a>

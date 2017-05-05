@@ -1,18 +1,9 @@
 
 .ev-listing-hero {
   position: relative;
-  // .input-group {
-  //   background: #fff;
-  //   position: absolute;
-  //   bottom: -38px;
-  //   left: 0;
-  //   border: 0 !important;
-  //   box-shadow: 0 1px 6px 0 rgba(160, 160, 160, 0.67);
-  //   border: solid 1px #ccd4dc;
-  // }
+  background: white;
   .search-date {
     border: 0 !important;
-  //   box-shadow: 0 1px 6px 0 rgba(160, 160, 160, 0.67);
   }
 }
 
@@ -93,14 +84,4 @@
   }
 }
 
-.search-bar {
-  .row {
-    position: relative;
-  }
-  .col {
-    position: absolute;
-    top: -39px;
-    left: 0;
-    right: 0;
-  }
-}
+
