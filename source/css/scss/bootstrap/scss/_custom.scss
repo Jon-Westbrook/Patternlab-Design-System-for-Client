@@ -169,8 +169,16 @@ $link-hover-decoration: none;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'sofia_probold';
+    src: url('../fonts/sofia-pro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sofia-pro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 $font-family-sans-serif: 'sofia_pro_regularregular', sans-serif;
-$font-family-bold: 'Sofia W01 Bold1446843', sans-serif;
+$font-family-bold: 'sofia_probold', sans-serif;
 
 
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif;
