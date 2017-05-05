@@ -1,7 +1,24 @@
 
 <div class="jumbotron jumbotron-fluid ev-listing-hero m-0 p-0">
-  <div class="container py-7">
-    <h1 class="display3 text-center bold">{{ eventListing.heroTitle }}</h1>
-    <p class="display3 d-flex justify-content-center accent heroCat bold">{{ eventListing.heroCat }}</p>
+  <div class="container py-7 d-flex justify-content-center flex-column">
+    <h1 class="d-block display3 text-center bold">{{ eventListing.heroTitle }}</h1>
+    <!-- <p class="display3 d-flex justify-content-center accent heroCat bold" data-toggle="dropdown" id="sectionDropDown">{{ eventListing.heroCat }}</p>
+    <div aria-labelledby="sectionDropDown" class="dropdown-menu dropdown-menu-right bg-gray-lightest">
+      <a class="dropdown-item display9 text-right active" href="#">Date</a>
+      <a class="dropdown-item display9 text-right " href="#">Distance</a>
+      <a class="dropdown-item display9 text-right" href="#">Favorite</a>
+    </div> -->
+    <div class="dropdown">
+      <a class="display3 accent heroCat bold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Events
+      </a>
+      <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
   </div>
 </div>
+
+  
