@@ -33,6 +33,13 @@
       float: right;
       margin: 3px 14px 0 0;
     }
+    &:hover {
+      &:after {
+
+        background: url('../../images/filter-white.svg') no-repeat;
+      
+      }
+    }
   }
 
   .nav-item.show .nav-link {
