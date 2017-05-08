@@ -22,6 +22,8 @@
   }
 }
 
+
+// Article Cards
 .art-list-item-icons {
   position: absolute;
   right: 1.25rem;
@@ -34,7 +36,9 @@
   }
 }
 
-.event-card {
+
+// Event Cards
+.event-card > .card {
   border-top: 6px solid $primary1;
 }
 
@@ -42,6 +46,14 @@
   border-left: 6px solid $primary1;
 }
 
+@include media-breakpoint-down(sm) {
+  .event-card:not(:first-of-type) {
+    margin-top: 2rem;
+  }
+}
+
+
+// Member Cards
 .member-card-img {
   height: 70px;
   width: 70px;
@@ -51,6 +63,8 @@
   }
 }
 
+
+// Publication Cards
 .publication-card-img {
   height: 120px;
   width: 90pxpx;
