@@ -13,6 +13,13 @@
 
 .listing-filters {
 
+  .filter-btn {
+    &:hover {
+      background: $primary1;
+      color: $primary3;
+    }
+  }
+
   .btn-filter {
     background-color: #fff;
     border: 1px solid $gray;
