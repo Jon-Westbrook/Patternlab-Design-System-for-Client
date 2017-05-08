@@ -8,7 +8,7 @@
   .heroCat {
     &:after {
       content: "";
-      display: block;
+      display: inline-block;
       background: url('../../images/down-arrow.svg') no-repeat;
       background-size: cover;
       width: 24px;
@@ -25,5 +25,12 @@
         margin: 16px 0 0 6px;
       }
     }
+    &:hover {
+      color: $primary1;
+      opacity: .8;
+    }
+  }
+  .dropdown-rappa {
+    position: relative;
   }
 }

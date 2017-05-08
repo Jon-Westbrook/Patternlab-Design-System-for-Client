@@ -11,9 +11,9 @@
         </svg>
       </button>
       <div id="search-input" class="search-input" data-reactid="13">
-        <span class="search-input__highlight display5"></span>
+        <span class="search-input__highlight display5" id="highlight"></span>
         <form class="search-form search-input__form" _lpchecked="1">
-          <input type="text" placeholder="Search" id="search-module-input" class="search-input__input hidden-md-up display5" maxlength="40" >
+          <input type="text" placeholder="Search" class="search-input__input hidden-md-up display5" maxlength="40" >
           <input type="text" placeholder="Search people, events, articles & more" id="search-module-input" class="search-input__input hidden-sm-down display5" maxlength="40" >
           <label for="search-module-input" class="sr-only" >Search query</label>
           <button class="search-input__all" >
@@ -31,6 +31,12 @@
   </div>
   <div id="search-module-results" class="search-module__results hidden-sm-down"></div>
 </div>
+
+<script>
+  document.getElementById("search-module-input").onkeyup = function() {
+    document.getElementById("highlight").innerHTML = this.value;   
+  }
+</script>
 
     
 <nav class="navbar navbar-toggleable-sm navbar-light  bg-white p-0 " role="navigation">
@@ -119,6 +125,48 @@
   
   </div>
   <!-- End Menus -->
+
+  <div class="container-fluid collapse bg-gray-light" id="test">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="display7 text-primary">Location</h3>
+          <form class="my-3">
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
+              </div>
+              <label class="col-9">Checkbox</label>
+            </div>
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
+              </div>
+              <label class="col-9">Checkbox</label>
+            </div>
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
+              </div>
+              <label class="col-9">Checkbox</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </nav>
 
