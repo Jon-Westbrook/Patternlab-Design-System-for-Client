@@ -159,7 +159,7 @@ $sg-border-radius-med: 6px;
 */
 
 .sg-header {
-    background: #FC2B2B;
+    background: #000;
     color: $sg-white;
     font-family: $sg-font;
     text-transform: uppercase;
@@ -291,7 +291,7 @@ $sg-border-radius-med: 6px;
     */
     &:after {
         content: '▼';
-        color: $sg-tint-2;
+        color: #fff;
         display: inline-block;
         font-size: 7px;
         position: relative;
@@ -306,8 +306,9 @@ $sg-border-radius-med: 6px;
 
     &:hover, &:focus {
         outline: none;
+        color: #e31837;
         &:after {
-            color: $sg-gray;
+            color: #cacaca;
         }
     }
 
@@ -317,7 +318,7 @@ $sg-border-radius-med: 6px;
 
         &:after {
             top: -2px;
-            color: $sg-gray;
+            color: #cacaca;
             -webkit-transform: rotate(180deg);
             -ms-transform: rotate(180deg);
             transform: rotate(180deg);
@@ -359,6 +360,10 @@ $sg-border-radius-med: 6px;
     */
     a {
         display: block;
+        &:hover, &:focus {
+        outline: none;
+        color: #e31837;
+        }
     }
 
     /**

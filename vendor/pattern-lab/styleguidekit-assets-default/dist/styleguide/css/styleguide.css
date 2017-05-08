@@ -93,7 +93,7 @@
 * and tools.
 */
 .sg-header {
-  background: #FC2B2B;
+  background: #000;
   color: #fff;
   font-family: "sofia_pro_regularregular", sans-serif;
   text-transform: uppercase;
@@ -210,7 +210,7 @@
 }
 .sg-acc-handle:after {
   content: '▼';
-  color: rgba(255, 255, 255, 0.75);
+  color: #fff;
   display: inline-block;
   font-size: 7px;
   position: relative;
@@ -226,9 +226,10 @@
 }
 .sg-acc-handle:hover, .sg-acc-handle:focus {
   outline: none;
+  color: #e31837;
 }
 .sg-acc-handle:hover:after, .sg-acc-handle:focus:after {
-  color: #343434;
+  color: #cacaca;
 }
 .sg-acc-handle.active {
   color: #fff;
@@ -236,7 +237,7 @@
 }
 .sg-acc-handle.active:after {
   top: -2px;
-  color: #343434;
+  color: #cacaca;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -280,6 +281,10 @@
 }
 .sg-acc-panel a {
   display: block;
+}
+.sg-acc-panel a:hover, .sg-acc-panel a:focus {
+  outline: none;
+  color: #e31837;
 }
 .sg-acc-panel.active {
   max-height: 120em;
