@@ -6,6 +6,7 @@
 
 .ev-listing-hero {
   .heroCat {
+    cursor: pointer;
     &:after {
       content: "";
       display: inline-block;
@@ -25,7 +26,7 @@
         margin: 16px 0 0 6px;
       }
     }
-    &:hover {
+    &:hover {    
       color: $primary1;
       opacity: .8;
     }

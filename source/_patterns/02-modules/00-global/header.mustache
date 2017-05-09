@@ -32,13 +32,12 @@
   <div id="search-module-results" class="search-module__results hidden-xl-down"></div>
 </div>
 
-<script>
+<!-- <script>
   document.getElementById("search-module-input").onkeyup = function() {
     document.getElementById("highlight").innerHTML = this.value;   
-  }
-</script>
+  };
+</script> -->
 
-    
 <nav class="navbar navbar-toggleable-sm navbar-light bg-white p-0 " role="navigation">
   
     <!-- Mobile Buttons --> 
@@ -133,10 +132,11 @@
               <a class="nav-link secondary my-3 my-md-0 p-0" href="#" routerLink="/media" >Media</a>
             </li>
             <li class="nav-item locations dropdown d-inline-block my-md-auto">
-              <a aria-expanded="false" aria-haspopup="true" class="nav-link secondary my-3 my-md-0 p-0" data-toggle="dropdown" href="#" routerLink="/">NY, USA</a>
-              <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right border-right-0 border-left-0 m-0 p-0">
-                <a class="dropdown-item my-3 pl-3 accent" href="#" routerLink="/">London, UK</a>
-                <a class="dropdown-item my-3 pl-3 accent" href="#" routerLink="/">Tokyo, JP</a>
+              <a aria-expanded="false" aria-haspopup="true" class="nav-link secondary my-3 my-md-0 p-0" data-toggle="dropdown" href="#" routerLink="/" >NY, USA</a>
+              <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 px-2">
+                <a class="dropdown-item my-3 pl-3 text-right accent" href="#" routerLink="/">NY, USA</a>
+                <a class="dropdown-item my-3 pl-3 text-right" href="#" routerLink="/">London, UK</a>
+                <a class="dropdown-item my-3 pl-3 text-right" href="#" routerLink="/">Tokyo, JP</a>
               </div>
             </li>
           </ul>
@@ -148,7 +148,7 @@
   <!-- End Menus -->
 
   
-  <div class="container-fluid collapse bg-gray-light" id="test">
+  <div class="container-fluid collapse bg-gray-light" id="megaMenu">
     <div class="container py-4">
       <div class="row">
         <div class="col-sm-4">

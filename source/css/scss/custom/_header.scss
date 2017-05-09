@@ -66,6 +66,7 @@
             height: 9px;
             float: right;
             margin: 8px 4px 0 0;
+            transition: all 0.2s ease-in-out;
           }
         }
       }
@@ -80,6 +81,7 @@
               height: 9px;
               float: right;
               margin: 8px 4px 0 0;
+              transition: all 0.2s ease-in-out;
             }
           }
         }
@@ -90,50 +92,58 @@
   .topMenu {
     .locations {
       .nav-link {
-        @include media-breakpoint-down(sm) {
+        &:after {
+          content: "";
+          display: block;
+          background: url('../../images/down-arrow.svg') no-repeat;
+          width: 9px;
+          height: 9px;
+          float: right;
+          margin: 8px 4px 0 0;
+          @include media-breakpoint-up(md) {
+            margin: 6px 2px 0 4px;
+          }
+        }
+      }
+      &.show {
+        .nav-link {
           &:after {
             content: "";
             display: block;
-            background: url('../../images/down-arrow.svg') no-repeat;
+            background: url('../../images/up-arrow.svg') no-repeat;
             width: 9px;
             height: 9px;
             float: right;
             margin: 8px 4px 0 0;
-          }
-        }
-      }
-      @include media-breakpoint-down(sm) {
-        &.show {
-          .nav-link {
-            &:after {
-              content: "";
-              display: block;
-              background: url('../../images/up-arrow.svg') no-repeat;
-              width: 9px;
-              height: 9px;
-              float: right;
-              margin: 8px 4px 0 0;
+            @include media-breakpoint-up(md) {
+              margin: 6px 2px 0 4px;
             }
           }
         }
       }
     }
+    .dropdown-menu {
+      background-color: $primary3 !important;
+      border: 0;
+      border-top: 1px solid $tertiary3;
+      @include media-breakpoint-up(md) {
+        border: 1px solid $tertiary3;
+        top: 30px;
+      }
+    }
   }
-
 
   .topMenu li {
     font-size: 1rem;
     color: $primary2;
     @include media-breakpoint-up(md) {
-      opacity: .6;
       font-size: .75rem;
     }
-    &:nth-last-child(1) .dropdown-menu {
-      border-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      &:nth-last-child(1) .dropdown-menu {
+        border-bottom: 0;
+      }
     }
-  
-
-
   }
 }
 
