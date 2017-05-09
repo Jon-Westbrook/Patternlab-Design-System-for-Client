@@ -8,11 +8,6 @@ $(document).ready(function() {
     $('#search-module').removeClass('search-module--open');
   });
 
-  // $("#search-module-input").keyup(function() {
-  //   var x = document.getElementById("search-module-input").value;
-  //   $(".search-input__highlight").html(x);
-  // });
-
 });
 
 

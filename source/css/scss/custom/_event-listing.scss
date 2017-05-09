@@ -13,17 +13,11 @@
 
 .listing-filters {
 
-  .filter-btn {
-    &:hover {
-      background: $primary1;
-      color: $primary3;
-    }
-  }
-
   .btn-filter {
     background-color: #fff;
     border: 1px solid $gray;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
     &:after {
       content: "";
       display: block;
@@ -32,10 +26,15 @@
       height: 19px;
       float: right;
       margin: 3px 14px 0 0;
+      transition: all 0.2s ease-in-out;
     }
     &:hover {
+      background: $primary1;
+      color: $primary3;
+      transition: all 0.2s ease-in-out;
       &:after {
         background: url('../../images/filter-white.svg') no-repeat;
+        transition: all 0.2s ease-in-out;
       }
     }
   }

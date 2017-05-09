@@ -4,13 +4,13 @@
 {{> components-search-bar }}
 
 <!-- Filters Mobile -->
-<div class="container-fluid">
+<div class="container-fluid hidden-md-up">
   <div class="row">
     <div class="col">
      <a href=""></a>
     </div>
     <div class="col">
-      <ul class=""> 
+      <ul> 
           <li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
           <a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list display8 p-0" data-toggle="dropdown" href="#">Best match</a>
           <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right bg-gray-lightest">
@@ -27,7 +27,7 @@
 <!-- Filters Desktop -->
 <div class="container hidden-sm-down">
   <ul class="nav nav-pills listing-filters mt-md-6 mb-md-4">
-    <li class="nav-item btn-filter mr-3 py-2 px-3 my-auto my-auto bg-white d-flex justify-content-center filter-btn" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
+    <li class="nav-item btn-filter mr-3 py-2 px-3 my-auto my-auto bg-white d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
         <span class="mr-3 pl-3" >Filter</span>
     </li>
     <li class="nav-item hidden-sm-down mr-auto my-auto">
@@ -53,7 +53,7 @@
   </ul>
 </div>
 
-<div class="container-fluid collapse bg-gray-light" id="filterDrawer">
+<div class="container-fluid collapse bg-gray-lightest" id="filterDrawer">
   <div class="container py-4">
     <div class="row">
       <div class="col">

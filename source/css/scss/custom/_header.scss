@@ -1,12 +1,20 @@
 .header-menus {
   .collapse {
     background: $primary3;
+    &.show {
+      @include media-breakpoint-down(sm) {
+        border-bottom: 1px solid $tertiary3;
+      } 
+    }
   }
 }
 
 .navbar {
   background: $primary3;
-  box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
+  z-index: $zindex-navbar;
+  @include media-breakpoint-up(md) {
+    box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
+  }
 }
 
 .navbar > .container {
@@ -25,6 +33,10 @@
       margin-right: 0;
       margin-left: 0;
     }
+  }
+
+  .nav-item:nth-last-child(2) .dropdown-menu {
+    border-bottom: 0;
   }
 
   .nav-link {
@@ -75,32 +87,39 @@
     }
   }
 
-  .dropdown-item {
-    margin-right: 17px;
-    margin-left: 17px;
-  }
-
-  .mainMenu .nav-link:first-of-type, .topMenu .nav-link:first-of-type {
-    margin-top: 24px;
-    @include media-breakpoint-up(md) {
-      margin-top: 0;
-      margin-bottom: 0;
+  .topMenu {
+    .locations {
+      .nav-link {
+        @include media-breakpoint-down(sm) {
+          &:after {
+            content: "";
+            display: block;
+            background: url('../../images/down-arrow.svg') no-repeat;
+            width: 9px;
+            height: 9px;
+            float: right;
+            margin: 8px 4px 0 0;
+          }
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        &.show {
+          .nav-link {
+            &:after {
+              content: "";
+              display: block;
+              background: url('../../images/up-arrow.svg') no-repeat;
+              width: 9px;
+              height: 9px;
+              float: right;
+              margin: 8px 4px 0 0;
+            }
+          }
+        }
+      }
     }
   }
 
-  .header-menus .nav-item:not(:first-of-type) .nav-link {
-    @include media-breakpoint-down(sm) {
-      margin-top: 2rem;
-    }
-  }
-
-  .nav-item:last-of-type, .signup-list-item {
-    margin-bottom: 24px;
-    @include media-breakpoint-up(md) {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
 
   .topMenu li {
     font-size: 1rem;
@@ -109,6 +128,12 @@
       opacity: .6;
       font-size: .75rem;
     }
+    &:nth-last-child(1) .dropdown-menu {
+      border-bottom: 0;
+    }
+  
+
+
   }
 }
 
@@ -137,7 +162,6 @@
 }
 
 .mobile-buttons {
-  // border-bottom: 2px solid $tertiary3;
   box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
 }
 

@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 50;
+  z-index: $zindex-modal;
   width: 100vw;
   font-family: $font-family-sans-serif;
   font-weight: 600;
@@ -17,7 +17,7 @@
 
 .search-module .close-btn {
   position: absolute;
-  top: .25rem;
+  // top: .25rem;
   right: 1rem;
   fill: #6e6e6e;
   background: transparent;
@@ -43,10 +43,10 @@
 
 .search-module__input-container {
   background: $primary3;
-  min-height: 7rem;
+  height: 100vh;
   position: relative;
   z-index: 10;
-  padding-top: 38px;
+  // padding-top: 38px;
 }
 
 @include media-breakpoint-down(sm) {
