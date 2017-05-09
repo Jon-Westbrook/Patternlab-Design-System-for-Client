@@ -18,7 +18,6 @@
 }
 
 .navbar > .container {
-
   @include media-breakpoint-down(sm) {
     width: 100%;
   }
@@ -93,7 +92,7 @@
     .locations {
       .nav-link {
         &:after {
-          content: "";
+          content: '';
           display: block;
           background: url('../../images/down-arrow.svg') no-repeat;
           width: 9px;
@@ -108,7 +107,7 @@
       &.show {
         .nav-link {
           &:after {
-            content: "";
+            content: '';
             display: block;
             background: url('../../images/up-arrow.svg') no-repeat;
             width: 9px;
@@ -123,7 +122,7 @@
       }
     }
     .dropdown-menu {
-      background-color: $primary3 !important;
+      background-color: $primary3;
       border: 0;
       border-top: 1px solid $tertiary3;
       @include media-breakpoint-up(md) {
@@ -186,6 +185,12 @@
   // background: green;
   @include media-breakpoint-up(md) {
     width: auto;
+  }
+}
+
+.megaMenu {
+  .related {
+    border-left: 1px solid $tertiary3;
   }
 }
 

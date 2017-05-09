@@ -32,12 +32,6 @@
   <div id="search-module-results" class="search-module__results hidden-xl-down"></div>
 </div>
 
-<!-- <script>
-  document.getElementById("search-module-input").onkeyup = function() {
-    document.getElementById("highlight").innerHTML = this.value;   
-  };
-</script> -->
-
 <nav class="navbar navbar-toggleable-sm navbar-light bg-white p-0 " role="navigation">
   
     <!-- Mobile Buttons --> 
@@ -70,14 +64,16 @@
         <div class="icsc-logo">&nbsp;</div>
       </a>   
 
+
       <div class="collapse navbar-collapse flex-sm-column-reverse" id="menus">
         
+
         <!-- Main Mobile Menu --> 
         <div class="mainMenu hidden-md-up mt-1 mx-3">
           <ul class="navbar-nav">
             {{#header.mainLinks }}
               <li class="nav-item dropdown m-0 p-0">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 my-3 p-0 " data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
+                <a aria-expanded="false" class="nav-link display8 my-3 p-0 " data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
                 <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right border-right-0 border-left-0 m-0 p-0">
                   {{# subLinks }}
                     <a class="dropdown-item display8 m-0 my-3 pl-3 accent" href="#" {{{ route }}} >{{ name }}</a>
@@ -93,17 +89,13 @@
           </ul>
         </div>
 
+
         <!-- Main Desktop Menu --> 
         <div class="mainMenu mt-md-4 mb-md-0 d-flex justify-content-md-end hidden-sm-down">
           <ul class="navbar-nav">
             {{#header.mainLinks }}
               <li class="nav-item dropdown m-0 p-0 ml-md-3 ml-lg-5">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link display8 my-3 my-md-0 p-0 pb-md-3" data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
-                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
-                  {{# subLinks }}
-                    <a class="dropdown-item display8 p-0  my-0-0 accent " href="#" {{{ route }}} >{{ name }}</a>
-                  {{/ subLinks }}
-                </div>
+                <a class="nav-link display8 my-3 my-md-0 p-0 pb-md-3" data-toggle="collapse" href="#" data-target="#megaMenu" aria-expanded="false" aria-controls="megaMenu" >{{{ navLink }}}</a>
               </li>
             {{/header.mainLinks }}
             <li class="nav-item ml-md-4 ml-lg-5 hidden-sm-down">
@@ -114,7 +106,9 @@
           </ul>
         </div>
 
+
         <div class="dropdown-divider hidden-md-up w-100 m-0 p-0"></div>
+
 
         <!-- Top Menu --> 
         <div class="topMenu d-flex justify-content-md-end mx-3 mx-md-0 mt-md-3">
@@ -147,53 +141,36 @@
   </div>
   <!-- End Menus -->
 
-  
-  <div class="container-fluid collapse bg-gray-light" id="megaMenu">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3 class="display7 text-primary">Location</h3>
-          <form class="my-3">
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
 </nav>
 <!-- End Nav, Obviously -->
+
+
+<!-- Mega Menu --> 
+<div class="container-fluid collapse bg-gray-lightest megaMenu" id="megaMenu">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-3">
+        <a class="display8 bold accent" href="#" >Location</a>
+        <p class="display8 text-primary">Learn who we are and how we serve our community</p>
+      </div>
+      <div class="col-3">
+        <a class="display8 bold accent" href="#" >Leadership</a>
+        <p class="display8 text-primary">Meet our leaders, trustees and team</p>
+      </div>
+      <div class="col-3">
+        <a class="display8 bold accent" href="#" >ICSC Foundation</a>
+        <p class="display8 text-primary">Learn who we are and how we serve our community</p>
+      </div>
+      <div class="col-sm-3 pl-3 related">
+        <a class="display8 d-block bold accent" href="#">Community Development</a>
+        <a class="display8 d-block bold accent" href="#">Awards &amp; Recognition</a>
+        <a class="display8 d-block bold accent" href="#">Volunteer</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
   
