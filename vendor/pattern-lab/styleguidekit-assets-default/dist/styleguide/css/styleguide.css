@@ -833,7 +833,7 @@
 * like pattern description, lineage, code, and more
 */
 .sg-pattern-extra {
-  background: #eee;
+  background: #000;
   border-top: 1px solid #ddd;
   margin-bottom: 1em;
   overflow: hidden;
@@ -843,7 +843,7 @@
 }
 .sg-pattern-extra a {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
 .sg-pattern-extra a:hover, .sg-pattern-extra a:focus {
   color: #343434;
@@ -882,7 +882,7 @@
   padding: 0.5rem 0.5rem 0;
   line-height: 1.4;
   font-size: 90%;
-  color: #343434;
+  color: #fff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -1179,7 +1179,7 @@
 }
 .sg-modal .sg-pattern-breadcrumb {
   font-size: 70%;
-  color: #343434;
+  color: #fff;
   margin-bottom: 0.5rem;
 }
 .sg-modal .sg-pattern-head {

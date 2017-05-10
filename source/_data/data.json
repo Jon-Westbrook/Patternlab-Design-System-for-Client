@@ -26,7 +26,7 @@
     "eventLocale": "Javits Center",
     "eventCity": "New York, NY",
     "memberCardImg": "../../images/member@2x.png",
-    "memberName": "Willa Catheter",
+    "memberName": "Willa Cather",
     "memberTitle": "Economic Development Director",
     "memberCompany": "Real Big Company",
     "memberLocale": "New York, NY",
@@ -35,8 +35,13 @@
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
     "pubCat": "eBook, Print Edition"
   },
-  "eventListing": {
-    "heroTitle": "210 results found in",
+  "results": {
+    "resultTitle": "210 results found in",
+    "current": "Events",
+    "scope2": "Members",
+    "scope3": "Articles",
+    "scope4": "Publications",
+    "scope4": "Everything",
     "heroCat": "Events",
     "placeholder": "SEARCH",
     "pageRange": "1-12",

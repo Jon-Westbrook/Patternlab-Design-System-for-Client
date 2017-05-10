@@ -8,7 +8,7 @@
   .heroCat {
     cursor: pointer;
     &:after {
-      content: "";
+      content: '';
       display: inline-block;
       background: url('../../images/down-arrow.svg') no-repeat;
       background-size: cover;

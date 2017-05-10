@@ -977,7 +977,7 @@ $sg-border-radius-med: 6px;
 * like pattern description, lineage, code, and more
 */
 .sg-pattern-extra {
-    background: $sg-gray-light;
+    background: #000;
     border-top: 1px solid $sg-gray-light-2;
     margin-bottom: $sg-space;
     overflow: hidden;
@@ -986,7 +986,7 @@ $sg-border-radius-med: 6px;
 
     a {
         text-decoration: underline;
-        color: $sg-gray-dark;
+        color: #fff;
 
         &:hover, &:focus {
             color: $sg-gray;
@@ -1023,7 +1023,7 @@ $sg-border-radius-med: 6px;
     padding: 0.5rem 0.5rem 0;
     line-height: 1.4;
     font-size: 90%;
-    color: $sg-gray;
+    color: #fff;
     overflow: auto; //allows scrolling on modals with extra long descriptions
     -webkit-overflow-scrolling: touch;
 
@@ -1275,7 +1275,7 @@ $sg-border-radius-med: 6px;
     */
     .sg-pattern-breadcrumb {
         font-size: $sg-font-size-sm;
-        color: $sg-gray;
+        color: #fff;
         margin-bottom: 0.5rem;
     }
 

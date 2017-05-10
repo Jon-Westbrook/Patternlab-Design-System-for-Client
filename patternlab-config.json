@@ -28,8 +28,8 @@
     }
   },
   "styleGuideExcludes": [],
-  "defaultPattern": "all",
-  "defaultShowPatternInfo": true,
+  "defaultPattern": "templates-T08-Article-Detail",
+  "defaultShowPatternInfo": false,
   "cleanPublic": true,
   "patternExtension": "mustache",
   "ignored-extensions": [
