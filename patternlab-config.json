@@ -28,7 +28,7 @@
     }
   },
   "styleGuideExcludes": [],
-  "defaultPattern": "templates-T08-Article-Detail",
+  "defaultPattern": "all",
   "defaultShowPatternInfo": false,
   "cleanPublic": true,
   "patternExtension": "mustache",
