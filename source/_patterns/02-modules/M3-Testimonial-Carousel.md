@@ -1,5 +1,3 @@
 ---
-title: Simple Hero
+title: M3 Testimonial Carousel
 ---
-
-A simple hero content hero with centered headlines. 

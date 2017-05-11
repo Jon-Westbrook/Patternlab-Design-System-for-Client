@@ -1,4 +1,4 @@
 ---
-title: Search Results (Events Scope)
+title: M8B Search Results (Everything Scope)
 ---
 

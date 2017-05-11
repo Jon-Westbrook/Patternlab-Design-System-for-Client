@@ -1,5 +1,4 @@
 ---
-title: Event Listing Hero
+title: M35 Subheader with Copy
 ---
 
-Event Listing Hero

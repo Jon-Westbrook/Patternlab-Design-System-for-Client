@@ -1,5 +1,3 @@
 ---
-title: Event Listing Hero
+title: M9 Article Cards
 ---
-
-Event Listing Hero

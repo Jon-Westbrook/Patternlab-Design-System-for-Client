@@ -1,7 +1,5 @@
 ---
-title: Members Promo
+title: Banner Ad CTA
 ---
 
-Promotional module for members. 
-
-Hello World!
+Advertisement Module, basically. 

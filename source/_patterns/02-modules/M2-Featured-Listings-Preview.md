@@ -1,5 +1,4 @@
 ---
-title: Simple Hero
+title: M2 Featured Listings Preview
 ---
 
-A simple hero content hero with centered headlines. 

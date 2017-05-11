@@ -1,5 +1,4 @@
 ---
-title: Event Listing Hero
+title: M7 Tall Hero
 ---
 
-Event Listing Hero

@@ -1,5 +1,3 @@
 ---
-title: Event Listing Hero
+title: M37 Infographic with CTA
 ---
-
-Event Listing Hero

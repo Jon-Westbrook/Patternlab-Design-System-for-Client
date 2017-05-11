@@ -1,5 +1,3 @@
 ---
-title: Event Listing Hero
+title: M46 Results Hero
 ---
-
-Event Listing Hero

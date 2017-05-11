@@ -1,10 +1,10 @@
 
-.simple-hero {
-  background: url('../images/Hero_FPO.png') no-repeat center center; 
-  background-size: cover; 
-}
-
-.ev-listing-hero {
+.results-hero {
+  position: relative;
+  background: #fff;
+  .search-date {
+    border: 0 !important;
+  }
   .heroCat {
     cursor: pointer;
     &:after {

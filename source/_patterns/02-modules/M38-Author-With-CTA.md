@@ -1,5 +1,3 @@
 ---
-title: Event Listing Hero
+title: M38 Author with CTA
 ---
-
-Event Listing Hero

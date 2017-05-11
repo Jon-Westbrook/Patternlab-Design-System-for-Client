@@ -1,5 +1,5 @@
 ---
-title: Simple Hero
+title: M1 Home Hero
 ---
 
-A simple hero content hero with centered headlines. 
+The Home Hero.

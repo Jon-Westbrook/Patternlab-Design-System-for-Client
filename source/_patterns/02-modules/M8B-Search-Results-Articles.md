@@ -1,3 +1,3 @@
 ---
-title: Search Results (Members Scope)
+title: M8B Search Results (Article Scope)
 ---

@@ -1,5 +1,4 @@
 ---
-title: Simple Hero
+title: M20 Short Hero
 ---
 
-A simple hero content hero with centered headlines. 
