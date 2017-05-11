@@ -45,7 +45,7 @@
                 <a aria-expanded="false" class="nav-link display8 my-3 p-0 " data-toggle="dropdown" href="#" >{{{ navLink }}}</a>
                 <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right border-right-0 border-left-0 m-0 p-0">
                   {{# subLinks }}
-                    <a class="dropdown-item display8 m-0 my-3 pl-3 accent" href="#" {{{ route }}} >{{ name }}</a>
+                    <a class="dropdown-item display8 m-0 my-3 pl-3 accent" href="{{ url }}" {{{ route }}} >{{ name }}</a>
                   {{/ subLinks }}
                 </div>
               </li>
@@ -120,7 +120,7 @@
   <div class="container py-5">
     <div class="row">
       <div class="col-3">
-        <a class="display8 bold accent" href="#" >Location</a>
+        <a class="display8 bold accent" href="{{{ link.templates-T06-Who-We-Are }}}" >Who We Are</a>
         <p class="display8 text-primary">Learn who we are and how we serve our community</p>
       </div>
       <div class="col-3">
