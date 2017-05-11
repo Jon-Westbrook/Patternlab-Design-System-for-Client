@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M40 Profile Information Grid
 ---
 
-The Home Hero.

@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M14 Feature Callout
 ---
-
-The Home Hero.

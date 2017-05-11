@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M42A Location Callout Wide
 ---
-
-The Home Hero.

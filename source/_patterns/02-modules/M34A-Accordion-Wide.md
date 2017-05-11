@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M34A Accordion Wide
 ---
-
-The Home Hero.

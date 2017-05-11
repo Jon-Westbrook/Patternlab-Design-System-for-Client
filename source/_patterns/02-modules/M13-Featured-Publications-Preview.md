@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M13 Featured Publications Preview
 ---
-
-The Home Hero.

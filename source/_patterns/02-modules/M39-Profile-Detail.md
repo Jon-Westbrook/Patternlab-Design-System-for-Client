@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M39 Profile Detail
 ---
 
-The Home Hero.

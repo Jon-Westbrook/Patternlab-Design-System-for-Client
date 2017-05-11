@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M18A Featured Members Preview Authenticated
 ---
-
-The Home Hero.

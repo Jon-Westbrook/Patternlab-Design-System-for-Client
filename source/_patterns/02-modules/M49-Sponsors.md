@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M49 Sponsors
 ---
-
-The Home Hero.

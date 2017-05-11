@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M11 Image with CTA
 ---
 
-The Home Hero.

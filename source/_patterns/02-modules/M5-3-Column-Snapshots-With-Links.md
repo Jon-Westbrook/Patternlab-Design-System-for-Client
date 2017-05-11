@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M5 3-Column Snapshots With Links
 ---
 
-The Home Hero.

@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M32B Centered Content Block Narrow
 ---
 
-The Home Hero.

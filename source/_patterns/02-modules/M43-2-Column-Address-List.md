@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M43 2-Column Address List
 ---
-
-The Home Hero.

@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M21 2-Column Feature Callout
 ---
-
-The Home Hero.

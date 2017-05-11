@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M15 Column Image Tiles
 ---
 
-The Home Hero.

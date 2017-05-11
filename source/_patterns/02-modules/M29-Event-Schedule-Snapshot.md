@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M29 Event Schedule Snapshot
 ---
-
-The Home Hero.

@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M28 Event Overview
 ---
-
-The Home Hero.

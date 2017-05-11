@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M12 Publication Hero Carousel
 ---
 
-The Home Hero.

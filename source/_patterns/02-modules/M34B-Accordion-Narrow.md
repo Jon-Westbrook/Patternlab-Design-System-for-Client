@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M34B Accordion Narrow
 ---
 
-The Home Hero.

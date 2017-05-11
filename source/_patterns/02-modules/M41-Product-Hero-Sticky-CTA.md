@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M41 Product Hero Sticky
 ---
 
-The Home Hero.

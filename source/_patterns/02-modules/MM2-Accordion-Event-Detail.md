@@ -1,3 +1,3 @@
 ---
-title: MM3 Login
+title: MM2 Accordion Event Detail
 ---

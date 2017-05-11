@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M6 Mobile Promo
 ---
-
-The Home Hero.

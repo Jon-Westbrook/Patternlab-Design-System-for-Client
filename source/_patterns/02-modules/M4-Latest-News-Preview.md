@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M4 Latest News Preview
 ---
 
-The Home Hero.

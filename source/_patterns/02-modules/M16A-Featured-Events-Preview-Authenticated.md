@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M16A Featured Events Preview Authenticated
 ---
 
-The Home Hero.

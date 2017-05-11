@@ -1,5 +1,3 @@
 ---
-title: M1 Home Hero
+title: M36 Left Nav
 ---
-
-The Home Hero.

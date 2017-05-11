@@ -1,5 +1,4 @@
 ---
-title: M1 Home Hero
+title: M30 Attending Callout
 ---
 
-The Home Hero.
