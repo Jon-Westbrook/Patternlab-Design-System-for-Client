@@ -1,8 +1,8 @@
 ---
-title: T04A Results Card View (Everything)
+title: T04B Results List View (Everything)
 ---
 
-This Results Card View shows the search results from a search input that is scoped to All Search Results, with the default card view activated. 
+This Results List View shows the search results from a search input that is scoped to All Search Results, with the default list view activated. 
 
-It is essentially the same template as other T04 variants, A or B, yet it logically loads the card view by default and has a mix of card types based on the result types. 
+Because the scope of the search is "everything", we default to List View in order to cope with the variance in styles, and potentially high number of search results. 
 
