@@ -1,13 +1,13 @@
 
 <div class="card">
-  <img class="member-card-img mt-4 mx-auto" src="{{ cards.memberCardImg }}" alt="{{ cards.memberName }}">
-  <div class="card-block">
-    <h3 class="card-title mt-3 display5 text-center"><strong>{{ cards.memberName }}</strong></h3>
-    <p class="display7 secondary mt-3 mb-0 text-center">{{ cards.memberTitle }}</p>
-    <p class="display7 secondary mt-2 text-center">{{ cards.memberCompany }}</p>
-    <p class="display7 secondary mt-4 text-center">{{ cards.memberLocale }}</p>
+  <img class="member-card-img mt-4 mt-lg-5 mx-auto" src="{{ cards.memberCardImg }}" alt="{{ cards.memberName }}">
+  <div class="card-block py-0">
+    <a href="#" class="profile-link"><h3 class="card-title mt-4 mt-lg-5 mb-0 display6 bold text-center">{{ cards.memberName }}</h3></a>
+    <p class="display8 secondary mt-2 mb-0 text-center" style="max-height: 24px; overflow: hidden;">{{ cards.memberTitle }}</p>
+    <p class="display8 secondary mt-1 mb-0 text-center">{{ cards.memberLocale }}</p>
+    <p class="display8 secondary mt-3 mb-0 text-center accent">{{ cards.memberCompany }}</p>
   </div>
-  <div class="card-icons mt-3 mt-md-5 p-3 w-100 d-flex justify-content-end">
+  <div class="card-icons mt-3 p-3 w-100 d-flex justify-content-end">
     <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
     <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
   </div>

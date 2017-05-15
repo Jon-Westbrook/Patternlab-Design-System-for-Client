@@ -15,10 +15,11 @@
       "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit"
   },
   "cards": {
-    "articleCardCat": "SCT",
-    "articleCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
-    "articleCardImg": "../../images/article-thumb-FPO@2x.png",
-    "articleThumb": "Article Thumb",
+    "generalCardCat": "SCT",
+    "generalCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
+    "generalCardImg": "../../images/article-thumb-FPO@2x.png",
+    "generalThumb": "Article Thumb",
+    "generalDesc": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "shareImg": "../../images/icon-share.svg",
     "saveImg": "../../images/icon-save.svg",
     "eventTitle": "New England Conference & Deal Making",

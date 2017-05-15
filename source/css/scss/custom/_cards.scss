@@ -1,11 +1,27 @@
 
-.card:not(:first-of-type) {
-  margin-top: 2rem;
+// .card:not(:first-of-type) {
+//   margin-top: 2rem;
+// }
+
+// #cards .row:not(:first-of-type) {
+//   margin-top: 2rem;
+// } 
+
+.card {
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
 }
 
+
 .card-img-top {
-  height: 145px;
+  height: 120px;
   object-fit: cover;
+  @include media-breakpoint-only(md) {
+    height: 133px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 148px;
+  }
 }
 
 .card-img-right {
@@ -22,13 +38,14 @@
   }
 }
 
-#cards .row:not(:first-of-type) {
-  margin-top: 2rem;
-} 
+.card-link {
+  color: $primary2;
+}
+
+// 
 
 
-// Article Cards
-.art-list-item-icons {
+.gen-list-item-icons {
   position: absolute;
   right: 1.25rem;
   bottom: 1.25rem;
@@ -42,7 +59,7 @@
 
 
 // Event Cards
-.event-card > .card {
+.event-card {
   border-top: 6px solid $primary1;
 }
 
@@ -59,22 +76,27 @@
 
 // Member Cards
 .member-card-img {
-  height: 70px;
-  width: 70px;
-  @include media-breakpoint-up(md) {
-    height: 100px;
-    width: 100px;
+  height: 80px;
+  width: 80px;
+  @include media-breakpoint-up(lg) {
+    height: 104px;
+    width: 104px;
   }
+}
+
+.profile-link {
+  color: $primary2 !important;
 }
 
 
 // Publication Cards
 .publication-card-img {
-  height: 120px;
-  width: 90pxpx;
+  height: 78px;
+  width: 60px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
   object-fit: cover;
-  @include media-breakpoint-up(md) {
-    height: 120px;
-    width: 90px;
+  @include media-breakpoint-up(lg) {
+    height: 132px;
+    width: 104px;
   }
 }

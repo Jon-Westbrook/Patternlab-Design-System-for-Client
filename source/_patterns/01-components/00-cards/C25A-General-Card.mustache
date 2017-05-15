@@ -1,11 +1,14 @@
 
-<div class="card">
-  <img class="card-img-top" src="{{ cards.articleCardImg }}" alt="{{ cards.articleThumb }}">
-  <div class="card-block col-10 pt-0 pb-0">
-    <p class="display7 secondary mt-4">{{ cards.articleCardCat }}</p>
-    <h3 class="card-title mt-2">{{ cards.articleCardTitle }}</h3>
-  </div>
-  <div class="card-icons m-0 mt-6 p-3 w-100 d-flex justify-content-end">
+<div class="card general-card">
+  <a href="#" class="card-link">
+    <img class="card-img-top w-100" src="{{ cards.generalCardImg }}" alt="{{ cards.articleThumb }}">
+    <div class="card-block py-0">
+       <p class="display9 secondary mt-4 mb-0 ">{{ cards.generalCardCat }}</p>
+       <h3 class="display6 bold d6-truncate3 card-title mt-2 mb-0">{{ cards.generalCardTitle }}</h3>
+       <p class="display8 d8-truncate1 secondary mt-2 mb-0">{{ cards.generalDesc }}</p>
+    </div>
+  </a> 
+  <div class="card-icons mt-3 p-3 w-100 d-flex justify-content-end">
     <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
     <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
   </div>
