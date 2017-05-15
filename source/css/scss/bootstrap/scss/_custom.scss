@@ -155,7 +155,7 @@ $spacers: (
 
 $link-color:            $primary1;
 $link-decoration:       none;
-$link-hover-color:      $primary1;
+$link-hover-color:      rgba(0, 0, 0, .4);
 $link-hover-decoration: none;
 
 
@@ -301,19 +301,19 @@ $display4-line-height-lg : (44 / 16)+rem;
 $display4-line-height-xl : (44 / 16)+rem;
 
 $display5-size-xs        : (20 / 16)+rem;
-$display5-size-sm        : (16 / 16)+rem;
-$display5-size-md        : (16 / 16)+rem;
+$display5-size-sm        : (20 / 16)+rem;
+$display5-size-md        : (20 / 16)+rem;
 $display5-size-lg        : (24 / 16)+rem;
 $display5-size-xl        : (28 / 16)+rem;
-$display5-line-height-xs : (28 / 16)+rem;
-$display5-line-height-sm : (20 / 16)+rem;
-$display5-line-height-md : (20 / 16)+rem;
-$display5-line-height-lg : (36 / 16)+rem;
+$display5-line-height-xs : (24 / 16)+rem;
+$display5-line-height-sm : (24 / 16)+rem;
+$display5-line-height-md : (24 / 16)+rem;
+$display5-line-height-lg : (32 / 16)+rem;
 $display5-line-height-xl : (36 / 16)+rem;
 
-$display6-size-xs        : (16 / 16)+rem;
-$display6-size-sm        : (16 / 16)+rem;
-$display6-size-md        : (16 / 16)+rem;
+$display6-size-xs        : (20 / 16)+rem;
+$display6-size-sm        : (20 / 16)+rem;
+$display6-size-md        : (20 / 16)+rem;
 $display6-size-lg        : (24 / 16)+rem;
 $display6-size-xl        : (24 / 16)+rem;
 $display6-line-height-xs : (24 / 16)+rem;
@@ -752,7 +752,7 @@ $pagination-color:                     $primary2;
 
 // // Cards
 
-// $card-spacer-x:            1.25rem;
+$card-spacer-x:            2rem;
 // $card-spacer-y:            .75rem;
 // $card-border-width:        1px;
 // $card-border-radius:       $border-radius;
