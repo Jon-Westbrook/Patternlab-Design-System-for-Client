@@ -1,8 +1,9 @@
 
 .big-red {
-    background: url('../images/promo-red-arrow-bg.jpg') no-repeat;
+    background: url('../images/promo-red-arrow-bg.svg') no-repeat;
     background-position: left center;  
-    background-size: cover; 
+    background-size: cover;
+    background-color: $primary1; 
     @include media-breakpoint-up(md) {
       background-position: center center;
     }

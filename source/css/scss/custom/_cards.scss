@@ -95,6 +95,10 @@
   width: 60px;
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
   object-fit: cover;
+  @include media-breakpoint-only(md) {
+    height: 92px;
+    width: 80px;
+  }
   @include media-breakpoint-up(lg) {
     height: 132px;
     width: 104px;
