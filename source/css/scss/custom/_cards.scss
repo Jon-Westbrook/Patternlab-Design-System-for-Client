@@ -8,47 +8,54 @@
 // } 
 
 .card {
-  margin-bottom: 2rem;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
-  position: relative;
-  height: 350px;
-  @include media-breakpoint-up(sm) {
-    height: 360px;
-  }
-  @include media-breakpoint-up(lg) {
-    height: 420px;
-  }
-  @include media-breakpoint-up(xl) {
-    height: 430px;
-  }
+	margin-bottom: 2rem;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
+	position: relative;
+	height: 350px;
+	@include media-breakpoint-up(sm) {
+		height: 360px;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 420px;
+	}
+	@include media-breakpoint-up(xl) {
+		height: 430px;
+	}
 }
 
 .list-card {
-  margin-bottom: 2rem;
-  border-top: 1px solid $tertiary3;
-  position: relative;
+	margin-bottom: 2rem;
+	border-top: 1px solid $tertiary3;
+	position: relative;
 }
 
 .card-img-right {
-  object-fit: cover;
-  height: 65px;
-  width: 65px;
+	object-fit: cover;
+	height: 48px;
+	width: 48px;
+	@include media-breakpoint-up(sm) {
+		height: 65px;
+		width: 65px;
+	}
+	&.download {
+		object-fit: initial;
+	}
 }
 
 .card-icons {
-  border-top: 1px solid $gray-border;
-  position: absolute;
-  bottom: 0;
-  img {
-    cursor: pointer;
-    &:hover {
-      opacity: .7;
-    }
-  }
+	border-top: 1px solid $gray-border;
+	position: absolute;
+	bottom: 0;
+	img {
+		cursor: pointer;
+		&:hover {
+			opacity: .7;
+		}
+	}
 }
 
 .card-link {
-  color: $primary2;
+	color: $primary2;
 }
 
 .card-title {
@@ -57,53 +64,58 @@
 // General Card
 
 .card-img-top {
-  height: 120px;
-  object-fit: cover;
-  @include media-breakpoint-only(md) {
-    height: 124px;
-  }
-  @include media-breakpoint-up(lg) {
-    height: 140px;
-  }
+	height: 120px;
+	object-fit: cover;
+	@include media-breakpoint-only(md) {
+		height: 124px;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 140px;
+	}
 }
 
 .gen-list-item-icons {
-  position: absolute;
-  right: 1.25rem;
-  bottom: 3.25rem;
-  img {
-    cursor: pointer;
-    &:hover {
-      opacity: .7;
-    }
-  }
+	position: relative;
+	margin-left: 20px;
+	@include media-breakpoint-up(md) {
+		position: absolute;
+		right: 1.25rem;
+		bottom: 0;
+		top: 0;
+		img {
+			cursor: pointer;
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}
 }
 
 
 // Event Cards
 .event-card {
-  border-top: 6px solid $primary1;
+	border-top: 6px solid $primary1;
 }
 
 .event-card-list {
-  border-left: 6px solid $primary1;
+	border-left: 6px solid $primary1;
 }
 
 @include media-breakpoint-down(sm) {
-  .event-card:not(:first-of-type) {
-    margin-top: 2rem;
-  }
+	.event-card:not(:first-of-type) {
+		margin-top: 2rem;
+	}
 }
 
 
 // Member Cards
 .member-card-img {
-  height: 80px;
-  width: 80px;
-  @include media-breakpoint-up(xl) {
-    height: 104px;
-    width: 104px;
-  }
+	height: 80px;
+	width: 80px;
+	@include media-breakpoint-up(xl) {
+		height: 104px;
+		width: 104px;
+	}
 }
 
 // .member-name {
@@ -119,7 +131,7 @@
 // }
 
 .profile-link {
-  color: $primary2 !important;
+	color: $primary2 !important;
 }
 
 
@@ -127,16 +139,16 @@
 
 // Publication Cards
 .publication-card-img {
-  height: 78px;
-  width: 60px;
-  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
-  object-fit: cover;
-  @include media-breakpoint-only(md) {
-    height: 92px;
-    width: 70px;
-  }
-  @include media-breakpoint-up(lg) {
-    height: 132px;
-    width: 104px;
-  }
+	height: 78px;
+	width: 60px;
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
+	object-fit: cover;
+	@include media-breakpoint-only(md) {
+		height: 92px;
+		width: 70px;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 132px;
+		width: 104px;
+	}
 }

@@ -1,18 +1,21 @@
 
 <div class="list-card py-4 my-0 w-100">
-  <div class="row">
-    <div class="col-2 col-md-1 my-0 py-0">
-      <img src="{{ cards.memberCardImg }}" alt="Member Avatar" class="p-0 card-img-right">
-    </div>
-    <div class="col-10 col-md-8">
-      <div class="card-block m-0 p-0">        
-        <h3 class="card-title mt-1 mb-0 ml-0 mx-0 py-0 display8 bold">{{ cards.generalCardTitle }}</h3>
-        <p class="display9 secondary mt-1">{{ cards.generalCardCat }}</p>
-      </div>
-    </div>
-  </div>
-  <div class="gen-list-item-icons hidden-sm-down">
-    <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
-    <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
-  </div>
+	<div class="row">
+		<div class="col-2 col-md-1 my-0 pt-1">
+			<img src="{{ cards.memberCardImg }}" alt="Member Avatar" class="p-0 card-img-right">
+		</div>
+		<div class="col-10 col-md-8">
+			<div class="card-block m-0 ml-md-3 p-0 pl-2 pl-sm-0">
+				<h3 class="card-title mt-1 mb-0 ml-0 mx-0 py-0 display8 bold">{{ cards.generalCardTitle }}</h3>
+				<p class="display9 secondary mt-1">{{ cards.generalCardCat }}</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2 hidden-md-up">&nbsp;</div>
+		<div class="col-8 col-md-2 gen-list-item-icons d-inline-flex align-items-center ml-3 my-md-0 p-0">
+			<img class="mr-5 ml-2" src="{{ cards.shareImg }}" alt="Share Icon">
+			<img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
+		</div>
+	</div>
 </div>

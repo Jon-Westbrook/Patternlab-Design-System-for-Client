@@ -1,6 +1,6 @@
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
-@include debug;
+// @include debug;
 
 * {
   text-size-adjust: none;
@@ -19,15 +19,12 @@ body {
   font-family: $font-family-sans-serif;
 }
 
+
 // Links
 
 a {
   transition: all 0.2s ease-in-out;
 }
-
-// .active a {
-//   color: $primary1;
-// }
 
 
 // Button Override: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
@@ -35,8 +32,14 @@ a {
   color: $primary1;
 }
 
+// Kill Bootstrap Gutters - Recommended by BS, only for rows
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
 
-
-
-
-
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
