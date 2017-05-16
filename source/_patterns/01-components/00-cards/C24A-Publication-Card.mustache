@@ -1,10 +1,12 @@
 
 <div class="card">
-  <img class="publication-card-img mt-4 mx-auto" src="{{ cards.pubCardImg }}" alt="{{ cards.pubCardAlt }}">
-  <div class="card-block py-0">
-    <h3 class="card-title mt-4 mb-0 display6 d6-truncate3 bold">{{ cards.pubTitle }}</h3>
-    <p class="display8 secondary mt-3 mb-0">{{ cards.pubCat }}</p>
-  </div>
+  <a href="#" class="card-link">
+    <img class="publication-card-img mt-4 d-block mx-auto" src="{{ cards.pubCardImg }}" alt="{{ cards.pubCardAlt }}">
+    <div class="card-block py-0">
+      <h3 class="card-title mt-4 mb-0 display6 d6-truncate3 bold">{{ cards.pubTitle }}</h3>
+      <p class="display8 secondary mt-3 mb-0">{{ cards.pubCat }}</p>
+    </div>
+  </a>  
   <div class="card-icons mt-3 p-3 w-100 d-flex justify-content-end">
     <img class="mr-5" src="{{ cards.shareImg }}" alt="Share Icon">
     <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
