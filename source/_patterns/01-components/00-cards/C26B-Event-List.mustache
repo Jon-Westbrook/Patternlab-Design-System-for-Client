@@ -1,19 +1,14 @@
 
-<div class="card event-card-list w-100">
+<div class="list-card py-4 my-0 w-100">
   <div class="row">
-    <div class="col-4 col-md-3 pl-0 pr-0 py-3">
-      &nbsp;
+    <div class="col-2 col-md-1 my-0 py-0">
+      <img src="{{ cards.eventIcon }}" alt="" class="pt-3 pr-2 pl-2 card-img-right">
     </div>
-    <div class="col-6 col-md-3 m-0">
-      <div class="card-block my-4 p-0">
-        <h3 class="card-title text-primary display6"><strong>{{ cards.eventTitle }}</strong></h3>
+    <div class="col-10 col-md-8">
+      <div class="card-block m-0 p-0">        
+        <h3 class="card-title mt-1 mb-0 ml-0 mx-0 py-0 display8 bold">{{ cards.eventTitle }}</h3>
+        <p class="display9 secondary mt-1">{{ cards.eventURL }}</p>
       </div>
-    </div>
-    <div class="col-1 hidden-sm-down">&nbsp;</div>
-    <div class="col-2 my-4 p-0 hidden-sm-down">
-      <p class="display8 secondary mt-1 mb-0">{{ cards.eventDate }}</p>
-      <p class="display8 secondary m-0">{{ cards.eventLocale }}</p>
-      <p class="display8 secondary m-0">{{ cards.eventCity }}</p>
     </div>
   </div>
   <div class="gen-list-item-icons hidden-sm-down">
@@ -21,3 +16,4 @@
     <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
   </div>
 </div>
+
