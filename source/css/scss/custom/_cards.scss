@@ -12,6 +12,9 @@
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
   position: relative;
   height: 350px;
+  @include media-breakpoint-up(sm) {
+    height: 360px;
+  }
   @include media-breakpoint-up(lg) {
     height: 420px;
   }
@@ -20,9 +23,16 @@
   }
 }
 
+.list-card {
+  margin-bottom: 2rem;
+  border-top: 1px solid $tertiary3;
+  position: relative;
+}
 
 .card-img-right {
   object-fit: cover;
+  height: 65px;
+  width: 65px;
 }
 
 .card-icons {
@@ -60,7 +70,7 @@
 .gen-list-item-icons {
   position: absolute;
   right: 1.25rem;
-  bottom: 1.25rem;
+  bottom: 3.25rem;
   img {
     cursor: pointer;
     &:hover {
