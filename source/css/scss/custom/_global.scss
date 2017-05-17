@@ -41,6 +41,10 @@ a {
   color: $primary1;
 }
 
+.btn-secondary:hover {
+  color: $link-hover-color;
+}
+
 // Kill Bootstrap Gutters - Recommended by BS, only for rows
 .no-gutters {
   margin-right: 0;

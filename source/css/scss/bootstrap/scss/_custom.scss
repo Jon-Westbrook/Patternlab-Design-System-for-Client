@@ -155,7 +155,7 @@ $spacers: (
 
 $link-color:            $primary1;
 $link-decoration:       none;
-$link-hover-color:      #b5132c;
+$link-hover-color:      darken($primary1, 10%);
 $link-hover-decoration: none;
 
 
