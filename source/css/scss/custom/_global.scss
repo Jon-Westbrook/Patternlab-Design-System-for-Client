@@ -1,6 +1,6 @@
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
-@include debug;
+// @include debug;
 
 * {
   text-size-adjust: none;
@@ -45,15 +45,26 @@ a {
   color: $link-hover-color;
 }
 
-// Kill Bootstrap Gutters - Recommended by BS, only for rows
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+// Dropdowns
 
-  > .col,
-  > [class*="col-"] {
+.dropdown-menu {
+  box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.3);
+} 
+
+
+// Kill Bootstrap Gutters - Recommended by BS, only for rows
+.no-xs-guts {
+  @include media-breakpoint-down(xs) {
+    margin-right: 0;
+    margin-left: 0;
     padding-right: 0;
     padding-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
   }
 }
 
