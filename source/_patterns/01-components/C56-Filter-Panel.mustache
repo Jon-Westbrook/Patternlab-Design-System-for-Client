@@ -2,13 +2,10 @@
 <!-- Filters Desktop -->
 <div class="container-fluid bg-gray-ultra-light">
   <div class="container hidden-sm-down">
-    <ul class="nav nav-pills listing-filters pt-md-6 pb-md-4">
-      <li class="nav-item btn-filter mr-3 py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
+    <ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
+      <li class="nav-item btn-filter mr-auto py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
           <span class="mr-3 pl-3" >Filter</span>
       </li>
-      <!-- <li class="nav-item hidden-sm-down mr-auto my-auto">
-        <span class="resultStats">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
-      </li> -->
        <li class="nav-item cards hidden-sm-down border-right-0">
         <span>{{ resultCount }}</span>
       </li>
@@ -27,6 +24,9 @@
         <a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
       </li>
     </ul>
+    <div class="nav-item hidden-sm-down mr-auto my-auto pb-md-4">
+      <span class="resultStats">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
+    </div>
   </div>
 </div>
 
