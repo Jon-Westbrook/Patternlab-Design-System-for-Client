@@ -28,7 +28,7 @@
     }
   },
   "styleGuideExcludes": [],
-  "defaultPattern": "all",
+  "defaultPattern": "modules-M51-Cover-Page",
   "defaultShowPatternInfo": false,
   "cleanPublic": true,
   "patternExtension": "mustache",
