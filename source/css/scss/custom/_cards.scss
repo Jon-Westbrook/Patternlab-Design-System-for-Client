@@ -12,6 +12,7 @@
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
 	position: relative;
 	height: 350px;
+	transition: 0.3s;
 	@include media-breakpoint-up(sm) {
 		height: 360px;
 	}
@@ -21,6 +22,11 @@
 	@include media-breakpoint-up(xl) {
 		height: 430px;
 	}
+	&:hover {
+		box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+		transform: translateY(-4px);
+	}
+
 }
 
 .list-card {
@@ -130,8 +136,15 @@
 //   overflow: hidden;
 // }
 
-.profile-link {
+.profile-name-link {
 	color: $primary2 !important;
+	&:hover {
+		color: $primary1 !important;
+	}
+}
+
+.profile-co-link {
+
 }
 
 

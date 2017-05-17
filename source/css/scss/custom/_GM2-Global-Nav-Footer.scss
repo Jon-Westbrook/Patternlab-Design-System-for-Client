@@ -1,0 +1,11 @@
+
+.footer {
+	.nav-link {
+		opacity: .6;
+		color: $primary3 !important;
+		&:hover {
+			color: $primary3;
+			opacity: 1;
+		}
+	}
+}
