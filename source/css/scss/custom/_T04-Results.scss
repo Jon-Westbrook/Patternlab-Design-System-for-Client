@@ -7,7 +7,7 @@
 .listing-filters {
 
   .btn-filter {
-    background-color: #fff;
+    background-color: $tertiary3;
     border: 1px solid $gray;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -22,11 +22,11 @@
       transition: all 0.2s ease-in-out;
     }
     &:hover {
-      background: $primary1;
-      color: $primary3;
+      background: darken($tertiary3, 10%);
+      color: $primary2;
       transition: all 0.2s ease-in-out;
       &:after {
-        background: url('../../images/filter-white.svg') no-repeat;
+        // background: url('../../images/filter-white.svg') no-repeat;
         transition: all 0.2s ease-in-out;
       }
     }
@@ -56,10 +56,14 @@
       width: 24px;
       padding: 20px;
       border: 1px solid $gray-lightest;
-      background: url('../images/cards.svg') no-repeat center center;
+      background: url('../images/cards-disabled.svg') no-repeat center center;
       border-right: 0;
       &.active {
         background: url('../images/cards-active.svg') no-repeat center center;
+        cursor: default;
+      }
+      &:hover {
+        background: url('../images/cards-hover.svg') no-repeat center center;
         cursor: default;
       }
     }
@@ -72,9 +76,13 @@
       width: 24px;
       padding: 20px;
       border: 1px solid $gray-lightest;
-      background: url('../images/list.svg') no-repeat center center;
+      background: url('../images/list-disabled.svg') no-repeat center center;
       &.active {
         background: url('../images/list-active.svg') no-repeat center center;
+        cursor: default;
+      }
+      &:hover {
+        background: url('../images/list-hover.svg') no-repeat center center;
         cursor: default;
       }
     }
