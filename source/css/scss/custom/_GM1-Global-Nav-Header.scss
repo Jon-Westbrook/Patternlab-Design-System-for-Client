@@ -1,200 +1,205 @@
 .header-menus {
-  .collapse {
-    background: $primary3;
-    &.show {
-      @include media-breakpoint-down(sm) {
-        border-bottom: 1px solid $tertiary3;
-      } 
-    }
-  }
+	.collapse {
+		background: $primary3;
+		&.show {
+			@include media-breakpoint-down(sm) {
+				border-bottom: 1px solid $tertiary3;
+			} 
+		}
+	}
 }
 
 .navbar {
-  background: $primary3;
-  z-index: $zindex-navbar;
-  @include media-breakpoint-up(md) {
-    box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
-  }
+	background: $primary3;
+	z-index: $zindex-navbar;
+	@include media-breakpoint-up(md) {
+		box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
+	}
 }
 
 .navbar > .container {
-  @include media-breakpoint-down(sm) {
-    width: 100%;
-  }
+	@include media-breakpoint-down(sm) {
+		width: 100%;
+	}
 }
 
 .header-menus {
 
-  .navbar-nav {
-    width: 100%;
-    @include media-breakpoint-up(md) {
-      width: auto;
-      margin-right: 0;
-      margin-left: 0;
-    }
-  }
+	.navbar-nav {
+		width: 100%;
+		@include media-breakpoint-up(md) {
+			width: auto;
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
 
-  .nav-item:nth-last-child(2) .dropdown-menu {
-    border-bottom: 0;
-  }
+	.nav-item:nth-last-child(2) .dropdown-menu {
+		border-bottom: 0;
+	}
 
-  .nav-link {
-    margin-right: 17px;
-    margin-left: 17px;
-    @include media-breakpoint-up(md) {
-      margin-right: 0;
-      margin-left: 0;
-    }
-    &.active {
-      color: $primary1;
-      @include media-breakpoint-up(md) {
-        border-bottom: 3px solid $primary1;
-      }
-    }
-    &:hover {
-      color: #b5132c !important;
-    }
-  }
-  
-  .mainMenu {
-    .nav-item {
-      .nav-link {
-        @include media-breakpoint-down(sm) {
-          &:after {
-            content: "";
-            display: block;
-            background: url('../../images/down-arrow.svg') no-repeat;
-            width: 9px;
-            height: 9px;
-            float: right;
-            margin: 8px 4px 0 0;
-            transition: all 0.2s ease-in-out;
-          }
-        }
-      }
-      @include media-breakpoint-down(sm) {
-        &.show {
-          .nav-link {
-            &:after {
-              content: "";
-              display: block;
-              background: url('../../images/up-arrow.svg') no-repeat;
-              width: 9px;
-              height: 9px;
-              float: right;
-              margin: 8px 4px 0 0;
-              transition: all 0.2s ease-in-out;
-            }
-          }
-        }
-      }
-    }
-  }
+	.nav-link {
+		margin-right: 17px;
+		margin-left: 17px;
+		@include media-breakpoint-up(md) {
+			margin-right: 0;
+			margin-left: 0;
+		}
+		&.active {
+			color: $primary1;
+			@include media-breakpoint-up(md) {
+				border-bottom: 3px solid $primary1;
+			}
+		}
+		&:hover {
+			color: #b5132c !important;
+		}
+	}
+	
+	.mainMenu {
+		.nav-item {
+			.nav-link {
+				@include media-breakpoint-down(sm) {
+					&:after {
+						content: "";
+						display: block;
+						background: url('../../images/down-arrow.svg') no-repeat;
+						width: 9px;
+						height: 9px;
+						float: right;
+						margin: 8px 4px 0 0;
+						transition: all 0.2s ease-in-out;
+					}
+				}
+			}
+			@include media-breakpoint-down(sm) {
+				&.show {
+					.nav-link {
+						&:after {
+							content: "";
+							display: block;
+							background: url('../../images/up-arrow.svg') no-repeat;
+							width: 9px;
+							height: 9px;
+							float: right;
+							margin: 8px 4px 0 0;
+							transition: all 0.2s ease-in-out;
+						}
+					}
+				}
+			}
+		}
+	}
 
-  .topMenu {
-    .locations {
-      .nav-link {
-        &:after {
-          content: '';
-          display: block;
-          background: url('../../images/down-arrow.svg') no-repeat;
-          width: 9px;
-          height: 9px;
-          float: right;
-          margin: 8px 4px 0 0;
-          @include media-breakpoint-up(md) {
-            margin: 6px 2px 0 4px;
-          }
-        }
-      }
-      &.show {
-        .nav-link {
-          &:after {
-            content: '';
-            display: block;
-            background: url('../../images/up-arrow.svg') no-repeat;
-            width: 9px;
-            height: 9px;
-            float: right;
-            margin: 8px 4px 0 0;
-            @include media-breakpoint-up(md) {
-              margin: 6px 2px 0 4px;
-            }
-          }
-        }
-      }
-    }
-    .dropdown-menu {
-      background-color: $primary3;
-      border: 0;
-      border-top: 1px solid $tertiary3;
-      @include media-breakpoint-up(md) {
-        border: 1px solid $tertiary3;
-        top: 30px;
-      }
-    }
-  }
+	.mainMenu .search-icon {
+		width: 13.3px;
+		height: 13.6px;
+		transition: all 0.2s ease-in-out;
+		background: url('../../images/magnifying-glass.svg') no-repeat;
+		&:hover {
+			background: url('../../images/magnifying-glass-red.svg') no-repeat;
+		}
+	}
 
-  .topMenu li {
-    font-size: 1rem;
-    color: $primary2;
-    @include media-breakpoint-up(md) {
-      font-size: .75rem;
-    }
-    @include media-breakpoint-down(sm) {
-      &:nth-last-child(1) .dropdown-menu {
-        border-bottom: 0;
-      }
-    }
-  }
-}
+	.topMenu {
+		.locations {
+			.nav-link {
+				&:after {
+					content: '';
+					display: block;
+					background: url('../../images/down-arrow.svg') no-repeat;
+					width: 9px;
+					height: 9px;
+					float: right;
+					margin: 8px 4px 0 0;
+					@include media-breakpoint-up(md) {
+						margin: 6px 2px 0 4px;
+					}
+				}
+			}
+			&.show {
+				.nav-link {
+					&:after {
+						content: '';
+						display: block;
+						background: url('../../images/up-arrow.svg') no-repeat;
+						width: 9px;
+						height: 9px;
+						float: right;
+						margin: 8px 4px 0 0;
+						@include media-breakpoint-up(md) {
+							margin: 6px 2px 0 4px;
+						}
+					}
+				}
+			}
+		}
+		.dropdown-menu {
+			background-color: $primary3;
+			border: 0;
+			border-top: 1px solid $tertiary3;
+			@include media-breakpoint-up(md) {
+				border: 1px solid $tertiary3;
+				top: 30px;
+			}
+		}
+	}
 
-.search-icon {
-  margin-top: -4px;
-  width: 17px;
+	.topMenu li {
+		font-size: 1rem;
+		color: $primary2;
+		@include media-breakpoint-up(md) {
+			font-size: .75rem;
+		}
+		@include media-breakpoint-down(sm) {
+			&:nth-last-child(1) .dropdown-menu {
+				border-bottom: 0;
+			}
+		}
+	}
 }
 
 .icsc-logo {
-  width: 32px;
-  height: 29px;
-  background: url('../../images/icsc-mobile-logo.svg') no-repeat;
-  background-size: contain;
-  @include media-breakpoint-up(md) {
-    height: 72px;
-    width: 56px;
-    background: url('../../images/ICSC-logo.svg') no-repeat;
-    background-size: contain;
-  }
+	width: 32px;
+	height: 29px;
+	background: url('../../images/icsc-mobile-logo.svg') no-repeat;
+	background-size: contain;
+	@include media-breakpoint-up(md) {
+		height: 72px;
+		width: 56px;
+		background: url('../../images/ICSC-logo.svg') no-repeat;
+		background-size: contain;
+	}
 }
 
 .avatar {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
 }
 
 .mobile-buttons {
-  box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
+	box-shadow: 0 8px 6px -8px rgba(160, 160, 160, 0.67);
 }
 
 .nav-divider {
-  height: 100%;
-  border-left: 2px solid $tertiary3;
+	height: 100%;
+	border-left: 2px solid $tertiary3;
 }
 
 .button-group {
-  width: 70px;
-  height: 40px;
-  // background: green;
-  @include media-breakpoint-up(md) {
-    width: auto;
-  }
+	width: 70px;
+	height: 40px;
+	// background: green;
+	@include media-breakpoint-up(md) {
+		width: auto;
+	}
 }
 
 .megaMenu {
-  .related {
-    border-left: 1px solid $tertiary3;
-  }
+	.related {
+		border-left: 1px solid $tertiary3;
+	}
 }
 
 
