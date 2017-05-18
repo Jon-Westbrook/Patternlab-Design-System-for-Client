@@ -1,6 +1,6 @@
 
 <!-- Filters Mobile -->
-<div class="container-fluid hidden-md-up pb-3">
+<div class="container-fluid hidden-md-up pt-3 pb-3 bg-gray-ultra-light">
   <div class="container no-xs-guts">
     <ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
       <li class="nav-item btn-filter small mr-auto py-2 px-2 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
@@ -31,7 +31,7 @@
 </div>
 
 <!-- Filters Desktop -->
-<div class="container-fluid hidden-sm-down">
+<div class="container-fluid  hidden-sm-down">
   <div class="container">
     <ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
       <li class="nav-item btn-filter mr-auto py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
@@ -55,9 +55,9 @@
         <a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
       </li>
     </ul>
-    <div class="nav-item hidden-sm-down mr-auto my-auto pb-md-4">
+    <!-- <div class="nav-item hidden-sm-down mr-auto my-auto pb-md-4">
       <span class="resultStats">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -65,53 +65,53 @@
 <!-- Filter Panel --> 
 <div class="container-fluid collapse bg-gray-dark" id="filterDrawer">
   <div class="container py-4">
-    <div class="row">
-      <div class="col">
-        <h3 class="display7 text-primary">Location</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="#" class="dropdown"></a>
-        <form class="my-3">
-          <div class="form-group row"> 
-            <div class="col-1">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">
-                </label>
+    <a class="display6 light" data-toggle="collapse" href="#" data-target="#facet" aria-expanded="false" aria-controls="facet">
+      <span class="mr-5">+</span> Business Type
+    </a>
+    <div class="collapse" id="facet">
+      <div class="row light">
+        <div class="col-sm-4 ">
+          <a href="#" class="dropdown"></a>
+          <form class="my-3">
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
               </div>
+              <label class="col-9">Checkbox</label>
             </div>
-            <label class="col-9">Checkbox</label>
-          </div>
-          <div class="form-group row"> 
-            <div class="col-1">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">
-                </label>
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
               </div>
+              <label class="col-9">Checkbox</label>
             </div>
-            <label class="col-9">Checkbox</label>
-          </div>
-          <div class="form-group row"> 
-            <div class="col-1">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">
-                </label>
+            <div class="form-group row"> 
+              <div class="col-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+                  </label>
+                </div>
               </div>
+              <label class="col-9">Checkbox</label>
             </div>
-            <label class="col-9">Checkbox</label>
-          </div>
-        </form>
-      </div>
-      <div class="col-sm-4">
-        &nbsp;
-      </div>
-      <div class="col-sm-4">
-        &nbsp;
-      </div>
+          </form>
+        </div>
+        <div class="col-sm-4">
+          &nbsp;
+        </div>
+        <div class="col-sm-4">
+          &nbsp;
+        </div>
     </div>      
   </div>
+</div>
 </div>
