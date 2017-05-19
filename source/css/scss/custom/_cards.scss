@@ -116,9 +116,9 @@
 }
 
 .profile-name-link {
-	color: $primary2 !important;
+	color: $primary2;
 	&:hover {
-		color: $primary1 !important;
+		color: $link-hover-color;
 	}
 }
 
