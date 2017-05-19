@@ -1,4 +1,10 @@
 
+.filter-panel {
+	.btn {
+		padding: .75rem 0;
+	}
+}
+
 .facet {
 	font-weight: bold;
 	// &:not(.collapsed) {
@@ -53,3 +59,4 @@
 		margin-left: 17px;
 	}
 }
+
