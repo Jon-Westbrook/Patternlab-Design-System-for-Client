@@ -30,6 +30,7 @@
 
 .subFacet {
 	color: $primary3;
+	margin-left: 15px;
 	&:after {
 		content: '';
 		display: inline-block;
@@ -38,9 +39,17 @@
 		height: 8px;
 		margin-left: 32px;
 	}
+
 }
 
 .subFacetPanel {
 	background-color: $tertiary7;
 	border: 0;
+}
+
+.sub-fac-check {
+	margin-left: 24px;
+	@include media-breakpoint-up(md) {
+		margin-left: 17px;
+	}
 }

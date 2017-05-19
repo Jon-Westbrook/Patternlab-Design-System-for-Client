@@ -40,9 +40,11 @@
 			<li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
 				<a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list display8 p-0" data-toggle="dropdown" href="#">Best match</a>
 				<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
-					<a class="dropdown-item display8 my-3 pl-3 accent" href="#">Date</a>
-					<a class="dropdown-item display8 my-3 pl-3" href="#">Distance</a>
-					<a class="dropdown-item display8 my-3 pl-3" href="#">Favorite</a>
+					<a class="dropdown-item display8 my-3 pl-3 accent" href="#">Best match</a>
+					<a class="dropdown-item display8 my-3 pl-3" href="#">Recently Added</a>
+					<a class="dropdown-item display8 my-3 pl-3" href="#">Popularity</a>
+					<a class="dropdown-item display8 my-3 pl-3" href="#">Title (A-Z)</a>
+					<a class="dropdown-item display8 my-3 pl-3" href="#">Title (Z-A)</a>
 				</div>
 			</li>
 			<li class="nav-item cards hidden-sm-down border-right-0 my-auto">
@@ -57,7 +59,7 @@
 
 
 <!-- Filter Panel --> 
-<div class="container-fluid collapse show bg-gray-dark pb-5" id="filterPanel">
+<div class="container-fluid collapse bg-gray-dark" id="filterPanel">
 	
 	<div class="container py-4 no-xs-guts">
 		<!-- Button Bar --> 
@@ -70,18 +72,18 @@
 
 			<!-- Facet and Panel 1 --> 
 			<a class="display6 d-block light facet pb-3 " data-toggle="collapse" href="#" data-target="#facet" aria-expanded="false" aria-controls="facet" data-parent="#accordion">
-				<span class="mr-3 mr-md-5">+</span>Business Type
+				<span class="mr-3 ml-md-3 mr-md-5">+</span>Business Type
 			</a>
-			<div class="collapse show" id="facet">
+			<div class="collapse " id="facet">
 				<div class="row light">
 					<div class="col">
 						<form class="my-3">
 							<div class="form-group row"> 
 								
 								<!-- Checkbox -->
-								<div class="col-1">
+								<div class="col-1 ">
 									<div class="form-check">
-										<label class="form-check-label">
+										<label class="form-check-label sub-fac-check">
 											<input class="form-check-input" type="checkbox">
 										</label>
 									</div>
@@ -91,7 +93,7 @@
 								<a class="subFacetLink col-10" data-toggle="collapse" href="#" data-target="#subFacetPanel" aria-expanded="false" aria-controls="subFacetPanel" >
 									<label class="subFacet">Academic Institution</label>
 								</a>
-								<div class="collapse bg-gray subFacetPanel show" id="subFacetPanel">
+								<div class="collapse bg-gray w-100 subFacetPanel" id="subFacetPanel">
 									<div class="row p-4">
 										
 										<!-- Sub Facet Col and Input -->
@@ -140,9 +142,7 @@
 												<label class="col-10">Communication Systems, products, services</label>
 											</div>
 										</div>
-
-
-										
+										<!-- Sub Facet and Panel 1 --> 
 
 
 									</div>
@@ -152,31 +152,94 @@
 					</div>
 				</div>      
 			</div>
+			<!-- End Facet 1 --> 
 
-
-			<!-- Facet and Panel 2 --> 
-			<a class="display6 d-block light facet mt-3 pb-3" role="tab" data-toggle="collapse" href="#" data-target="#facet2" aria-expanded="false" aria-controls="facet2" data-parent="#accordion">
-				<span class="mr-3 mr-md-5">+</span>State / Province
+			<!-- Facet and Panel 1 --> 
+			<a class="display6 d-block light facet pb-3 " data-toggle="collapse" href="#" data-target="#facet" aria-expanded="false" aria-controls="facet" data-parent="#accordion">
+				<span class="mr-3 ml-md-3 mr-md-5">+</span>Business Type
 			</a>
-			<div class="collapse" id="facet2">
+			<div class="collapse " id="facet">
 				<div class="row light">
-					<div class="col-sm-4">
+					<div class="col">
 						<form class="my-3">
 							<div class="form-group row"> 
-								<div class="col-1">
+								
+								<!-- Checkbox -->
+								<div class="col-1 ">
 									<div class="form-check">
-										<label class="form-check-label">
+										<label class="form-check-label sub-fac-check">
 											<input class="form-check-input" type="checkbox">
 										</label>
 									</div>
 								</div>
-								<label class="col">Academic Institution</label>
+
+								<!-- Sub Facet and Panel 1 --> 
+								<a class="subFacetLink col-10" data-toggle="collapse" href="#" data-target="#subFacetPanel" aria-expanded="false" aria-controls="subFacetPanel" >
+									<label class="subFacet">Academic Institution</label>
+								</a>
+								<div class="collapse bg-gray w-100 subFacetPanel" id="subFacetPanel">
+									<div class="row p-4">
+										
+										<!-- Sub Facet Col and Input -->
+										<div class="col-md-6">
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input" type="checkbox">
+														</label>
+													</div>
+												</div>
+												<label class="col-10">Ceiling Systems, products</label>
+											</div>
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input" type="checkbox">
+														</label>
+													</div>
+												</div>
+												<label class="col-10">Communication Systems, products, services</label>
+											</div>
+										</div>
+
+										<div class="col-md-6"> 
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input" type="checkbox">
+														</label>
+													</div>
+												</div>
+												<label class="col-10">Ceiling Systems, products</label>
+											</div>
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="form-check-label">
+															<input class="form-check-input" type="checkbox">
+														</label>
+													</div>
+												</div>
+												<label class="col-10">Communication Systems, products, services</label>
+											</div>
+										</div>
+										<!-- Sub Facet and Panel 1 --> 
+
+
+									</div>
+								</div>
 							</div>
 						</form>
 					</div>
 				</div>      
 			</div>
+			<!-- End Facet 1 --> 
 
-			
-		</div>
+
+
+
+	</div>
 </div>
