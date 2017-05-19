@@ -3,6 +3,10 @@
 	.btn {
 		padding: .75rem 0;
 	}
+	.collapsing, .show {
+		border-top: 1px solid $primary3;
+		border-bottom: 1px solid $primary3;
+	}
 }
 
 .facet {
@@ -15,10 +19,7 @@
 	}
 }
 
-.collapsing, .show {
-		border-top: 1px solid $primary3;
-		border-bottom: 1px solid $primary3;
-}
+
 
 #filterPanel {
 	max-height: 900px;
