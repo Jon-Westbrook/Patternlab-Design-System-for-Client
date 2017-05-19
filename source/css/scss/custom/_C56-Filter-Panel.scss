@@ -11,6 +11,7 @@
 
 .collapsing, .show {
 		border-top: 1px solid $primary3;
+		border-bottom: 1px solid $primary3;
 }
 
 #filterPanel {
@@ -21,4 +22,25 @@
 #facet {
 	max-height: 800px;
   overflow-y: scroll;
+}
+
+.subFacetLink {
+	cursor: pointer;
+}
+
+.subFacet {
+	color: $primary3;
+	&:after {
+		content: '';
+		display: inline-block;
+		background: url('../../images/down-arrow-white.svg') no-repeat;
+		width: 11px;
+		height: 8px;
+		margin-left: 32px;
+	}
+}
+
+.subFacetPanel {
+	background-color: $tertiary7;
+	border: 0;
 }
