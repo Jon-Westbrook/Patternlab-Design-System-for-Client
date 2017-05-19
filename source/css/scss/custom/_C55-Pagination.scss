@@ -1,0 +1,24 @@
+
+.single {
+	width: 11.4px;
+	height: 8px;
+	object-fit: contain;
+	@include media-breakpoint-up(md) {
+		width: 14px;
+		height: 10.5px;
+	}
+}
+
+.double {
+	width: 14pxpx;
+	height: 8px;
+	object-fit: contain;
+	@include media-breakpoint-up(md) {
+		width: 14px;
+		height: 10.5px;
+	}
+}
+
+.page-link {
+	padding: .75rem 1.25rem;
+}
