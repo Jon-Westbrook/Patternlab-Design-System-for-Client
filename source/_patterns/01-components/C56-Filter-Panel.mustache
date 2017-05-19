@@ -1,117 +1,118 @@
 
 <!-- Filters Mobile -->
 <div class="container-fluid hidden-md-up pt-3 pb-3 bg-gray-ultra-light">
-  <div class="container no-xs-guts">
-    <ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
-      <li class="nav-item btn-filter small mr-auto py-2 px-2 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
-          <span class="mr-2 pl-3 display9" >Filter</span>
-      </li>
-       <li class="nav-item cards hidden-sm-down border-right-0">
-        <span>{{ resultCount }}</span>
-      </li>
-      <li class="nav-item dropdown d-inline-block my-auto mr-1">
-        <a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list small display9 p-0" data-toggle="dropdown" href="#">Best match</a>
-        <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
-          <a class="dropdown-item display8 my-3 pl-3 text-right accent" href="#">Date</a>
-          <a class="dropdown-item display8 my-3 pl-3 text-right " href="#">Distance</a>
-          <a class="dropdown-item display8 my-3 pl-3 text-right" href="#">Favorite</a>
-        </div>
-      </li>
-      <li class="nav-item cards border-right-0 my-auto">
-        <a class="nav-link" data-toggle="pill" href="#cards" role="tab"></a>
-      </li>
-      <li class="nav-item list hidden-sm-down my-auto">
-        <a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
-      </li>
-    </ul>
-    <div class="nav-item mr-auto mt-3 mb-0 p-0">
-      <span class="display9">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
-    </div>
-  </div>
+	<div class="container no-xs-guts">
+		<ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
+			<li class="nav-item btn-filter small mr-auto py-2 px-2 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterPanel" aria-expanded="false" aria-controls="filterPanel" >
+					<span class="mr-2 pl-3 display9" >Filter</span>
+			</li>
+			 <li class="nav-item cards hidden-sm-down border-right-0">
+				<span>{{ resultCount }}</span>
+			</li>
+			<li class="nav-item dropdown d-inline-block my-auto mr-1">
+				<a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list small display9 p-0" data-toggle="dropdown" href="#">Best match</a>
+				<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
+					<a class="dropdown-item display8 my-3 pl-3 text-right accent" href="#">Date</a>
+					<a class="dropdown-item display8 my-3 pl-3 text-right " href="#">Distance</a>
+					<a class="dropdown-item display8 my-3 pl-3 text-right" href="#">Favorite</a>
+				</div>
+			</li>
+			<li class="nav-item cards border-right-0 my-auto">
+				<a class="nav-link" data-toggle="pill" href="#cards" role="tab"></a>
+			</li>
+			<li class="nav-item list hidden-sm-down my-auto">
+				<a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
+			</li>
+		</ul>
+	</div>
 </div>
 
 <!-- Filters Desktop -->
-<div class="container-fluid  hidden-sm-down">
-  <div class="container">
-    <ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
-      <li class="nav-item btn-filter mr-auto py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterDrawer" aria-expanded="false" aria-controls="filterDrawer" >
-          <span class="mr-3 pl-3" >Filter</span>
-      </li>
-       <li class="nav-item cards hidden-sm-down border-right-0">
-        <span>{{ resultCount }}</span>
-      </li>
-      <li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
-        <a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list display8 p-0" data-toggle="dropdown" href="#">Best match</a>
-        <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
-          <a class="dropdown-item display8 my-3 pl-3 text-right accent" href="#">Date</a>
-          <a class="dropdown-item display8 my-3 pl-3 text-right " href="#">Distance</a>
-          <a class="dropdown-item display8 my-3 pl-3 text-right" href="#">Favorite</a>
-        </div>
-      </li>
-      <li class="nav-item cards hidden-sm-down border-right-0 my-auto">
-        <a class="nav-link" data-toggle="pill" href="#cards" role="tab"></a>
-      </li>
-      <li class="nav-item list hidden-sm-down my-auto">
-        <a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
-      </li>
-    </ul>
-    <!-- <div class="nav-item hidden-sm-down mr-auto my-auto pb-md-4">
-      <span class="resultStats">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
-    </div> -->
-  </div>
+<div class="container-fluid hidden-sm-down">
+	<div class="container">
+		<ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
+			<li class="nav-item btn-filter mr-auto py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterPanel" aria-expanded="false" aria-controls="filterPanel" >
+					<span class="mr-3 pl-3" >Filter</span>
+			</li>
+			 <li class="nav-item cards hidden-sm-down border-right-0">
+				<span>{{ resultCount }}</span>
+			</li>
+			<li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
+				<a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list display8 p-0" data-toggle="dropdown" href="#">Best match</a>
+				<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
+					<a class="dropdown-item display8 my-3 pl-3 text-right accent" href="#">Date</a>
+					<a class="dropdown-item display8 my-3 pl-3 text-right " href="#">Distance</a>
+					<a class="dropdown-item display8 my-3 pl-3 text-right" href="#">Favorite</a>
+				</div>
+			</li>
+			<li class="nav-item cards hidden-sm-down border-right-0 my-auto">
+				<a class="nav-link" data-toggle="pill" href="#cards" role="tab"></a>
+			</li>
+			<li class="nav-item list hidden-sm-down my-auto">
+				<a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
+			</li>
+		</ul>
+	</div>
 </div>
 
 
 <!-- Filter Panel --> 
-<div class="container-fluid collapse bg-gray-dark" id="filterDrawer">
-  <div class="container py-4">
-    <a class="display6 light" data-toggle="collapse" href="#" data-target="#facet" aria-expanded="false" aria-controls="facet">
-      <span class="mr-5">+</span> Business Type
-    </a>
-    <div class="collapse" id="facet">
-      <div class="row light">
-        <div class="col-sm-4 ">
-          <a href="#" class="dropdown"></a>
-          <form class="my-3">
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-            <div class="form-group row"> 
-              <div class="col-1">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">
-                  </label>
-                </div>
-              </div>
-              <label class="col-9">Checkbox</label>
-            </div>
-          </form>
-        </div>
-        <div class="col-sm-4">
-          &nbsp;
-        </div>
-        <div class="col-sm-4">
-          &nbsp;
-        </div>
-    </div>      
-  </div>
-</div>
+<div class="container-fluid collapse bg-gray-dark" id="filterPanel">
+	<div class="container py-4 no-xs-guts">
+		<!-- Button Bar --> 
+		<ul class="nav nav-pills d-flex mb-4 justify-content-end">
+			<li class="nav-item"><button class="btn btn-tertiary display9 mr-4">Apply</button></li>
+			<li class="nav-item"><button class="btn btn-tertiary display9 mr-4">Reset</button></li>
+			<li class="nav-item d-flex align-items-center"><button type="button" class="close" aria-label="Close" ><span aria-hidden="true">&times;</span></button></li>
+		</ul>
+		
+		<!-- Facet and Panel 1 --> 
+		<a class="display6 d-block light facet pb-3 " data-toggle="collapse" href="#" data-target="#facet" aria-expanded="false" aria-controls="facet">
+			<span class="mr-3 mr-md-5">+</span> Business Type
+		</a>
+		<div class="collapse" id="facet">
+			<div class="row light">
+				<div class="col-sm-4 ">
+					<form class="my-3">
+						<div class="form-group row"> 
+							<div class="col-1">
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox">
+									</label>
+								</div>
+							</div>
+							<label class="col">Academic Institution</label>
+						</div>
+					</form>
+				</div>
+			</div>      
+		</div>
+
+
+		<!-- Facet and Panel 2 --> 
+		<a class="display6 d-block light facet pb-3 " data-toggle="collapse" href="#" data-target="#facet2" aria-expanded="false" aria-controls="facet2">
+			<span class="mr-3 mr-md-5">+</span> State / Province
+		</a>
+		<div class="collapse" id="facet2">
+			<div class="row light">
+				<div class="col-sm-4 ">
+					<form class="my-3">
+						<div class="form-group row"> 
+							<div class="col-1">
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox">
+									</label>
+								</div>
+							</div>
+							<label class="col">Academic Institution</label>
+						</div>
+					</form>
+				</div>
+			</div>      
+		</div>
+
+
+	</div>
 </div>

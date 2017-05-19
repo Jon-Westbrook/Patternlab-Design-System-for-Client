@@ -1,0 +1,24 @@
+
+.facet {
+	font-weight: bold;
+	// &:not(.collapsed) {
+	// 	border-bottom: 1px solid $primary3;
+	// }
+	&:hover, &:focus {
+		color: darken($primary3, 10%);
+	}
+}
+
+.collapsing, .show {
+		border-top: 1px solid $primary3;
+}
+
+#filterPanel {
+	max-height: 900px;
+	overflow-y: scroll;
+}
+
+#facet {
+	max-height: 800px;
+  overflow-y: scroll;
+}

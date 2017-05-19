@@ -1,6 +1,6 @@
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
-@include debug;
+// @include debug;
 
 * {
   text-size-adjust: none;
@@ -36,7 +36,7 @@ a {
 }
 
 
-// Button Override: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
+// Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
 .btn-outline-secondary:hover {
   color: $primary1;
 }
@@ -44,6 +44,35 @@ a {
 .btn-secondary:hover {
   color: $link-hover-color;
 }
+
+.close {
+  color: $primary3;
+  opacity: 1;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1;
+  text-shadow: none;
+  transition: $transition-base;
+}
+
+.btn {
+  padding: 1rem 0;
+  &.btn-tertiary {
+    color: $btn-tertiary-color;
+    background-color: $btn-tertiary-bg;
+    border-color: $btn-tertiary-border;
+    cursor: pointer;
+    width: 100px;
+    &:hover {
+      background: #cfd6db;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+}
+
+
+
 
 // Dropdowns
 
@@ -67,5 +96,4 @@ a {
     }
   }
 }
-
 

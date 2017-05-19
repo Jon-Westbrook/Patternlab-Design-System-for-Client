@@ -1,7 +1,8 @@
 
 {{> components-C56-Filter-Panel }}
 
-<div class="container-fluid pt-5">
+<div class="container-fluid pt-4">
+  
   <!-- Tab panes -->
   <div class="tab-content">
     <div class="tab-pane  fade show" id="cards" role="tabpanel">
@@ -23,6 +24,9 @@
     <div class="tab-pane active" id="list-items" role="tabpanel">
       <div class="tab-pane" id="cards" role="tabpanel">
       <div class="container no-xs-guts">
+        <div class="mr-auto my-auto pb-4">
+          <span class="resultStats display9">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
+        </div>
         {{> components-C23B-Profile-List }}
         {{> components-C26B-Event-List }}
         {{> components-C25B-General-List }}

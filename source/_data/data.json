@@ -62,6 +62,8 @@
   },
   "pagination": {
     "back": "../../images/back-arrow.svg",
-    "forward": "../../images/forward.svg"
+    "doubleBack": "../../images/arrow-double-back.svg",
+    "forward": "../../images/forward.svg",
+    "doubleForward": "../../images/arrow-double-forward.svg"
   }
 }
