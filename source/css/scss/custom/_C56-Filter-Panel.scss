@@ -2,33 +2,22 @@
 .filter-panel {
 	.btn {
 		padding: .75rem 0;
-	}
-	.collapsing, .show {
+	}	
+}
+
+.collapsing, .show {
 		border-top: 1px solid $primary3;
 		border-bottom: 1px solid $primary3;
 	}
-}
 
 .facet {
 	font-weight: bold;
-	// &:not(.collapsed) {
-	// 	border-bottom: 1px solid $primary3;
-	// }
 	&:hover, &:focus {
 		color: darken($primary3, 10%);
 	}
-}
-
-
-
-#filterPanel {
-	max-height: 900px;
-	overflow-y: scroll;
-}
-
-#facet {
-	max-height: 800px;
-  overflow-y: scroll;
+	&:not(first-of-type) {
+		margin-top: 10px;
+	}
 }
 
 .subFacetLink {
@@ -61,3 +50,8 @@
 	}
 }
 
+.filter-card {
+	border-radius: 2px;
+	height: 46px;
+
+}

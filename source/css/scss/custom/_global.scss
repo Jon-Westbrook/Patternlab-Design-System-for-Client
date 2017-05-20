@@ -53,6 +53,10 @@ a {
   line-height: 1;
   text-shadow: none;
   transition: $transition-base;
+  &.black {
+    color: $primary2;
+    font-size: 1.5rem;
+  }
 }
 
 .btn {
@@ -66,6 +70,20 @@ a {
       background: #cfd6db;
       transition: all 0.2s ease-in-out;
     }
+  }
+  &.search {
+    padding: .5rem 0;
+    @include media-breakpoint-only(md) {
+      padding: 1rem 2rem;
+    }
+    @include media-breakpoint-only(lg) {
+      padding: 1rem 3rem;
+    }
+    @include media-breakpoint-only(xl) {
+      padding: 1rem 4rem;
+    }
+    border-radius: 5px;
+    border: solid 2px #e31837;
   }
 }
 
