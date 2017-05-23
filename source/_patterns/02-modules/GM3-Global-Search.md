@@ -11,7 +11,6 @@ Search Textbox
 
 - on click - placeholder text disappears, cursor appears
 
-
 Search Scope Toggle Buttons
 
 - on hover - highlight appears (see styleguide)

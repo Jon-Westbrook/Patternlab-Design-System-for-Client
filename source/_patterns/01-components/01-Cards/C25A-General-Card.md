@@ -2,4 +2,13 @@
 title: Article Card
 ---
 
-Article cards take up 4/12 Bootstrap columns, beginning on medium. 
+
+Card
+
+- on hover - card animates 
+- on hover of title - highlight appears (see styleguide)
+- on click of title - redirect to appropriate template
+- on hover of share icon - highlight  appears (see styleguide)
+- on click of share icon - tooltip appears with share options
+- on click of favorite icon (authenticated) - item saved in user profile
+- on click of favorite icon (unauthenticated) - login/signup modal appears

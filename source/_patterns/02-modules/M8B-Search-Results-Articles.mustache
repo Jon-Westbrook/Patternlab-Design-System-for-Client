@@ -1,58 +1,39 @@
 
 
-<!-- Filters Mobile -->
-<div class="container-fluid hidden-md-up">
-  <div class="row">
-    <div class="col">
-     <a href=""></a>
-    </div>
-    <div class="col">
-      <ul> 
-          <li class="nav-item dropdown d-inline-block my-md-auto mr-md-5">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link text-primary sort-list display8 p-0" data-toggle="dropdown" href="#">Best match</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 px-3">
-            <a class="dropdown-item display9 text-right active" href="#">Date</a>
-            <a class="dropdown-item display9 text-right " href="#">Distance</a>
-            <a class="dropdown-item display9 text-right" href="#">Favorite</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 {{> components-C56-Filter-Panel }}
 
-<div class="container-fluid bg-gray-ultra-light pt-5">
+<div class="container-fluid pt-4">
+  
   <!-- Tab panes -->
   <div class="tab-content">
-    <div class="tab-pane fade show active" id="cards" role="tabpanel">
+    <div class="tab-pane active fade show" id="cards" role="tabpanel">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
+        <div class="mr-auto my-auto pb-4">
+          <span class="resultStats display9">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
         </div>
-        <div class="row">
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
-          <div class="col-md-4">{{> components-C25A-General-Card }}</div>
+        <div class="row ">
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
+          <div class="col-md-6 col-lg-4">{{> components-C25A-General-Card }}</div>
         </div>
       </div>
     </div>
-    <div class="tab-pane" id="list-items" role="tabpanel">
+    <div class="tab-pane " id="list-items" role="tabpanel">
       <div class="tab-pane" id="cards" role="tabpanel">
-      <div class="container">
+      <div class="container no-xs-guts">
+        <div class="mr-auto my-auto pb-4">
+          <span class="resultStats display9">Displaying {{ results.pageRange }} of {{ results.resultCount}}</span>
+        </div>
+        {{> components-C25B-General-List }}
         {{> components-C25B-General-List }}
         {{> components-C25B-General-List }}
         {{> components-C25B-General-List }}

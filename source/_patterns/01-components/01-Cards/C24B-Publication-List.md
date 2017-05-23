@@ -2,4 +2,4 @@
 title: Publication List
 ---
 
-Member list items are full-width at all breakpoints, 12/12 Bootstrap columns. 
+- see C24A but no animation on hover

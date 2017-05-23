@@ -2,4 +2,6 @@
 title: M10 Banner Ad CTA
 ---
 
-Advertisement Module, basically. 
+Image
+
+- on click - redirect to apppropriate web page/site in another browser tab

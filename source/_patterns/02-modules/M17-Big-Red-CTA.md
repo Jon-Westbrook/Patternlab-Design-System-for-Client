@@ -2,4 +2,7 @@
 title: M17 Big Red CTA
 ---
 
-The biggest and reddest CTA module out there ... 
+Command Button
+
+- on hover - highlight appears (see styleguide)
+- on click - redirect to appropriate template

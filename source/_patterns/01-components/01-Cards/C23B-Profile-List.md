@@ -2,4 +2,4 @@
 title: Member List Item
 ---
 
-Member list items are full-width at all breakpoints, 12/12 Bootstrap columns. 
+- see C23A but no animation on hover
