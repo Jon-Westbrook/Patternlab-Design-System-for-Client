@@ -1,15 +1,1 @@
 
-.banner-ad-img {
-  height: 35px;
-  width : 290px;
-  @include media-breakpoint-only(sm) {
-    height: 57px;
-    width: 461px;
-    object-fit: cover;
-  }
-  @include media-breakpoint-up(md) {
-    height: 90px;
-    width: 728px;
-    object-fit: cover;
-  }
-}
