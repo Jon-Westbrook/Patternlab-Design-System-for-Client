@@ -86,6 +86,21 @@
 	}
 }
 
+.no-image {
+	.no-image-icon {
+		width: 90px;
+		height: 96px;
+		object-fit: none;
+		margin-top: 24px;
+		@include media-breakpoint-only(md) {
+			margin-top: 28px;
+		}
+		@include media-breakpoint-up(lg) {
+			margin-top: 44px;
+		}
+	}
+}
+
 
 // Event Cards
 
