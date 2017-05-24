@@ -22,6 +22,11 @@
 
 .subFacetLink {
 	cursor: pointer;
+	&.collapsed {
+		.subFacet:after {
+			transform: rotate(180deg);
+		}
+	}
 }
 
 .subFacet {
