@@ -13,6 +13,7 @@ Facets Panel Accordion
  
 Main Category Checkbox
 
+- only one facet can be open at a time (parent facet or child facet)
 - on click - all options within category become selected, including nested filters
 - on click again - all options within category become deselected, including nested filters.
 Main Category Dropdown
