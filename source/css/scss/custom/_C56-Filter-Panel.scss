@@ -2,13 +2,15 @@
 .filter-panel {
 	.btn {
 		padding: .75rem 0;
-	}	
+	}
 }
 
-.collapsing, .show {
+.primary-panel {
+ 	&.collapsing, &.show {
 		border-top: 1px solid $primary3;
 		border-bottom: 1px solid $primary3;
-	}
+	}	
+}
 
 .facet {
 	font-weight: bold;
@@ -74,4 +76,8 @@
 .custom-control-indicator {
 	top: .7rem;
   border: 1px solid $primary3;
+}
+
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {
+	background: linear-gradient(to right bottom, transparent 50%, $primary3 50%);
 }

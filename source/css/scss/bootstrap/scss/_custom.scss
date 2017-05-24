@@ -528,7 +528,7 @@ $custom-control-indicator-bg:         transparent;
 // $custom-control-disabled-description-color:  $gray-light;
 
 // $custom-control-checked-indicator-color:      $white;
-$custom-control-checked-indicator-bg:           $primary3;
+$custom-control-checked-indicator-bg:            $primary3;
 // $custom-control-checked-indicator-box-shadow: none;
 
 $custom-control-focus-indicator-box-shadow: none;
@@ -540,9 +540,9 @@ $custom-control-active-indicator-bg:         $primary3;
 // $custom-checkbox-radius: $border-radius;
 $custom-checkbox-checked-icon: none;
 
-$custom-checkbox-indeterminate-bg: $primary1;
-// $custom-checkbox-indeterminate-indicator-color: $custom-control-checked-indicator-color;
-// $custom-checkbox-indeterminate-icon: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='#{$custom-checkbox-indeterminate-indicator-color}' d='M0 2h4'/%3E%3C/svg%3E"), "#", "%23");
+$custom-checkbox-indeterminate-bg: linear-gradient( 45deg, white, red );
+$custom-checkbox-indeterminate-indicator-color: $custom-control-checked-indicator-color;
+$custom-checkbox-indeterminate-icon: none;
 // $custom-checkbox-indeterminate-box-shadow: none;
 
 // $custom-radio-radius: 50%;
