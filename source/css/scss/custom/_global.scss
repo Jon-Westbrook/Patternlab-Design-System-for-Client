@@ -70,6 +70,17 @@ a {
       transition: all 0.2s ease-in-out;
     }
   }
+  &.btn-quaternary {
+    color: $primary3;
+    background-color: $tertiary7;
+    border: 1px solid $primary3;
+    width: 100px;
+    &:hover {
+      background: #cfd6db;
+      transition: all 0.2s ease-in-out;
+      color: $primary2;
+    }
+  }
   &.search {
     padding: .5rem 0;
     @include media-breakpoint-only(md) {
@@ -109,4 +120,3 @@ a {
     }
   }
 }
-
