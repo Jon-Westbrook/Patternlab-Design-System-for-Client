@@ -23,8 +23,10 @@
 .subFacetLink {
 	cursor: pointer;
 	&.collapsed {
+		transition: $transition-base;
 		.subFacet:after {
-			transform: rotate(180deg);
+			transition: $transition-base;
+			transform: rotate(-180deg);
 		}
 	}
 }
@@ -32,6 +34,7 @@
 .subFacet {
 	color: $primary3;
 	margin-left: 15px;
+
 	&.parent {
 		cursor: pointer;
 	}
@@ -45,6 +48,7 @@
 		width: 11px;
 		height: 8px;
 		margin-left: 32px;
+		transition: $transition-base;
 	}
 
 }
@@ -68,5 +72,6 @@
 }
 
 .custom-control-indicator {
+	top: .7rem;
   border: 1px solid $primary3;
 }
