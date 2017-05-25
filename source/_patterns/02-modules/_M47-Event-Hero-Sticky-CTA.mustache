@@ -1,9 +1,10 @@
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display7">M47-Event-Hero-Sticky-CTA</h1>
-      <img src="https://placeimg.com/1140/344/any">
-    </div>
+<div class="jumbotron jumbotron-fluid m-0 py-6 py-md-7" style="background-image: url( {{ eventHero.bgImg }} ); width: 100%; height: 100%; object-fit: cover; background-position: center center;" >
+  <div class="container">
+      <h1 class="light">{{{ eventHero.heroTitle }}}</h1>
+      <p class="hero-desc lead light mt-4">{{ eventHero.date }}</p>
+      <p class="hero-desc lead light mt-4">{{ eventHero.date }}</p>
+      <p class="hero-desc lead light mt-4">{{ eventHero.venue }}</p>
+      <p class="hero-desc lead light mt-4">{{ eventHero.locale }}</p>
   </div>
 </div>

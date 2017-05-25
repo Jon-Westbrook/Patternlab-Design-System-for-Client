@@ -66,5 +66,12 @@
     "doubleBack": "../../images/arrow-double-back.svg",
     "forward": "../../images/forward.svg",
     "doubleForward": "../../images/arrow-double-forward.svg"
+  },
+  "eventHero": {
+    "heroTitle": "Western Conference &amp; Deal Making",
+    "date": "October 2 - 4",
+    "venue": "lA Convention Center",
+    "locale": "Los Angeles, CA",
+    "bgImg": "../../images/los-angeles@2x.jpg"
   }
 }
