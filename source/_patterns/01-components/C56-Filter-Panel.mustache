@@ -24,14 +24,14 @@
 				<a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
 			</li>
 		</ul>
-
 	</div>
 </div>
+
 
 <!-- Filters Desktop -->
 <div class="container-fluid hidden-sm-down">
 	<div class="container">
-		<ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-4">
+		<ul class="nav nav-pills listing-filters d-flex justify-content-end pt-md-6 pb-md-2">
 			<li class="nav-item btn-filter mr-auto py-2 px-3 my-auto my-auto d-flex justify-content-center" data-toggle="collapse" href="#filterPanel" aria-expanded="false" aria-controls="filterPanel" >
 					<span class="mr-3 pl-3" >Filter</span>
 			</li>
@@ -55,30 +55,46 @@
 				<a class="nav-link active" data-toggle="pill" href="#list-items" role="tab"></a>
 			</li>
 		</ul>
-
 	</div>
 </div>
 
+
 <!-- Filter Tabs --> 
-<!-- <div class="container">
-	<div class="row">
-		<div class="col-md-3 filter-card d-flex align-items-center">
-			<div class="filter-card">
-				<p class="display9 m-0 p-0">Communication Systems, products, services</p>
-				<button type="button" class="close black" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
-			</div>
+<div class="container">
+	<div class="row pb-2">
+		<div class="col-md-3 filter-card">
+				<div class="filter-card my-md-2 py-0 px-2 bg-gray-light d-flex align-items-center">
+					<p class="flt-card-copy display9 d-inline-block my-2 my-md-2 p-0 mr-2 d9-truncate2">Communication Systems, products, services</p>
+					<img src="{{ closeBtn }}" alt="Clear" aria-label="Clear" aria-hidden="true" class="clear" />
+				</div>
 		</div>
-		<div class="col-md-3 bg-gray filter-card d-flex align-items-center"><p class="display9 m-0 p-0">Energy Management Systems/Conservation Systems</p></div>
-		<div class="col-md-3 bg-gray filter-card d-flex align-items-center"><p class="display9 m-0 p-0">Communication Systems, products, services</p></div>
-		<div class="col-md-3 bg-gray filter-card d-flex align-items-center"><p class="display9 m-0 p-0">Energy Management Systems/Conservation Systems</p></div>
+		<div class="col-md-3 filter-card">
+				<div class="filter-card my-md-2 py-0 px-2 bg-gray-light d-flex align-items-center">
+					<p class="flt-card-copy display9 d-inline-block my-2 my-md-2 p-0 mr-2 d9-truncate2">Energy Management Systems/Conservation Systems</p>
+					<img src="{{ closeBtn }}" alt="Clear" aria-label="Clear" aria-hidden="true" class="clear" />
+				</div>
+		</div>
+		<div class="col-md-3 filter-card">
+				<div class="filter-card my-md-2 py-0 px-2 bg-gray-light d-flex align-items-center">
+					<p class="flt-card-copy display9 d-inline-block my-2 my-md-2 p-0 mr-2 d9-truncate2">Entertainment/Amusement Systems, Products, Services</p>
+					<img src="{{ closeBtn }}" alt="Clear" aria-label="Clear" aria-hidden="true" class="clear" />
+				</div>
+		</div>
+		<div class="col-md-3 filter-card">
+				<div class="filter-card my-md-2 py-0 px-2 bg-gray-light d-flex align-items-center">
+					<p class="flt-card-copy display9 d-inline-block my-2 my-md-2 p-0 mr-2 d9-truncate2">Roofing Systems, Equipment, Services and Supplies</p>
+					<img src="{{ closeBtn }}" alt="Clear" aria-label="Clear" aria-hidden="true" class="clear" />
+				</div>
+		</div>
 	</div>
-</div> -->
+</div>
 
 
 <!-- Filter Panel --> 
 <div class="container-fluid collapse bg-gray-dark filter-panel" id="filterPanel">
 	
 	<div class="container py-4 no-xs-guts">
+
 		<!-- Button Bar --> 
 		<ul class="nav nav-pills d-flex mb-4 justify-content-end">
 			<li class="nav-item"><button class="btn btn-tertiary display9 mr-4">Apply</button></li>

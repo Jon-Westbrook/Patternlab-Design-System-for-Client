@@ -36,7 +36,6 @@
 .subFacet {
 	color: $primary3;
 	margin-left: 15px;
-
 	&.parent {
 		cursor: pointer;
 	}
@@ -52,7 +51,6 @@
 		margin-left: 32px;
 		transition: $transition-base;
 	}
-
 }
 
 .subFacetPanel {
@@ -69,8 +67,19 @@
 
 .filter-card {
 	border-radius: 2px;
-	height: 46px;
+	margin-top: 4px;
+	.clear {
+		cursor: pointer;
+		&:hover { 
+			opacity: .7;
+		}
+	}
+}
 
+.filter-card:not(first)
+
+.flt-card-copy {
+	width: 90%;
 }
 
 .custom-control-indicator {
