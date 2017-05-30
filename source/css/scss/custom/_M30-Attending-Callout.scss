@@ -1,0 +1,14 @@
+
+@include media-breakpoint-up(md)  {
+	.attending {
+		display: inline-block;
+	}
+}
+
+.callouts-attending {
+	.card-img-right {
+		height: 65px;
+		width: 65px;
+	}
+
+}

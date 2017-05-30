@@ -59,6 +59,7 @@ a {
 }
 
 .btn {
+  border-width: 2px;
   &.btn-tertiary {
     color: $btn-tertiary-color;
     background-color: $btn-tertiary-bg;
