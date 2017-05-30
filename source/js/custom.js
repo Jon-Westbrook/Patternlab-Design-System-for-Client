@@ -17,6 +17,32 @@ $(document).ready(function() {
   $('.checked').prop('checked', true);
   $('.indeterminate').prop('indeterminate', true);
 
+  // Sticky Desktop CTA Bar
+  var heroHeight,
+      headerHeight,
+      totalHeight,
+      ctaHeight;
+
+  $(window).on('scroll resize', function() {
+    heroHeight = $('.event-hero').outerHeight();
+    headerHeight = $('.glob-header').outerHeight();
+    totalHeight = heroHeight + headerHeight;
+    ctaHeight = $('.sticky-cta').outerHeight();
+  });
+
+  $(window).scroll(function () {
+      
+      if ($(window).scrollTop() > totalHeight) {
+        $('.sticky-cta').addClass('fixed-top');
+        $('.event-overview').css('margin-top', ctaHeight);
+      }
+    
+      if ($(window).scrollTop() < totalHeight) {
+        $('.sticky-cta').removeClass('fixed-top');
+        $('.event-overview').css('margin-top', 0);
+      }
+  });
+
 });
 
 
