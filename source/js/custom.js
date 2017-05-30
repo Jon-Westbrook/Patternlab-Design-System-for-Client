@@ -35,11 +35,13 @@ $(document).ready(function() {
       if ($(window).scrollTop() > totalHeight) {
         $('.sticky-cta').addClass('fixed-top');
         $('.event-overview').css('margin-top', ctaHeight);
+        $('.sticky-title').css('opacity', 1);
       }
     
       if ($(window).scrollTop() < totalHeight) {
         $('.sticky-cta').removeClass('fixed-top');
         $('.event-overview').css('margin-top', 0);
+        $('.sticky-title').css('opacity', 0);
       }
   });
 

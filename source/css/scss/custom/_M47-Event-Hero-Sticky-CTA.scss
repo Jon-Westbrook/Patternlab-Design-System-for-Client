@@ -17,6 +17,10 @@
 	.footer-cta {
 		background-color: $primary3;
 	}
+	.sticky-title {
+		opacity: 0;
+		transition: $transition-base;
+	}
 }
 
 .share-n-jump {
