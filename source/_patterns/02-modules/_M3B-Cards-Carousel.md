@@ -1,3 +1,3 @@
 ---
-title: M3 Testimonial Carousel
+title: M3B Card Carousel
 ---
