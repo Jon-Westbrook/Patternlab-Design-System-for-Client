@@ -5,12 +5,15 @@
 	background-position: right center;
 	@include media-breakpoint-down(sm) {
 		padding-top: 264px;
-		border-bottom: 2px solid $tertiary3;
 	}
 	.overlay {
 		background-color: $primary3;
 		@include media-breakpoint-up(md) {
-			opacity: .7;
+			opacity: .9;
 		}
 	}
+}
+
+.map-details {
+	border-bottom: 2px solid $tertiary3;
 }
