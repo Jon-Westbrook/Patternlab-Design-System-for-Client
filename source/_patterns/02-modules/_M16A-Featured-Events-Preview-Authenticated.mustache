@@ -1,9 +1,15 @@
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display7">Workin' on it...</h1>
-      <img src="https://placeimg.com/1140/344/any" style="width: 100%;">
-    </div>
-  </div>
+<div class="container-fluid bg-gray-lightest py-4 py-md-7">
+	<div class="container">
+		<div class="d-flex justify-content-end m-0 p-0">
+		  <span class="display7 secondary mr-auto">Other events you may like</span>
+		  <span class="display7"><a href="#" class="view-all accent">View all -></a></span>
+
+		</div>
+		<div class="row mt-4">
+		  <div class="col-md-6 col-lg-4">{{> components-C26A-Event-Card }}</div>
+		  <div class="col-md-6 col-lg-4">{{> components-C26A-Event-Card }}</div>
+		  <div class="col-md-6 col-lg-4 hidden-md-down">{{> components-C26A-Event-Card }}</div>
+		</div>
+	</div>
 </div>
