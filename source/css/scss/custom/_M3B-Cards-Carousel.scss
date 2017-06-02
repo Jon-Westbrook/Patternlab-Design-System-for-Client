@@ -1,13 +1,13 @@
 
 .card-carousel {
-	// height: 600px;
+
 	.card {
 		height: 350px;
 		overflow: hidden;
 	}
 
 	.carousel-inner {
-		overflow: hidden;
+		// overflow: hidden;
 	}
 
 	/* smoother transitions */
@@ -26,5 +26,9 @@
 			background-color: $tertiary6;
 		}
 	}
-
+	
+	.carousel-control-prev, .carousel-control-next {
+		width: 10%;
+		color: $tertiary6;
+	}
 }

@@ -43,6 +43,10 @@
 		}
 	}
 
+	.carousel-indicators {
+		bottom: 20px;
+	}
+
 	.carousel-indicators li {
 		background-color: #f7f7fb;
 		&.active {
