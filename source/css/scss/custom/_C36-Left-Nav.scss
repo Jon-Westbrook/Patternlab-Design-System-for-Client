@@ -10,5 +10,10 @@
 			vertical-align: bottom;
 			margin-right: 4px;
 		}
+		&:hover { 
+			&:after {
+				background: url('../../images/back-to-home-dark.svg') no-repeat;
+			}
+		}
 	}
 }
