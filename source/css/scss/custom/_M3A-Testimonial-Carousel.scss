@@ -1,46 +1,53 @@
 
-.carousel-inner {
-	overflow: visible;
-}
+.testi-carousel {
 
-.c-img {
-	object-fit: contain;
-	height: 649px;
-	position: absolute;
-	@include media-breakpoint-only(md) {
-		left: -80px;
+	.carousel-inner {
+		overflow: visible;
 	}
-	@include media-breakpoint-only(lg) {
-		left: -40px;
-	}
-	bottom: 0;
-	z-index: 9999;
-}
 
-// .carousel-control-prev, .carousel-control-next {
-// 	margin-top: 80px;
-// }
-
-.carousel-caption {
-	position: relative;
-	width: 80%;
-	top: 32px;
-	left: 30px;
-	text-align: left;
-	@include media-breakpoint-up(md) {
+	.c-img {
+		object-fit: contain;
+		height: 649px;
 		position: absolute;
-		width: 40%;
-		top: 28%;
-		right: 0;
-		left: 50%;
-		text-align: left;
+		@include media-breakpoint-only(md) {
+			left: -80px;
+		}
+		@include media-breakpoint-only(lg) {
+			left: -40px;
+		}
+		bottom: 0;
+		z-index: 9999;
 	}
-}
 
-.carousel-item {
-	height: 350px;
-	overflow: visible;
-	@include media-breakpoint-up(md) {
-		height: 519px;
+	.carousel-caption {
+		position: relative;
+		width: 80%;
+		top: 32px;
+		left: 30px;
+		text-align: left;
+		@include media-breakpoint-up(md) {
+			position: absolute;
+			width: 40%;
+			top: 28%;
+			right: 0;
+			left: 50%;
+			text-align: left;
+		}
 	}
+
+	.carousel-item {
+		height: 350px;
+		overflow: visible;
+		@include media-breakpoint-up(md) {
+			height: 519px;
+		}
+	}
+
+	.carousel-indicators li {
+		background-color: #f7f7fb;
+		&.active {
+			background-color: $tertiary6;
+		}
+	}
+
 }
