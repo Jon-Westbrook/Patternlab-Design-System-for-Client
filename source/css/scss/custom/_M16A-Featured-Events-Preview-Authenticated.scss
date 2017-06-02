@@ -1,0 +1,13 @@
+
+.featured-events {
+	.view-all {
+		&:after {
+			content: '';
+			display: inline-block;
+			background: url('../../images/view-all-arrow.svg') no-repeat;
+			width: 21px;
+			height: 15.8px;
+			margin-left: 10px;
+		}
+	}
+}

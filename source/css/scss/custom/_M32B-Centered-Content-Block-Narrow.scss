@@ -1,6 +1,14 @@
 
 .content-block-narrow  {
-
-
-
+	.download {
+		&:after {
+			content: '';
+			display: inline-block;
+			background: url('../../images/download-icon-small.svg') no-repeat;
+			width: 16px;
+			height: 20px;
+			margin-left: 16px;
+			cursor: pointer;
+		}
+	}
 }
