@@ -112,7 +112,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(postcss(plugins))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write(paths().source.css))
     .pipe(gulp.dest(normalizePath(paths().public.css)))
 });
 
