@@ -30,6 +30,9 @@
 	.sticky-title {
 		opacity: 0;
 		transition: $transition-base;
+		a:focus {
+			color: $primary2;
+		}
 	}
 }
 
