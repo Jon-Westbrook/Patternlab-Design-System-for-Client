@@ -20,6 +20,24 @@
 	&:not(first-of-type) {
 		margin-top: 10px;
 	}
+
+	&.collapsed {
+		transition: $transition-base;
+		:after {
+			content: '+';
+			display: inline-block;
+			width: 11px;
+			height: 8px;
+			transition: $transition-base;
+		}
+	}
+	:after {
+		content: '-';
+		display: inline-block;
+		width: 11px;
+		height: 8px;
+		transition: $transition-base;
+	}
 }
 
 .subFacetLink {
@@ -28,7 +46,7 @@
 		transition: $transition-base;
 		.subFacet:after {
 			transition: $transition-base;
-			transform: rotate(-180deg);
+			background: url('../../images/down-arrow-white.svg') no-repeat;
 		}
 	}
 }
@@ -45,11 +63,11 @@
 	&:after {
 		content: '';
 		display: inline-block;
-		background: url('../../images/down-arrow-white.svg') no-repeat;
+		background: url('../../images/up-arrow-white.svg') no-repeat;
 		width: 11px;
 		height: 8px;
 		margin-left: 32px;
-		transition: $transition-base;
+		transition: $transition-base;	
 	}
 }
 
