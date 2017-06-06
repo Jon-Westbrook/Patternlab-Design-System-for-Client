@@ -12,7 +12,7 @@
 	}	
 }
 
-.facet {
+.facet-group {
 	font-weight: bold;
 	&:hover, &:focus {
 		color: darken($primary3, 10%);
@@ -40,7 +40,7 @@
 	}
 }
 
-.subFacetLink {
+.facetLink {
 	cursor: pointer;
 	&.collapsed {
 		transition: $transition-base;
@@ -51,7 +51,7 @@
 	}
 }
 
-.subFacet {
+.facet {
 	color: $primary3;
 	margin-left: 15px;
 	&.parent {
@@ -71,19 +71,19 @@
 	}
 }
 
-.subFacetnoPanel {
+.facetNoPanel {
 	margin-left: 15px;
 	@include media-breakpoint-up(lg) {
 		margin-left: 0;
 	}
 }
 
-.subFacetPanel {
+.facetPanel {
 	background-color: $tertiary7;
 	border: 0;
 }
 
-.sub-fac-check {
+.fac-check {
 	margin-left: 24px;
 	@include media-breakpoint-up(md) {
 		margin-left: 17px;
