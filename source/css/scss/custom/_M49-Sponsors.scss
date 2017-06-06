@@ -1,6 +1,25 @@
 
 .sponsors {
 
+  .logo-wrap {
+    overflow: hidden;
+    width: 193px;
+    height: 100px;
+    @include media-breakpoint-up(md) {
+      width: 290px;
+      height: 150px;
+    }
+  }
+
+  .platinum {
+    width: 153px;
+    height: 100px;
+    @include media-breakpoint-up(md) {
+      width: 255px;
+      height: 150px;
+    }
+  }
+
   .logo-wrap img:last-child {
     display: none;
     transition: $transition-base;
@@ -19,8 +38,7 @@
   .logo {
     transition: $transition-base;
     cursor: pointer;
-    width: 250px;
-    height: 54px;
+    max-width: 100%;
+    height: auto;
   }
-  
 }
