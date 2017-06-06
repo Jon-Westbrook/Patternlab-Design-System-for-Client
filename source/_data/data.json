@@ -41,7 +41,8 @@
     "pubCat": "eBook, Print Edition"
   },
   "results": {
-    "resultTitle": "210 results found in",
+    "resultTitle": "210",
+    "resultText": "results found in",
     "current": "Events",
     "scope2": "Members",
     "scope3": "Articles",
