@@ -27,11 +27,15 @@
 		text-align: left;
 		@include media-breakpoint-up(md) {
 			position: absolute;
-			width: 40%;
+			width: 50%;
 			top: 20%;
 			right: 0;
-			left: 50%;
+			left: 46%;
 			text-align: left;
+		}
+		@include media-breakpoint-up(lg) {
+			width: 48%;
+			left: 46%;
 		}
 	}
 
