@@ -71,6 +71,13 @@
 	}
 }
 
+.subFacetnoPanel {
+	margin-left: 15px;
+	@include media-breakpoint-up(lg) {
+		margin-left: 0;
+	}
+}
+
 .subFacetPanel {
 	background-color: $tertiary7;
 	border: 0;
