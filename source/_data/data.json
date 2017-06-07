@@ -51,7 +51,8 @@
     "heroCat": "Events",
     "placeholder": "SEARCH",
     "pageRange": "1-12",
-    "resultCount":  "472"
+    "resultCount":  "472",
+    "filterCount": "16"
   },
   "members-promo": {
     "heroTitle": "Members get the VIP treatment.",
