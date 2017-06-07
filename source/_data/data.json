@@ -76,6 +76,11 @@
     "locale": "Los Angeles, CA",
     "bgImg": "../../images/icsc_event_la_lg.jpg"
   },
+  "newsHero": {
+    "type": "eBook, Print",
+    "heroTitle": "Economic Development: Strategies for State and Local Practice",
+    "bgImg": "../../images/pattern-fill-1.svg"
+  },
   "location": {
     "mapImg": "../../images/map.png"
   }
