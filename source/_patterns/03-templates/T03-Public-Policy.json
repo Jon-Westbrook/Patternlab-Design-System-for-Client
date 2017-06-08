@@ -2,5 +2,8 @@
   "short-hero": {
     "heroTitle"	: "Public Policy",
     "heroDesc"	: "Elect to protect our industry" 
+  },
+  "cards" : {
+  	 "moduleTitle1" : "Latest in public policy"
   }
 }
