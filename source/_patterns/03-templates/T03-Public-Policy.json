@@ -1,6 +1,21 @@
 {
-	"short-hero": {
-      "heroTitle": "Public Policy",
-      "heroDesc": "Elect to protect our industry"
+  "short-hero": {
+    "heroTitle"	: "Public Policy",
+    "heroDesc"	: "Elect to protect our industry"
+  },
+  "callout1": {
+  	"title" 	: "Tax reform",
+  	"desc" 		: "Stay informed throughout the tax reform legislative process with this toolkit. It features the latest news and action items for retail real estate professionals.",
+  	"imgSrc"	: "/images/artwork-1-taxreform.svg"
+  },
+  "callout2": {
+  	"title" 	: "ADA lawsuit reform",
+  	"desc" 		: "Congress should restore the integrity of the American Disabilities Act by providing clearer rules for identifying and correcting access violations.",
+  	"imgSrc"	: "/images/artwork-2-lawsuitreform.svg"
+  },
+  "callout3": {
+  	"title" 	: "E-Fairness",
+  	"desc" 		: "This legislation modernizes the sales tax collection system and levels the playing field between online-only sellers and brick and mortar retailers.",
+  	"imgSrc"	: "/images/artwork-1-taxreform.svg"
   }
 }
