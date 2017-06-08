@@ -245,8 +245,8 @@ h1, .h1 {
   font-size: $display3-size-xs;
   line-height: $display3-line-height-xs;
   opacity: .9;
-  font-weight: 700;
-  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-family: $font-family-bold;
   @include media-breakpoint-only(sm) {
     font-size: $display3-size-sm;
     line-height: $display3-line-height-sm;
@@ -269,8 +269,8 @@ h2, .h2 {
   font-size: $display4-size-xs;
   line-height: $display4-line-height-xs;
   opacity: .9;
-  font-weight: 700;
-  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-family: $font-family-bold;
   @include media-breakpoint-only(sm) {
     font-size: $display4-size-sm;
     line-height: $display4-line-height-sm;
@@ -293,8 +293,8 @@ h3, .h3 {
   font-size: $display5-size-xs;
   line-height: $display5-line-height-xs;
   opacity: .9;
-  font-weight: 700;
-  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-family: $font-family-bold;
   @include media-breakpoint-only(sm) {
     font-size: $display5-size-sm;
     line-height: $display5-line-height-sm;
