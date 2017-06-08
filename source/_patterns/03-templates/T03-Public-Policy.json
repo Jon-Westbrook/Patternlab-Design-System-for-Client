@@ -17,5 +17,12 @@
   	"title" 	: "E-Fairness",
   	"desc" 		: "This legislation modernizes the sales tax collection system and levels the playing field between online-only sellers and brick and mortar retailers.",
   	"imgSrc"	: "/images/artwork-3-efairness.svg"
+  },
+  "video" : {
+  	"title" 	: "We advocate for you",
+  	"desc"		: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
+  	"mp4Src" 	: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+  	"ogvSrc" 	: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
+  	"placeholderSrc" : "https://placeimg.com/630/355/any"
   }
 }
