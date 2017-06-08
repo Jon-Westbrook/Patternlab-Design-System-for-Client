@@ -38,7 +38,9 @@
     "memberCountry": "United States",
     "pubCardImg": "../../images/book@2x.jpg",
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
-    "pubCat": "eBook, Print Edition"
+    "pubCat": "eBook, Print Edition",
+    "moduleTitle1" : "Lorem ipsum dolor sit amet",
+    "moduleTitle2" : "Lorem ipsum dolor sit amet"
   },
   "results": {
     "resultTitle": "210",
@@ -83,5 +85,9 @@
   },
   "location": {
     "mapImg": "../../images/map.png"
+  },
+  "featureCallout": {
+    "tagline": "Leaders read first",
+    "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members."
   }
 }
