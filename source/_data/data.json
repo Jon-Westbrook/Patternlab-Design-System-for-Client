@@ -38,7 +38,9 @@
     "memberCountry": "United States",
     "pubCardImg": "../../images/book@2x.jpg",
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
-    "pubCat": "eBook, Print Edition"
+    "pubCat": "eBook, Print Edition",
+    "moduleTitle1" : "Lorem ipsum dolor sit amet",
+    "moduleTitle2" : "Lorem ipsum dolor sit amet"
   },
   "results": {
     "resultTitle": "210",
