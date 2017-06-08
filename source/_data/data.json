@@ -83,5 +83,29 @@
   },
   "location": {
     "mapImg": "../../images/map.png"
+  },
+  "featureCallout": [
+    {
+      "title"   : "Tax reform",
+      "desc"    : "Stay informed throughout the tax reform legislative process with this toolkit. It features the latest news and action items for retail real estate professionals.",
+      "imgSrc"  : "/images/artwork-1-taxreform.svg"
+    },
+    {
+      "title"   : "ADA lawsuit reform",
+      "desc"    : "Congress should restore the integrity of the American Disabilities Act by providing clearer rules for identifying and correcting access violations.",
+      "imgSrc"  : "/images/artwork-2-lawsuitreform.svg"
+    },
+    {
+      "title"   : "E-Fairness",
+      "desc"    : "This legislation modernizes the sales tax collection system and levels the playing field between online-only sellers and brick and mortar retailers.",
+      "imgSrc"  : "/images/artwork-3-efairness.svg"
+    }
+  ],
+  "featuredVideo" : {
+    "title"   : "We advocate for you",
+    "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
+    "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+    "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
+    "placeholderSrc" : "https://placeimg.com/630/355/any"
   }
 }
