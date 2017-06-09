@@ -131,5 +131,20 @@
     "twitterSrc"  : "/images/twitter-dark.svg",
     "linkedinSrc" : "/images/linkedin-dark.svg",
     "shareText"   : "Click to share"
+  },
+  "infographic" : {
+    "title" : "hello",
+    "items" : [
+      {
+        "src" : "https://placeimg.com/208/208/any",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },{
+        "src" : "https://placeimg.com/208/208/any",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },{
+        "src" : "https://placeimg.com/208/208/any",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
   }
 }
