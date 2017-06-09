@@ -113,7 +113,8 @@
     "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
     "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
     "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
-    "placeholderSrc" : "https://placeimg.com/630/355/any"
+    "placeholderSrc"      : "https://placeimg.com/630/355/any",
+    "placeholderLargeSrc" : "https://placeimg.com/920/520/any"
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
@@ -124,5 +125,10 @@
     "bgImg2": "../../images/tile2.jpg",
     "bgImg3": "../../images/tile3.jpg",
     "bgImg4": "../../images/tile4.jpg"
+  },
+  "share" : {
+    "facebookSrc" : "/images/facebook-dark.svg",
+    "twitterSrc"  : "/images/twitter-dark.svg",
+    "linkedinSrc" : "/images/linkedin-dark.svg"
   }
 }
