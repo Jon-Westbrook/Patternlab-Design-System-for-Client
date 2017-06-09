@@ -116,7 +116,8 @@
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
-    "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members."
+    "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members.",
+    "img": "../../images/promo.svg"
   },
   "tiles": {
     "bgImgblur": "../../images/blurred1.png",
