@@ -1,5 +1,5 @@
 ---
-title: T08 Article Detail
+title: Content Page Template
 ---
 
-T08 Article Detail
+A simple content page, no In-Page navigation. 
