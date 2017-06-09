@@ -1,5 +1,5 @@
 ---
-title: M47 Event Hero Sticky CTA 
+title: M47B Hero Sticky  
 ---
 
 Hero Nav
