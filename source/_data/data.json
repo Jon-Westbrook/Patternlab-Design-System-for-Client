@@ -133,17 +133,17 @@
     "shareText"   : "Click to share"
   },
   "infographic" : {
-    "title" : "hello",
+    "title" : "Lorem ipsum dolor sit amet",
     "items" : [
       {
-        "src" : "https://placeimg.com/208/208/any",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "src"   : "https://placeimg.com/208/208/any",
+        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },{
-        "src" : "https://placeimg.com/208/208/any",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "src"   : "https://placeimg.com/208/208/any",
+        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },{
-        "src" : "https://placeimg.com/208/208/any",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "src"   : "https://placeimg.com/208/208/any",
+        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }
     ]
   }
