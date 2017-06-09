@@ -119,6 +119,7 @@
     "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members."
   },
   "tiles": {
+    "bgImgblur": "../../images/blurred1.png",
     "bgImg1": "../../images/tile1.jpg",
     "bgImg2": "../../images/tile2.jpg",
     "bgImg3": "../../images/tile3.jpg",
