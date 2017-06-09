@@ -127,3 +127,13 @@ a {
 .carousel-indicators li {
   border-radius: 6px;
 }
+
+
+.share-bar {
+  &.share-bar--small {
+    img.share-bar__icon {
+       height: 20px;
+    }
+  }
+}
+

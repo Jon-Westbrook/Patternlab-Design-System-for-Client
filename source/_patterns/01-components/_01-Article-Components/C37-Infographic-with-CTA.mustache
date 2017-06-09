@@ -1,9 +1,22 @@
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display7">Workin' on it...</h1>
-      <img src="https://placeimg.com/1140/344/any">
-    </div>
+<div class="container mb-4">
+  <div class="row mb-4">
+  	<div class="col">
+  		<h2 class="display6 bold">{{infographic.title}}</h2>
+  	</div>
   </div>
+  <div class="row mb-4">
+	  {{#infographic.items}}
+	    <div class="col-12 col-md-4 text-center px-md-3 px-lg-5 px-xl-6">
+	    	<div class="row">
+	    		<div class="col-6 col-md-12">
+			    	<img class="mb-3 img-fluid" src="{{src}}" >
+			    </div>
+			   	<div class="col-6 col-md-12 my-auto">
+			    	<p class="display9">{{text}}</p>
+	   		 	</div>
+	    	</div>
+	    </div>
+	  {{/infographic.items}}
+  </div>
+  {{> components-CXX-Share-Bar }}
 </div>
