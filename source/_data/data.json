@@ -17,7 +17,7 @@
   },
   "tallHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
-      "eyebrow": "Fermentum Sit"
+      "category": "Fermentum Sit"
   },
   "cards": {
     "generalCardCat": "SCT",
@@ -80,7 +80,8 @@
     "date": "October 2 - 4",
     "venue": "LA Convention Center",
     "locale": "Los Angeles, CA",
-    "bgImg": "../../images/icsc_event_la_lg.jpg"
+    "bgImg": "../../images/icsc_event_la_lg.jpg",
+    "category" : "SCT Magazine"
   },
   "newsHero": {
     "type": "eBook, Print",
