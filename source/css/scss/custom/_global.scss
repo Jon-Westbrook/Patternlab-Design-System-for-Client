@@ -130,8 +130,10 @@ a {
 
 
 .share-bar {
-  .share-icon {
-     height: 20px;
+  &.share-bar-small {
+    .share-bar-icon {
+       height: 20px;
+    }
   }
 }
 

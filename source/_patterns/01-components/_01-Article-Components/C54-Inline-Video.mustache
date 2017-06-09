@@ -3,18 +3,18 @@
 		<div class="col-md-12 pb-3 pb-sm-4 pb-md-0 pt-0 ">
     	<video poster="{{ featuredVideo.placeholderLargeSrc }}" width="100%" height="520" controls class="img-fluid">
   			<source src="{{ featuredVideo.mp4Src }}" type="video/mp4">
-  			<source src="{{ featuredVideo.ogvSRc }}" type="video/ogg">
+  			<source src="{{ featuredVideo.ogvSrc }}" type="video/ogg">
 		</video>
     </div>
   </div>
-  <div class="row pt-md-3 share-bar">
+  <div class="row pt-md-3 share-bar share-bar-small">
   	<div class="col">
   		<div class="row py-3">
   			<div class="col d-flex justify-content-end">
-  				<p class="display9 secondary pt-1">Click to share</p>
-	    		<a href="#"><img class="d-inline-block ml-5 share-icon" src="{{ share.facebookSrc }}" alt="Facebook Icon"></a>
-	    		<a href="#"><img class="d-inline-block ml-5 share-icon" src="{{ share.twitterSrc }}" alt="Twitter Icon"></a>
-	    		<a href="#"><img class="d-inline-block ml-5 mr-6 share-icon" src="{{ share.linkedinSrc }}" alt="LinkedIn Icon"></a>
+  				<p class="display9 secondary pt-1">{{ share.shareText }}</p>
+	    		<a href="#"><img class="d-inline-block ml-5 share-bar-icon" src="{{ share.facebookSrc }}" alt="Facebook Icon"></a>
+	    		<a href="#"><img class="d-inline-block ml-5 share-bar-icon" src="{{ share.twitterSrc }}" alt="Twitter Icon"></a>
+	    		<a href="#"><img class="d-inline-block ml-5 mr-md-6 share-bar-icon" src="{{ share.linkedinSrc }}" alt="LinkedIn Icon"></a>
   			</div>
 		</div>
   	</div>

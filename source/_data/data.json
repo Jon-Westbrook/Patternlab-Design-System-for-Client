@@ -129,6 +129,7 @@
   "share" : {
     "facebookSrc" : "/images/facebook-dark.svg",
     "twitterSrc"  : "/images/twitter-dark.svg",
-    "linkedinSrc" : "/images/linkedin-dark.svg"
+    "linkedinSrc" : "/images/linkedin-dark.svg",
+    "shareText"   : "Click to share"
   }
 }
