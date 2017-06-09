@@ -1,8 +1,22 @@
 
-<div class="container-fluid bg-gray-lightest py-4 py-md-6 featured-events">
+<div class="container-fluid bg-gray-lightest py-4 pt-md-6 pb-md-0 featured-events">
 	<div class="container">
 		<div class="d-flex justify-content-end m-0 p-0">
-		  <span class="display7 secondary mr-auto">Other events you may like</span>
+		  <span class="display7 secondary mr-auto">{{ cards.moduleTitle1 }}</span>
+		  <span class="display7 m-0 p-0 text-right"><a href="#" class="view-all accent">View all</a></span>
+		</div>
+		<div class="row mt-4">
+		  <div class="col-md-4">{{> components-C26A-Event-Card }}</div>
+		  <div class="col-md-4">{{> components-C26A-Event-Card }}</div>
+		  <div class="col-md-4">{{> components-C26A-Event-Card }}</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid bg-gray-lightest py-4 pb-4 pt-md-5 pb-md-6 featured-events">
+	<div class="container">
+		<div class="d-flex justify-content-end m-0 p-0">
+		  <span class="display7 secondary mr-auto">{{ cards.moduleTitle2 }}</span>
 		  <span class="display7 m-0 p-0 text-right"><a href="#" class="view-all accent">View all</a></span>
 		</div>
 		<div class="row mt-4">
