@@ -11,9 +11,13 @@
     ],
     "userName": "Willa Cather"
   },
-  "short-hero": {
+  "shortHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
       "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit"
+  },
+  "tallHero": {
+      "heroTitle": "Sed posuere consectetur est at lobortis",
+      "eyebrow": "Fermentum Sit"
   },
   "cards": {
     "generalCardCat": "SCT",
@@ -38,7 +42,9 @@
     "memberCountry": "United States",
     "pubCardImg": "../../images/book@2x.jpg",
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
-    "pubCat": "eBook, Print Edition"
+    "pubCat": "eBook, Print Edition",
+    "moduleTitle1" : "Lorem ipsum dolor sit amet",
+    "moduleTitle2" : "Lorem ipsum dolor sit amet"
   },
   "results": {
     "resultTitle": "210",
@@ -76,7 +82,46 @@
     "locale": "Los Angeles, CA",
     "bgImg": "../../images/icsc_event_la_lg.jpg"
   },
+  "newsHero": {
+    "type": "eBook, Print",
+    "heroTitle": "Economic Development: Strategies for State and Local Practice",
+    "bgImg": "../../images/pattern-fill-1.svg"
+  },
   "location": {
     "mapImg": "../../images/map.png"
+  },
+  "featureCallout": [
+    {
+      "title"   : "Tax reform",
+      "desc"    : "Stay informed throughout the tax reform legislative process with this toolkit. It features the latest news and action items for retail real estate professionals.",
+      "imgSrc"  : "/images/artwork-1-taxreform.svg"
+    },
+    {
+      "title"   : "ADA lawsuit reform",
+      "desc"    : "Congress should restore the integrity of the American Disabilities Act by providing clearer rules for identifying and correcting access violations.",
+      "imgSrc"  : "/images/artwork-2-lawsuitreform.svg"
+    },
+    {
+      "title"   : "E-Fairness",
+      "desc"    : "This legislation modernizes the sales tax collection system and levels the playing field between online-only sellers and brick and mortar retailers.",
+      "imgSrc"  : "/images/artwork-3-efairness.svg"
+    }
+  ],
+  "featuredVideo" : {
+    "title"   : "We advocate for you",
+    "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
+    "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+    "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
+    "placeholderSrc" : "https://placeimg.com/630/355/any"
+  },
+  "singleFeatureCallout": {
+    "tagline": "Leaders read first",
+    "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members."
+  },
+  "tiles": {
+    "bgImg1": "../../images/tile1.jpg",
+    "bgImg2": "../../images/tile2.jpg",
+    "bgImg3": "../../images/tile3.jpg",
+    "bgImg4": "../../images/tile4.jpg"
   }
 }

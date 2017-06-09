@@ -1,0 +1,14 @@
+{
+  "cards": {
+    "moduleTitle1" : "Events near you",
+    "moduleTitle2" : "My favorites"
+  },
+  "eventHero": {
+  	"heroTitle": "New York National Dealmaking"
+  },
+  "members-promo": {
+    "heroTitle": "Interested in becoming a sponsor or exhibitor?",
+    "heroDesc": "Gain visibility for your company in printed materials, online or with a booth at an event.",
+    "ctaTxt": "Learn more"
+  }
+}

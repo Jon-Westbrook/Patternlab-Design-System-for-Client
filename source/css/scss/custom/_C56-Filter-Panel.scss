@@ -44,7 +44,7 @@
 	cursor: pointer;
 	&.collapsed {
 		transition: $transition-base;
-		.subFacet:after {
+		.facet:after {
 			transition: $transition-base;
 			background: url('../../images/down-arrow-white.svg') no-repeat;
 		}
