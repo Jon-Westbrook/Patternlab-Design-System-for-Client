@@ -1,0 +1,25 @@
+
+.home-carousel {
+
+	.carousel-inner {
+		overflow: visible;
+	}
+
+	.carousel-item {
+		overflow: visible;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.carousel-indicators {
+		bottom: 40px;
+	}
+
+	.carousel-indicators li {
+		background-color: #f7f7fb;
+		&.active {
+			background-color: $tertiary6;
+		}
+	}
+
+}
