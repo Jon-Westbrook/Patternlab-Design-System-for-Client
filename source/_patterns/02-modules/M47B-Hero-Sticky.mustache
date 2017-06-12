@@ -1,4 +1,3 @@
-
 <!-- Hero --> 
 <div class="jumbotron jumbotron-fluid m-0 py-6 py-md-7 event-hero" style="background-image: url( {{ eventHero.bgImg }} );" >
 	<div class="container">
@@ -11,31 +10,4 @@
 	</div>
 </div>
 
-<!-- Mobile Share --> 
-<div class="container hidden-md-up">
-  <div class="row py-3">
-  	<div class="col d-flex justify-content-end">
-  		<img class="d-inline-block" src="{{ cards.shareImg }}" alt="Share Icon">
-  		<img class="d-inline-block ml-5" src="{{ cards.saveImg }}" alt="Favorite Icon">
-  	</div>
-	</div>
-</div>
-
-<!-- Sticky CTA --> 
-<div class="container-fluid sticky-cta m-0 p-0 py-md-2">
-	
-	<!-- Desktop --> 
-	<div class="container hidden-sm-down">
-    <div class="row">
-    	<div class="col d-flex justify-content-end pr-0">
-    		<p class="display7 d-inline-block text-primary my-auto mr-auto bold sticky-title"><a class="top" href="#">{{{ eventHero.heroTitle }}}</a></p>
-    		<img class="d-inline-block mr-4" src="{{ cards.shareImg }}" alt="Share Icon">
-    		<img class="d-inline-block mr-4" src="{{ cards.saveImg }}" alt="Favorite Icon">
-    	</div>
-    </div>
-	</div>
-	
-</div>
-
-{{! THIS WILL BECOME components-C58C-Sticky-Bar-Share-Save }}
-
+{{> components-C58C-Sticky-Bar-Share-Save }}
