@@ -1,22 +1,41 @@
-<div class="container mb-4">
-  <div class="row mb-4">
-  	<div class="col">
-  		<h2 class="display6 bold">{{infographic.title}}</h2>
-  	</div>
-  </div>
-  <div class="row mb-4">
-	  {{#infographic.items}}
-	    <div class="col-12 col-md-4 text-md-center px-md-3 px-lg-5 px-xl-6">
-	    	<div class="row">
-	    		<div class="col-4 col-md-12">
-			    	<img class="mb-3 img-fluid" src="{{src}}" >
+{{! outer wrapper - 1-10-1 col pattern }}
+<div class="container mb-6">
+	<div class="row">
+		<div class="col-md-1 hidden-sm-down"></div>
+		<div class="col-12 col-md-10">
+
+
+		{{! inner section - main module }}
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col">
+					<h2 class="display6 bold">{{infographic.title}}</h2>
+				</div>
+			</div>
+			<div class="row mb-4">
+			  {{#infographic.items}}
+			    <div class="col-12 col-md-4 text-md-center px-md-3 px-lg-5 px-xl-6">
+			    	<div class="row">
+			    		<div class="col-4 col-md-12">
+					    	<img class="mb-3 img-fluid" src="{{src}}" >
+					    </div>
+					   	<div class="col-8 col-md-12 my-auto">
+					    	<p class="display9">{{text}}</p>
+			   		 	</div>
+			    	</div>
 			    </div>
-			   	<div class="col-8 col-md-12 my-auto">
-			    	<p class="display9">{{text}}</p>
-	   		 	</div>
-	    	</div>
-	    </div>
-	  {{/infographic.items}}
+			  {{/infographic.items}}
+			</div>
+			{{> components-CXX-Share-Bar }}
+			</div>
+			{{! end inner section }}
+
+    	
+    </div>
+    <div class="col-md-1 hidden-sm-down"></div>
   </div>
-  {{> components-CXX-Share-Bar }}
 </div>
+
+
+
+
