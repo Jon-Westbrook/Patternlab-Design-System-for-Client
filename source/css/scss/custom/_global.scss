@@ -131,6 +131,8 @@ a {
 }
 
 .share-bar {
+  /* border: 1px solid $tertiary5; */
+
   &.share-bar--small {
     img.share-bar__icon {
        height: 20px;
@@ -172,11 +174,4 @@ ul.tag-cloud {
       }
     }
   }
-
 }
-
-
-
-
-
-
