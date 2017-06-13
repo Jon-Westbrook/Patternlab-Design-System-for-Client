@@ -83,6 +83,12 @@
     "bgImg": "../../images/icsc_event_la_lg.jpg",
     "category" : "SCT Magazine"
   },
+  "homeHero": {
+    "bgImg": "../../images/icsc_home_lg.jpg",
+    "heroTitle1": "70,000 professionals.",
+    "heroTitle2": "One vibrant global community."
+
+  },
   "newsHero": {
     "type": "eBook, Print",
     "heroTitle": "Economic Development: Strategies for State and Local Practice",
@@ -95,17 +101,20 @@
     {
       "title"   : "Tax reform",
       "desc"    : "Stay informed throughout the tax reform legislative process with this toolkit. It features the latest news and action items for retail real estate professionals.",
-      "imgSrc"  : "/images/artwork-1-taxreform.svg"
+      "imgSrc"  : "/images/artwork-1-taxreform.svg",
+      "reverse"  : true
     },
     {
       "title"   : "ADA lawsuit reform",
       "desc"    : "Congress should restore the integrity of the American Disabilities Act by providing clearer rules for identifying and correcting access violations.",
-      "imgSrc"  : "/images/artwork-2-lawsuitreform.svg"
+      "imgSrc"  : "/images/artwork-2-lawsuitreform.svg",
+      "reverse"  : false
     },
     {
       "title"   : "E-Fairness",
       "desc"    : "This legislation modernizes the sales tax collection system and levels the playing field between online-only sellers and brick and mortar retailers.",
-      "imgSrc"  : "/images/artwork-3-efairness.svg"
+      "imgSrc"  : "/images/artwork-3-efairness.svg",
+      "reverse"  : true
     }
   ],
   "featuredVideo" : {
@@ -113,8 +122,8 @@
     "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
     "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
     "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
-    "placeholderSrc"      : "https://placeimg.com/630/355/any",
-    "placeholderLargeSrc" : "https://placeimg.com/920/520/any"
+    "placeholderSrc"      : "https://via.placeholder.com/630x355",
+    "placeholderLargeSrc" : "https://via.placeholder.com/920x520"
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
@@ -130,8 +139,11 @@
   },
   "share" : {
     "facebookSrc" : "/images/facebook-dark.svg",
+    "facebookSrcMed" : "/images/facebook-med.svg",
     "twitterSrc"  : "/images/twitter-dark.svg",
+    "twitterSrcMed"  : "/images/twitter-med.svg",
     "linkedinSrc" : "/images/linkedin-dark.svg",
+    "linkedinSrcMed" : "/images/linkedin-med.svg",
     "shareText"   : "Click to share"
   },
   "infographic" : {
@@ -148,5 +160,14 @@
         "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }
     ]
-  }
+  },
+  "author" : { 
+    "imgSrc"        : "//via.placeholder.com/90x90",
+    "name"          : "Juan Stephens",
+    "position"      : "Vice President",
+    "company"       : "JLL Realty",
+    "text"          : "I’m VP at JLL. I’m also a contributor on Forbes’ real estate beat, covering markets news, investing and personal finance. Prior to Forbes, I wrote about savings and credit at Money magazine and have also enjoyed short stints at CNNMoney and digital news start-up Kicker.",
+    "emailText"     : "Email me at",
+    "emailAddress"  : "jstephens@jll.com"
+  }        
 }
