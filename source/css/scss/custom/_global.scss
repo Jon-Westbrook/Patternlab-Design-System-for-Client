@@ -60,6 +60,7 @@ a {
 
 .btn {
   border-width: 2px;
+  cursor: pointer;
   &.btn-tertiary {
     color: $btn-tertiary-color;
     background-color: $btn-tertiary-bg;
