@@ -13,7 +13,8 @@
   },
   "shortHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
-      "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit"
+      "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit",
+      "imgSrc": "../../images/bg-mall-outdoors.jpg"
   },
   "tallHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
