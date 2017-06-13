@@ -1,0 +1,56 @@
+
+.home-hero {
+  background: url('../images/Hero_FPO.png') no-repeat center center; 
+  background-size: cover;
+  @include media-breakpoint-up(lg) {
+		// .hero-title {
+		// 	margin-top: 191px;
+		// 	margin-bottom: 273px;
+		// }
+	}
+}
+
+.hero-boxes {
+	.block {
+		width: 50%;
+	}
+	@include media-breakpoint-down(md) {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		// .row {
+		// 	padding-right: 15px;
+		// 	padding-left: 15px;
+		// }
+	}
+	@include media-breakpoint-up(lg) {
+		position: relative;
+		top: -60px;
+		margin-bottom: -60px;
+	}
+	.left-title {
+		width: 246px;
+		@include media-breakpoint-up(sm) {
+			width: 259px;
+		}		
+		@include media-breakpoint-up(lg) {
+			width: 311px;
+		}
+	}
+	.top {
+		border-bottom: 1px solid $tertiary3;
+		@include media-breakpoint-only(md) {
+			border-bottom: 0;
+			border-right: 1px solid $tertiary3;
+		}
+	}
+	.forward {
+		position: absolute;
+		top: 39px;
+		right: 16px;
+		@include media-breakpoint-up(md) {
+			top: 39px;
+			right: 46px;
+		}
+	}
+}
