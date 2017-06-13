@@ -7,5 +7,16 @@
 			color: $primary3;
 			opacity: 1;
 		}
+		text-align: center;
+		@include media-breakpoint-up(md) {
+			text-align: left;
+		}
+	}
+}
+
+.footer-attributes {
+	text-align: center;
+	@include media-breakpoint-up(md) {
+		text-align: left;
 	}
 }
