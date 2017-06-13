@@ -83,6 +83,12 @@
     "bgImg": "../../images/icsc_event_la_lg.jpg",
     "category" : "SCT Magazine"
   },
+  "homeHero": {
+    "bgImg": "../../images/icsc_home_lg.jpg",
+    "heroTitle1": "70,000 professionals.",
+    "heroTitle2": "One vibrant global community."
+
+  },
   "newsHero": {
     "type": "eBook, Print",
     "heroTitle": "Economic Development: Strategies for State and Local Practice",
