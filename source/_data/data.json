@@ -123,7 +123,7 @@
     "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
     "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
     "placeholderSrc"      : "https://via.placeholder.com/630x355",
-    "placeholderLargeSrc" : "https://via.placeholder.com/920x520"
+    "placeholderLargeSrc" : "https://via.placeholder.com/925x520"
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
