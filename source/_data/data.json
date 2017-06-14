@@ -173,13 +173,16 @@
     "emailAddress"  : "jstephens@jll.com"
   },
   "profileDetail" : {
+    "backText"    : "Back to Find Members",
     "bgImg"       : "/images/pattern-fill-1.svg",
     "imgSrc"      : "//via.placeholder.com/136x136",
     "name"        : "Corinne Daily",
     "position"    : "Vice President",
     "department"  : "Real Estate Services",
     "location"    : "New York, NY",
-    "company"     : "Cushman & Wakefield"
+    "company"     : "Cushman & Wakefield",
+    "phone"       : "1.212.499.6446",
+    "email"       : "email@email.com"
 
   }        
 }

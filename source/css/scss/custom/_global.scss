@@ -144,6 +144,27 @@ a {
   white-space: nowrap;
 }
 
+.phone-link {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('/images/icon-phone.svg');
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+}
 
-
+.email-link {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-image: url('/images/icon-email.svg');
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+}
 

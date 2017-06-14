@@ -1,26 +1,20 @@
 
 <!-- Hero --> 
-<div class="jumbotron jumbotron-fluid m-0 py-6 py-md-7 event-hero" style="background-image: url( {{ profileDetail.bgImg }} );" >
+<div class="jumbotron jumbotron-fluid m-0 pt-1 pb-5 event-hero" style="background-image: url('{{profileDetail.bgImg}}'');" >
 	<div class="container">
 		<div class="row my-3 my-md-5">
 			<div class="col text-center">
-				
-
-				<p class="text-left"><a href="#" class="accent display8 p-0 m-0">Back to find members</a></p>
-
-
-				
-				<img src="{{ profileDetail.imgSrc }}" class="p-0 m-0 pb-4" />
-
-		      	<h1 class="display3 bold p-0 m-0">{{ profileDetail.name }}</h1>
+				<div class="left-nav text-left mb-4 hidden-sm-down">
+					<a href="#" class="display8 accent back p-0 m-0">{{profileDetail.backText}}</a>
+				</div>
+				<img src="{{profileDetail.imgSrc}}" class="p-0 m-0 pb-4" />
+		      	<h1 class="display3 bold p-0 m-0 mb-3">{{profileDetail.name}}</h1>
 		      	<div class="mb-3">
 			      	<p class="display6 secondary p-0 m-0">{{profileDetail.position}}</p>
 		    	  	<p class="display6 secondary p-0 m-0">{{profileDetail.department}}</p>
 		      		<p class="display6 secondary p-0 m-0">{{profileDetail.location}}</p>
 		      	</div>
 		      	<p class="display6 accent p-0 m-0">{{profileDetail.company}}</p>
-
-
 			</div>
 		</div>  
 	</div>
@@ -28,15 +22,66 @@
 
 <!-- Sticky Bar --> 
 <div class="container-fluid sticky-cta m-0 p-0 py-md-2 mb-md-6">
-	
 	<div class="container"> 
 	    <div class="row">
-	    	<div class="col d-flex justify-content-end pr-0 py-3">
-	    		<p class="display7 d-inline-block text-primary my-auto mr-auto bold sticky-title"><a class="top" href="#">{{{ eventHero.heroTitle }}}</a></p>
-	    		<img class="d-inline-block mr-4" src="{{ cards.shareImg }}" alt="Share Icon">
-	    		<img class="d-inline-block mr-4" src="{{ cards.saveImg }}" alt="Favorite Icon">
+	    	<div class="col-3 hidden-sm-down">
+
+		    	<p class="display7 d-inline-block text-primary my-auto mr-auto bold sticky-title">
+	    			<a class="top" href="#">{{profileDetail.name}}</a>
+	    		</p>
+
+	    	</div>
+	    	<div class="col-6 col-md-7 my-auto">
+	    		<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-4">
+	    			<span class="hidden-sm-down">{{profileDetail.phone}}</span>
+	    		</a>
+	    		<a href="mailto:{{profileDetail.email}}" class="accent email-link">
+	    			<span class="hidden-sm-down">{{profileDetail.email}}</span>
+	    		</a>
+	    	</div>
+
+			<div class="col-6 col-md-2 d-flex justify-content-end pr-0 py-3">
+	    		<img class="d-inline-block mr-4" src="{{cards.saveImg}}" alt="Favorite Icon">
+	    	</div>
+
+
 	    	</div>
     	</div>
 	</div>
-	
 </div>
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
