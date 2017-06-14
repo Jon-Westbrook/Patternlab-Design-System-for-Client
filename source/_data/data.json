@@ -173,15 +173,54 @@
     "emailAddress"  : "jstephens@jll.com"
   },
   "profileDetail" : {
+    "backText"    : "Back to Find Members",
     "bgImg"       : "/images/pattern-fill-1.svg",
     "imgSrc"      : "//via.placeholder.com/136x136",
     "name"        : "Corinne Daily",
     "position"    : "Vice President",
     "department"  : "Real Estate Services",
     "location"    : "New York, NY",
-    "company"     : "Cushman & Wakefield"
-
-  }        
+    "company"     : "Cushman & Wakefield",
+    "phone"       : "1.212.499.6446",
+    "email"       : "email@email.com",
+    "website"     : "website.com",
+    "address1"    : "1290 Avenue of the Americas",
+    "address2"    : "New York, NY, 10104",
+    "aboutText"   : "Highly accomplished retail real estate professional with a vast network of landlords, retailers and brokers. Expertise across a wide variety of product types, geographies and uses. Consistently produces strong store openings and delivers measurable results through savvy lease negotiations. <br /><br />Skilled in deal structure on both Landlord and Retailer side. Proven ability to juggle multiple projects concurrently and quickly adapt to rapidly changing priorities. A tenacious negotiator with an uncommon focus on delivering superior results.",
+    "education"   : [
+      {
+        "imgSrc" : "//via.placeholder.com/50x50",
+        "school" : "New York University",
+        "degree" : "Master of Business, Business Management"
+      },
+      { 
+        "imgSrc" : "//via.placeholder.com/50x50",
+        "school" : "Washington University in St Louis",
+        "degree" : "Bachelor of Science, Computer Science (Honors)"
+      }]
+  },
+  "snapshots3" : { 
+    "title"         : "What drives us",
+    "cat1"          : "Building communities",
+    "cat1desc"      : "Retail centers offer more than money — a place to hang out after work, walk around with a child or experience life offline. They enrich the social fabric of the places the world calls home.",
+    "cat1img"       : "../../images/promo.svg",
+    "cat2"          : "Fueling economies",
+    "cat2desc"      : "Retail centers are essential to economic development, largely because of the property and sales taxes they generate. They also create jobs, buoy GDPs and fuel revenue everywhere they serve.",
+    "cat2img"       : "../../images/promo.svg",
+    "cat3"          : "Inspiring innovation ",
+    "cat3desc"      : "Retail real estate will shape the social practices, business policies and technologies of the future. We stay on the cutting edge and report what we find, helping members step into the future with efficiency.",
+    "cat3img"       : "../../images/promo.svg"
+  },
+  "callouts" : {
+    "title"         : "Additional Resources",
+    "cat1"          : "Event Brochure",
+    "cat1desc"      : "This is an optional description field.",
+    "cat1LinkText"  : "Download",
+    "cat2"          : "Attendee List",
+    "cat2desc"      : "This is an optional description field.",
+    "cat3"          : "Registration form",
+    "cat3desc"      : "This is an optional description field."
+  }
 }
 
 
