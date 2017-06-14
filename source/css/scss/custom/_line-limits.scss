@@ -34,6 +34,10 @@
   @include limitLines(1, 24px);
 }
 
+.d8-truncate3 {
+  @include limitLines(3, 24px);
+}
+
 .d9-truncate1 {
   @include limitLines(1, 16px);
 }
