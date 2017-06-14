@@ -13,7 +13,8 @@
   },
   "shortHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
-      "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit"
+      "heroDesc": "Lorem Ultricies Vestibulum Fermentum Sit",
+      "imgSrc": "../../images/bg-mall-outdoors.jpg"
   },
   "tallHero": {
       "heroTitle": "Sed posuere consectetur est at lobortis",
@@ -21,6 +22,7 @@
   },
   "cards": {
     "generalCardCat": "SCT",
+    "generalCardPostAge": "1 week ago",
     "generalCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
     "generalCardImg": "../../images/article-thumb-FPO@2x.png",
     "generalThumb": "Article Thumb",

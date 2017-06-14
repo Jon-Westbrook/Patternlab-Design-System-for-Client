@@ -3,17 +3,17 @@
   <div class="row">
     <div class="col-2 col-md-1 my-0 pt-1">
 
-      <!-- First Version of the Thumbnail Image, if there is an available image, hidden temporarily via hidden-xl-down class --> 
-      <img src="{{ cards.generalCardImg }}" alt="General Image" class="px-0 py-2 card-img-right hidden-xl-down">
+      <!-- Thumbnail Image Version, if there IS an available image --> 
+      <img src="{{ cards.generalCardImg }}" alt="General Image" class="px-0 py-2 card-img-right">
       
-      <!-- Second Version of Thumbnail Image, if there is no available image --> 
-      <img src="{{ cards.downloadIcon }}" alt="General Image" class="px-2 pt-2 card-img-right download bg-gray-lightest">
+      <!-- Download Icon Version, if there is no available image --> 
+      <img src="{{ cards.downloadIcon }}" alt="General Image" class="px-2 pt-2 card-img-right download bg-gray-lightest hidden-xl-down">
     
     </div>
     <div class="col-10 col-md-8 d-flex align-items-center">
       <div class="card-block m-0 ml-md-3 p-0 pl-2 pl-sm-0 pl-md-3">        
         <a href="#"><h3 class="card-title mt-1 mb-0 ml-0 mx-0 py-0 display8 bold">{{ cards.generalCardTitle }}</h3></a>
-        <p class="display9 secondary mt-1 p-0">{{ cards.generalCardCat }}</p>
+        <p class="display9 secondary mt-1 p-0">{{ cards.generalCardCat }} - {{ cards.generalCardPostAge }}</p>
       </div>
     </div>
   </div>
