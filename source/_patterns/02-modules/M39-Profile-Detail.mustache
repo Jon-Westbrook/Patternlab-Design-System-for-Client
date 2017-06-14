@@ -51,7 +51,7 @@
 
 			<!-- CONTACT -->
 			<div class="contact-section mb-4 pb-4">
-				<p class="display6 bold">Contact</p>
+				<p class="display6 bold mb-4">Contact</p>
 				<div class="row display8 mb-3">
 					<div class="col-4">Phone</div>
 					<div class="col-8"><a href="tel:{{profileDetail.phone}}" class="accent">{{profileDetail.phone}}</a></div>
@@ -72,25 +72,32 @@
 						<a href="#" class="accent">View Map</a>
 					</div>
 				</div>
-				<div class="row display8 mb-3">
+				<div class="row display8 mb-4">
 					<div class="col-4">Social</div>
-					<div class="col-8">...</div>
+					<div class="col-8">
+						<a href="#" class="mr-2"><img src="/images/icon-fb.svg" /></a>
+						<a href="#" class="mr-2"><img src="/images/icon-linkedin.svg" /></a>
+						<a href="#" class="mr-2"><img src="/images/icon-twitter.svg" /></a>
+					</div>
 				</div>
 			</div>
 
 			<!-- ABOUT -->
 			<div class="contact-section mb-4 pb-4">
-				<p class="display6 bold">About</p>
+				<p class="display6 bold mb-3">About</p>
 				<p class="display8">{{profileDetail.aboutText}}</p>
 			</div>
 
 			<!-- EDUCATION -->
 			<div class="mb-4 pb-4">
-				<p class="display6 bold">Education</p>
+				<p class="display6 bold mb-4">Education</p>
 				{{#profileDetail.education}}
-				<div class="row display8 mb-3">
+				<div class="row display8 mb-4">
 					<div class="col-3 col-sm-2"><img src="{{imgSrc}}" /></div>
-					<div class="col-9 col-sm-10">{{school}}<br />{{degree}}</div>
+					<div class="col-9 col-sm-10">
+						<p class="bold">{{school}}</p>
+						<p>{{degree}}</p>
+					</div>
 				</div>
 				{{/profileDetail.education}}
 			</div>
