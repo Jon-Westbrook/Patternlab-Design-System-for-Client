@@ -210,6 +210,16 @@
     "cat3"          : "Inspiring innovation ",
     "cat3desc"      : "Retail real estate will shape the social practices, business policies and technologies of the future. We stay on the cutting edge and report what we find, helping members step into the future with efficiency.",
     "cat3img"       : "../../images/promo.svg"
+  },
+  "callouts" : {
+    "title"         : "Additional Resources",
+    "cat1"          : "Event Brochure",
+    "cat1desc"      : "This is an optional description field.",
+    "cat1LinkText"  : "Download",
+    "cat2"          : "Attendee List",
+    "cat2desc"      : "This is an optional description field.",
+    "cat3"          : "Registration form",
+    "cat3desc"      : "This is an optional description field."
   }
 }
 
