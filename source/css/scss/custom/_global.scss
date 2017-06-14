@@ -130,8 +130,9 @@ a {
   border-radius: 6px;
 }
 
-
 .share-bar {
+  /* border: 1px solid $tertiary5; */
+
   &.share-bar--small {
     img.share-bar__icon {
        height: 20px;
@@ -139,7 +140,10 @@ a {
   }
 }
 
-
 .nowrap {
   white-space: nowrap;
 }
+
+
+
+
