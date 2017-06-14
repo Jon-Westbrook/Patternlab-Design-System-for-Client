@@ -1,0 +1,18 @@
+<div class="row text-center text-md-left mb-3">
+	<div class="col-12 col-md-3 col-lg-2">
+		<img src="{{ author.imgSrc }}" class="mb-3 mb-md-0" />
+	</div>
+	<div class="col-12 col-md-9 col-lg-10">
+		<p class="display6 bold">{{ author.name }}</p>
+		<p class="display8">{{ author.position }}<br />{{ author.company }}</p>
+	</div>
+</div>
+<p class="display8">{{ author.text }} </p>
+<p class="display8 share-bar share-bar--small text-center text-md-left">
+	{{ author.emailText }} <a href="mailto:{{ author.emailAddress }}" class="accent">{{ author.emailAddress }}</a>
+	<span class="nowrap">
+		<a href="#"><img class="d-inline-block mx-3 share-bar__icon" src="{{ share.facebookSrc }}" alt="Facebook Icon"></a>
+		<a href="#"><img class="d-inline-block mx-3 share-bar__icon" src="{{ share.twitterSrc }}" alt="Twitter Icon"></a>
+		<a href="#"><img class="d-inline-block mx-3 share-bar__icon" src="{{ share.linkedinSrc }}" alt="LinkedIn Icon"></a>
+	</span>
+</p>

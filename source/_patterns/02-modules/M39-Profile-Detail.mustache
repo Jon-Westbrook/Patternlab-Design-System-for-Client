@@ -66,7 +66,7 @@
 				</div>
 				<div class="row display8 mb-3">
 					<div class="col-4">Address</div>
-					<div class="col-8">
+					<div class="col-8 secondary">
 						{{profileDetail.address1}}<br />
 						{{profileDetail.address2}}<br />
 						<a href="#" class="accent">View Map</a>
@@ -85,18 +85,17 @@
 			<!-- ABOUT -->
 			<div class="contact-section mb-4 pb-4">
 				<p class="display6 bold mb-3">About</p>
-				<p class="display8">{{profileDetail.aboutText}}</p>
+				<p class="display8 secondary">{{profileDetail.aboutText}}</p>
 			</div>
 
 			<!-- EDUCATION -->
 			<div class="mb-4 pb-4">
 				<p class="display6 bold mb-4">Education</p>
 				{{#profileDetail.education}}
-				<div class="row display8 mb-4">
+				<div class="row mb-4">
 					<div class="col-3 col-sm-2"><img src="{{imgSrc}}" /></div>
-					<div class="col-9 col-sm-10">
-						<p class="bold">{{school}}</p>
-						<p>{{degree}}</p>
+					<div class="col-9 col-sm-10 display8 secondary">
+						<span class="bold">{{school}}</span><br />{{degree}}
 					</div>
 				</div>
 				{{/profileDetail.education}}
