@@ -1,6 +1,6 @@
 
 <!-- Hero --> 
-<div class="jumbotron jumbotron-fluid m-0 pt-1 pb-5 event-hero" style="background-image: url('{{profileDetail.bgImg}}'');" >
+<div class="jumbotron jumbotron-fluid m-0 pt-1 pb-5 event-hero" style="background-image: url('{{profileDetail.bgImg}}');" >
 	<div class="container">
 		<div class="row my-3 my-md-5">
 			<div class="col text-center">
@@ -25,11 +25,9 @@
 	<div class="container"> 
 	    <div class="row">
 	    	<div class="col-3 hidden-sm-down">
-
 		    	<p class="display7 d-inline-block text-primary my-auto mr-auto bold sticky-title">
 	    			<a class="top" href="#">{{profileDetail.name}}</a>
 	    		</p>
-
 	    	</div>
 	    	<div class="col-6 col-md-7 my-auto">
 	    		<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-4">
@@ -39,49 +37,65 @@
 	    			<span class="hidden-sm-down">{{profileDetail.email}}</span>
 	    		</a>
 	    	</div>
-
 			<div class="col-6 col-md-2 d-flex justify-content-end pr-0 py-3">
 	    		<img class="d-inline-block mr-4" src="{{cards.saveImg}}" alt="Favorite Icon">
-	    	</div>
-
-
 	    	</div>
     	</div>
 	</div>
 </div>
 
+<div class="container">
+	<div class="row">
+		<div class="hidden-sm-down col-md-3"><!-- EMPTY --></div>
+		<div class="col-12 col-md-6 ">
 
+			<!-- CONTACT -->
+			<div class="contact-section mb-4 pb-4">
+				<p class="display6 bold">Contact</p>
+				<div class="row display8 mb-3">
+					<div class="col-4">Phone</div>
+					<div class="col-8"><a href="tel:{{profileDetail.phone}}" class="accent">{{profileDetail.phone}}</a></div>
+				</div>
+				<div class="row display8 mb-3">
+					<div class="col-4">Email</div>
+					<div class="col-8"><a href="mailto:{{profileDetail.email}}" class="accent">{{profileDetail.email}}</a></div>
+				</div>
+				<div class="row display8 mb-3">
+					<div class="col-4">Website</div>
+					<div class="col-8"><a href="{{profileDetail.website}}" class="accent">{{profileDetail.website}}</a></div>
+				</div>
+				<div class="row display8 mb-3">
+					<div class="col-4">Address</div>
+					<div class="col-8">
+						{{profileDetail.address1}}<br />
+						{{profileDetail.address2}}<br />
+						<a href="#" class="accent">View Map</a>
+					</div>
+				</div>
+				<div class="row display8 mb-3">
+					<div class="col-4">Social</div>
+					<div class="col-8">...</div>
+				</div>
+			</div>
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+			<!-- ABOUT -->
+			<div class="contact-section mb-4 pb-4">
+				<p class="display6 bold">About</p>
+				<p class="display8">{{profileDetail.aboutText}}</p>
+			</div>
+
+			<!-- EDUCATION -->
+			<div class="mb-4 pb-4">
+				<p class="display6 bold">Education</p>
+				{{#profileDetail.education}}
+				<div class="row display8 mb-3">
+					<div class="col-3 col-sm-2"><img src="{{imgSrc}}" /></div>
+					<div class="col-9 col-sm-10">{{school}}<br />{{degree}}</div>
+				</div>
+				{{/profileDetail.education}}
+			</div>
+
+		</div>
+		<div class="hidden-sm-down col-md-3"><!-- EMPTY --></div>
+	</div>
+</div>
