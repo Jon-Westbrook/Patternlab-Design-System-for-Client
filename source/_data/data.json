@@ -220,6 +220,39 @@
     "cat2desc"      : "This is an optional description field.",
     "cat3"          : "Registration form",
     "cat3desc"      : "This is an optional description field."
+  },
+  "badges" : {
+    "title" : "Recognition",
+    "items" : [
+      {
+        "text"  : "Trustees Distinguished Service Award Recipient",
+        "style" : "style-1"
+      },
+      {
+        "text"  : "ICSC Foundation Contributor",
+        "style" : "style-2"
+      },
+      {
+        "text"  : "Past State Director",
+        "style" : "style-4"
+      },
+       {
+        "text"  : "ICSC Member 5 years",
+        "style" : "style-1"
+      },
+      {
+        "text"  : "Past Chairman",
+        "style" : "style-3"
+      },
+      {
+        "text"  : "Certified Leasing Specialist",
+        "style" : "style-1"
+      },
+       {
+        "text"  : "Certified Shopping Center Manager",
+        "style" : "style-3"
+      }
+    ]
   }
 }
 
