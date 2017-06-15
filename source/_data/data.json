@@ -124,8 +124,8 @@
     "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
     "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
     "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
-    "placeholderSrc"      : "https://via.placeholder.com/630x355",
-    "placeholderLargeSrc" : "https://via.placeholder.com/925x520"
+    "placeholderSrc"      : "https://via.placeholder.com/1280x720&text=16:9",
+    "placeholderLargeSrc" : "https://via.placeholder.com/1920x1080&text=16:9"
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
@@ -140,13 +140,13 @@
     "bgImg4": "../../images/tile4.jpg"
   },
   "share" : {
-    "facebookSrc" : "/images/facebook-dark.svg",
-    "facebookSrcMed" : "/images/facebook-med.svg",
-    "twitterSrc"  : "/images/twitter-dark.svg",
-    "twitterSrcMed"  : "/images/twitter-med.svg",
-    "linkedinSrc" : "/images/linkedin-dark.svg",
-    "linkedinSrcMed" : "/images/linkedin-med.svg",
-    "shareText"   : "Click to share"
+    "facebookSrc"     : "/images/facebook-dark.svg",
+    "facebookSrcMed"  : "/images/facebook-med.svg",
+    "twitterSrc"      : "/images/twitter-dark.svg",
+    "twitterSrcMed"   : "/images/twitter-med.svg",
+    "linkedinSrc"     : "/images/linkedin-dark.svg",
+    "linkedinSrcMed"  : "/images/linkedin-med.svg",
+    "shareText"       : "Click to share"
   },
   "infographic" : {
     "title" : "Lorem ipsum dolor sit amet",
@@ -164,8 +164,8 @@
     ]
   },
   "author" : { 
-    "imgSrc"        : "//via.placeholder.com/90x90",
-    "name"          : "Juan Stephens",
+    "imgSrc"        : "../../images/Member.png",
+    
     "position"      : "Vice President",
     "company"       : "JLL Realty",
     "text"          : "I’m VP at JLL. I’m also a contributor on Forbes’ real estate beat, covering markets news, investing and personal finance. Prior to Forbes, I wrote about savings and credit at Money magazine and have also enjoyed short stints at CNNMoney and digital news start-up Kicker.",
@@ -175,7 +175,7 @@
   "profileDetail" : {
     "backText"    : "Back to Find Members",
     "bgImg"       : "/images/pattern-fill-1.svg",
-    "imgSrc"      : "//via.placeholder.com/136x136",
+    "imgSrc"      : "../../images/Member.png", 
     "name"        : "Corinne Daily",
     "position"    : "Vice President",
     "department"  : "Real Estate Services",
@@ -258,6 +258,18 @@
         "style" : "style-3"
       }
     ]
+  },
+  "textBlockLarge": {
+    "text"    : "We are the world leader in retail real estate conferences and deal-making events, hosting more than 300 a year and attracting a combined audience of 100,000 industry professionals. When you put our powerful exhibiting, advertising and sponsorship opportunities to work, you get visibility with impact. Here’s how."
+  },
+  "textBlock"   : {
+    "title"   : "Lorem ipsum in amet",
+    "text"    : "Reprehenderit amet commodo eu do laboris quis in non enim cupidatat dolor aliquip in consectetur commodo commodo voluptate do voluptate magna ullamco magna adipisicing id ullamco nostrud irure. Esse duis ut commodo id. do culpa sint esse esse veniam est. Sed dolore esse sit esse aute culpa non aute aute. Quis ea dolore aliqua voluptate tempor cupidatat ex commodo in id id velit culpa nostrud nisi dolore deserunt nisi consectetur in voluptate pariatur proident sunt."
+  },
+  "assetPromo" : {
+    "title"     : "Get inspired by the 2017 European Shopping Centre Award Winners",
+    "linkText"  : "Learn more",
+    "imgSrc"    : "//via.placeholder.com/103x144"
   }
 }
 
