@@ -165,7 +165,7 @@
   },
   "author" : { 
     "imgSrc"        : "../../images/Member.png",
-    "name"          : "Juan Stephens",
+    
     "position"      : "Vice President",
     "company"       : "JLL Realty",
     "text"          : "I’m VP at JLL. I’m also a contributor on Forbes’ real estate beat, covering markets news, investing and personal finance. Prior to Forbes, I wrote about savings and credit at Money magazine and have also enjoyed short stints at CNNMoney and digital news start-up Kicker.",
@@ -175,7 +175,7 @@
   "profileDetail" : {
     "backText"    : "Back to Find Members",
     "bgImg"       : "/images/pattern-fill-1.svg",
-    "imgSrc"      : "//via.placeholder.com/136x136",
+    "imgSrc"      : "../../images/Member.png", 
     "name"        : "Corinne Daily",
     "position"    : "Vice President",
     "department"  : "Real Estate Services",
