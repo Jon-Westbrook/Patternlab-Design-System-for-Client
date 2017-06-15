@@ -1,16 +1,15 @@
 .profile-badges {
 	background-color: $tertiary4;
 	
-	.profile-badge-item {
+	.profile-badges--item {
 		border-top-width: 6px;
 		border-top-style: solid;
 		background-color: white;
 		height: 100%;
 
-		&.style-1 { border-color: $secondary1; }
-		&.style-2 { border-color: $secondary2; } 
-		&.style-3 { border-color: $secondary3; }
-		&.style-4 { border-color: $secondary4; }
+		&.profile-badges--item__style-1 { border-color: $secondary1; }
+		&.profile-badges--item__style-2 { border-color: $secondary2; } 
+		&.profile-badges--item__style-3 { border-color: $secondary3; }
+		&.profile-badges--item__style-4 { border-color: $secondary4; }
 	}
 }
-

@@ -221,7 +221,7 @@
     "cat3"          : "Registration form",
     "cat3desc"      : "This is an optional description field."
   },
-  "badges" : {
+  "profileBadges" : {
     "title" : "Recognition",
     "items" : [
       {
