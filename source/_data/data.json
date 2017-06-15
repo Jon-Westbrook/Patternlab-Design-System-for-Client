@@ -124,8 +124,8 @@
     "desc"    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna leo. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes.",
     "mp4Src"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
     "ogvSrc"  : "http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv",
-    "placeholderSrc"      : "https://via.placeholder.com/630x355",
-    "placeholderLargeSrc" : "https://via.placeholder.com/925x520"
+    "placeholderSrc"      : "https://via.placeholder.com/1280x720&text=16:9",
+    "placeholderLargeSrc" : "https://via.placeholder.com/1920x1080&text=16:9"
   },
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
@@ -140,13 +140,13 @@
     "bgImg4": "../../images/tile4.jpg"
   },
   "share" : {
-    "facebookSrc" : "/images/facebook-dark.svg",
-    "facebookSrcMed" : "/images/facebook-med.svg",
-    "twitterSrc"  : "/images/twitter-dark.svg",
-    "twitterSrcMed"  : "/images/twitter-med.svg",
-    "linkedinSrc" : "/images/linkedin-dark.svg",
-    "linkedinSrcMed" : "/images/linkedin-med.svg",
-    "shareText"   : "Click to share"
+    "facebookSrc"     : "/images/facebook-dark.svg",
+    "facebookSrcMed"  : "/images/facebook-med.svg",
+    "twitterSrc"      : "/images/twitter-dark.svg",
+    "twitterSrcMed"   : "/images/twitter-med.svg",
+    "linkedinSrc"     : "/images/linkedin-dark.svg",
+    "linkedinSrcMed"  : "/images/linkedin-med.svg",
+    "shareText"       : "Click to share"
   },
   "infographic" : {
     "title" : "Lorem ipsum dolor sit amet",
@@ -164,7 +164,7 @@
     ]
   },
   "author" : { 
-    "imgSrc"        : "//via.placeholder.com/90x90",
+    "imgSrc"        : "../../images/Member.png",
     "name"          : "Juan Stephens",
     "position"      : "Vice President",
     "company"       : "JLL Realty",
