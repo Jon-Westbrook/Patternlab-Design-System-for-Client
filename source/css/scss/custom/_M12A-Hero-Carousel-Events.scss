@@ -40,8 +40,11 @@
 
 	.carousel-indicators li {
 		background-color: #f7f7fb;
-		margin-right: 16px;
-		margin-left: 16px;
+		width: 8px;
+		height: 8px;
+		max-width: 8px;
+		// margin-right: 16px;
+		// margin-left: 16px;
 		&.active {
 			background-color: darken($primary1, 10%);
 			
