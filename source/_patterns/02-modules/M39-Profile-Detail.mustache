@@ -7,7 +7,7 @@
 				<div class="left-nav text-left mb-4 hidden-sm-down">
 					<a href="#" class="display8 accent back p-0 m-0">{{profileDetail.backText}}</a>
 				</div>
-				<img src="{{profileDetail.imgSrc}}" class="p-0 m-0 pb-4" />
+				<img src="{{profileDetail.imgSrc}}" class="p-0 m-0 pb-4 profile-img" />
 		      	<h1 class="display3 bold p-0 m-0 mb-3">{{profileDetail.name}}</h1>
 		      	<div class="mb-3">
 			      	<p class="display6 secondary p-0 m-0">{{profileDetail.position}}</p>
@@ -21,7 +21,7 @@
 </div>
 
 <!-- Sticky Bar --> 
-<div class="container-fluid sticky-cta m-0 p-0 py-md-2 mb-md-6">
+<div class="container-fluid sticky-cta m-0 p-0 py-md-2 mb-4 mb-md-6">
 	<div class="container"> 
 	    <div class="row">
 	    	<div class="col-3 hidden-sm-down">
@@ -46,8 +46,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="hidden-sm-down col-md-3"><!-- EMPTY --></div>
-		<div class="col-12 col-md-6 ">
+		<div class="col-md-6 offset-md-3">
 
 			<!-- CONTACT -->
 			<div class="contact-section mb-4 pb-4">
@@ -66,9 +65,11 @@
 				</div>
 				<div class="row display8 mb-3">
 					<div class="col-4">Address</div>
-					<div class="col-8 secondary">
-						{{profileDetail.address1}}<br />
-						{{profileDetail.address2}}<br />
+					<div class="col-8">
+						<span class="secondary">
+							{{profileDetail.address1}}<br />
+							{{profileDetail.address2}}<br />
+						</span>
 						<a href="#" class="accent">View Map</a>
 					</div>
 				</div>
@@ -102,6 +103,5 @@
 			</div>
 
 		</div>
-		<div class="hidden-sm-down col-md-3"><!-- EMPTY --></div>
 	</div>
 </div>
