@@ -221,6 +221,11 @@
     "cat3"          : "Registration form",
     "cat3desc"      : "This is an optional description field."
   },
+  "calloutsAttending" : {
+    "moduleTitle":        "Attending",
+    "attendanceCount":    "345 Registered",
+    "ctaCopy": "View all attendees"
+  },
   "profileBadges" : {
     "title" : "Recognition",
     "items" : [
