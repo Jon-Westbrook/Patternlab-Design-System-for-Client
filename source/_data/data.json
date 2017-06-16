@@ -270,6 +270,9 @@
     "title"     : "Get inspired by the 2017 European Shopping Centre Award Winners",
     "linkText"  : "Learn more",
     "imgSrc"    : "//via.placeholder.com/103x144"
+  },
+  "carousel": {
+    "bgClr": "#fff"
   }
 }
 
