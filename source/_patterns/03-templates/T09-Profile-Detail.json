@@ -3,8 +3,11 @@
     "moduleTitle":        null,
     "attendanceCount":    "Similar members",
     "ctaCopy": null
+  },
+  "cards": {
+    "moduleTitle2" : "Corinne’s events"
   }
-}
+ }
 
 
 

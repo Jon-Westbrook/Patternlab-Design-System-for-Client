@@ -1,6 +1,6 @@
 
 <!-- Hero --> 
-<div class="jumbotron jumbotron-fluid m-0 pt-1 pb-5 event-hero" style="background-image: url('{{profileDetail.bgImg}}');" >
+<div class="jumbotron jumbotron-fluid m-0 pt-1 pb-5 event-hero event-hero__no-overlay" style="background-image: url('{{profileDetail.bgImg}}');" >
 	<div class="container">
 		<div class="row my-3 my-md-5">
 			<div class="col text-center">
@@ -30,7 +30,7 @@
 	    		</p>
 	    	</div>
 	    	<div class="col-6 col-md-7 my-auto">
-	    		<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-4">
+	    		<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-3 ml-2 ml-md-0 mr-md-4">
 	    			<span class="hidden-sm-down">{{profileDetail.phone}}</span>
 	    		</a>
 	    		<a href="mailto:{{profileDetail.email}}" class="accent email-link">
@@ -46,25 +46,25 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 offset-md-3">
+		<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 
 			<!-- CONTACT -->
 			<div class="contact-section mb-4 pb-4">
 				<p class="display6 bold mb-4">Contact</p>
 				<div class="row display8 mb-3">
-					<div class="col-4">Phone</div>
+					<div class="col-4">Phone:</div>
 					<div class="col-8"><a href="tel:{{profileDetail.phone}}" class="accent">{{profileDetail.phone}}</a></div>
 				</div>
 				<div class="row display8 mb-3">
-					<div class="col-4">Email</div>
+					<div class="col-4">Email:</div>
 					<div class="col-8"><a href="mailto:{{profileDetail.email}}" class="accent">{{profileDetail.email}}</a></div>
 				</div>
 				<div class="row display8 mb-3">
-					<div class="col-4">Website</div>
+					<div class="col-4">Website:</div>
 					<div class="col-8"><a href="{{profileDetail.website}}" class="accent">{{profileDetail.website}}</a></div>
 				</div>
 				<div class="row display8 mb-3">
-					<div class="col-4">Address</div>
+					<div class="col-4">Address:</div>
 					<div class="col-8">
 						<span class="secondary">
 							{{profileDetail.address1}}<br />
@@ -74,7 +74,7 @@
 					</div>
 				</div>
 				<div class="row display8 mb-4">
-					<div class="col-4">Social</div>
+					<div class="col-4">Social:</div>
 					<div class="col-8">
 						<a href="#" class="mr-2"><img src="/images/icon-fb.svg" /></a>
 						<a href="#" class="mr-2"><img src="/images/icon-linkedin.svg" /></a>

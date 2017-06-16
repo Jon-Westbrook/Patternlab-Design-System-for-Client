@@ -166,7 +166,7 @@
   },
   "author" : { 
     "imgSrc"        : "../../images/Member.png",
-    
+    "name"          : "Juan Stephens",
     "position"      : "Vice President",
     "company"       : "JLL Realty",
     "text"          : "I’m VP at JLL. I’m also a contributor on Forbes’ real estate beat, covering markets news, investing and personal finance. Prior to Forbes, I wrote about savings and credit at Money magazine and have also enjoyed short stints at CNNMoney and digital news start-up Kicker.",
@@ -190,7 +190,7 @@
     "aboutText"   : "Highly accomplished retail real estate professional with a vast network of landlords, retailers and brokers. Expertise across a wide variety of product types, geographies and uses. Consistently produces strong store openings and delivers measurable results through savvy lease negotiations. Skilled in deal structure on both Landlord and Retailer side. Proven ability to juggle multiple projects concurrently and quickly adapt to rapidly changing priorities. A tenacious negotiator with an uncommon focus on delivering superior results.",
     "education"   : [
       {
-        "imgSrc" : "//via.placeholder.com/50x50",
+        "imgSrc" : "//via.placeholder.com/50x50?text=FPO",
         "school" : "New York University",
         "degree" : "Master of Business, Business Management"
       },
