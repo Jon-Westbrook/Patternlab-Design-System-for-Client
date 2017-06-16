@@ -176,6 +176,14 @@ a {
     }
 }
 
+.profile-img-alt {
+    width: 90px;
+
+    @include media-breakpoint-down(sm) {
+      width: 78px;
+    }
+}
+
 
 /* Source: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .video-player {
