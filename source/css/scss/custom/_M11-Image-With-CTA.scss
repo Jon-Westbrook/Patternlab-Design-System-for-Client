@@ -1,8 +1,36 @@
-
+/*
 .image-with-cta {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top right;
 	position: relative;
 	background-color: $tertiary4;
+}
+*/
+
+.image-with-cta {
+	background-size: 55%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	position: relative;
+	background-color: $tertiary4;
+
+	@include media-breakpoint-down(lg) {
+	 	background-size: 70%;
+	}
+
+	@include media-breakpoint-down(md) {
+	 	background-size: 60%;
+	}
+
+	@include media-breakpoint-down(sm) {
+	 	background-position: bottom center;
+	 	padding-bottom: 23rem !important;
+	 	background-size: 75%;
+	}
+
+	@include media-breakpoint-down(xs) {
+	 	padding-bottom: 22rem !important;
+	 	background-size: 100%;
+	}
 }

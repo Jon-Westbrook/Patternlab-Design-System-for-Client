@@ -18,17 +18,40 @@
 	    left: 0;
 	    background-color: rgba(0, 0, 0, 0.3);
 	  }
+	  .title {
+	  	height: 72px;
+	  	@include media-breakpoint-up(md) {
+				height: 112px;
+			}	
+	  }
+	  .cta {
+	  	@include media-breakpoint-down(sm) {
+	  		width: 100%;
+	  	}
+	  }
 	}
 
 	.carousel-indicators {
-		bottom: 40px;
+		bottom: 16px;
+		@include media-breakpoint-up(md) {
+			bottom: 48px;
+		}		
 	}
 
 	.carousel-indicators li {
 		background-color: #f7f7fb;
+		width: 8px;
+		height: 8px;
+		max-width: 8px;
+		// margin-right: 16px;
+		// margin-left: 16px;
 		&.active {
-			background-color: $tertiary6;
+			background-color: darken($primary1, 10%);
+			
+			padding: 2px;
 		}
 	}
+
+
 
 }

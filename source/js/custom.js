@@ -50,4 +50,12 @@ $(document).ready(function() {
     $("html, body").animate({ scrollTop: "0" });
   });
 
+  // Carousel Swipe Mobile (in development requires jQuery Mobile)
+  // $("#home-carousel").swiperight(function() {
+  //     $(this).carousel('prev');
+  //   });
+  //  $("#home-carousel").swipeleft(function() {
+  //     $(this).carousel('next');
+  //  });
+
 });

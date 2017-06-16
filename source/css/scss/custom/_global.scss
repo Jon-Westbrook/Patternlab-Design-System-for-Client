@@ -1,6 +1,6 @@
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
-// @include debug;
+@include debug;
 
 * {
   text-size-adjust: none;
@@ -174,5 +174,22 @@ a {
     @include media-breakpoint-down(sm) {
       width: 120px;
     }
+}
+
+
+/* Source: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+.video-player {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 

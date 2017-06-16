@@ -1,7 +1,8 @@
 ---
-title: Article Card
+title: General Card
 ---
 
+The General Card was formerly known as the Article Card, but serves a dual-purpose of also being a Download Card. So, it was renamed the General Card, and could be extended to accomodate other use cases. 
 
 Card
 
