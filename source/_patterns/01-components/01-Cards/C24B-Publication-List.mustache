@@ -14,9 +14,11 @@
   <div class="row">
     <div class="col-2 hidden-md-up">&nbsp;</div>
     <div class="col-8 col-md-2 gen-list-item-icons justify-content-start justify-content-lg-end d-inline-flex align-items-center ml-3 my-md-0 p-0">
-      <img class="mr-5 ml-2 ml-sm-0" src="{{ cards.shareImg }}" alt="Share Icon">
-      <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
-      <p class="display9 accent bold ml-auto my-auto">Free for Members</p>
+      <div class="">
+        <img class="mr-5 ml-2 ml-sm-0" src="{{ cards.shareImg }}" alt="Share Icon">
+        <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
+      </div>
+      <p class="display9 accent bold mr-auto ml-auto my-auto">{{ cards.optionalLabel }}</p>
     </div>
   </div>
 </div>
