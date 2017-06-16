@@ -9,7 +9,7 @@
 */
 
 .image-with-cta {
-	background-size: 60%;
+	background-size: 55%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	position: relative;
@@ -20,7 +20,7 @@
 	}
 
 	@include media-breakpoint-down(md) {
-	 	
+	 	background-size: 60%;
 	}
 
 	@include media-breakpoint-down(sm) {
@@ -30,7 +30,7 @@
 	}
 
 	@include media-breakpoint-down(xs) {
-	 	padding-bottom: 23rem !important;
+	 	padding-bottom: 22rem !important;
 	 	background-size: 100%;
 	}
 }
