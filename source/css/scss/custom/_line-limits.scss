@@ -30,6 +30,13 @@
    }
 }
 
+.d7-truncate3 {
+  @include limitLines(3, 20px);
+  @include media-breakpoint-up(lg) {
+    @include limitLines(3, 24px);
+  }
+}
+
 .d8-truncate1 {
   @include limitLines(1, 24px);
 }
@@ -44,5 +51,9 @@
 
 .d9-truncate2 {
   @include limitLines(2, 16px);
+}
+
+.d9-truncate3 {
+  @include limitLines(3, 16px);
 }
 
