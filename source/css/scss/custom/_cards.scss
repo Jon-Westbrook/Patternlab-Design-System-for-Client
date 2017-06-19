@@ -15,7 +15,7 @@
 		height: 430px;
 	}
 	&:hover {
-		box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+		box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
 		transform: translateY(-4px);
 	}
 }
@@ -24,6 +24,33 @@
 	margin-bottom: 2rem;
 	border-top: 1px solid $tertiary3;
 	position: relative;
+}
+
+.list-card-latest-news {
+	margin-bottom: 2rem;
+	border-top: 1px solid $tertiary3;
+	position: relative;
+	// .card-img-right {
+	// 	object-fit: cover;
+	// 	height: 48px;
+	// 	width: 48px;
+	// 	@include media-breakpoint-only(md) {
+	// 		height: 92.1px;
+	// 		width: 150px;
+	// 	}
+	// 	@include media-breakpoint-up(lg) {
+	// 		height: 116px;
+	// 		width: 189px;
+	// 	}
+	// 	&.download {
+	// 		object-fit: initial;
+	// 	}
+	// }
+	.gen-list-item-icons {
+		@include media-breakpoint-up(md) {
+			bottom: 10px;
+		}
+	}
 }
 
 .card-img-right {
