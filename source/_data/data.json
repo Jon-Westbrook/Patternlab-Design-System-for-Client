@@ -26,6 +26,7 @@
     "generalCardTitle": "ICSC Meets with Key DC Influencers on Tax Reform",
     "generalCardImg": "../../images/article-thumb-FPO@2x.png",
     "generalThumb": "Article Thumb",
+    "generalEyebrow": "Wall Street Journal",
     "generalDesc": "1 week ago",
     "downloadIcon": "../../images/download-icon.svg",
     "shareImg": "../../images/icon-share.svg",
@@ -151,18 +152,8 @@
   },
   "infographic" : {
     "title" : "Lorem ipsum dolor sit amet",
-    "items" : [
-      {
-        "src"   : "https://placeimg.com/208/208/any",
-        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },{
-        "src"   : "https://placeimg.com/208/208/any",
-        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },{
-        "src"   : "https://placeimg.com/208/208/any",
-        "text"  : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      }
-    ]
+    "imgLg": "../../images/infographic-desktop@2x.png",
+    "imgSm": "../../images/infographic-mobile@2x.png"
   },
   "author" : { 
     "imgSrc"        : "../../images/Member.png",
