@@ -59,11 +59,11 @@
 
 .card-img-right {
 	object-fit: cover;
-	height: 48px;
-	width: 48px;
+	height: 56px;
+	width: 56px;
 	@include media-breakpoint-up(sm) {
-		height: 65px;
-		width: 65px;
+		height: 64px;
+		width: 64px;
 	}
 	&.download {
 		object-fit: initial;
@@ -102,7 +102,6 @@
 
 .gen-list-item-icons {
 	position: relative;
-	margin-left: 20px;
 	@include media-breakpoint-up(md) {
 		position: absolute;
 		right: 1.25rem;
