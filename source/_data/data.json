@@ -260,12 +260,27 @@
     "text"    : "Reprehenderit amet commodo eu do laboris quis in non enim cupidatat dolor aliquip in consectetur commodo commodo voluptate do voluptate magna ullamco magna adipisicing id ullamco nostrud irure. Esse duis ut commodo id. do culpa sint esse esse veniam est. Sed dolore esse sit esse aute culpa non aute aute. Quis ea dolore aliqua voluptate tempor cupidatat ex commodo in id id velit culpa nostrud nisi dolore deserunt nisi consectetur in voluptate pariatur proident sunt."
   },
   "assetPromo" : {
-    "title"     : "Get inspired by the 2017 European Shopping Centre Award Winners",
-    "linkText"  : "Learn more",
-    "imgSrc"    : "//via.placeholder.com/103x144"
+    "title"     : "Join us at Research Connections 2017",
+    "date"      : "October 22-24",
+    "locale"    : "Toronto, ON Canada",
+    "linkText"  : "Register",
+    "imgSrc"    : "../../images/bg-mall-outdoors.jpg"
   },
   "carousel": {
     "bgClr": "#fff"
+  },
+  "subPage": {
+    "headerTitle": "Sponsor, Exhibit &amp; Advertise",
+    "headerDesc": "We are the world leader in retail real estate conferences and deal-making events, hosting more than 300 a year and attracting a combined audience of 100,000 industry professionals. When you put our powerful exhibiting, advertising and sponsorship opportunities to work, you get visibility with impact. Here’s how.",
+    "secondaryTitle1": "Current Legislation"
+  },
+  "leftNav": {
+    "backText":   "Back to Home",
+    "link1":      "Contact Us",
+    "link2":      "Sponsor, Exhibit &amp; Advertise",
+    "link3":      "Terms &amp; Conditions",
+    "link4":      "Privacy Policy",
+    "link5":      "Antitrust Policy"
   }
 }
 
