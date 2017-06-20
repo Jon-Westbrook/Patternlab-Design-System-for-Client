@@ -272,7 +272,9 @@
   "subPage": {
     "headerTitle": "Sponsor, Exhibit &amp; Advertise",
     "headerDesc": "We are the world leader in retail real estate conferences and deal-making events, hosting more than 300 a year and attracting a combined audience of 100,000 industry professionals. When you put our powerful exhibiting, advertising and sponsorship opportunities to work, you get visibility with impact. Here’s how.",
-    "secondaryTitle1": "Current Legislation"
+    "secondaryTitle1": "Current Legislation",
+    "secondaryBodyCopy1": "As a sponsor or exhibitor at a regional deal-making conference or idea exchange, you could get in front of more than 8,000 industry stakeholders. Or target your customers with digital displays of your company name at a conference.",
+    "link1": "Download the RECon sponsorship brochure"
   },
   "leftNav": {
     "backText":   "Back to Home",

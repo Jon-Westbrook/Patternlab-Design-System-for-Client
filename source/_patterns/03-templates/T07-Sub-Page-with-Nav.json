@@ -2,7 +2,9 @@
   "subPage": {
     "headerTitle": "ADA Lawsuit Reform",
     "headerDesc": "Restore the integrity of the ADA<br /><br />ICSC supports H.R. 620, The ADA Education and Reform Act, which closes the loophole in the federal law that has unintentionally produced “drive-by” ADA Title III lawsuits and adds safeguards that incentivize the remedy of alleged violations – without taking away the right to pursue “bad actors” who ignore compliance.",
-    "secondaryTitle1": "Current Legislation"
+    "secondaryTitle1": "Current Legislation",
+    "secondaryBodyCopy1": "H.R. 620 is a “notice and cure” bill that requires a plaintiff to notify property owners about alleged violations and allows them 120 days to correct the potential problems before the clock starts running on attorney fees.",
+    "link1": "H.R.620 - ADA Education and Reform Act of 2017"
   },
   "leftNav": {
     "backText":   "Back to Public Policy",
