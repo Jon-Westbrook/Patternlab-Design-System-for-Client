@@ -13,39 +13,5 @@
 	</div>
 </div>
 
-<!-- Mobile Share --> 
-<div class="container hidden-md-up">
-  <div class="row py-3">
-  	<div class="col d-flex justify-content-end">
-  		<img class="d-inline-block" src="{{ cards.shareImg }}" alt="Share Icon">
-  		<img class="d-inline-block ml-5" src="{{ cards.saveImg }}" alt="Favorite Icon">
-  	</div>
-	</div>
-</div>
-
-<!-- Sticky CTA --> 
-<div class="container-fluid sticky-cta m-0 p-0 py-md-2">
-	
-	<!-- Desktop --> 
-	<div class="container hidden-sm-down">
-    <div class="row">
-    	<div class="col d-flex justify-content-end pr-0">
-    		<p class="display7 d-inline-block my-auto mr-auto bold sticky-title"><a class="top" href="#">{{{ eventHero.heroTitle }}}</a></p>
-    		<img class="d-inline-block mr-4" src="{{ cards.shareImg }}" alt="Share Icon">
-    		<img class="d-inline-block mr-4" src="{{ cards.saveImg }}" alt="Favorite Icon">
-    		<button type="button" class="btn btn-primary d-inline-block mr-0 cta">Register</button>
-    	</div>
-    </div>
-	</div>
-	
-	<!-- Mobile Footer CTA --> 
-	<div class="container-fluid hidden-md-up fixed-bottom footer-cta fade-in" id="cta">
-    <div class="row">
-    	<div class="col d-flex justify-content-end p-2">
-    		<button type="button" class="btn btn-primary d-inline-block mr-0 cta">Register</button>
-    	</div>
-    </div>
-	</div>
-
-</div>
+{{> components-CXX-Sticky-CTA }}
 
