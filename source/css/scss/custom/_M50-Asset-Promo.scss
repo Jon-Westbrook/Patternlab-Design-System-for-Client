@@ -1,3 +1,12 @@
+
 .asset-promo {
 	border: 1px solid $tertiary5;
+
+	.promo-img {
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		min-height: 144px;
+	}
+
 }

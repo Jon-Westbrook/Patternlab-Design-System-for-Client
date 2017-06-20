@@ -1,11 +1,11 @@
-<div class="pt-3 pb-4 pt-md-4 pb-md-5">
+<!-- <div class="pt-3 pb-4 pt-md-4 pb-md-5">
 	<div class="asset-promo py-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-8">
-					<p class="display7 bold">{{assetPromo.title}}</p>
+					<p class="display7 bold">{{ assetPromo.title }}</p>
 					<button type="button" class="btn btn-primary mx-auto px-6 hidden-xl-down">{{assetPromo.linkText}}</button>
-					<a href="#" class="accent ">{{assetPromo.linkText}}</a>
+					<a href="#" class="accent ">{{ assetPromo.linkText }}</a>
 				</div>
 				<div class="col-4 text-right">
 					<img src="{{assetPromo.imgSrc}}" class="img-fluid" />
@@ -13,24 +13,27 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 <!-- ALT VERSION - in dev -->
 
-<!-- <div class="pt-3 pb-4 pt-md-4 pb-md-5">
+<div class="pt-3 pb-4 pt-md-4 pb-md-5">
 	<div class="asset-promo">
 		<div class="container">
-			<div class="row">
-				<div class="col-8 py-3">
-					<p class="display7 bold pb-3">{{assetPromo.title}}</p>
-					<button type="button" class="btn btn-primary mx-auto px-6 hidden-md-down">{{assetPromo.linkText}}</button>
-					<a href="#" class="accent hidden-lg-up">{{assetPromo.linkText}}</a>
+			<div class="row flex-row-reverse">
+				<div class="col-md-4 text-right p-0 promo-img" style="background-image: url( {{ assetPromo.imgSrc }} );">
+					&nbsp;
 				</div>
-				<div class="col-4 text-right p-0">
-					<img src="{{assetPromo.imgSrc}}" class="img-fluid" />
+				<div class="col-md-8 pb-4">
+					<p class="display7 bold mt-4">{{ assetPromo.title }}</p>
+					<p class="display8 secondary mt-3 mb-0">{{ assetPromo.date }}</p>
+					<p class="display8 secondary mt-0">{{ assetPromo.locale }}</p>
+					<button type="button" class="btn btn-primary mx-auto px-6 hidden-md-down my-3">{{ assetPromo.linkText }}</button>
+					<a href="#" class="accent hidden-lg-up">{{ assetPromo.linkText }}</a>
 				</div>
+				
 			</div>
 		</div>
 	</div>
-</div> -->
+</div>

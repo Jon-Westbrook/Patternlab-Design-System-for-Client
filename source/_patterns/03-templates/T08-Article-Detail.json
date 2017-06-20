@@ -1,6 +1,6 @@
 {
 	"eventHero" : {
-   		"heroTitle" : "How Big Data is Poised to Save the American Shopping Mall",
+		"heroTitle" : "How Big Data is Poised to Save the American Shopping Mall",
 		"bgImg" 	: "/images/pattern-fill-1.svg",
 		"category" 	: "SCT Magazine"
 	},
@@ -11,12 +11,7 @@
 		"title" 	: "Lorem ipsum in amet",
 		"text" 		: "Reprehenderit amet commodo eu do laboris quis in non enim cupidatat dolor aliquip in consectetur commodo commodo voluptate do voluptate magna ullamco magna adipisicing id ullamco nostrud irure. Esse duis ut commodo id. do culpa sint esse esse veniam est. Sed dolore esse sit esse aute culpa non aute aute. Quis ea dolore aliqua voluptate tempor cupidatat ex commodo in id id velit culpa nostrud nisi dolore deserunt nisi consectetur in voluptate pariatur proident sunt."
 	},
-	"assetPromo" : {
-		"title"		: "Get inspired by the 2017 European Shopping Centre Award Winners",
-		"linkText"	: "Learn more",
-		"imgSrc" 	: "//via.placeholder.com/103x144"
-	},
 	"cards" : {
-   		"moduleTitle1" : "Related articles"
+		"moduleTitle1" : "Related articles"
 	}
 }
