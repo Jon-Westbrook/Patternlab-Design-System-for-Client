@@ -41,7 +41,16 @@
   	"cat2LinkText": null,
   	"cat3": "Key Contact Program",
   	"cat3desc": "The Key Contact Program links ICSC members with Members of Congress to proactively drive the legislative process rather than responding to legislation after the fact.",
-  	"cat3LinkText": "Example"
+  	"cat3LinkText": "Example",
+  	"cat4": "Other Issues",
+  	"cat4desc": "Additional regulatory and legislative issues that impact our industry.",
+  	"cat4LinkText": "Additional Issues",
+  	"cat5": "State Shopping Center Statistics",
+  	"cat5desc": "Shopping centers provide valuable goods, employment and sales tax revenue to communities.",
+  	"cat5LinkText": "Shopping Center Statistics",
+  	"cat6": "Request Amicus Curiae Briefs",
+  	"cat6desc": "You may request ICSC to file an amicus curiae brief, either independently or with others, in pending appeals on issues of importance to the shopping center industry.",
+  	"cat6LinkText": "Amicus Curiae Application"
   }
 }
 
