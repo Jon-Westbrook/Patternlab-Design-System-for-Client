@@ -86,7 +86,8 @@
     "venue": "LA Convention Center",
     "locale": "Los Angeles, CA",
     "bgImg": "../../images/icsc_event_la_lg.jpg",
-    "category" : "SCT Magazine"
+    "category" : "SCT Magazine",
+    "cta" : "Register"
   },
   "homeHero": {
     "bgImg": "../../images/icsc_home_lg.jpg",
