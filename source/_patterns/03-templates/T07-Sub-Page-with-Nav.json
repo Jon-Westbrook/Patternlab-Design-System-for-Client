@@ -23,6 +23,25 @@
     "link3":      "e-Fairness",
     "link4":      "Grassroots &amp; Key Contacts",
     "link5":      "ICSC PAC"
+  },
+  "contactModule": {
+  	"contactTitle": "For more information"
+  },
+  "cards": {
+  	"membername": "Abby Jagoda",
+  	"memberTitle": "Director, Public Policy and Best Practices"
+  },
+  "callouts": {
+  	"title": "More member resources",
+  	"cat1": "Legislative Action Center",
+  	"cat1desc": "As an informed and active constituent, you can play the most important role of all in shaping legislation. Here are ways to make your voice heard in support of the retail real estate industry.",
+  	"cat1LinkText": "Legislative Action Center",
+  	"cat2": "ICSC PAC",
+  	"cat2desc": "We are the only federally registered political action committee representing retail real estate industry interests. A robust PAC provides opportunities to support Congressional candidates who advance our members’ interests on Capitol Hill.",
+  	"cat2LinkText": null,
+  	"cat3": "Key Contact Program",
+  	"cat3desc": "The Key Contact Program links ICSC members with Members of Congress to proactively drive the legislative process rather than responding to legislation after the fact.",
+  	"cat3LinkText": "Example"
   }
 }
 
