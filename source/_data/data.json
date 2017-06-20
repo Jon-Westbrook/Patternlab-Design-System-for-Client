@@ -204,15 +204,24 @@
     "cat3desc"      : "Retail real estate will shape the social practices, business policies and technologies of the future. We stay on the cutting edge and report what we find, helping members step into the future with efficiency.",
     "cat3img"       : "../../images/promo.svg"
   },
-  "callouts" : {
-    "title"         : "Additional Resources",
-    "cat1"          : "Event Brochure",
-    "cat1desc"      : "This is an optional description field.",
-    "cat1LinkText"  : "Download",
-    "cat2"          : "Attendee List",
-    "cat2desc"      : "This is an optional description field.",
-    "cat3"          : "Registration form",
-    "cat3desc"      : "This is an optional description field."
+  "callouts"     : {
+  "title"        : "Additional Resources",
+  "cat1"         : "Event Brochure",
+  "cat1desc"     : "This is an optional description field.",
+  "cat1LinkText" : "Download",
+  "cat2"         : "Attendee List",
+  "cat2desc"     : "This is an optional description field.",
+  "cat3"         : "Registration form",
+  "cat3desc"     : "This is an optional description field.",
+  "cat4"         : "Optional",
+  "cat4desc"     : "This is an optional description field.",
+  "cat4LinkText" : "Optional Link",
+  "cat5"         : "Optional",
+  "cat5desc"     : "This is an optional description field.",
+  "cat5LinkText" : "Optional Link",
+  "cat6"         : "Optional",
+  "cat6desc"     : "This is an optional description field.",
+  "cat6LinkText" : "Optional Link"
   },
   "calloutsAttending" : {
     "moduleTitle":        "Attending",
