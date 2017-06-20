@@ -1,20 +1,24 @@
-<div class="container">
-  <div class="row py-4 py-md-5">
-     {{#addresses}}
- 	     <div class="col-sm-6 col-md-4 mb-5">
-    	 	<p class="display5 bold">{{title}}</p>
-     		<div class="mb-4">
-     			<p class="display8 secondary m-0">{{address1}}</p>
-     			{{#address2}}<p class="display8 secondary m-0">{{address2}}</p>{{/address2}}
-     			{{#address3}}<p class="display8 secondary m-0">{{address3}}</p>{{/address3}}
-     		</div>
-     		<div class="mb-2">
-	     		<p class="display8 secondary m-0">[ T ] {{phone}}</p>
-    	 		<p class="display8 secondary m-0">[ F ] {{fax}}</p>
-    	 	</div>
-     		<p><a href="mailto:{{email}}" class="display8 accent">{{email}}</a></p>
-     	</div>
-     {{/addresses}}
-    </div>
-  </div>
+<div class="container py-4 py-md-5">
+	<div class="row mb-4">
+  		<div class="col">
+  			<p class="display4 bold text-center">International locations</p>
+    	</div>
+  	</div>
+ 	<div class="row">
+    	{{#addresses}}
+ 	    	<div class="col-sm-6 col-md-4 mb-5">
+    	 		<p class="display5 bold">{{title}}</p>
+	     		<div class="mb-4">
+	     			<p class="display8 secondary m-0">{{address1}}</p>
+	     			{{#address2}}<p class="display8 secondary m-0">{{address2}}</p>{{/address2}}
+	     			{{#address3}}<p class="display8 secondary m-0">{{address3}}</p>{{/address3}}
+	     		</div>
+	     		<div class="mb-2">
+		     		<p class="display8 secondary m-0">[ T ] {{phone}}</p>
+	    	 		<p class="display8 secondary m-0">[ F ] {{fax}}</p>
+	    	 	</div>
+	     		<p><a href="mailto:{{email}}" class="display8 accent">{{email}}</a></p>
+	     	</div>
+	    {{/addresses}}
+	</div>
 </div>
