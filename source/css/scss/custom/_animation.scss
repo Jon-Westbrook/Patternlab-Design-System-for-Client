@@ -1,4 +1,5 @@
 
+// Fades
 .fade-in {
   opacity: 0;
   animation: fadeIn .7s ease-in 1.8s;
@@ -8,4 +9,19 @@
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+// Sliding Underline
+.sliding-u-l-r {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+.sliding-u-l-r:hover {
+    border-bottom: 3px solid $primary1;
+    width: 125px;
 }
