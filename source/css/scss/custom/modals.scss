@@ -1,9 +1,8 @@
-/* override bootsrtap class */
-.modal-body {
+
+.modal-body { /* override bootsrtap class */
 	background-color: $tertiary1;
 
-	/* new class */
-	.modal-section {
+	.modal-section {	/* new class */
 		background-color: white;
 		box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	}
