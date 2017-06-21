@@ -1,5 +1,5 @@
 ---
-title: M42A Location Callout Wide
+title: M42 Map
 ---
 
 Links

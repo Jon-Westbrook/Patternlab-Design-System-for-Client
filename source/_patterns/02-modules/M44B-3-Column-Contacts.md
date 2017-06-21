@@ -1,5 +1,5 @@
 ---
-title: M44 2-Column Contacts
+title: M44B 3-Column Contacts
 ---
 
 Email address (conditional)

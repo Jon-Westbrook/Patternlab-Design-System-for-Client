@@ -121,5 +121,45 @@
 			"title" : "Publications",
 			"href"	: "#"
 		}
+	],
+	"contacts" : [
+		{
+			"title" : "Advertising contacts",
+			"items" : [
+				{
+					"imgSrc"	: "/images/member@2x.png",
+					"name" 		: "Edmund Mander",
+					"position" 	: "Global Marketing Director",
+					"phone" 	: "+1  555 555-9081",
+					"email" 	: "emander@csc.org"
+				},
+				{
+					"imgSrc"	: "/images/member@2x.png",
+					"name" 		: "Brandon Boswell",
+					"position" 	: "Media Director",
+					"phone" 	: "+1  555 555-9082",
+					"email" 	: "bboswell@icsc.org"
+				},
+				{
+					"imgSrc"	: "/images/member@2x.png",
+					"name" 		: "Willa Cather",
+					"position" 	: "Media Strategist",
+					"phone" 	: "+1  555 555-9083",
+					"email" 	: "emander@icsc.org"
+				}
+			]
+		},
+		{
+			"title" : "Press contact",
+			"items" : [
+				{
+					"imgSrc"	: "/images/member@2x.png",
+					"name" 		: "Jessica Day",
+					"position" 	: "Public Relations Director",
+					"phone" 	: "+1  555 555-9084",
+					"email"		: "emander@icsc.org"
+				}
+			]
+		}
 	]
 }
