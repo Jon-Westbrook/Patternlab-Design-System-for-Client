@@ -14,10 +14,10 @@
 	     			{{#address3}}<p class="display8 secondary m-0">{{address3}}</p>{{/address3}}
 	     		</div>
 	     		<div class="mb-2">
-		     		<p class="display8 secondary m-0">[ T ] {{phone}}</p>
-	    	 		<p class="display8 secondary m-0">[ F ] {{fax}}</p>
+		     		{{#phone}}<p class="display8 secondary m-0">[ T ] {{phone}}</p>{{/phone}}
+	    	 		{{#fax}}<p class="display8 secondary m-0">[ F ] {{fax}}</p>{{/fax}}
 	    	 	</div>
-	     		<p><a href="mailto:{{email}}" class="display8 accent">{{email}}</a></p>
+	     		{{#email}}<p><a href="mailto:{{email}}" class="display8 accent">{{email}}</a></p>{{/email}}
 	     	</div>
 	    {{/addresses}}
 	</div>
