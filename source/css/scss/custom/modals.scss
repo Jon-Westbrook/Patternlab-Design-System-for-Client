@@ -1,0 +1,10 @@
+/* override bootsrtap class */
+.modal-body {
+	background-color: $tertiary1;
+
+	/* new class */
+	.modal-section {
+		background-color: white;
+		box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	}
+}
