@@ -204,3 +204,13 @@ a {
 .img-shadow {
   box-shadow: 0 25px 40px 0 rgba(0,0,0,0.50);
 }
+
+.border-after {
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid $tertiary4;
+    margin: 3rem 0;
+  }
+}
