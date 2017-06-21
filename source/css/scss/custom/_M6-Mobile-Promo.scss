@@ -12,5 +12,13 @@
 	.form-control {
 		padding: 1.1rem 0 1.1rem .25rem;
 	}
+	.mobileInput {
+		@include media-breakpoint-only(md) {
+			width: 186px;
+		}
+		@include media-breakpoint-only(lg) {
+			width: 200px;
+		}
+	}
 
 }
