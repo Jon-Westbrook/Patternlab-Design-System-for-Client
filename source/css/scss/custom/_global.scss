@@ -214,3 +214,10 @@ a {
     margin: 3rem 0;
   }
 }
+
+// Crazy Hidden Class, Not in Bootstrap Alpha 4
+.hidden-md {
+  @include media-breakpoint-only(md) {
+    display: none;
+  }
+}
