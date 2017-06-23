@@ -17,10 +17,10 @@
 	h5 { @extend .display7; }
 	h6 { @extend .display8; }
 
-	p {
-		@extend %standard-margins-padding;
+	p { 
+		@extend %standard-margins-and-padding;
 		@extend .display8;
-		@extend .secondary;
+		@extend .secondary;		
 
 		a {
 			@extend .accent;
@@ -34,7 +34,7 @@
 	}
 
 	ul {
-		@extend %standard-margins-padding;
+		@extend %standard-margins-and-padding;
 
   		li {
   			@extend .display8;
