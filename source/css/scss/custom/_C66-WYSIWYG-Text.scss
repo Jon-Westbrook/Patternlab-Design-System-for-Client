@@ -1,21 +1,19 @@
 %standard-margins-and-padding {
 	padding: 0;
-	margin: 2rem 0;
+	margin: 1.5rem 0 0.5rem;
 }
 
 .wysiwyg-text-wrapper {
 
 	h1, h2, h3, h4, h5, h6 {
 		@extend %standard-margins-and-padding;
-		@extend .bold;
 	}
 
-	h1 { @extend .display3; }
-	h2 { @extend .display4; }
-	h3 { @extend .display5; }
-	h4 { @extend .display6; }
-	h5 { @extend .display7; }
-	h6 { @extend .display8; }
+	h2 { @extend .display4; @extend .bold; }
+	h3 { @extend .display6; @extend .bold; }
+	h4 { @extend .display7; }
+	h5 { @extend .display6; }
+	h6 { @extend .display7; @extend .secondary; }
 
 	p { 
 		@extend %standard-margins-and-padding;
@@ -27,6 +25,7 @@
 		} 
 		strong {
 			@extend .bold;
+			font-weight: normal;
 		}
 		em {
 			font-style: italic;
@@ -39,7 +38,7 @@
   		li {
   			@extend .display8;
    			@extend .secondary;
-	    	margin: 0 0 1rem;
+	    	margin: 0 0 1rem 1.25rem;
   		}
 	}
 }
