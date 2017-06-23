@@ -1,35 +1,46 @@
+%standard-margins-and-padding {
+	padding: 0;
+	margin: 2rem 0;
+}
+
 .wysiwyg-text-wrapper {
 
-  h6 {
-    @extend .display7;
-    padding: 0;
-    margin: 3rem 0;
-  }
+	h1, h2, h3, h4, h5, h6 {
+		@extend %standard-margins-and-padding;
+		@extend .bold;
+	}
 
-  h2 {
-    @extend .display6;
-    @extend .bold;
-    padding: 0;
-    margin: 0 0 1rem;
-  }
+	h1 { @extend .display3; }
+	h2 { @extend .display4; }
+	h3 { @extend .display5; }
+	h4 { @extend .display6; }
+	h5 { @extend .display7; }
+	h6 { @extend .display8; }
 
-  p {
-    @extend .display8;
-    @extend .secondary;
-	padding: 0;
-    margin: 0 0 3rem;
-  }
+	p { 
+		@extend %standard-margins-and-padding;
+		@extend .display8;
+		@extend .secondary;		
 
-   a {
-      @extend .accent;
-      opacity: 1 !important;
-    } 
+		a {
+			@extend .accent;
+		} 
+		strong {
+			@extend .bold;
+		}
+		em {
+			font-style: italic;
+		}
+	}
 
-  ul {
-  	li {
-  		@extend .display8;
-   		@extend .secondary;
-	    margin: 0 0 1rem;
-  	}
-  }
+	ul {
+		@extend %standard-margins-and-padding;
+
+  		li {
+  			@extend .display8;
+   			@extend .secondary;
+	    	margin: 0 0 1rem;
+  		}
+	}
 }
+
