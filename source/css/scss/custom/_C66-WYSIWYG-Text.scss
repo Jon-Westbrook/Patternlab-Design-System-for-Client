@@ -13,7 +13,7 @@
 	h3 { @extend .display6; @extend .bold; }
 	h4 { @extend .display7; }
 	h5 { @extend .display6; }
-	h6 { @extend .display7; @extend .secondary; }
+	h6 { @extend .display6; @extend .secondary; } /* used to be display7 */
 
 	p { 
 		@extend %standard-margins-and-padding;
