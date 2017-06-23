@@ -6,15 +6,14 @@
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" role="document">
-    
 		<div class="modal-content">
 
 
 
-		{{!
+			{{!
 
 			<!-- MODAL 1 -->
-			<div class="modal-body p-0">
+			<div class="modal-body">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 offset-md-2">
@@ -39,27 +38,25 @@
 					</div>
 				</div>
 			</div>
-}}
+
+			}}
 
 
 			
 
 			<!-- MODAL 2 -->
-			<div class="modal-header p-4 m-0">
-        		<p class="display4 bold m-0">Buying options</p>
+			<div class="modal-header px-4 py-3">
+        		<p class="display5 bold m-0">Buying options</p>
        			<button type="button" class="close black" data-dismiss="modal" aria-label="Close">
-          			<span aria-hidden="true">&times;</span>
+          			<span aria-hidden="true" class="display3">&times;</span>
         		</button>
      		</div>
 
-      		<div class="modal-body p-0">
+      		<div class="modal-body p-4">
 
-	     		<div class="modal-section m-4 p-4">
-					<p class="display6 bold">eBook</p>
-					<p class="display8 secondary">A digital book provided in three formats (PDF, ePub and Mobi) for a single price. Accessible within “MyICSC” after purchasing.</p>
-					
-					<div class="d-flex justify-content-end listing-filters">
-						<a href="#" class="accent">Select Format</a>
+      			<div class="border-after border-after__thin">
+	    			<div class="d-flex justify-content-between listing-filters">
+						<p class="display6 bold">eBook</p>
 						<div class="dropdown d-inline-block my-md-auto">
 							<a aria-expanded="false" aria-haspopup="true" class="nav-link sort-list display8 p-0" data-toggle="dropdown" href="#">Select format</a>
 							<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right m-0 mt-2 px-2">
@@ -71,30 +68,29 @@
 							</div>
 						</div>
 					</div>
-
-					<p class="display7"><input type="radio" class="mr-3"> Member Price $34.95</p>
-					<p class="display7"><input type="radio" class="mr-3"> Non-Member Price $44.95</p>	
+					<p class="display8 mb-2">Member Price $34.95</p>
+					<p class="display8 mb-2">Non-Member Price $44.95</p>	
 				</div>
-				<div class="modal-section m-4 p-4">
+				<div class="d-flex justify-content-between">
 					<p class="display6 bold">Print</p>
-					<p class="display8 secondary">A physical copy (softcover, hardcover or magazine) shipped to your desired shipping location.</p>
-					<p class="display7">Quantity <input type="text" value="1" /></p>
-					<p class="display7"><input type="radio" class="mr-3"> Member Price $39.955</p>
-					<p class="display7"><input type="radio" class="mr-3"> Non-Member Price $49.95</p>	
+					<p class="display8"><span class="mr-2">Quantity</span> <input type="text" value="1" size="3" /></p>
 				</div>
+				<p class="display8 mb-2">Member Price $39.95</p>
+				<p class="display8 mb-2">Non-Member Price $49.95</p>
+
 			</div>
 
 	      	<div class="modal-footer">
 	        	<!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
-	        	Total Quantity: 1
-	        	$39.95
+	        	<p class="display8 secondary m-0 mr-3">Total Quantity: 1</p>
+	        	<p class="display6 bold m-0 mr-3">$39.95</p>
 	        	<button type="button" class="btn btn-primary">Buy Now</button>
-
 	      	</div>
 	      
 
 
-    	</div>
 
+
+    	</div>
 	</div>
 </div>

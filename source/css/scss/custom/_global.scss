@@ -218,6 +218,14 @@ a {
     border-bottom: 2px solid $tertiary4;
     margin: 3rem 0 0;
   }
+
+  &.border-after__thin {
+     &:after {
+      border-bottom-width: 1px;
+      margin: 2rem 0 1rem;
+     }  
+
+  }
 }
 
 // Crazy Hidden Class, Not in Bootstrap Alpha 4
