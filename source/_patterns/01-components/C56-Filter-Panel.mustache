@@ -101,7 +101,11 @@
 		
 
 			<!-- Facet-Group and Panel 1 --> 
-			<a class="display6 d-inline-block light facet-group pb-3 collapsed" data-toggle="collapse" href="#" data-target="#facet-group" aria-expanded="false" aria-controls="facet-group" data-parent="#accordion"><span class="mr-3 ml-md-3 mr-md-5"></span>Business Type</a><span class="filter-count text-white display9 ml-2">({{ results.filterCount }})</span>
+			<a class="display6 d-block light facet-group pb-3 collapsed" data-toggle="collapse" href="#" data-target="#facet-group" aria-expanded="false" aria-controls="facet-group" data-parent="#accordion">
+				<span class="mr-3 ml-md-3 mr-md-5"></span>Business Type
+				<span class="filter-count text-white display9 ml-2">({{ results.filterCount }})</span>
+			</a>
+
 			<div class="collapse primary-panel" id="facet-group">
 				<div class="row light">
 					<div class="col">
@@ -201,7 +205,7 @@
 									</div>
 								</div>
 
-								<!-- Facet Checkbox 2 no Panel --> 
+								<!-- Facet Label 2 no Panel --> 
 								<a class="col-11" >
 									<label class="facetNoPanel">Academic Institution</label>
 								</a>
@@ -216,17 +220,152 @@
 									</div>
 								</div>
 
-								<!-- Facet Checkbox 3 no Panel --> 
+								<!-- Facet Label 3 no Panel --> 
 								<a class="col-11" >
 									<label class="facetNoPanel">Academic Institution</label>
 								</a>
+
 
 							</div>
 						</form>
 					</div>
 				</div>      
 			</div>
-			<!-- End Facet-Group 1 --> 
+			<!-- End Facet-Group 1 -->
+
+
+			<!-- Facet-Group and Panel 2 --> 
+			<a class="display6 d-block light facet-group pb-3 collapsed" data-toggle="collapse" href="#" data-target="#facet-group2" aria-expanded="false" aria-controls="facet-group2" data-parent="#accordion">
+				<span class="mr-3 ml-md-3 mr-md-5"></span>Date 
+				<span class="filter-count text-white display9 ml-2">({{ results.filterCount }})</span>
+			</a>
+			
+			<div class="collapse primary-panel" id="facet-group2">
+				<div class="row light">
+					<div class="col">
+						<form class="my-3">
+							<div class="form-group row align-items-center"> 
+								
+								<!-- Facet Checkbox -->
+								<div class="col-1">
+									<div class="form-check">
+										<label class="custom-control custom-checkbox fac-check">
+										  <input type="checkbox" class="custom-control-input indeterminate">
+										  <span class="custom-control-indicator"></span>
+										</label>
+									</div>
+								</div>
+
+								<!-- Facet Link and Panel 1 --> 
+								<a class="facetLink col-11 collapsed" data-toggle="collapse" href="#" data-target="#facetPanel" aria-expanded="false" aria-controls="facetPanel" >
+									<label class="facet parent">Academic Institution</label>
+								</a>
+								
+								<div class="collapse bg-gray w-100 mx-3 facetPanel" id="facetPanel">
+									<div class="row">
+										<div class="col">
+											<ul class="nav nav-pills d-flex justify-content-end mt-4">
+												<li class="nav-item ml-4"><button class="btn btn-quaternary display9 mr-4">Select all</button></li>
+												<li class="nav-item"><button class="btn btn-quaternary display9 mr-5">Deselect all</button></li>
+											</ul>
+										</div>
+									</div>	
+
+									<div class="row p-4">
+										
+										<!-- Sub-Facet Col and Input -->
+										<div class="col-md-6">
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="custom-control custom-checkbox">
+														  <input type="checkbox" class="custom-control-input checked">
+														  <span class="custom-control-indicator"></span>
+														</label>
+													</div>
+												</div>
+												<label class="col-10 mb-0 mt-1">Ceiling Systems, products</label>
+											</div>
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="custom-control custom-checkbox">
+														  <input type="checkbox" class="custom-control-input">
+														  <span class="custom-control-indicator"></span>
+														</label>
+													</div>
+												</div>
+												<label class="col-10 mb-0 mt-1" >Communication Systems, products, services</label>
+											</div>
+										</div>
+										
+										<!-- Sub-Facet Col and Input -->
+										<div class="col-md-6"> 
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="custom-control custom-checkbox">
+														  <input type="checkbox" class="custom-control-input">
+														  <span class="custom-control-indicator"></span>
+														</label>
+													</div>
+												</div>
+												<label class="col-10 mb-0 mt-1">Ceiling Systems, products</label>
+											</div>
+											<div class="row">
+												<div class="col-2">
+													<div class="form-check">
+														<label class="custom-control custom-checkbox">
+														  <input type="checkbox" class="custom-control-input checked">
+														  <span class="custom-control-indicator"></span>
+														</label>
+													</div>
+												</div>
+												<label class="col-10 mb-0 mt-1">Communication Systems, products, services</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End Facet Panel 1 --> 
+
+
+								<!-- Facet Checkbox 2 no Panel -->
+								<div class="col-1">
+									<div class="form-check">
+										<label class="custom-control custom-checkbox fac-check">
+										  <input type="checkbox" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										</label>
+									</div>
+								</div>
+
+								<!-- Facet Label 2 no Panel --> 
+								<a class="col-11" >
+									<label class="facetNoPanel">Academic Institution</label>
+								</a>
+
+								<!-- Facet Checkbox 3 no Panel -->
+								<div class="col-1">
+									<div class="form-check">
+										<label class="custom-control custom-checkbox fac-check">
+										  <input type="checkbox" class="custom-control-input my-2">
+										  <span class="custom-control-indicator"></span>
+										</label>
+									</div>
+								</div>
+
+								<!-- Facet Label 3 no Panel --> 
+								<a class="col-11" >
+									<label class="facetNoPanel">Academic Institution</label>
+								</a>
+
+
+							</div>
+						</form>
+					</div>
+				</div>      
+			</div>
+			<!-- End Facet-Group 2 --> 
 
 
 	</div>

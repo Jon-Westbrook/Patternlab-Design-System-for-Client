@@ -23,15 +23,11 @@
 
 	&.collapsed {
 		transition: $transition-base;
-		:after {
+		&:before {
 			content: '+';
-			display: inline-block;
-			width: 11px;
-			height: 8px;
-			transition: $transition-base;
 		}
 	}
-	:after {
+	&:before {
 		content: '-';
 		display: inline-block;
 		width: 11px;
