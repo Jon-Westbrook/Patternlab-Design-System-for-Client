@@ -1,0 +1,6 @@
+.form-group {
+	input[type="email"].form-control,
+	input[type="password"].form-control {
+		border: 2px solid $tertiary4;
+	}
+}

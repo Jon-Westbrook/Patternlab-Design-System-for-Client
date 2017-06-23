@@ -325,7 +325,8 @@ h3, .h3 {
 }
 
 .secondary {
-  opacity: .6;
+  /*opacity: .6;*/
+  color: rgba(0,0,0,0.6);
 }
 .disabled {
   opacity: .2;
