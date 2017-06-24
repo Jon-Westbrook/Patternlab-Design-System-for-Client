@@ -2,9 +2,9 @@
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content">
 
-			<div class="modal-header px-4 py-3">
+			<div class="modal-header pt-4 pb-3 px-3 px-sm-4 px-lg-6">
         		<p class="display5 bold m-0">Display 5 title<br />two line maximum</p>
-       			<button type="button" class="close black" data-dismiss="modal" aria-label="Close">
+       			<button type="button" class="close black mb-4" data-dismiss="modal" aria-label="Close">
           			<span aria-hidden="true" class="display3">&times;</span>
         		</button>
      		</div>
@@ -22,7 +22,17 @@
         		</div>
      		</div><!-- .modal-header -->}}
 
-			<div class="modal-body py-4">
+     		<div class="modal-body py-4 px-3 px-sm-4 px-lg-6">
+				<h2 class="display6 bold">Lorem ipsum dolor sit amet</h2>
+				<p class="display8">Consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>						
+			</div><!-- .modal-body -->
+
+			{{!<div class="modal-body py-4">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 offset-md-1">
@@ -36,9 +46,17 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- .modal-body -->
+			</div><!-- .modal-body -->}}
 
-			<div class="modal-footer">
+			<div class="modal-footer py-2 px-3 px-sm-4 px-lg-6">
+				<div class="d-flex justify-content-end">
+    				<img class="d-inline-block mx-3" src="{{ cards.shareImg }}" alt="Share Icon">
+		    		<img class="d-inline-block mx-3 mr-sm-4" src="{{ cards.saveImg }}" alt="Favorite Icon">
+    				<button type="button" class="btn btn-primary">Optional CTA</button>
+    			</div>
+	      	</div><!-- .modal-footer -->
+
+	      	<!--<div class="modal-footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 offset-md-1 d-flex justify-content-end">
@@ -48,7 +66,7 @@
 	        			</div>
 	        		</div>
 	        	</div>	
-	      	</div><!-- .modal-footer -->
+	      	</div>--><!-- .modal-footer -->
 
     	</div>
 	</div>
