@@ -316,6 +316,18 @@
       "subtitle"  : "Chief of Staff and Vice President of Strategy and Operations",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
       "imgSrc"    : "../../images/Member.png"
+    },
+    {
+      "title"     : "Stefan Freiberg",
+      "subtitle"  : "Chief Financial Officer",
+      "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
+      "imgSrc"    : "../../images/Member.png"
+    },
+    {
+      "title"     : "Aniece Martin",
+      "subtitle"  : "Executive Assistant to President",
+      "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
+      "imgSrc"    : "../../images/Member.png"
     }
   ]
 }
