@@ -16,6 +16,18 @@
 			}
 		}
 	}
+
+	ul {
+		li {
+			 &:after {
+			    content: '';
+			    display: block;
+			    width: 100%;
+			    border-bottom: 1px solid $tertiary4;
+			    margin: 0.5rem 0;
+			} 
+		}
+	}
 }
 
 .left-nav-mobile {
