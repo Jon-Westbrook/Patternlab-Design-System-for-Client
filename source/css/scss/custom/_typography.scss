@@ -266,6 +266,16 @@ p {
   }
 }
 
+// Special Display4 Size Override for left nav
+.display8__left-nav {
+  font-size: $display8-size-md;
+  line-height: $display8-line-height-md;
+  opacity: .9;
+  font-weight: 400;
+  font-family: $font-family-sans-serif;
+}
+
+
 
 h1, .h1 {
   font-size: $display3-size-xs;
