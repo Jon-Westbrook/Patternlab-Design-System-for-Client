@@ -32,7 +32,7 @@
 		}
 	}
 
-	ul {
+	ul, ol {
 		@extend %standard-margins-and-padding;
 
   		li {
