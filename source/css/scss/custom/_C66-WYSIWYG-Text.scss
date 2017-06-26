@@ -1,12 +1,17 @@
-%standard-margins-and-padding {
+%heading-margins-and-padding {
 	padding: 0;
-	margin: 1.5rem 0 0.5rem;
+	margin: 2rem 0 1rem;
+}
+
+%content-margins-and-padding {
+	padding: 0;
+	margin: 1rem 0 2rem;
 }
 
 .wysiwyg-text-wrapper {
 
 	h1, h2, h3, h4, h5, h6 {
-		@extend %standard-margins-and-padding;
+		@extend %heading-margins-and-padding;
 	}
 
 	h2 { @extend .display4; @extend .bold; }
@@ -16,7 +21,7 @@
 	h6 { @extend .display6; @extend .secondary; } /* used to be display7 */
 
 	p { 
-		@extend %standard-margins-and-padding;
+		@extend %content-margins-and-padding;
 		@extend .display8;
 		@extend .secondary;		
 
@@ -33,7 +38,7 @@
 	}
 
 	ul, ol {
-		@extend %standard-margins-and-padding;
+		@extend %content-margins-and-padding;
 
   		li {
   			@extend .display8;
