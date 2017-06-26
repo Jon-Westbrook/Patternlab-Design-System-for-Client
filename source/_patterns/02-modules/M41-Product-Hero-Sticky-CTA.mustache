@@ -2,22 +2,25 @@
 <!-- Hero --> 
 <div class="jumbotron jumbotron-fluid m-0 event-hero event-hero__no-overlay py-4" style="background-image: url('{{ eventHero.bgImg}}');" >
 	<div class="container">
-			<div class="row flex-row-reverse">
 
-				<div class="col-md-5 text-center py-5 py-md-6 mx-7 mx-md-0">
-					<img src="/images/RCEDmech09-poster.png" class="img-shadow img-fluid" />
+		<div class="row">
+			<div class="col text-center text-md-left">
+				<div class="left-nav text-left mb-0 mb-md-2 mb-lg-3">
+					<a href="#" class="display8 accent back p-0 m-0">{{ eventHero.linkText }}</a>
 				</div>
-
-				<div class="col-md-7 text-center text-md-left">
-					<div class="left-nav text-left hidden-sm-down mb-6">
-						<a href="#" class="display8 accent back p-0 m-0">{{ eventHero.linkText }}</a>
-					</div>
-					<a href="#" class="display9 accent back"></a>
-					<p class="display8 secondary">{{ eventHero.category }}</p>
-					<h1 class="mb-4 display3 bold">{{ eventHero.heroTitle }}</h1>
-					<p class="display7 hidden-sm-down">{{ eventHero.price }}</p>
-				</div>
-			</div>  
+			</div>
+		</div>
+		
+		<div class="row flex-row-reverse">
+			<div class="col-md-5 text-center py-5 py-md-6 mx-6 mx-sm-7 mx-md-0">
+				<img src="/images/RCEDmech09-poster.png" class="img-shadow img-fluid" />
+			</div>
+			<div class="col-md-7 text-center text-md-left pt-md-6">
+				<p class="display8 secondary">{{ eventHero.category }}</p>
+				<h1 class="mb-4 display3 bold">{{ eventHero.heroTitle }}</h1>
+				<p class="display7">{{ eventHero.price }}</p>
+			</div>
+		</div>  
 	</div>
 </div>
 
