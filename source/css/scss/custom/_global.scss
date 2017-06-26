@@ -179,7 +179,7 @@ a {
 .profile-img-alt {
     width: 90px;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       width: 78px;
     }
 }

@@ -303,7 +303,21 @@
   },
   "contactModule": {
     "contactTitle": "Event sponsorship team"
-  }
+  },
+  "leaders" : [
+    {
+      "title"     : "Tom McGee",
+      "subtitle"  : "President and Chief Executive Officer",
+      "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
+      "imgSrc"    : "../../images/Member.png"
+    },
+    {
+      "title"     : "Leslie Fox",
+      "subtitle"  : "Chief of Staff and Vice President of Strategy and Operations",
+      "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
+      "imgSrc"    : "../../images/Member.png"
+    }
+  ]
 }
 
 
