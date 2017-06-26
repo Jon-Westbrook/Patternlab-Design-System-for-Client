@@ -26,10 +26,16 @@
 	position: relative;
 }
 
+.list-card-module {
+	border-bottom: 1px solid $tertiary3;
+}
+
 .list-card-latest-news {
 	margin-bottom: 2rem;
-	border-top: 1px solid $tertiary3;
 	position: relative;
+	[class*='col-'] {
+		border-top: 1px solid $tertiary3;
+	}
 	.card-img-right {
 		object-fit: cover;
 		height: 60px;
@@ -40,11 +46,13 @@
 		}
 		@include media-breakpoint-up(md) {
 			width: 100%;
-			height: 100%;
-			min-height: 92px;
+			height: 90px;
 		}
-		@include media-breakpoint-up(lg) {
-			min-height: 157px;
+		@include media-breakpoint-only(lg) {
+			height: 120px;
+		}
+		@include media-breakpoint-only(xl) {
+			height: 160px;
 		}
 		&.download {
 			object-fit: initial;
@@ -54,6 +62,9 @@
 		@include media-breakpoint-up(md) {
 			bottom: 10px;
 		}
+	}
+	.border {
+		border-top: 1px solid $tertiary3;
 	}
 }
 
