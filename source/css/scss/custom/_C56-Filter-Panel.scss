@@ -23,15 +23,11 @@
 
 	&.collapsed {
 		transition: $transition-base;
-		:after {
+		&:before {
 			content: '+';
-			display: inline-block;
-			width: 11px;
-			height: 8px;
-			transition: $transition-base;
 		}
 	}
-	:after {
+	&:before {
 		content: '-';
 		display: inline-block;
 		width: 11px;
@@ -115,3 +111,24 @@
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {
 	background: linear-gradient(to right bottom, transparent 50%, $primary3 50%);
 }
+
+.filter-input {
+	height: 30px;
+	background-color: $tertiary6;
+	color: $primary3;
+	border: 1px solid $primary3;
+	&:focus {
+		background-color: $tertiary6;
+		color: $primary3;
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	::-webkit-inner-spin-button {
+	    margin-right: 6px;
+	}
+	::-webkit-clear-button {
+	    margin-right: 6px;
+	}
+}
+	

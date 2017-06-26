@@ -55,5 +55,8 @@
 
 .d9-truncate3 {
   @include limitLines(3, 16px);
+  @include media-breakpoint-up(lg) {
+    @include limitLines(3, 27px);
+  }
 }
 
