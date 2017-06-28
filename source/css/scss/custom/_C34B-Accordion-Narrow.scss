@@ -4,9 +4,10 @@
         box-shadow: none !important;
         transform: none !important;
         border: none;
+        border-bottom: 2px solid $tertiary4;
         .card-header {
             background: none;
-            border-bottom-width: 2px;
+            border: none;
             a {
                 &:before {
                     content: '-'; 
