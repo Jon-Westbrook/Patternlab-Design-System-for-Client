@@ -79,11 +79,11 @@
 	}
 	.title {
 		text-decoration: none;
-    display: inline-block;
-    border-bottom: 3px solid transparent;    
-    width: 0px;
-    transition: 0.5s ease;
-    white-space: nowrap;
+    // display: inline-block;
+    // border-bottom: 3px solid transparent;    
+    // width: 0px;
+    // transition: .5s ease;
+    // white-space: nowrap;
 	}
 	.copy {
 		width: 300px;
@@ -91,15 +91,37 @@
 	.copyBlock {
 		&:hover {
 			.title {
-				color: $primary2;
-				border-bottom: 3px solid $primary1;
-    		width: 125px;
+				// color: $primary2;
+				// border-bottom: 3px solid $primary1;
+    			// width: 125px;
 			}
 			.forward {
 				transform: translateX(10px);
 			}
 			.copy {
-				color: $primary2;
+				// color: $primary2;
+			}
+		}
+	}
+
+	/* pbland - new underline */
+	.copyBlock {
+		cursor: pointer;
+		.title {
+			&:after {
+				content: '';
+				display: block;
+				width: 0;
+				border-bottom: 3px solid transparent;
+				transition: all .5s ease;
+			}
+		}
+		&:hover {
+			.title {
+				&:after {
+					border-bottom: 3px solid $primary1; 
+					width: 100%;
+				}
 			}
 		}
 	}
