@@ -99,7 +99,14 @@ a {
       padding: 1rem 4rem;
     }
     border-radius: 5px;
-    border: solid 2px #e31837;
+    border: solid 2px $tertiary5; /*$primary1;*/
+    background-color: white;
+
+    &:hover {
+       border-color: $primary1;
+       background-color: $primary1;
+       color: white;
+    }
   }
 }
 

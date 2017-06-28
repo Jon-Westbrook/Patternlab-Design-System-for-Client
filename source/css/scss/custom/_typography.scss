@@ -266,8 +266,9 @@ p {
   }
 }
 
-// Special Display4 Size Override for left nav
-.display8__left-nav {
+// Special display8__alt Size Override for left nav and search
+// which basically is always 16px. to replace display8 which is now 18px
+.display8__alt {
   font-size: $display8-size-md;
   line-height: $display8-line-height-md;
   opacity: .9;
