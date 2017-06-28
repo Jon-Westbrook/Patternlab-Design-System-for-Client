@@ -9,13 +9,13 @@
             border-bottom-width: 2px;
             a {
                 &:before {
-                    content: '+';
+                    content: '-'; 
                     display: inline-block;
                     margin: 0 2rem 0 0;
                 }
                 &.collapsed {
                     &:before {
-                        content: '-';
+                        content: '+';
                     }
                 }
             }
