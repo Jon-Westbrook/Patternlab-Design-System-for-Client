@@ -14,29 +14,30 @@
 	background-color: $tertiary4;
 
 	/* xl */
-	background-size: 45%;
+	background-size: 725px;
 	background-position: 90% 100%;
 
 	@include media-breakpoint-down(lg) {
-	 	background-size: 60%;
-	 	background-position: bottom right;
+	 	background-size: 550px;
+	 	background-position: 90% 100%;
 	}
 
 	@include media-breakpoint-down(md) {
-	 	background-size: 60%;
-	 	background-position: bottom right;
+	 	background-size: 425px;
+	 	background-position: bottom center;
+	 	padding-bottom: 20rem !important;
 	}
 
 	@include media-breakpoint-down(sm) {
-	 	background-size: 65%;
+	 	background-size: 425px;
 	 	background-position: bottom center;	
 	 	padding-bottom: 20rem !important;
 	}
 
 	@include media-breakpoint-down(xs) {
-	 	background-size: 80%;
+	 	background-size: 350px;
 	 	background-position: bottom center;	
-	 	padding-bottom: 18rem !important;
+	 	padding-bottom: 16rem !important;
 	 	
 	}
 }
