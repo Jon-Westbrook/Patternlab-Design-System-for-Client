@@ -1,0 +1,25 @@
+.accordion-narrow {
+    .card {
+        height: auto !important;
+        box-shadow: none !important;
+        transform: none !important;
+        border: none;
+        .card-header {
+            background: none;
+            border-bottom-width: 2px;
+            a {
+                &:before {
+                    content: '+';
+                    display: inline-block;
+                    margin: 0 2rem 0 0;
+                }
+                &.collapsed {
+                    &:before {
+                        content: '-';
+                    }
+                }
+            }
+        }
+        .card-block {}
+    }
+}

@@ -1,18 +1,18 @@
 <div id="accordion2" class="accordion-narrow" role="tablist" aria-multiselectable="false">
-   	{{#accordion}}
-	  <div class="card mb-0">
-	    <div class="card-header py-5 px-2" role="tab" id="{{headingId}}">
-	      <a class="display6 bold" href="#" 
-	      	{{#expanded}}aria-expanded="true"{{/expanded}}
-	      	{{^expanded}}aria-expanded="false"{{/expanded}} 
-	      	{{^expanded}}class="collapsed"{{/expanded}} 
-	      	data-toggle="collapse" data-parent="#accordion2" data-target="#{{id}}"  aria-controls="{{id}}">{{title}}</a>
-	    </div>
-	    <div id="{{id}}" class="collapse {{#expanded}} show{{/expanded}}" role="tabpanel" aria-labelledby="{{headingId}}">
-	      <div class="card-block">
-	        <p class="display8 secondary p-0">{{text}}</p>
-	      </div>
-	    </div>
-	  </div>
+	{{#accordion}}
+		<div class="card mb-0">
+	    	<div class="card-header py-5 px-2" role="tab" id="{{headingId}}">
+	      		<a class="display6 bold" href="#" 
+	      			{{#expanded}}aria-expanded="true"{{/expanded}}
+	      			{{^expanded}}aria-expanded="false"{{/expanded}} 
+	      			{{^expanded}}class="collapsed"{{/expanded}} 
+	      			data-toggle="collapse" data-parent="#accordion2" data-target="#{{id}}" aria-controls="{{id}}">{{title}}</a>
+	    	</div>
+	    	<div id="{{id}}" class="collapse {{#expanded}} show{{/expanded}}" role="tabpanel" aria-labelledby="{{headingId}}">
+	      		<div class="card-block">
+	        		<p class="display8 secondary p-0">{{text}}</p>
+	      		</div>
+	    	</div>
+	  	</div>
 	{{/accordion}}
 </div>
