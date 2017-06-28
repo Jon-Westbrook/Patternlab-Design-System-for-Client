@@ -1,5 +1,5 @@
 ---
-title: Content Page Template
+title: T01 Homepage
 ---
 
-A simple content page, no In-Page navigation. 
+The Home Page!
