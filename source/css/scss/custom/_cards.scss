@@ -38,9 +38,9 @@
 	}
 	.card-img-right {
 		object-fit: cover;
-		height: 60px;
-		width: 60px;
-		@include media-breakpoint-only(sm) {
+		height: 56px;
+		width: 56x;
+		@include media-breakpoint-up(sm) {
 			height: 80px;
 			width: 80px;
 		}
@@ -48,11 +48,8 @@
 			width: 100%;
 			height: 90px;
 		}
-		@include media-breakpoint-only(lg) {
+		@include media-breakpoint-up(lg) {
 			height: 120px;
-		}
-		@include media-breakpoint-only(xl) {
-			height: 160px;
 		}
 		&.download {
 			object-fit: initial;

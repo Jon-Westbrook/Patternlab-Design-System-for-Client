@@ -30,10 +30,17 @@
    }
 }
 
-.d7-truncate3 {
-  @include limitLines(3, 20px);
+.d7-truncate2 {
+  @include limitLines(2, 24px);
   @include media-breakpoint-up(lg) {
-    @include limitLines(3, 24px);
+    @include limitLines(2, 28px);
+  }
+}
+
+.d7-truncate3 {
+  @include limitLines(3, 24px);
+  @include media-breakpoint-up(lg) {
+    @include limitLines(3, 28px);
   }
 }
 
