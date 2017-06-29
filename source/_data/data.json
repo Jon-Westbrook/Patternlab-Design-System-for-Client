@@ -140,10 +140,43 @@
   },
   "tiles": {
     "bgImgblur": "../../images/blurred1.png",
-    "bgImg1": "../../images/tile1.jpg",
-    "bgImg2": "../../images/tile2.jpg",
-    "bgImg3": "../../images/tile3.jpg",
-    "bgImg4": "../../images/tile4.jpg"
+    "items" :  [
+      {
+        "bgImg" : "../../images/tile1.jpg",
+        "title" : "Deal Making",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile2.jpg",
+        "title" : "Specialty",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile3.jpg",
+        "title" : "Online Learning",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile4.jpg",
+        "title" : "New York National Deal Making",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile4.jpg",
+        "title" : "RECon",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile3.jpg",
+        "title" : "Professional Development",
+        "text"   : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      },
+      {
+        "bgImg" : "../../images/tile2.jpg",
+        "title" : "Idea Exchange",
+        "text"  : "Cras justo odio, dapibus ac facilisis in egestas eget quam."
+      }
+    ]
   },
   "share" : {
     "facebookSrc"     : "/images/facebook-dark.svg",
