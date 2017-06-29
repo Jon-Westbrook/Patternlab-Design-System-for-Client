@@ -38,29 +38,35 @@ $animation-delay: 150ms;
   animation: slide-fade $animation-duration ease-in backwards;
   // animation: slide $animation-duration linear backwards;
   // animation: slide-reveal $animation-duration linear backwards;
-    // animation: fade $animation-duration linear backwards;
+  // animation: fade $animation-duration linear backwards;
   // animation: reveal $animation-duration cubic-bezier(.8,0,1,1) backwards;
   // animation: shrink $animation-duration cubic-bezier(.8,0,1,1) forwards;
 
-  &.delay-1 { 
-    animation-delay: $animation-delay;
-  }
-  &.delay-2 {
-    animation-delay: (2 * $animation-delay);
-  }
-  &.delay-3 {
-    animation-delay: (3 * $animation-delay);
-  }
+  &.delay-1 { animation-delay: $animation-delay; }
+  &.delay-2 { animation-delay: (2 * $animation-delay); }
+  &.delay-3 { animation-delay: (3 * $animation-delay); }
+}
+.bg-slide {
+  animation: bg-slide 1500ms ease-out backwards;
 }
 
 
 @keyframes slide-fade {
   0% {
     opacity: 0;
-     transform: translateY(40px);
+    transform: translateY(40px);
   }
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes bg-slide {
+  0% {
+    background-size: 105%;
+  }
+  100% {
+    background-size: 100%;
   }
 }
