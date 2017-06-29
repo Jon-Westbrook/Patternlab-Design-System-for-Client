@@ -25,3 +25,42 @@
     border-bottom: 3px solid $primary1;
     width: 125px;
 }
+
+
+
+
+
+
+$animation-duration: 750ms;
+$animation-delay: 150ms;
+
+.slide-up {
+  animation: slide-fade $animation-duration ease-in backwards;
+  // animation: slide $animation-duration linear backwards;
+  // animation: slide-reveal $animation-duration linear backwards;
+    // animation: fade $animation-duration linear backwards;
+  // animation: reveal $animation-duration cubic-bezier(.8,0,1,1) backwards;
+  // animation: shrink $animation-duration cubic-bezier(.8,0,1,1) forwards;
+
+  &.delay-1 { 
+    animation-delay: $animation-delay;
+  }
+  &.delay-2 {
+    animation-delay: (2 * $animation-delay);
+  }
+  &.delay-3 {
+    animation-delay: (3 * $animation-delay);
+  }
+}
+
+
+@keyframes slide-fade {
+  0% {
+    opacity: 0;
+     transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
