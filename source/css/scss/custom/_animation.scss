@@ -46,9 +46,9 @@ $animation-delay: 150ms;
   &.delay-2 { animation-delay: (2 * $animation-delay); }
   &.delay-3 { animation-delay: (3 * $animation-delay); }
 }
-.bg-slide {
-  animation: bg-slide 1500ms ease-out backwards;
-}
+// .bg-slide {
+//   animation: bg-slide 1500ms ease-out backwards;
+// }
 
 
 @keyframes slide-fade {
@@ -62,11 +62,11 @@ $animation-delay: 150ms;
   }
 }
 
-@keyframes bg-slide {
-  0% {
-    background-size: 105%;
-  }
-  100% {
-    background-size: 100%;
-  }
-}
+// @keyframes bg-slide {
+//   0% {
+//     background-size: 105%;
+//   }
+//   100% {
+//     background-size: 100%;
+//   }
+// }
