@@ -1,8 +1,8 @@
 
-<div class="container-fluid bg-gray-lightest featured-speakers">
+<div class="container-fluid bg-gray-lightest pb-5 pb-m-5 featured-speakers">
 	
 	<div class="row">
-		<div class="col-md-12 display3 bold text-center my-5">Featured speakers</div>
+		<div class="col-md-12 display3 bold text-center mt-4 mb-5 mt-md-5 mb-md-6">Featured speakers</div>
 	</div>
 	
 	<div class="container">
@@ -10,7 +10,7 @@
 			
 			<div class="col-md-6 col-lg-4 col-lg-4 hidden-sm-down">
 				<div class="card">
-				  <img class="member-card-img mt-4 mt-lg-5 mx-auto" src="{{ cards.memberCardImg }}" alt="{{ cards.memberName }}">
+				  <img class="member-card-img mt-5 mx-auto" src="{{ cards.memberCardImg }}" alt="{{ cards.memberName }}">
 				  <div class="card-block py-0">
 				    <a href="#" class="profile-name-link"><h3 class="member-name mt-3 mb-0 display6 bold text-center">{{ cards.memberName }}</h3></a>
 				    <p class="display8 secondary mt-2 mb-0 text-center member-title" >{{ cards.memberTitle }}</p>
@@ -21,7 +21,7 @@
 
 			<div class="col hidden-md-up">
 
-				{{ components-C23B-Profile-List }}
+				{{> components-C23B-Profile-List }}
 				
 			</div>
 
