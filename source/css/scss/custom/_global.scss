@@ -273,3 +273,27 @@ a {
   }
 }
 
+
+.share {
+  &.share--facebook {
+    width: 20px;
+    height: 15px;
+    background-image: url('../../images/icon-share.svg');
+
+    &:hover {
+      background-image: url('../../images/icon-share-accent.svg');
+    }
+  } 
+
+
+ &.share--save {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/icon-save.svg');
+
+    &:hover {
+      background-image: url('../../images/icon-save-accent.svg');
+    }
+ }
+}
+
