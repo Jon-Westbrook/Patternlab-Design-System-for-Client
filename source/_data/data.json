@@ -206,6 +206,7 @@
     "bgImg"       : "/images/pattern-fill-1.svg",
     "imgSrc"      : "../../images/Member.png", 
     "name"        : "Corinne Daily",
+    "memberSince" : "Member since 2007",
     "position"    : "Vice President",
     "department"  : "Real Estate Services",
     "location"    : "New York, NY",
