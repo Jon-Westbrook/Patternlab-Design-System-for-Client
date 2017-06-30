@@ -210,8 +210,12 @@
 	border-bottom: 2px solid $tertiary3;
 }
 
-.navbar-toggler {
+.navbar-toggler:focus {
 	outline: 0;
+}
+
+.navbar-collapse {
+	margin-left: 4px;
 }
 
 

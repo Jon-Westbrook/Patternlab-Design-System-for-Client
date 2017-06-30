@@ -44,6 +44,10 @@ a {
   color: $link-hover-color;
 }
 
+.btn-primary:focus, .btn-outline-primary:focus, .btn-outline-secondary:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
 .close {
   color: $primary3;
   opacity: 1;
