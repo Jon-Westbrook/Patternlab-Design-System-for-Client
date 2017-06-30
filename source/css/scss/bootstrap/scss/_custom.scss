@@ -783,8 +783,8 @@ $card-spacer-x:            2rem;
 // $tooltip-color:               $white;
 // $tooltip-bg:                  $black;
 // $tooltip-opacity:             .9;
-// $tooltip-padding-y:           3px;
-// $tooltip-padding-x:           8px;
+$tooltip-padding-y:           8px; //6px
+$tooltip-padding-x:           40px; //8px
 // $tooltip-margin:              3px;
 
 // $tooltip-arrow-width:         5px;
