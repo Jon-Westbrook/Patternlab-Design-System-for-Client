@@ -210,12 +210,6 @@
 	border-bottom: 2px solid $tertiary3;
 }
 
-.navbar-toggler {
+.navbar-toggler:focus, .navbar-toggler-icon:focus {
 	outline: 0;
 }
-
-
-
-
-
-
