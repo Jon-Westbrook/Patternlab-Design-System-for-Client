@@ -424,7 +424,171 @@
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
-    }]
+    }
+  ],
+  "addresses" : [
+    {
+      "title"   : "Membership Services",
+      "address1"  : "1221 Avenue of the Americas",
+      "address2"  : "41st Floor",
+      "address3"  : "New York, NY 10020-1099",
+      "phone"   : "+1 646 728 3487",
+      "fax"     : "+1 732 694 1690",
+      "email"   : "membership@icsc.org"
+    },
+    {
+      "title"   : "Washington",
+      "address1"  : "ICSC Office of Global Public Policy",
+      "address2"  : "555 12th Street, N.W., Suite 660",
+      "address3"  : "Washington, DC 20004",
+      "phone"   : "+1  202 626 1400",
+      "fax"     : "+1  202 626 1418",
+      "email"   : "gpp@icsc.org"
+    },
+    {
+      "title"   : "Boston",
+      "address1"  : "SPREE/ Special Realty Office",
+      "address2"  : "195 Hanover Street",
+      "address3"  : "Hanover, MA 02339",
+      "phone"   : "+1  781 709 2411",
+      "fax"     : "",
+      "email"   : ""
+    },
+    {
+      "title"   : "Europe",
+      "address1"  : "ICSC London Office",
+      "address2"  : "London, SW1H 9BU, United Kingdom",
+      "address3"  : "United Kingdom",
+      "phone"   : "[ T ]  +44  20 7976 3100",
+      "fax"     : "[ F ]  +44  20 7976 3101",
+      "email"   : "info.europe@icsc.org"
+    },
+    {
+      "title"   : "Latin America",
+      "address1"  : "Torre Virreyes. Pedregal No. 24, piso 3.",
+      "address2"  : "Col. Molino del Rey, 11040",
+      "address3"  : "Ciudad de México, México",
+      "phone"   : "[ T ]  +52  55 8647 0383",
+      "fax"     : "[ F ]  +52  55 1253 7091",
+      "email"   : "latam@icsc.org"
+    },
+    {
+      "title"   : "Asia Pacific",
+      "address1"  : "138 Cecil Street",
+      "address2"  : "Cecil Court #08-02",
+      "address3"  : "Singapore 069538",
+      "phone"   : "[ T ]  +65  6532 3722",
+      "fax"     : "[ F ]  +65  6532 7355",
+      "email"   : "icsc.asia@icsc.org"
+    },
+    {
+      "title"   : "U.S. Member Payment",
+      "address1"  : "c/o Member Services International Council of Shopping Centers",
+      "address2"  : "Post Office Box 26958",
+      "address3"  : "New York, New York 10087-6958 USA",
+      "phone"   : "",
+      "fax"     : "",
+      "email"   : ""
+    }
+  ],
+  "links" : [
+    {
+      "title" : "Certification",
+      "href"  : "#"
+    },
+    {
+      "title" : "Mail Room",
+      "href"  : "#"
+    },
+    {
+      "title" : "Reception",
+      "href"  : "#"
+    },
+    {
+      "title" : "Education",
+      "href"  : "#"
+    },
+    {
+      "title" : "Meetings",
+      "href"  : "#"
+    },
+    {
+      "title" : "Registration",
+      "href"  : "#"
+    },
+    {
+      "title" : "Government Relations",
+      "href"  : "#"
+    },
+    {
+      "title" : "Membership",
+      "href"  : "#"
+    },
+    {
+      "title" : "Research",
+      "href"  : "#"
+    },
+    {
+      "title" : "ICSC",
+      "href"  : "#"
+    },
+    {
+      "title" : "News",
+      "href"  : "#"
+    },
+    {
+      "title" : "Web Technology",
+      "href"  : "#"
+    },
+    {
+      "title" : "International",
+      "href"  : "#"
+    },
+    {
+      "title" : "Publications",
+      "href"  : "#"
+    }
+  ],
+  "contacts" : [
+    {
+      "title" : "Advertising contacts",
+      "items" : [
+        {
+          "imgSrc"  : "/images/member@2x.png",
+          "name"    : "Edmund Mander",
+          "position"  : "Global Marketing Director",
+          "phone"   : "+1  555 555-9081",
+          "email"   : "emander@csc.org"
+        },
+        {
+          "imgSrc"  : "/images/member@2x.png",
+          "name"    : "Brandon Boswell",
+          "position"  : "Media Director",
+          "phone"   : "+1  555 555-9082",
+          "email"   : "bboswell@icsc.org"
+        },
+        {
+          "imgSrc"  : "/images/member@2x.png",
+          "name"    : "Willa Cather",
+          "position"  : "Media Strategist",
+          "phone"   : "+1  555 555-9083",
+          "email"   : "emander@icsc.org"
+        }
+      ]
+    },
+    {
+      "title" : "Press contact",
+      "items" : [
+        {
+          "imgSrc"  : "/images/member@2x.png",
+          "name"    : "Jessica Day",
+          "position"  : "Public Relations Director",
+          "phone"   : "+1  555 555-9084",
+          "email"   : "emander@icsc.org"
+        }
+      ]
+    }
+  ]
 }
 
 

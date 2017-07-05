@@ -8,8 +8,8 @@ Email address (conditional)
 
 Phone Number (conditional)
 
-- NA
+- Default browser telephone number behavior
 
 Phone Number (Mobile Only)
 
-- on tap - default OS phone client opens
+- on tap - default OS phone number behaviors
