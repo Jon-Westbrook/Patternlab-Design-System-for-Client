@@ -34,13 +34,13 @@ $(document).ready(function() {
       
       if ($(window).scrollTop() > totalHeight) {
         $('.sticky-cta').addClass('fixed-top');
-        $('.event-overview').css('margin-top', ctaHeight);
+        $('.offset-sticky').css('margin-top', ctaHeight);
         $('.sticky-title').css('opacity', 1);
       }
     
       if ($(window).scrollTop() < totalHeight) {
         $('.sticky-cta').removeClass('fixed-top');
-        $('.event-overview').css('margin-top', 0);
+        $('.offset-sticky').css('margin-top', 0);
         $('.sticky-title').css('opacity', 0);
       }
   });
@@ -50,16 +50,9 @@ $(document).ready(function() {
     $("html, body").animate({ scrollTop: "0" });
   });
 
-  // Carousel Swipe Mobile (in development requires jQuery Mobile)
-  // $("#home-carousel").swiperight(function() {
-  //     $(this).carousel('prev');
-  //   });
-  //  $("#home-carousel").swipeleft(function() {
-  //     $(this).carousel('next');
-  //  });
 
 });
 
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip({html: true})
-})
+  $('[data-toggle="tooltip"]').tooltip({html: true});
+});
