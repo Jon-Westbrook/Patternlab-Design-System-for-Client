@@ -2,7 +2,7 @@
 title: M16A Featured Events Preview Authenticated
 ---
 
-View All Link  (Events Near You or My Favorites)
+"View All" Link 
 
 - on hover - highlight appears (see styleguide)
-- on click - loads appropriate template
+- on click - loads scoped search
