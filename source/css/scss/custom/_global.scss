@@ -1,297 +1,289 @@
 
-// Debug utility that makes grey boxes behind all blocks, for layout debugging
-// @include debug;
-
 * {
-  text-size-adjust: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // Remove tap highlight color - ugly!
-  -webkit-tap-highlight-color: transparent; // For some Androids
+	text-size-adjust: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); // Remove tap highlight color - ugly!
+	-webkit-tap-highlight-color: transparent; // For some Androids
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased; /* the slickest text out there */
-  -moz-osx-font-smoothing: grayscale;
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	/* the slickest text out there */
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-family: $font-family-sans-serif;
+	font-family: $font-family-sans-serif;
 }
 
-
 // Links
-
 a {
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    opacity: 1;
-    color: darken($primary1, 10%);
-  }
-  &.accent {
-    &:hover {
-      color: darken($primary1, 10%);
-    }
-  }
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		opacity: 1;
+		color: darken($primary1, 10%);
+	}
+	&.accent {
+		&:hover {
+			color: darken($primary1, 10%);
+		}
+	}
 }
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
 .btn-outline-secondary:hover {
-  color: $primary1;
+	color: $primary1;
 }
 
 .btn-secondary:hover {
-  color: $link-hover-color;
+	color: $link-hover-color;
 }
 
-.btn-primary:focus, .btn-outline-primary:focus, .btn-outline-secondary:focus {
-  outline: -webkit-focus-ring-color auto 5px;
+.btn-primary:focus,
+.btn-outline-primary:focus,
+.btn-outline-secondary:focus {
+	outline: -webkit-focus-ring-color auto 5px;
 }
 
 .close {
-  color: $primary3;
-  opacity: 1;
-  font-size: 2rem;
-  font-weight: 200;
-  line-height: 1;
-  text-shadow: none;
-  transition: $transition-base;
-  &.black {
-    color: $primary2;
-    font-size: 1.5rem;
-  }
-  &.black-modal {
-    color: $primary2;
-  }
+	color: $primary3;
+	opacity: 1;
+	font-size: 2rem;
+	font-weight: 200;
+	line-height: 1;
+	text-shadow: none;
+	transition: $transition-base;
+	&.black {
+		color: $primary2;
+		font-size: 1.5rem;
+	}
+	&.black-modal {
+		color: $primary2;
+	}
 }
 
 .btn {
-  border-width: 2px;
-  font-family: $font-family-sans-serif;
-  cursor: pointer;
-  &.btn-tertiary {
-    color: $btn-tertiary-color;
-    background-color: $btn-tertiary-bg;
-    border-color: $btn-tertiary-border;
-    cursor: pointer;
-    width: 100px;
-    &:hover {
-      background: #cfd6db;
-      transition: all 0.2s ease-in-out;
-    }
-  }
-  &.btn-quaternary {
-    color: $primary3;
-    background-color: $tertiary7;
-    border: 1px solid $primary3;
-    width: 100px;
-    &:hover {
-      background: #cfd6db;
-      transition: all 0.2s ease-in-out;
-      color: $primary2;
-    }
-  }
-  &.search {
-    padding: .5rem 0;
-    @include media-breakpoint-only(md) {
-      padding: 1rem 2rem;
-    }
-    @include media-breakpoint-only(lg) {
-      padding: 1rem 3rem;
-    }
-    @include media-breakpoint-only(xl) {
-      padding: 1rem 4rem;
-    }
-    border-radius: 5px;
-    border: solid 2px $tertiary5; /*$primary1;*/
-    background-color: white;
-
-    &:hover {
-       border-color: $primary1;
-       background-color: $primary1;
-       color: white;
-    }
-  }
+	border-width: 2px;
+	font-family: $font-family-sans-serif;
+	cursor: pointer;
+	&.btn-tertiary {
+		color: $btn-tertiary-color;
+		background-color: $btn-tertiary-bg;
+		border-color: $btn-tertiary-border;
+		cursor: pointer;
+		width: 100px;
+		&:hover {
+			background: #cfd6db;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+	&.btn-quaternary {
+		color: $primary3;
+		background-color: $tertiary7;
+		border: 1px solid $primary3;
+		width: 100px;
+		&:hover {
+			background: #cfd6db;
+			transition: all 0.2s ease-in-out;
+			color: $primary2;
+		}
+	}
+	&.search {
+		padding: .5rem 0;
+		@include media-breakpoint-only(md) {
+			padding: 1rem 2rem;
+		}
+		@include media-breakpoint-only(lg) {
+			padding: 1rem 3rem;
+		}
+		@include media-breakpoint-only(xl) {
+			padding: 1rem 4rem;
+		}
+		border-radius: 5px;
+		border: solid 2px $tertiary5;
+		background-color: $primary3;
+		&:hover {
+			border-color: $primary1;
+			background-color: $primary1;
+			color: $primary3;
+		}
+	}
 }
 
-
 // Dropdowns
-
 .dropdown-menu {
-  box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.3);
-} 
-
+	box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.3);
+}
 
 // Kill Bootstrap Gutters - Recommended by BS, only for rows
 .no-xs-guts {
-  @include media-breakpoint-down(xs) {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
-
-    > .col,
-    > [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-  }
+	@include media-breakpoint-down(xs) {
+		margin-right: 0;
+		margin-left: 0;
+		padding-right: 0;
+		padding-left: 0;
+		> .col,
+		> [class*="col-"] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
 }
 
 // Carousel Indicators
-
 .carousel-indicators li {
-  border-radius: 6px;
+	border-radius: 6px;
 }
 
 .share-bar {
-  /* border: 1px solid $tertiary5; */
-
-  &.share-bar--small {
-    img.share-bar__icon {
-       height: 20px;
-    }
-  }
+	&.share-bar--small {
+		img.share-bar__icon {
+			height: 20px;
+		}
+	}
 }
 
 .nowrap {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .phone-link {
-  &:before {
-    content: '';
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    background-image: url('/images/icon-phone.svg');
-    margin-right: 7px;
-    vertical-align: middle;
-  }
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		background-image: url('/images/icon-phone.svg');
+		margin-right: 7px;
+		vertical-align: middle;
+	}
 }
 
 .email-link {
-  &:before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 15px;
-    background-image: url('/images/icon-email.svg');
-    margin-right: 7px;
-    vertical-align: middle;
-  }
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 20px;
+		height: 15px;
+		background-image: url('/images/icon-email.svg');
+		margin-right: 7px;
+		vertical-align: middle;
+	}
 }
 
 .profile-img {
-    width: 136px;
-
-    @include media-breakpoint-down(sm) {
-      width: 120px;
-    }
+	width: 136px;
+	@include media-breakpoint-down(sm) {
+		width: 120px;
+	}
 }
 
 .profile-img-alt {
-    width: 90px;
-
-    @include media-breakpoint-down(md) {
-      width: 78px;
-    }
+	width: 90px;
+	@include media-breakpoint-down(md) {
+		width: 78px;
+	}
 }
 
 .profile-img-standard {
-  width: 56px;
-  height: 56px;
+	width: 56px;
+	height: 56px;
 }
 
 .profile-img-leader {
-  width: 120px;
-  height: 120px;
+	width: 120px;
+	height: 120px;
 }
 
 
 /* Source: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .video-player {
-  position: relative;
-  padding-bottom: 54%; /*56.25%; *//* 16:9 */
-  padding-top: 25px;
-  height: 0;
-  
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+	position: relative;
+	padding-bottom: 54%;
+	/*56.25%; */
+	/* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 .img-shadow {
-  box-shadow: 0 25px 40px 0 rgba(0,0,0,0.50);
+	box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.50);
 }
 
 .border-after {
-  &:after {
-    content: '';
-    display: block;
-    width: 100%;
-    border-bottom: 2px solid $tertiary4;
-    margin: 3rem 0 0;
-  }
-
-  &.border-after__thin {
-     &:after {
-      border-bottom-width: 1px;
-      margin: 1rem 0;
-     }  
-  }
-  &.border-after__modal {
-      
-    @include media-breakpoint-down(md) {
-      &:after {
-        border-bottom-width: 0;
-     } 
-    }
-  }
+	&:after {
+		content: '';
+		display: block;
+		width: 100%;
+		border-bottom: 2px solid $tertiary4;
+		margin: 3rem 0 0;
+	}
+	&.border-after__thin {
+		&:after {
+			border-bottom-width: 1px;
+			margin: 1rem 0;
+		}
+	}
+	&.border-after__modal {
+		@include media-breakpoint-down(md) {
+			&:after {
+				border-bottom-width: 0;
+			}
+		}
+	}
 }
 
 // Crazy Hidden Class, Not in Bootstrap Alpha 4
 .hidden-md {
-  @include media-breakpoint-only(md) {
-    display: none;
-  }
+	@include media-breakpoint-only(md) {
+		display: none;
+	}
 }
-
-// blockquote {
-//   text-indent: -0.5em;
-// }
-
 
 .tooltip {
-  font-size: 16px;
-  .tooltip-inner {
-    border-radius: 5px;
-  }
-  img {
-    height: 18px;
-    margin: 0 7px;
-  }
+	font-size: 16px;
+	.tooltip-inner {
+		border-radius: 5px;
+	}
+	img {
+		height: 18px;
+		margin: 0 7px;
+	}
 }
-
 
 .share {
-  &.share--facebook {
-    width: 20px;
-    height: 15px;
-    background-image: url('../../images/icon-share.svg');
-    &:hover { background-image: url('../../images/icon-share-dark.svg'); }
-    &:active { background-image: url('../../images/icon-share-accent.svg'); }
-} 
- &.share--save {
-    width: 20px;
-    height: 20px;
-    background-image: url('../../images/icon-save.svg');
-    &:hover { background-image: url('../../images/icon-save-dark.svg'); }
-    &:active { background-image: url('../../images/icon-save-accent.svg'); }
- }
+	&.share--facebook {
+		width: 20px;
+		height: 15px;
+		background-image: url('../../images/icon-share.svg');
+		&:hover {
+			background-image: url('../../images/icon-share-dark.svg');
+		}
+		&:active {
+			background-image: url('../../images/icon-share-accent.svg');
+		}
+	}
+	&.share--save {
+		width: 20px;
+		height: 20px;
+		background-image: url('../../images/icon-save.svg');
+		&:hover {
+			background-image: url('../../images/icon-save-dark.svg');
+		}
+		&:active {
+			background-image: url('../../images/icon-save-accent.svg');
+		}
+	}
 }
 
+// Debug utility that makes grey boxes behind all blocks, for layout debugging
+// @include debug;
