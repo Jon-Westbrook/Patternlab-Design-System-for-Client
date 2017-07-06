@@ -58,8 +58,8 @@
     "tools-all": false,
     "tools-docs": false
   },
-  "ishMinimum": "240",
-  "ishMaximum": "2600",
+  "ishMinimum": "320",
+  "ishMaximum": "1440",
   "patternStateCascade": [
     "inprogress",
     "inreview",
