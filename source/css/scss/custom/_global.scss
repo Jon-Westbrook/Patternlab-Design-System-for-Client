@@ -270,7 +270,7 @@ a {
 		&:hover {
 			background-image: url('../../images/icon-share-dark.svg');
 		}
-		&:active {
+		&:active, &.active {
 			background-image: url('../../images/icon-share-accent.svg');
 		}
 	}
@@ -281,7 +281,7 @@ a {
 		&:hover {
 			background-image: url('../../images/icon-save-dark.svg');
 		}
-		&:active, .active {
+		&:active, &.active {
 			background-image: url('../../images/icon-save-accent.svg');
 		}
 	}
