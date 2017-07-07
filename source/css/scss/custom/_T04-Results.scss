@@ -82,6 +82,11 @@
 				background: url('../images/cards-hover.svg') no-repeat center center;
 				cursor: pointer;
 			}
+			&.disabled {
+				&:hover {
+					opacity: .3;
+				}
+			}
 		}
 	}
 
@@ -100,6 +105,11 @@
 			&:hover {
 				background: url('../images/list-hover.svg') no-repeat center center;
 				cursor: pointer;
+			}
+			&.disabled {
+				&:hover {
+					opacity: .3;
+				}
 			}
 		}
 	}
