@@ -28,25 +28,14 @@
     }
   }
 
-  .logo-wrap img:last-child {
-    display: none;
-    transition: $transition-base;
-  }
-  
-  .logo-wrap:hover img:first-child {
-    display: none;
-    transition: $transition-base;
-  }
-  
-  .logo-wrap:hover img:last-child {
-    display: inline-block;
-    transition: $transition-base;
-  }
-
   .logo {
     transition: $transition-base;
     cursor: pointer;
     max-width: 100%;
     height: auto;
+    filter: grayscale(100%);
+    &:hover {
+      filter: grayscale(0%);
+    }
   }
 }
