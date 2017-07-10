@@ -210,6 +210,48 @@
 	border-bottom: 2px solid $tertiary3;
 }
 
+.navbar-toggler {
+  height: 100%;
+}
+
+.navbar-toggler span {
+    padding-top: 2px;
+    width: 100%;
+}
+
+.navbar-toggler .icon-bar {
+  	display: block;
+  	width: 22px;
+  	height: 3px;
+  	border-radius: 1px;
+}
+
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 3px;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: #5f5d5d;
+  border-radius: 0;
+  transform-origin: 12% 50%;
+  transition: all 0.5s;
+}
+
+.navbar-toggler .icon-bar:nth-child(1) {
+	transform: rotate(45deg);
+}
+.navbar-toggler .icon-bar:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggler .icon-bar:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+.navbar-toggler.collapsed .icon-bar {
+  transform: none;
+  opacity: 1;
+}
+
 .navbar-toggler:focus {
 	outline: 0;
 }
