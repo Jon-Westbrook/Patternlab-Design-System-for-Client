@@ -91,7 +91,7 @@
 <div class="container-fluid collapse bg-gray-dark filter-panel" id="filterPanel">
 	
 	<div class="container py-4 no-xs-guts">
-
+ 
 		<!-- Button Bar --> 
 		<ul class="nav nav-pills d-flex mb-4 justify-content-end">
 			<li class="nav-item"><button class="btn btn-tertiary display9 mr-4">Apply</button></li>
@@ -110,10 +110,10 @@
 				<div class="row light">
 					<div class="col">
 						<form class="my-3">
-							<div class="form-group row align-items-center"> 
+							<div class="form-group row"> 
 								
 								<!-- Facet Checkbox -->
-								<div class="col-1">
+								<div class="col-2 col-sm-1">
 									<div class="form-check">
 										<label class="custom-control custom-checkbox fac-check">
 										  <input type="checkbox" class="custom-control-input indeterminate">
@@ -123,71 +123,71 @@
 								</div>
 
 								<!-- Facet Link and Panel 1 --> 
-								<a class="facetLink col-11 collapsed" data-toggle="collapse" href="#" data-target="#facetPanel" aria-expanded="false" aria-controls="facetPanel" >
-									<label class="facet parent">Academic Institution</label>
+								<a class="facetLink col-10 col-sm-11" data-toggle="collapse" href="#" data-target="#facetPanel" aria-expanded="false" aria-controls="facetPanel" >
+									<label class="facet parent mt-1">Academic Institution</label>
 								</a>
 								
-								<div class="collapse bg-gray w-100 mx-3 facetPanel" id="facetPanel">
+								<div class="collapse bg-gray w-100 facetPanel" id="facetPanel">
 									<div class="row">
 										<div class="col">
 											<ul class="nav nav-pills d-flex justify-content-end mt-4">
 												<li class="nav-item ml-4"><button class="btn btn-quaternary display9 mr-4">Select all</button></li>
-												<li class="nav-item"><button class="btn btn-quaternary display9 mr-5">Deselect all</button></li>
+												<li class="nav-item"><button class="btn btn-quaternary display9 mr-3">Deselect all</button></li>
 											</ul>
 										</div>
 									</div>	
 
-									<div class="row p-4">
+									<div class="row pl-4 pt-4 pr-4 pb-4">
 										
 										<!-- Sub-Facet Col and Input -->
 										<div class="col-md-6">
 											<div class="row">
-												<div class="col-2">
+												<div class="col-2 col-sm-1">
 													<div class="form-check">
-														<label class="custom-control custom-checkbox">
+														<label class="custom-control custom-checkbox d-flex my-auto">
 														  <input type="checkbox" class="custom-control-input checked">
 														  <span class="custom-control-indicator"></span>
 														</label>
 													</div>
 												</div>
-												<label class="col-10 mb-0 mt-1">Ceiling Systems, products</label>
+												<label class="col-10 mb-0 mt-1 pl-3 pl-md-5 pl-lg-5">Ceiling Systems, products</label>
 											</div>
 											<div class="row">
-												<div class="col-2">
+												<div class="col-2 col-sm-1">
 													<div class="form-check">
-														<label class="custom-control custom-checkbox">
+														<label class="custom-control custom-checkbox d-flex my-auto">
 														  <input type="checkbox" class="custom-control-input">
 														  <span class="custom-control-indicator"></span>
 														</label>
 													</div>
 												</div>
-												<label class="col-10 mb-0 mt-1" >Communication Systems, products, services</label>
+												<label class="col-10 mb-0 mt-1 pl-3 pl-md-5 pl-lg-5">Communication Systems, products, services</label>
 											</div>
 										</div>
 										
 										<!-- Sub-Facet Col and Input -->
 										<div class="col-md-6"> 
 											<div class="row">
-												<div class="col-2">
+												<div class="col-2 col-sm-1">
 													<div class="form-check">
-														<label class="custom-control custom-checkbox">
+														<label class="custom-control custom-checkbox d-flex my-auto">
 														  <input type="checkbox" class="custom-control-input">
 														  <span class="custom-control-indicator"></span>
 														</label>
 													</div>
 												</div>
-												<label class="col-10 mb-0 mt-1">Ceiling Systems, products</label>
+												<label class="col-10 mb-0 mt-1 pl-3 pl-md-5 pl-lg-5">Ceiling Systems, products</label>
 											</div>
 											<div class="row">
-												<div class="col-2">
+												<div class="col-2 col-sm-1">
 													<div class="form-check">
-														<label class="custom-control custom-checkbox">
+														<label class="custom-control custom-checkbox d-flex my-auto">
 														  <input type="checkbox" class="custom-control-input checked">
 														  <span class="custom-control-indicator"></span>
 														</label>
 													</div>
 												</div>
-												<label class="col-10 mb-0 mt-1">Communication Systems, products, services</label>
+												<label class="col-10 mb-0 mt-1 pl-3 pl-md-5 pl-lg-5">Communication Systems, products, services</label>
 											</div>
 										</div>
 									</div>
@@ -196,7 +196,7 @@
 
 
 								<!-- Facet Checkbox 2 no Panel -->
-								<div class="col-1">
+								<div class="col-2 col-sm-1">
 									<div class="form-check">
 										<label class="custom-control custom-checkbox fac-check">
 										  <input type="checkbox" class="custom-control-input">
@@ -205,13 +205,13 @@
 									</div>
 								</div>
 
-								<!-- Facet Label 2 no Panel --> 
-								<a class="col-11" >
-									<label class="facetNoPanel">Academic Institution</label>
+								<!-- Facet Link 2 no Panel --> 
+								<a class="col-10 col-sm-11" >
+									<label class="facetNoPanel mt-1">Academic Institution</label>
 								</a>
 
 								<!-- Facet Checkbox 3 no Panel -->
-								<div class="col-1">
+								<div class="col-2 col-sm-1">
 									<div class="form-check">
 										<label class="custom-control custom-checkbox fac-check">
 										  <input type="checkbox" class="custom-control-input my-2">
@@ -221,10 +221,9 @@
 								</div>
 
 								<!-- Facet Label 3 no Panel --> 
-								<a class="col-11" >
-									<label class="facetNoPanel">Academic Institution</label>
+								<a class="col-10 col-sm-11" >
+									<label class="facetNoPanel mt-1">Academic Institution</label>
 								</a>
-
 
 							</div>
 						</form>
