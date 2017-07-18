@@ -16,6 +16,11 @@
 }
 
 .dropup {
+	.dropdown-menu {
+		height: auto;
+  	max-height: 150px;
+  	overflow-x: hidden;
+	}
 	.back:before {
 		content: '';
     display: inline-block;
@@ -28,4 +33,25 @@
 	.dropdown-toggle {
 		outline: none;
 	}
+	.dropdown-toggle:focus {
+		box-shadow: none;
+	}
+	.dropdown-toggle::after {
+		content: '';
+		display: inline-block !important;
+		background: url('../../images/up-arrow.svg') no-repeat;
+		border: 0 !important;
+		width: 10px;
+		height: 6px;
+		margin: 0 0 2px 8px;
+		transition: all 0.2s ease-in-out;
+	}
+	.dropdown-toggle:hover {
+		&:after {
+			background: url('../../images/down-arrow-white.svg') no-repeat;
+		}
+	}
+	
 }
+
+
