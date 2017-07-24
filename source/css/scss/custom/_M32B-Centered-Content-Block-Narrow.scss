@@ -20,7 +20,7 @@
 		height: auto;
   	max-height: 400px;
   	overflow-x: hidden;
-  	bottom: 95%
+  	bottom: 95%;
 	}
 	.back:before {
 		content: '';
@@ -52,7 +52,23 @@
 			background: url('../../images/down-arrow-white.svg') no-repeat;
 		}
 	}
-	
+	.dropdown-item { 
+		white-space: inherit;
+	}
+
+	.sub-links {
+		&:after {
+			content: "";
+			background: url('../../images/down-arrow.svg') no-repeat;
+			position: absolute;
+			right: 0;
+			width: 10px;
+			height: 6px;
+			margin: auto 10px;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+
 }
 
 
