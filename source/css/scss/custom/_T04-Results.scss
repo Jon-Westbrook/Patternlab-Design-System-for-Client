@@ -64,8 +64,8 @@
 	.cards {
 		.nav-link {
 			cursor: pointer;
-			width: 49.8px;
-			height: 48px;
+			height: 52px; 
+			width: 54px;
 			@include media-breakpoint-up(md) {
 				height: 52px; 
 				width: 54px;
