@@ -69,13 +69,15 @@
 	object-fit: cover;
 	height: 56px;
 	width: 56px;
-	border-radius: 100%;
 	@include media-breakpoint-up(sm) {
 		height: 64px;
 		width: 64px;
 	}
 	&.download {
 		object-fit: initial;
+	}
+	&.square {
+		border-radius: 0;
 	}
 }
 
