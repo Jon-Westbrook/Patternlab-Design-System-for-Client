@@ -69,6 +69,7 @@
 	object-fit: cover;
 	height: 56px;
 	width: 56px;
+	border-radius: 100%;
 	@include media-breakpoint-up(sm) {
 		height: 64px;
 		width: 64px;
@@ -76,6 +77,10 @@
 	&.download {
 		object-fit: initial;
 	}
+}
+
+.profile-img-list {
+	border-radius: 36px;
 }
 
 .card-icons {
@@ -162,7 +167,9 @@
 .member-card-img {
 	height: 80px;
 	width: 80px;
+	border-radius: 100%;
 	@include media-breakpoint-up(xl) {
+		border-radius: 100%;
 		height: 104px;
 		width: 104px;
 	}

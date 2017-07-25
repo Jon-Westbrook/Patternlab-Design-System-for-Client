@@ -39,7 +39,7 @@
     "eventCity": "New York, NY",
     "eventIcon": "../../images/event-icon.svg",
     "eventURL": "www.icsc.org/events-and-programs/details/centerbuild.../brochure",
-    "memberCardImg": "../../images/member@2x.png",
+    "memberCardImg": "../../images/90.jpg",
     "memberName": "Willa Sibert Cather",
     "memberTitle": "Major Marketing Affecianada",
     "memberCompany": "Real Big Company, Really",
@@ -193,7 +193,7 @@
     "imgSm": "../../images/infographic-mobile@2x.png"
   },
   "author" : { 
-    "imgSrc"        : "../../images/Member.png",
+    "imgSrc"        : "../../images/90.jpg",
     "name"          : "Juanita Stephens",
     "position"      : "Vice President",
     "company"       : "JLL Realty",
@@ -204,7 +204,7 @@
   "profileDetail" : {
     "backText"    : "Back to Find Members",
     "bgImg"       : "/images/pattern-fill-1.svg",
-    "imgSrc"      : "../../images/Member.png", 
+    "imgSrc"      : "../../images/90.jpg", 
     "name"        : "Corinne Daily",
     "memberSince" : "Member since 2007",
     "position"    : "Vice President",
@@ -345,25 +345,25 @@
       "title"     : "Tom McGee",
       "subtitle"  : "President and Chief Executive Officer",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
-      "imgSrc"    : "../../images/Member.png"
+      "imgSrc"    : "../../images/90.jpg"
     },
     {
       "title"     : "Leslie Fox",
       "subtitle"  : "Chief of Staff and Vice President of Strategy and Operations",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
-      "imgSrc"    : "../../images/Member.png"
+      "imgSrc"    : "../../images/90.jpg"
     },
     {
       "title"     : "Stefan Freiberg",
       "subtitle"  : "Chief Financial Officer",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
-      "imgSrc"    : "../../images/Member.png"
+      "imgSrc"    : "../../images/90.jpg"
     },
     {
       "title"     : "Aniece Martin",
       "subtitle"  : "Executive Assistant to President",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
-      "imgSrc"    : "../../images/Member.png"
+      "imgSrc"    : "../../images/90.jpg"
     }
   ],
   "accordion" : [
@@ -397,31 +397,31 @@
   ],
   "featuredSpeakers" :[
     {
-      "memberCardImg": "../../images/member@2x.png",
+      "memberCardImg": "../../images/90.jpg",
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
     },
     {
-      "memberCardImg": "../../images/member@2x.png",
+      "memberCardImg": "../../images/90.jpg",
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
     },
     {
-      "memberCardImg": "../../images/member@2x.png",
+      "memberCardImg": "../../images/90.jpg",
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
     },
     {
-      "memberCardImg": "../../images/member@2x.png",
+      "memberCardImg": "../../images/90.jpg",
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
     },
     {
-      "memberCardImg": "../../images/member@2x.png",
+      "memberCardImg": "../../images/90.jpg",
       "memberName": "Willa Sibert Cather",
       "memberTitle": "Major Marketing Affecianada",
       "memberCompany": "Real Big Company, Really"
@@ -555,21 +555,21 @@
       "title" : "Advertising contacts",
       "items" : [
         {
-          "imgSrc"  : "/images/member@2x.png",
+          "imgSrc"  : "/images/90.jpg",
           "name"    : "Edmund Mander",
           "position"  : "Global Marketing Director",
           "phone"   : "+1  555 555-9081",
           "email"   : "emander@csc.org"
         },
         {
-          "imgSrc"  : "/images/member@2x.png",
+          "imgSrc"  : "/images/90.jpg",
           "name"    : "Brandon Boswell",
           "position"  : "Media Director",
           "phone"   : "+1  555 555-9082",
           "email"   : "bboswell@icsc.org"
         },
         {
-          "imgSrc"  : "/images/member@2x.png",
+          "imgSrc"  : "/images/90.jpg",
           "name"    : "Willa Cather",
           "position"  : "Media Strategist",
           "phone"   : "+1  555 555-9083",
@@ -581,7 +581,7 @@
       "title" : "Press contact",
       "items" : [
         {
-          "imgSrc"  : "/images/member@2x.png",
+          "imgSrc"  : "/images/90.jpg",
           "name"    : "Jessica Day",
           "position"  : "Public Relations Director",
           "phone"   : "+1  555 555-9084",

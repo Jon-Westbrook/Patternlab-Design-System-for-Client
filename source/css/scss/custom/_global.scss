@@ -167,6 +167,7 @@ a {
 
 .profile-img {
 	width: 136px;
+	border-radius: 100%;
 	@include media-breakpoint-down(sm) {
 		width: 120px;
 	}
@@ -174,6 +175,7 @@ a {
 
 .profile-img-alt {
 	width: 90px;
+	border-radius: 100%;
 	@include media-breakpoint-down(md) {
 		width: 78px;
 	}
@@ -182,11 +184,13 @@ a {
 .profile-img-standard {
 	width: 56px;
 	height: 56px;
+	border-radius: 100%;
 }
 
 .profile-img-leader {
 	width: 120px;
 	height: 120px;
+	border-radius: 100%;
 }
 
 
