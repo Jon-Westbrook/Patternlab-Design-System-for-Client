@@ -57,6 +57,11 @@
 			font-style: italic;
 		}
 	}
+
+	a.btn-primary {
+		@extend .btn-primary;
+	}
+
 	ul, ol {
 		@extend %content-margins-and-padding;
 		li {
