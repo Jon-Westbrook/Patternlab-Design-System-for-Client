@@ -10,9 +10,9 @@
             border: none;
             a {
                 &:before {
-                    content: '-'; 
-                    display: inline-block;
-                    margin: 0 2rem 0 0;
+                    content: '-';
+                    position: absolute;
+                    left: 20px;
                 }
                 &.collapsed {
                     &:before {
@@ -21,6 +21,5 @@
                 }
             }
         }
-        .card-block {}
     }
 }
