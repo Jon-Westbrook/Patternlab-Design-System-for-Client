@@ -242,21 +242,21 @@ a {
 }
 
 .border-before {
-	&:after {
+	&:before {
 		content: '';
 		display: block;
 		width: 100%;
-		border-bottom: 2px solid $tertiary4;
+		border-top: 2px solid $tertiary4;
 	}
 	&.border-after__thin {
-		&:after {
-			border-bottom-width: 1px;
+		&:before {
+			border-top-width: 1px;
 		}
 	}
 	&.border-after__modal {
 		@include media-breakpoint-down(md) {
-			&:after {
-				border-bottom-width: 0;
+			&:before {
+				border-top-width: 0;
 			}
 		}
 	}
