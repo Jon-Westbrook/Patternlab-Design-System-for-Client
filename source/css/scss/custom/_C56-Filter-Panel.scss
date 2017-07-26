@@ -141,4 +141,11 @@
 	    margin-right: 6px;
 	}
 }
+
+// Override NG_Datepicker btn-secondary style
+.ngb-dp-day {
+	.btn-secondary {
+		color: #292b2c;
+	}
+}
 	
