@@ -33,6 +33,7 @@ a {
 }
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
+
 .btn-outline-secondary:hover {
 	color: $primary1;
 }
@@ -225,12 +226,31 @@ a {
 		display: block;
 		width: 100%;
 		border-bottom: 2px solid $tertiary4;
-		margin: 3rem 0 0;
 	}
 	&.border-after__thin {
 		&:after {
 			border-bottom-width: 1px;
-			margin: 1rem 0;
+		}
+	}
+	&.border-after__modal {
+		@include media-breakpoint-down(md) {
+			&:after {
+				border-bottom-width: 0;
+			}
+		}
+	}
+}
+
+.border-before {
+	&:after {
+		content: '';
+		display: block;
+		width: 100%;
+		border-bottom: 2px solid $tertiary4;
+	}
+	&.border-after__thin {
+		&:after {
+			border-bottom-width: 1px;
 		}
 	}
 	&.border-after__modal {
