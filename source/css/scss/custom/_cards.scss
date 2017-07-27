@@ -20,6 +20,13 @@
 	}
 }
 
+.member-default {
+	background-color: $tertiary3;
+	.letters {
+		color: #BCBFC0;
+	}
+}
+
 .list-card {
 	margin-bottom: 2rem;
 	border-top: 1px solid $tertiary3;
