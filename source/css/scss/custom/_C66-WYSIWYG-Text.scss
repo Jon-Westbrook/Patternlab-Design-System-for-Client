@@ -70,5 +70,17 @@
 			margin: 0 0 1rem 1.25rem;
 		}
 	}
+
+	table {
+  	border-collapse: collapse;
+	}
+	tr {
+	  border: 1px solid $tertiary5;
+	}
+	th, td {
+	  text-align: left;
+	  padding: 32px;
+	}
+
 }
 
