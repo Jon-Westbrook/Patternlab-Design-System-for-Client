@@ -315,5 +315,10 @@ a {
 	}
 }
 
+.popover-title {
+	border-radius: 6px;
+}
+
+
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
 // @include debug;

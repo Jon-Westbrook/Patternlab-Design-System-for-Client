@@ -480,7 +480,7 @@ $input-padding-y:                   1.7rem;
 
 // $input-bg-focus:                 $input-bg;
 // $input-border-focus:             lighten($brand-primary, 25%);
-// $input-box-shadow-focus:         $input-box-shadow, rgba($input-border-focus, .6);
+$input-box-shadow-focus:         $primary1;
 // $input-color-focus:              $input-color;
 
 // $input-color-placeholder:        $gray-light;
@@ -793,22 +793,22 @@ $tooltip-padding-x:           40px; //8px
 
 // // Popovers
 
-// $popover-inner-padding:               1px;
+$popover-inner-padding:               0px;
 // $popover-bg:                          $white;
 // $popover-max-width:                   276px;
-// $popover-border-width:                $border-width;
-// $popover-border-color:                rgba($black,.2);
+$popover-border-width:                0;
+// $popover-border-color:                red;
 // $popover-box-shadow:                  0 5px 10px rgba($black,.2);
 
-// $popover-title-bg:                    darken($popover-bg, 3%);
+$popover-title-bg:                    $gray-dark;
 // $popover-title-padding-x:             14px;
 // $popover-title-padding-y:             8px;
 
-// $popover-content-padding-x:           14px;
-// $popover-content-padding-y:           9px;
+$popover-content-padding-x:           20px;
+$popover-content-padding-y:           0px;
 
-// $popover-arrow-width:                 10px;
-// $popover-arrow-color:                 $popover-bg;
+$popover-arrow-width:                 12px;
+$popover-arrow-color:                 $gray-dark;
 
 // $popover-arrow-outer-width:           ($popover-arrow-width + 1px);
 // $popover-arrow-outer-color:           fade-in($popover-border-color, .05);

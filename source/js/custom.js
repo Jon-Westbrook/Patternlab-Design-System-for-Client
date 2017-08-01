@@ -50,9 +50,8 @@ $(document).ready(function() {
     $("html, body").animate({ scrollTop: "0" });
   });
 
-
-});
-
-$(function () {
+  // Enable HTML in Popovers and Tooltips
   $('[data-toggle="tooltip"]').tooltip({html: true});
+  $('[data-toggle="popover"]').popover({ html: true });
+
 });
