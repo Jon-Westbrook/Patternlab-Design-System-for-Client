@@ -90,19 +90,19 @@
     "venue": "LA Convention Center",
     "locale": "Los Angeles, CA",
     "bgImg": "../../images/icsc_event_la_lg.jpg",
-    "category" : "SCT Magazine",
-    "cta" : "Register"
+    "category": "SCT Magazine",
+    "cta": "Register"
   },
   "homeHero": {
     "bgImg": "../../images/icsc_home_lg.jpg",
     "heroTitle1": "70,000 professionals.",
     "heroTitle2": "One vibrant global community."
-
   },
   "newsHero": {
     "type": "eBook, Print",
     "heroTitle": "Economic Development: Strategies for State and Local Practice",
-    "bgImg": "../../images/pattern-fill-1.svg"
+    "bgImg": "../../images/pattern-fill-1.svg",
+    "category": "SCT Magazine"
   },
   "location": {
     "mapImg": "../../images/map.png"
