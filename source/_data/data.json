@@ -138,7 +138,7 @@
   "singleFeatureCallout": {
     "tagline": "Leaders read first",
     "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members.",
-    "img": "../../images/promo.svg"
+    "img": "../../images/promo-smartphone-2x.png"
   },
   "tiles": {
     "bgImgblur": "../../images/blurred1.png",
@@ -235,13 +235,13 @@
     "title"         : "What drives us",
     "cat1"          : "Building communities",
     "cat1desc"      : "Retail centers offer more than money — a place to hang out after work, walk around with a child or experience life offline. They enrich the social fabric of the places the world calls home.",
-    "cat1img"       : "../../images/promo.svg",
+    "cat1img"       : "../../images/promo-smartphone-2x.png",
     "cat2"          : "Fueling economies",
     "cat2desc"      : "Retail centers are essential to economic development, largely because of the property and sales taxes they generate. They also create jobs, buoy GDPs and fuel revenue everywhere they serve.",
-    "cat2img"       : "../../images/promo.svg",
+    "cat2img"       : "../../images/promo-smartphone-2x.png",
     "cat3"          : "Inspiring innovation ",
     "cat3desc"      : "Retail real estate will shape the social practices, business policies and technologies of the future. We stay on the cutting edge and report what we find, helping members step into the future with efficiency.",
-    "cat3img"       : "../../images/promo.svg"
+    "cat3img"       : "../../images/promo-smartphone-2x.png"
   },
   "callouts"     : {
   "title"        : "Additional Resources",
