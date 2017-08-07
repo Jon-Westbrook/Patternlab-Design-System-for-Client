@@ -7,12 +7,12 @@
 
 	.c-img {
 		object-fit: contain;
-		height: 649px;
+		height: 570px;
 		position: absolute;
 		@include media-breakpoint-only(md) {
-			left: -80px;
+			left: -70px;
 		}
-		@include media-breakpoint-only(lg) {
+		@include media-breakpoint-up(lg) {
 			left: -40px;
 		}
 		bottom: 0;
