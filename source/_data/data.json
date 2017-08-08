@@ -85,7 +85,7 @@
     "doubleForward": "../../images/arrow-double-forward.svg"
   },
   "eventHero": {
-    "heroTitle": "Western Conference &amp; Deal Making",
+    "heroTitle": "Western Conference & Deal Making",
     "date": "October 2 - 4",
     "venue": "LA Convention Center",
     "locale": "Los Angeles, CA",
@@ -105,7 +105,7 @@
     "category": "SCT Magazine"
   },
   "location": {
-    "mapImg": "../../images/map.png"
+    "mapImg": "../../images/map.jpg"
   },
   "featureCallout": [
     {
@@ -327,6 +327,7 @@
     "secondaryBodyCopy2": "Our targeted audience helps you focus on qualified buyers in the global retail real estate industry. We reach more than 750,000 readers across the six industry magazine brands we publish, and many are distributed on-site at our conferences and exhibitions.",
     "secondaryTitle3": "Advertise digitally",
     "secondaryBodyCopy3": "Place a banner ad on one of the most trafficked pages of ICSC.org, which has 110,000 unique monthly visitors and more than 1 million annual page views. Or, target your customer of choice with an ad on our mobile app or in weekly international e-newsletters.",
+    "link2": "Download the RECon sponsorship brochure",
     "link3": "Download the RECon sponsorship brochure",
     "sublink1": "+1 646 728 3800",
     "sublink2": "membership@icsc.org"
