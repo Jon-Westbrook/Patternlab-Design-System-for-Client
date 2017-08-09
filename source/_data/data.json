@@ -140,6 +140,11 @@
     "desc": "Newsstand offers books, magazines, reports and other  in-depth publications to keep you ahead of the pack.  Check back regularly for new titles and free downloads  for members.",
     "img": "../../images/promo-smartphone-2x.png"
   },
+  "promoCallout": {
+    "tagline": "Innovation has no borders",
+    "desc": "Explore our regional titles of SCT magazine. Each issue translates the trends and retails real estate news happening aroudn the world.",
+    "img": "../../images/promo-smartphone-2x.png"
+  },
   "tiles": {
     "bgImgblur": "../../images/blurred1.png",
     "items" :  [
