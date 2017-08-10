@@ -226,10 +226,12 @@ a {
 		display: block;
 		width: 100%;
 		border-bottom: 2px solid $tertiary4;
+		margin: 3rem 0 0;
 	}
 	&.border-after__thin {
 		&:after {
 			border-bottom-width: 1px;
+			margin: 1rem 0;
 		}
 	}
 	&.border-after__modal {
@@ -247,10 +249,12 @@ a {
 		display: block;
 		width: 100%;
 		border-top: 2px solid $tertiary4;
+		margin: 3rem 0 0;
 	}
 	&.border-after__thin {
 		&:before {
 			border-top-width: 1px;
+			margin: 1rem 0;
 		}
 	}
 	&.border-after__modal {
