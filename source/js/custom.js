@@ -1,6 +1,6 @@
 
 // Desktop Menu Search Button
-$(document).ready(function() {
+$(function() {
   $('.search-trigger').on('click', function() {
     $('#search-module').addClass('search-module--open');
   });
@@ -52,6 +52,14 @@ $(document).ready(function() {
 
   // Enable HTML in Popovers and Tooltips
   $('[data-toggle="tooltip"]').tooltip({html: true});
-  $('[data-toggle="popover"]').popover({ html: true });
+
+  $('[data-toggle="popover"]').popover({ html: true }).on('shown.bs.popover', function () {
+    var addthisScript = document.createElement('script');
+    addthisScript.setAttribute('src', 'http://s7.addthis.com/js/300/addthis_widget.js#domready=1');
+    document.body.appendChild(addthisScript);
+    var addthis_config = addthis_config||{};
+    addthis_config.pubid = 'ra-509abf9a50f845b6';
+    setTimeout(function(){ addthis.toolbox('.addthis_toolbox'); }, 400);
+  });
 
 });
