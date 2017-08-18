@@ -41,12 +41,12 @@
     "eventIcon": "../../images/event-icon.svg",
     "eventURL": "www.icsc.org/events-and-programs/details/centerbuild.../brochure",
     "memberCardImg": "../../images/90.jpg",
-    "memberName": "Willa Sibert Cather",
+    "memberName": "Anthony Pennington-Cross",
     "memberFirstInit": "W",
     "memberLastInit": "C",
     "memberTitle": "Major Marketing Affecianada",
-    "memberCompany": "Real Big Company, Really",
-    "memberLocale": "New York, NY",
+    "memberCompany": "Marquette University Center for Real Estate",
+    "memberLocale": "Milwaukee, United States",
     "memberCountry": "United States",
     "pubCardImg": "../../images/book@2x.jpg",
     "pubTitle": "Tax Increment Finance Best Practices Reference Guide, Second Edition",
@@ -375,6 +375,29 @@
       "subtitle"  : "Executive Assistant to President",
       "text"      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar laoreet ultrices. Duis malesuada leo felis, non bibendum est eleifend a. Suspendisse ut diam ut mi dapibus elementum gravida sodales risus. Praesent varius justo quis sem eleifend, vel ultricies ante hendrerit. Morbi dictum pretium elementum.",
       "imgSrc"    : "../../images/90.jpg"
+    }
+  ],
+  "sessions" : [
+    {
+      "startTime" : "8:00am",
+      "endTime"   : "5:00pm",
+      "title"     : "Student Speed Networking Breakfast",
+      "location"  : "ICSC Talent Pavillion - Marketplace Mall - N3",
+      "desc"    :  "Join more than a dozen member of ICSC's elite Ambassador Volunteer Leadership Program for a bite of breakfast and three..."
+    },
+    {
+      "startTime" : "8:00am",
+      "endTime"   : "5:00pm",
+      "title"     : "Student Speed Networking Breakfast",
+      "location"  : "ICSC Talent Pavillion - Marketplace Mall - N3",
+      "desc"    :  "Join more than a dozen member of ICSC's elite Ambassador Volunteer Leadership Program for a bite of breakfast and three..."
+    },
+    {
+      "startTime" : "8:00am",
+      "endTime"   : "5:00pm",
+      "title"     : "Student Speed Networking Breakfast",
+      "location"  : "ICSC Talent Pavillion - Marketplace Mall - N3",
+      "desc"    :  "Join more than a dozen member of ICSC's elite Ambassador Volunteer Leadership Program for a bite of breakfast and three..."
     }
   ],
   "accordion" : [

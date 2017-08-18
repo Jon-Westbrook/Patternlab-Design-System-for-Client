@@ -102,6 +102,9 @@
 			opacity: .7;
 		}
 	}
+	&.relative {
+		position: relative;
+	}
 }
 
 .card-link {
