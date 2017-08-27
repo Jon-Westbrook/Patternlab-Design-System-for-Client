@@ -42,13 +42,17 @@
 	.nav-link {
 		margin-right: 17px;
 		margin-left: 17px;
+		border: none;
 		@include media-breakpoint-up(md) {
+			border: none;
 			margin-right: 0;
 			margin-left: 0;
+			
 		}
 		&.active {
 			color: $primary1;
 			@include media-breakpoint-up(md) {
+				border: none;
 				border-bottom: 3px solid $primary1;
 			}
 		}
@@ -58,8 +62,11 @@
 	}
 	
 	.mainMenu {
+
 		.nav-item {
 			.nav-link {
+				height: 46px;
+				cursor: default;
 				@include media-breakpoint-down(sm) {
 					&:after {
 						content: "";
@@ -204,13 +211,6 @@
 	}
 }
 
-.megaMenu {
-	.related {
-		border-left: 1px solid $tertiary3;
-	}
-	border-bottom: 2px solid $tertiary3;
-}
-
 .navbar-toggler {
   height: 100%;
   padding-top: 1px;
@@ -261,3 +261,23 @@
 .navbar-collapse {
 	margin-left: 4px;
 }
+
+.nav-tabs {
+	border: none;
+}
+
+.panel-wrap * {
+	&.show {
+	}
+}
+
+.megaMenu {
+	height: 270px;
+	border-bottom: 2px solid $tertiary3;
+	.related {
+		border-left: 1px solid $tertiary3;
+	}
+	&.active {
+	}
+}
+
