@@ -64,21 +64,28 @@ $(function() {
 
 
 	// Megamenu
+	var timeout;
+
 	$('.nav-tabs .nav-link').on('mouseover', function() {
+		clearTimeout(timeout);
+		var panelID = $(this).data('target');
+
 		$('.nav-link').removeClass('active');
 		$(this).addClass('active');
-		$('.megaMenu').removeClass('active');
-		$('.tab-content').addClass('show');
-		
-		var panelID = $(this).data('target');
-		$(panelID).addClass('active');
 
+		if ( !$(panelID).is(':visible') ) {
+			$('.tab-content').fadeIn('fast');
+			$('.megaMenu').hide();
+			$(panelID).fadeIn('fast');
+		}
 	});
 
 	$('.megaMenu').on('mouseleave', function() {
-		$('.tab-content').removeClass('show');
-		$('.megaMenu').removeClass('active');
-		$('.nav-link').removeClass('active');
+		timeout = setTimeout(function(){ 
+			$('.tab-content').fadeOut('fast');
+			$('.megaMenu').fadeOut('fast');
+		}, 1000);
+
 	});
 
 });

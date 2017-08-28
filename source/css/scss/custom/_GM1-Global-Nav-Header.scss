@@ -276,7 +276,12 @@
 }
 
 .megaMenu {
-	height: 270px;
+	@include media-breakpoint-only(md) {
+		height: 340px;
+	} 
+	@include media-breakpoint-up(lg) {
+		height: 270px;
+	} 
 	border-bottom: 2px solid $tertiary3;
 	.related {
 		border-left: 1px solid $tertiary3;
