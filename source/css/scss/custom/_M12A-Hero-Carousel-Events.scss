@@ -18,6 +18,11 @@
 	    left: 0;
 	    background-color: rgba(0, 0, 0, 0.3);
 	  }
+	  &.no-overlay {
+			&:before {
+				display: none;
+			}
+		}
 	  .title {
 	  	height: 72px;
 	  	@include media-breakpoint-up(md) {
