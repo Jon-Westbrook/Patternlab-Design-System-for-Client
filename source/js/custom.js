@@ -65,16 +65,13 @@ $(function() {
 
 	// Megamenu
 	var timeout;
-
 	$('.nav-tabs .nav-link').on('mouseover', function() {
 		clearTimeout(timeout);
 		var panelID = $(this).data('target');
-
 		$('.nav-link').removeClass('active');
 		$(this).addClass('active');
-
 		if ( !$(panelID).is(':visible') ) {
-			$('.tab-content').fadeIn('fast');
+			$('.tab-content-megaMenu').fadeIn('fast');
 			$('.megaMenu').hide();
 			$(panelID).fadeIn('fast');
 		}
@@ -82,10 +79,9 @@ $(function() {
 
 	$('.megaMenu').on('mouseleave', function() {
 		timeout = setTimeout(function(){ 
-			$('.tab-content').fadeOut('fast');
+			$('.tab-content-megaMenu').fadeOut('fast');
 			$('.megaMenu').fadeOut('fast');
 		}, 1000);
-
 	});
 
 });
