@@ -84,4 +84,8 @@ $(function() {
 		}, 1000);
 	});
 
+
+	// jQuery UI Datepicker Init
+	$( "#datepicker" ).datepicker();
+
 });
