@@ -103,6 +103,7 @@
 		width: 13.3px;
 		height: 13.6px;
 		transition: all 0.2s ease-in-out;
+		cursor: pointer;
 		background: url('../../images/magnifying-glass.svg') no-repeat;
 		&:hover {
 			background: url('../../images/magnifying-glass-red.svg') no-repeat;
