@@ -105,7 +105,7 @@ a {
 		border-radius: 5px;
 		border: solid 2px $tertiary5;
 		background-color: $primary3;
-		&:hover {
+		&:hover, &.active {
 			border-color: $primary1;
 			background-color: $primary1;
 			color: $primary3;
