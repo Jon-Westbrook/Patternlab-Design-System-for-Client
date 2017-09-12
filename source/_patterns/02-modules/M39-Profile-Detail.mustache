@@ -8,14 +8,14 @@
 					<a href="#" class="display9 accent back p-0 m-0">{{profileDetail.backText}}</a> 
 				</div>
 				<img src="{{profileDetail.imgSrc}}" class="p-0 m-0 mb-3 profile-img" />
-		      	<h1 class="display3 bold p-0 m-0 mb-3">{{profileDetail.name}}</h1>
-		      	<div class="mb-3">
-			      	<p class="display5 secondary p-0 m-0 mb-3">{{profileDetail.memberSince}}</p>
-			      	<p class="display6 secondary p-0 m-0">{{profileDetail.position}}</p>
-		    	  	<p class="display6 secondary p-0 m-0">{{profileDetail.department}}</p>
-		      		<p class="display6 secondary p-0 m-0">{{profileDetail.location}}</p>
-		      	</div>
-		      	<p class="display6 accent p-0 m-0">{{profileDetail.company}}</p>
+						<h1 class="display3 bold p-0 m-0 mb-3">{{profileDetail.name}}</h1>
+						<div class="mb-3">
+							<p class="display5 secondary p-0 m-0 mb-3">{{profileDetail.memberSince}}</p>
+							<p class="display6 secondary p-0 m-0">{{profileDetail.position}}</p>
+							<p class="display6 secondary p-0 m-0">{{profileDetail.department}}</p>
+							<p class="display6 secondary p-0 m-0">{{profileDetail.location}}</p>
+						</div>
+						<p class="display6 accent p-0 m-0">{{profileDetail.company}}</p>
 			</div>
 		</div>  
 	</div>
@@ -24,24 +24,28 @@
 <!-- Sticky Bar --> 
 <div class="container-fluid sticky-cta m-0 p-0 py-md-2">
 	<div class="container"> 
-	    <div class="row">
-	    	<div class="col-3 d-flex hidden-sm-down">
-		    	<p class="display7 text-primary my-auto mr-auto bold sticky-title">
-	    			<a class="top" href="#">{{profileDetail.name}}</a>
-	    		</p>
-	    	</div>
-	    	<div class="col-6 col-md-7 my-auto">
-	    		<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-3 ml-2 ml-md-0 mr-md-4">
-	    			<span class="hidden-sm-down">{{profileDetail.phone}}</span>
-	    		</a>
-	    		<a href="mailto:{{profileDetail.email}}" class="accent email-link">
-	    			<span class="hidden-sm-down">{{profileDetail.email}}</span>
-	    		</a>
-	    	</div>
+			<div class="row">
+				<div class="col-3 d-flex hidden-sm-down">
+					<p class="display7 text-primary my-auto mr-auto bold sticky-title">
+						<a class="top" href="#">{{profileDetail.name}}</a>
+					</p>
+				</div>
+				<div class="col-6 col-md-7 my-auto">
+					<a href="tel:{{profileDetail.phone}}" class="accent phone-link mr-3 ml-2 ml-md-0 mr-md-4">
+						<span class="hidden-sm-down">{{profileDetail.phone}}</span>
+					</a>
+					<a href="mailto:{{profileDetail.email}}" class="accent email-link">
+						<span class="hidden-sm-down">{{profileDetail.email}}</span>
+					</a>
+				</div>
 			<div class="col-6 col-md-2 d-flex justify-content-end pr-0 py-3">
-	    		<img class="d-inline-block mr-4" src="{{cards.saveImg}}" alt="Favorite Icon">
-	    	</div>
-    	</div>
+					<a href="#" class="share share--save my-auto mr-4 d-inline-block" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" title="
+					<div class='bg-gray-dark p-2'>
+						<a href='#' target='_self' class='light'>Log In to Save</a>
+					</div>
+				"></a>
+				</div>
+			</div>
 	</div>
 </div>
 

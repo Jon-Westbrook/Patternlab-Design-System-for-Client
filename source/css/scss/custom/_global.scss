@@ -296,9 +296,10 @@ a {
 
 .share {
 	&.share--facebook {
-		width: 20px;
+		width: 30px;
 		height: 15px;
 		background-image: url('../../images/icon-share.svg');
+		background-repeat: no-repeat;
 		&:hover {
 			background-image: url('../../images/icon-share-dark.svg');
 		}
@@ -307,9 +308,10 @@ a {
 		}
 	}
 	&.share--save {
-		width: 20px;
+		width: 30px;
 		height: 20px;
 		background-image: url('../../images/icon-save.svg');
+		background-repeat: no-repeat;
 		&:hover {
 			background-image: url('../../images/icon-save-dark.svg');
 		}
@@ -326,6 +328,10 @@ a {
 .share-img {
 	width: 10px;
 	height: 10px;
+}
+
+.popover-content {
+	border-radius: 0 !important;
 }
 
 
