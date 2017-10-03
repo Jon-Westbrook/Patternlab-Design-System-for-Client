@@ -32,6 +32,10 @@
 	}
 
 	.cta {	
+		@include media-breakpoint-up(xs) {
+			padding-right:15px;
+			padding-left:15px;
+		}
 		@include media-breakpoint-up(sm) {
 			width: 100%;
 		}
