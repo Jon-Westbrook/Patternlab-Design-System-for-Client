@@ -165,7 +165,7 @@ $link-hover-decoration: none;
 // // Font, line-height, and color for body text, headings, and more.
 
 @font-face {
-    font-family: 'sofia_pro_regularregular', sans-serif;
+    font-family: 'sofia_pro_regularregular';  //, sans-serif
     src: url('https://design.icsc.vsadev.com/fonts/sofia-pro-regular-webfont.woff2') format('woff2'),
          url('https://design.icsc.vsadev.com/fonts/sofia-pro-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -180,7 +180,7 @@ $link-hover-decoration: none;
     font-style: normal;
 }
 
-$font-family-sans-serif: 'sofia_pro_regularregular', sans-serif;
+$font-family-sans-serif: 'sofia_pro_regularregular'; //, sans-serif
 $font-family-bold: 'sofia_probold', sans-serif;
 
 
