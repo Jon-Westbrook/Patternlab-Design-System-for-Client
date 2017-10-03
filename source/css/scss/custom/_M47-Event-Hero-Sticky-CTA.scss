@@ -31,8 +31,10 @@
 		border-bottom: 1px solid $tertiary5;
 	}
 
-	.cta {
-		width: 100%;
+	.cta {	
+		@include media-breakpoint-up(sm) {
+			width: 100%;
+		}
 		@include media-breakpoint-up(md) {
 			width: 240px;
 		}
