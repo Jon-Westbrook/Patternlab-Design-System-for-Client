@@ -48,6 +48,12 @@ a {
 	outline: -webkit-focus-ring-color auto 5px;
 }
 
+.btn-primary.disabled, a.disabled.btn-primary, 
+.btn-primary:disabled, a.btn-primary:disabled{
+	background-color: $gray-light;
+	border-color: $gray-light;
+}
+
 .close {
 	color: $primary3;
 	opacity: 1;
@@ -333,7 +339,12 @@ a {
 .popover-content {
 	border-radius: 0 !important;
 }
-
+.popover a:hover {
+	color: $primary3;
+}
+.popover{
+	left:-12px !important;
+}
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
 // @include debug;
