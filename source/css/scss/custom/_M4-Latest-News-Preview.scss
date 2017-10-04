@@ -1,3 +1,6 @@
-.list-card-latest-news [class*='col-']{
-	display:inherit;
+.no-image img{
+	max-width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
