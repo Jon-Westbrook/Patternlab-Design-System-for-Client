@@ -30,6 +30,7 @@ a {
 			color: darken($primary1, 10%);
 		}
 	}
+	&:focus {outline:0;}
 }
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
