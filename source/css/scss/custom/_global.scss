@@ -18,6 +18,13 @@ body {
 	font-family: $font-family-sans-serif;
 }
 
+@media (min-width: 1200px){
+	.row {
+	    overflow: auto !important;
+	}
+}
+
+
 // Links
 a {
 	transition: all 0.2s ease-in-out;
