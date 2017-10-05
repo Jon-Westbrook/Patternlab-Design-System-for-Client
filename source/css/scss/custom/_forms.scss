@@ -8,3 +8,7 @@
 select.form-control:not([size]):not([multiple]) {
 	height: 56px !important;
 }
+
+input::-ms-clear { //removes X on focus IE
+    display: none;
+}
