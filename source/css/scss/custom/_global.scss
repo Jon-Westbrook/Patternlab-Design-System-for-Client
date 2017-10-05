@@ -28,8 +28,6 @@ a {
 		color: darken($primary1, 10%);
 	}
 	&.accent {
-		word-wrap:break-word;
-		
 		&:hover {
 			color: darken($primary1, 10%);
 		}
@@ -152,6 +150,9 @@ a {
 
 .nowrap {
 	white-space: nowrap;
+}
+.word-wrap {
+	word-wrap:break-word;
 }
 
 .phone-link {
