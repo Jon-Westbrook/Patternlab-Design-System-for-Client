@@ -28,6 +28,8 @@ a {
 		color: darken($primary1, 10%);
 	}
 	&.accent {
+		word-wrap:break-word;
+		
 		&:hover {
 			color: darken($primary1, 10%);
 		}
