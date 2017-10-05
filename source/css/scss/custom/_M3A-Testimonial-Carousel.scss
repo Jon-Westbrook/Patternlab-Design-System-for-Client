@@ -32,14 +32,14 @@
 		@include media-breakpoint-only(md) {
 			position: absolute;
 			width: 39%;
-			top: 36px;
+			top: 20px;
 			right: 0;
 			left: 52%;
 			text-align: left;
 		}
 		@include media-breakpoint-only(lg) {
 			width: 50%;
-			top: 20px;
+			top: 36px;
 			right: 0;
 			left: 44%;
 		}
