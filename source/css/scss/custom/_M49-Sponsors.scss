@@ -13,6 +13,16 @@
       width: 290px;
       height: 150px;
     }
+    a{
+      @include media-breakpoint-up(sm) {
+        width: 220px;
+        height: 125px;
+      }
+      @include media-breakpoint-up(md) {
+        width: 290px;
+        height: 150px;
+      }
+    }
   }
 
   .platinum {
@@ -34,8 +44,10 @@
     max-width: 100%;
     height: auto;
     filter: grayscale(100%);
+    filter: gray; 
     &:hover {
       filter: grayscale(0%);
+      filter: gray;
     }
   }
 }
