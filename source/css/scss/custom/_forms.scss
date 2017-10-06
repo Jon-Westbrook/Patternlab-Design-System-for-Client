@@ -13,8 +13,8 @@ input::-ms-clear { //removes X on focus IE
     display: none;
 }
 
-.form-control.p-3.hasDatepicker,  
-.form-control.hasDatepicker,
-.hasDatepicker{
-	    padding: 15px 11px !important;
+input[type="date"].form-control  { //fixes IE date
+		height: 50px !important;
+	    padding: 16px 20px !important;	    
 }
+
