@@ -37,6 +37,10 @@ a {
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
 
+button{
+	&:focus {outline:0;}
+}
+
 .btn-outline-secondary:hover {
 	color: $primary1;
 }
