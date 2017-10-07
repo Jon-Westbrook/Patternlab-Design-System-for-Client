@@ -37,7 +37,7 @@ a {
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
 
-button:focus, button span {outline:0;}
+button span {outline:0;}
 
 
 .btn-outline-secondary:hover {
@@ -335,6 +335,10 @@ button:focus, button span {outline:0;}
 			background-image: url('../../images/icon-save-accent.svg');
 		}
 	}
+}
+
+.popover {
+	backgound-color: transparent
 }
 
 .popover-title {
