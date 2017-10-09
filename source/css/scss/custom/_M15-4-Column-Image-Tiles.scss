@@ -8,6 +8,7 @@
 		transition: $transition-base;
 		background-repeat: no-repeat;
 		background-size: cover;
+		color: #fff !important;
 
 		.tile-text, .image-tile-desc {
 			position: relative;
@@ -47,6 +48,7 @@
 		    background-color: rgba(0, 0, 0, 0.5);
 		    transition: $transition-base;
 		    .viewAll {
+			    color: $primary1;
 		    	background-color: $primary3;
 		    }
 			}
@@ -81,6 +83,7 @@
 
 		&.viewAll {
 			border: solid 2px #e31837;
+			color: $primary1;
 			&:before {
 				background-color: $primary3;
 			}
