@@ -28,6 +28,7 @@ a {
 		color: darken($primary1, 10%);
 	}
 	&.accent {
+	word-wrap: break-word;
 		&:hover {
 			color: darken($primary1, 10%);
 		}
@@ -202,6 +203,7 @@ button span {outline:0;}
 	width: 56px;
 	height: 56px;
 	border-radius: 100%;
+	margin:0;
 }
 
 .profile-img-leader {
