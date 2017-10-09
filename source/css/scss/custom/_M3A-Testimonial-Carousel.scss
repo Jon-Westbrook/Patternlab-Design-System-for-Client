@@ -26,8 +26,9 @@
 		left: 18px;
 		text-align: left;
 		@include media-breakpoint-only(xs)  {
-			top: 20px;
-			left: 36px;
+			width: 95%;
+			top: 0px;
+			left: 8px;
 		}
 		@include media-breakpoint-only(sm)  {
 			top: 20px;
