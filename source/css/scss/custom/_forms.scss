@@ -13,7 +13,7 @@ input::-ms-clear { //removes X in search bar on focus IE
     display: none;
 }
 
-input[type="date"].form-control  { //fixes IE date
+input[name="fromDate"].form-control, input[name="toDate"].form-control { //fixes IE date
 		height: 50px !important;
 	    padding: 16px 20px !important;	    
 }
