@@ -12,21 +12,26 @@
 
 		.tile-text, .image-tile-desc {
 			position: relative;
+			width: 100%;
+			word-wrap: break-word;
+			text-align: center;
+			display:block !important;
 		}
+		
 
 		@include media-breakpoint-down(md) {
 			&:before {
 				position: absolute;
 				content: '\A';
-		    width: 100%; 
-		    height: 100%;
+			    width: 100%; 
+			    height: 100%;
 		 		top: 0;
-		    left: 0;
-		    background-color: rgba(0, 0, 0, 0.5);
-		    .viewAll {
-		    	color: $primary1;
-		    	background-color: $primary3;
-		    }
+			    left: 0;
+			    background-color: rgba(0, 0, 0, 0.5);
+			    .viewAll {
+			    	color: $primary1;
+			    	background-color: $primary3;
+			    }
 			}
 		}
 		
@@ -41,16 +46,16 @@
 			&:before {
 				position: absolute;
 				content: '\A';
-		    width: 100%; 
-		    height: 100%;
+			    width: 100%; 
+			    height: 100%;
 		 		top: 0;
-		    left: 0;
-		    background-color: rgba(0, 0, 0, 0.5);
-		    transition: $transition-base;
-		    .viewAll {
-			    color: $primary1;
-		    	background-color: $primary3;
-		    }
+			    left: 0;
+			    background-color: rgba(0, 0, 0, 0.5);
+			    transition: $transition-base;
+			    .viewAll {
+				    color: $primary1;
+			    	background-color: $primary3;
+			    }
 			}
 			&:hover {
 				color: #fff !important;

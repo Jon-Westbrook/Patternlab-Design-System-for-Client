@@ -53,7 +53,7 @@ $(function() {
 	// Enable HTML in Popovers and Tooltips
 	$('[data-toggle="tooltip"]').tooltip({html: true});
 
-	$('[data-toggle="popover"]').popover({ html: true }).on('shown.bs.popover', function () {
+	$('[data-toggle="popover"]').popover({ html: true,  trigger: 'focus' }).on('shown.bs.popover', function () {
 		var addthisScript = document.createElement('script');
 		addthisScript.setAttribute('src', 'http://s7.addthis.com/js/300/addthis_widget.js#domready=1');
 		document.body.appendChild(addthisScript);
@@ -93,7 +93,6 @@ $(function() {
 	$('.grayscale, .grayscale.replaced').hover(function(){
 		$(this).addClass('grayscale-off');
 	}, function() {
-		console.log('hover out');
 		$(this).removeClass('grayscale-off');
 	});
 
