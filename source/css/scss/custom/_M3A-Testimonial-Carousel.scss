@@ -82,8 +82,8 @@
 	.quote:before {
 	  content: "\201C";
 	  position: absolute;
-    margin-left: -.5em;
-    font-size: 1.5em;
+      margin-left: -.5em;
+      font-size: 1.5em;
 	}
 	.quote:after {
 	  content: "\201D";
@@ -99,7 +99,6 @@
 		// margin-left: 16px;
 		&.active {
 			background-color: darken($primary1, 10%);
-			
 			padding: 2px;
 		}
 	}
