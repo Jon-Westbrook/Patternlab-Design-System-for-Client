@@ -16,6 +16,7 @@
 			width: 24px;
 			height: 18px;
 			margin: 24px 0px 0px 14px;
+			-webkit-transition: width .2s ease-in-out;   
 			transition: width .2s ease-in-out;   
 			@include media-breakpoint-only(md) {
 				width: 20px;
@@ -32,6 +33,7 @@
 			&:after {
 				background: url('../../images/down-arrow-hover.svg') no-repeat;
 				background-size: cover;
+				-webkit-transition: width .2s ease-in-out;   
 				transition: width .2s ease-in-out;   
 			}
 		}
