@@ -90,8 +90,7 @@ $(function() {
 
 
 	//toggle the grayscale
-	$('.grayscale, .grayscale.replaced').hover(function(){
-		console.log($(this));
+	$('.grayscale, .grayscale-replaced').hover(function(){
 		$(this).addClass('grayscale-off');
 	}, function() {
 		$(this).removeClass('grayscale-off');
