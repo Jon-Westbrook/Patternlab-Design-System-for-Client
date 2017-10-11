@@ -8,7 +8,8 @@
 				
 				<form class="form-inline mt-3">
   				<label class="sr-only hidden-sm-down" for="inlineFormInput">Name</label>
-  				<input type="text" class="form-control mr-2 hidden-sm-down pl-3 mobileInput" id="smsForm" placeholder="Enter Mobile #">
+  				<input type="tel" class="form-control mr-2 hidden-sm-down pl-3 mobileInput" id="smsForm" placeholder="Enter Mobile #" onfocus="this.placeholder = ''"
+onblur="this.placeholder = 'Enter Mobile #'">
 					<button type="submit" class="btn btn-primary d-inline-block mr-0 px-3 align-self-end hidden-sm-down">Text me the link</button>
 				</form>
 				<button type="submit" class="btn btn-primary d-inline-block mr-0 mb-5 px-3 hidden-md-up">Add to Home Screen</button>     	
