@@ -97,9 +97,9 @@ $(function() {
 	});
 
 	//Google Maps Scroll Warning Overlay 
-	$('.google-maps-iframe-container.').mouseover(function () {
-		$(this).toggleClass('mouseover');
-	});
+	// $('.google-maps-iframe-container').(function (){
+	// 	$(this).toggleClass('mouseover');
+	// });
 
 
 });
