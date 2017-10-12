@@ -57,6 +57,7 @@
 	}
 
 	.carousel-item {
+		transition: transform 0.5s ease;
 		height: 350px;
 		overflow: visible;
 		@include media-breakpoint-up(md) {
