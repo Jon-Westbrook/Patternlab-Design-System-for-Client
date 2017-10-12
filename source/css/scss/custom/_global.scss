@@ -377,8 +377,11 @@ button span {outline:0;}
 .popover{
 	left:-12px !important;
 }
-//iframe.google-maps-iframe {
-//	pointer-events: none; 
-//}
+.google-maps-iframe-container {
+	pointer-events: none; 
+}
+.google-maps-iframe-container.mouseover {
+	pointer-events: all; 
+}
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
 // @include debug;
