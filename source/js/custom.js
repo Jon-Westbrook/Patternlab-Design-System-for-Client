@@ -90,11 +90,11 @@ $(function() {
 
 
 	//toggle the grayscale
-	$('.grayscale, .grayscale-replaced').hover(function(){
-		$(this).addClass('grayscale-off');
-	}, function() {
-		$(this).removeClass('grayscale-off');
-	});
+	// $('.grayscale, .grayscale-replaced').hover(function(){
+	// 	$(this).addClass('grayscale-off');
+	// }, function() {
+	// 	$(this).removeClass('grayscale-off');
+	// });
 
 	// //Google Maps Scroll Warning Overlay 
 	// $('.google-maps-iframe-container.').click(function () {
