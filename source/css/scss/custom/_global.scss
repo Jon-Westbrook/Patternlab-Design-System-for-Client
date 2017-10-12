@@ -342,6 +342,19 @@ button span {outline:0;}
 	}
 }
 
+
+//IE bug fix on all carousels
+.carousel-item{
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		opacity: 0;
+		transition: opacity 0.75s ease;
+		&.active {
+		  opacity: 1;
+		}
+	}
+}
+
+
 .popover {
 	background: transparent !important;
 }

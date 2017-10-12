@@ -14,15 +14,6 @@
   display: none;
   width: 100%;
 
-  //IE bug fix on all carousels
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    opacity: 0;
-    transition: opacity 0.75s linear;
-    &.active {
-      opacity: 1;
-    }
-  }
-
   @include if-supports-3d-transforms() {
     @include transition($carousel-transition);
     backface-visibility: hidden;
