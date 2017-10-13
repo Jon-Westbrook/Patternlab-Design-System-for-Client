@@ -354,6 +354,16 @@ button span {outline:0;}
 	}
 }
 
+//ipad bug fix on all carousels
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+	.carousel-item{
+	 	transition: width .5s ease;
+ 	}
+}
+
+
 
 .popover {
 	background: transparent !important;
