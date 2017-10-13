@@ -3,31 +3,56 @@
 
   .logo-wrap {
     overflow: hidden;
-    width: 220px !important;
-    height: 120px !important;
+    width: 220px;
+    height: 120px;
     @include media-breakpoint-up(sm) {
-      width: 220px !important;
-      height: 125px !important;
+      width: 220px;
+      height: 125px;
     }
     @include media-breakpoint-up(md) {
-      width: 290px !important;
-      height: 150px !important;
+      width: 290px;
+      height: 150px;
     }
-  
-  }
+    //IE image wrap fix
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      width:auto;
+      height:auto;
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+      margin: 0px;
+      .p-3 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+      }
+    } //IE fix
+
+  } //.logo-wrap
+
+
 
   .platinum {
     width: 153px;
     height: 100px;
-    @include media-breakpoint-up(sm) {
-      width: 200px;
-      height: 125px;
-    }
-    @include media-breakpoint-up(md) {
-      width: 255px;
-      height: 150px;
-    }
-  }
+      @include media-breakpoint-up(sm) {
+        width: 200px;
+        height: 125px;
+      }
+      @include media-breakpoint-up(md) {
+        width: 255px;
+        height: 150px;
+      }
+      //IE image wrap fix size & make platinums scale down
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        width:auto;
+        height:auto;
+        padding: 0px;
+        margin: 0px;
+        transform: scale(0.8, 0.8);
+        -ms-transform: scale(0.8, 0.8);
+        -webkit-transform: scale(0.8, 0.8);
+      }
+  } // .platinum
+
 
   .logo {
     transition: $transition-base;
@@ -35,9 +60,9 @@
     max-width: 100%;
     width:inherit;
     height: auto;
-  }
-}
+  } //.logo 
 
+} //.sponsors
 
 
 //cross-browser filter grayscale
