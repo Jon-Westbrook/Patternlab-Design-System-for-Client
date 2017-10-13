@@ -9,7 +9,7 @@
       width: 220px !important;
       height: 125px !important;
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) { 
       width: 290px !important;
       height: 150px !important;
     }
