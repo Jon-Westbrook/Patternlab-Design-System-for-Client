@@ -54,6 +54,7 @@ $(function() {
 	$('[data-toggle="tooltip"]').tooltip({html: true});
 
 	$('[data-toggle="popover"]').popover({ html: true,  trigger: 'focus' }).on('shown.bs.popover', function (e) {
+		console.log(e);
 		var addthisScript = document.createElement('script');
 		addthisScript.setAttribute('src', 'http://s7.addthis.com/js/300/addthis_widget.js#domready=1');
 		document.body.appendChild(addthisScript);
@@ -94,7 +95,9 @@ $(function() {
 
 	$('.carousel-item').hover(function() {  //Fix pause ignored in Windows Chrome
 	  $(this).carousel('pause'); 
+	  console.log('pause');
 	}, function () { 
+		console.log($(this));
 	  $(this).carousel('cycle'); 
 	});
 
