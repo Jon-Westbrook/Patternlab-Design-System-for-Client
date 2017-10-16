@@ -89,6 +89,13 @@ $(function() {
 	$( "#datepicker" ).datepicker();
 
 
+	$('.carousel-item').hover(function() {  //Fix pause ignored in Windows Chrome
+	  $(this).carousel('pause'); 
+	}, function () { 
+	  $(this).carousel('cycle'); 
+	});
+
+
 	//toggle the grayscale
 	// $('.grayscale, .grayscale-replaced').hover(function(){
 	// 	$(this).addClass('grayscale-off');
