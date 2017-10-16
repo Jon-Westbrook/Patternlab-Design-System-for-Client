@@ -53,13 +53,16 @@ $(function() {
 	// Enable HTML in Popovers and Tooltips
 	$('[data-toggle="tooltip"]').tooltip({html: true});
 
-	$('[data-toggle="popover"]').popover({ html: true,  trigger: 'focus' }).on('shown.bs.popover', function () {
+	$('[data-toggle="popover"]').popover({ html: true,  trigger: 'focus' }).on('shown.bs.popover', function (e) {
 		var addthisScript = document.createElement('script');
 		addthisScript.setAttribute('src', 'http://s7.addthis.com/js/300/addthis_widget.js#domready=1');
 		document.body.appendChild(addthisScript);
 		var addthis_config = addthis_config||{};
 		addthis_config.pubid = 'ra-509abf9a50f845b6';
 		setTimeout(function(){ addthis.toolbox('.addthis_toolbox'); }, 400);
+		//remove all the others
+		console.log(e.target);
+		$("[rel=popover]").not(e.target).popover("destroy");
 	});
 
 
