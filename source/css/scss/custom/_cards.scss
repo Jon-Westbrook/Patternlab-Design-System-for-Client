@@ -110,6 +110,16 @@
 
 .card-link {
 	color: $primary2;
+	&:hover{
+		color: $primary2;
+	}
+	.card-title{
+
+		&:hover{
+			color: $link-hover-color;
+		}
+	}
+	
 }
 
 

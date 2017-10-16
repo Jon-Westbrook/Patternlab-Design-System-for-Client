@@ -370,6 +370,7 @@ and (max-device-width : 1024px){
 }
 
 .popover-title {
+	padding:6px !important;
 	border-radius: 6px;
 	background-color: #333 !important;
 }
@@ -388,9 +389,7 @@ and (max-device-width : 1024px){
 .popover a:hover {
 	color: $primary3;
 }
-//.popover{
-//	left:-12px !important;
-//}
+
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
 // @include debug;
