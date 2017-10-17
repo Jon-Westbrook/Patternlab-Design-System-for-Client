@@ -65,6 +65,12 @@ $(function() {
 		$('[data-toggle="popover"]').not(e.target).popover("destroy");
 	});
 
+	// Close all popovers on category select
+	$('.heroCat').on('click', function() {
+		$('[data-toggle="popover"]').popover("destroy");
+	});
+
+
 
 	// Megamenu
 	var timeout;
@@ -99,6 +105,7 @@ $(function() {
 		console.log($(this));
 	  $(this).carousel('cycle'); 
 	});
+
 
 
 });
