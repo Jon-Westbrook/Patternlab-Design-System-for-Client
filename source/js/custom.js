@@ -54,7 +54,6 @@ $(function() {
 	$('[data-toggle="tooltip"]').tooltip({html: true});
 
 	$('[data-toggle="popover"]').popover({ html: true,  trigger: 'focus',  container:"body" }).on('shown.bs.popover', function (e) {
-		console.log(e);
 		var addthisScript = document.createElement('script');
 		addthisScript.setAttribute('src', 'http://s7.addthis.com/js/300/addthis_widget.js#domready=1');
 		document.body.appendChild(addthisScript);
@@ -62,8 +61,8 @@ $(function() {
 		addthis_config.pubid = 'ra-509abf9a50f845b6';
 		setTimeout(function(){ addthis.toolbox('.addthis_toolbox'); }, 400);
 		//remove all the others
-		console.log(e.target);
-		$("[rel=popover]").not(e.target).popover("destroy");
+		console.log($('[data-toggle="popover"]').not(e.target));
+		$('[data-toggle="popover"]').not(e.target).popover("destroy");
 	});
 
 
@@ -100,19 +99,6 @@ $(function() {
 		console.log($(this));
 	  $(this).carousel('cycle'); 
 	});
-
-
-	//toggle the grayscale
-	// $('.grayscale, .grayscale-replaced').hover(function(){
-	// 	$(this).addClass('grayscale-off');
-	// }, function() {
-	// 	$(this).removeClass('grayscale-off');
-	// });
-
-	//Google Maps Scroll Warning Overlay 
-	// $('.google-maps-iframe-container').(function (){
-	// 	$(this).toggleClass('mouseover');
-	// });
 
 
 });
