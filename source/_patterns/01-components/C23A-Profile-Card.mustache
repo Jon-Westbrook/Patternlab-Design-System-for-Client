@@ -17,19 +17,14 @@
     <p class="display8 secondary mt-2 mb-0 text-center member-title" >{{ cards.memberLocale }}</p>
     <a href="#" class="profile-co-link"><p class="display8 mt-2 mb-0 text-center">{{ cards.memberCompany }}</p></a>
   </div>
-  <div class="card-icons mt-3 mt-lg-4 p-3 w-100 d-flex justify-content-end">
-    <a href="#" class="share share--facebook mr-3 " data-toggle="popover" data-trigger="focus" data-placement="bottom" data-html="true" title=" 
-        
-          <div class='addthis_toolbox bg-gray-dark'>
-            
-              <a class='addthis_button_facebook'><img src='/images/facebook-white.svg' alt='Share to Facebook' height='28' width='28'  ></a>
-              <a class='addthis_button_linkedin px-2'><img src='/images/linkedIn-white.svg' alt='Share to LinkedIn' height='28' width='28' ></a>
-              <a class='addthis_button_twitter'><img src='/images/twitter-white.svg' alt='Share to Twitter' height='28' width='28' ></a>
-            
-          </div>
+  <div class="card-icons mt-3 mt-lg-4 p-3 w-100 d-flex justify-content-start">
+        <a tabindex="0" class="share share--facebook pt-2 mt-2 ml-auto" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true"></a>
 
-        "></a>
-    <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
+          <a tabindex="0" class="share share--save ml-3 mt-1" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true" title="
+             <div class='bg-gray-dark p-2'>
+                <a href='#' target='_self' class='light'>Log In to Save</a>
+             </div>
+          "></a>
   </div>
   
 </div>

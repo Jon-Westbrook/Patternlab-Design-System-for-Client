@@ -9,8 +9,13 @@
 		</a>
 		<div class="card-icons mt-3 p-3 w-100 d-flex justify-content-start">
 	    	<p class="display9 mr-auto my-auto ml-3">{{ cards.optionalLabel }}</p>
-	    	 <img class="mr-4 ml-auto" src="{{ cards.shareImg }}" alt="Share Icon">
-			 <img class="mr-3" src="{{ cards.saveImg }}" alt="Favorite Icon">
+			     <a tabindex="0" class="share share--facebook pt-2 mt-2 ml-auto" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true"></a>
+
+			      <a tabindex="0" class="share share--save ml-3 mt-1" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true" title="
+			         <div class='bg-gray-dark p-2'>
+			            <a href='#' target='_self' class='light'>Log In to Save</a>
+			         </div>
+			      "></a>
 	  	</div>
 	</div>
 	
