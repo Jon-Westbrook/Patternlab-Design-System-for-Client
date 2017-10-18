@@ -316,6 +316,8 @@ button span {outline:0;}
 }
 
 .share {
+	z-index: 100;
+	
 	&.share--facebook {
 		width: 38px;
 		height: 15px;
