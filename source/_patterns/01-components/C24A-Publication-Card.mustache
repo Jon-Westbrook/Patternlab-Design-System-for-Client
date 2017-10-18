@@ -1,4 +1,3 @@
-
 <div class="card">
   <a href="#" class="card-link">
     <img class="publication-card-img mt-4 d-block mx-auto" src="{{ cards.pubCardImg }}" alt="{{ cards.pubCardAlt }}">
@@ -12,7 +11,14 @@
    
      <a tabindex="0" class="share share--facebook pt-2 mt-2 ml-auto" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true"></a>
 
-      <a tabindex="0" class="share share--save ml-3 mt-1" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true" title="
+      <!--card has two variations — data-placement for save icon is "bottom" on desktop, "left" on mobile-->
+      <a tabindex="0" class="share share--save hidden-sm-down ml-3 mt-1" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-html="true" title="
+         <div class='bg-gray-dark p-2'>
+            <a href='#' target='_self' class='light'>Log In to Save</a>
+         </div>
+      "></a>
+
+      <a tabindex="0" class="share share--save hidden-md-up ml-3 mt-1" data-toggle="popover" data-placement="left" data-trigger="focus" data-html="true" title="
          <div class='bg-gray-dark p-2'>
             <a href='#' target='_self' class='light'>Log In to Save</a>
          </div>
