@@ -37,6 +37,21 @@
   }
 }
 
+
+//include media-breakpoint-down(xs) {
+//   .truncate-lines:after {
+//     content: "";
+//     text-align: right;
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+//     width: 70%;
+//     height: 1.2em;
+//     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+//   }
+//}
+
+
 .d7-truncate3 {
   @include limitLines(3, 24px);
   @include media-breakpoint-up(lg) {
@@ -69,20 +84,3 @@
     @include limitLines(3, 27px);
   }
 }
-
-@include media-breakpoint-down(xs) {
-    .truncate-lines{
-      position:relative;
-    }
-    .truncate-lines:after {
-      content: "";
-      text-align: right;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      width: 90%;
-      height: 1.2em;
-      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-    }
- }
-

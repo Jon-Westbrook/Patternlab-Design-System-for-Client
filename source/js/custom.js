@@ -1,6 +1,39 @@
 
-// Desktop Menu Search Button
+function checkWidth() {
+  var titles = $('body').find($('.truncate-lines'));
+	 
+    titles.each(function() {
+    	var string = $(this).html();
+		//var strippedString = $("<p>" + string+ "</p>").text().trim(); 
+    		var subString = string.replace(string, string.substr(0, 30));   
+		    subString += "...";
+    	//if ($( window ).width() < 650) {
+    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    		console.log(subString);
+    		$(this).html(subString);
+		}else{
+			console.log(string);
+			$(this).html(string);
+		}
+	});
+    
+}; //checkWidth
+
+
+// Bind event listener
+$(window).on('resize', checkWidth);
+
+
+
+
+
+
 $(function() {
+
+	// Execute truncate on mobile on load
+	checkWidth();
+
+
 	$('.search-trigger').on('click', function() {
 		$('#search-module').addClass('search-module--open');
 	});
@@ -109,3 +142,5 @@ $(function() {
 
 
 });
+
+
