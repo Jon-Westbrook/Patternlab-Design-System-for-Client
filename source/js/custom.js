@@ -1,30 +1,21 @@
 
 function checkWidth() {
-  var titles = $('body').find($('.truncate-lines'));
-	 
+	
+    var titles = $('body').find($('.truncate-lines'));
     titles.each(function() {
     	var string = $(this).html();
-		//var strippedString = $("<p>" + string+ "</p>").text().trim(); 
-    		var subString = string.replace(string, string.substr(0, 30));   
-		    subString += "...";
-    	//if ($( window ).width() < 650) {
-    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    		console.log(subString);
+    	var array = string.split(' ');
+    	var subString =  array.splice(0, 4).join(' ');
+    	if( /Android|webOS|iPhone|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    		var dot = '<span class="dot">...</span>';
+    		subString += dot;	
     		$(this).html(subString);
-		}else{
-			console.log(string);
-			$(this).html(string);
-		}
+		} // phone detect
 	});
     
 }; //checkWidth
 
-
-// Bind event listener
-$(window).on('resize', checkWidth);
-
-
-
+checkWidth();
 
 
 
