@@ -199,12 +199,20 @@
 }
 
 .profile-name-link {
-	color: $primary2;
+	color: $primary2 !important;
 	&:hover {
-		color: $link-hover-color;
+		color: $link-hover-color !important;
 	}
 }
-
+.member-title:nth-child(3n){
+	margin-top: -3px !important;
+}
+.profile-co-link p{
+	color: $primary1 !important;
+	&:hover {
+		color: $link-hover-color !important;
+	}
+}
 
 // Publication Cards
 
@@ -222,3 +230,7 @@
 		width: 104px;
 	}
 }
+
+
+
+
