@@ -106,9 +106,9 @@
 	width: 90%;
 }
 
-.custom-control-indicator {
+.custom-control-indicator {	
 	top: .7rem;
-  border: 1px solid $primary3;
+	border: 1px solid $primary3;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {
@@ -144,6 +144,12 @@
 	}
 	::-webkit-clear-button {
 	    margin-right: 6px;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.form-check{
+		margin-bottom: 0.3rem;
 	}
 }
 

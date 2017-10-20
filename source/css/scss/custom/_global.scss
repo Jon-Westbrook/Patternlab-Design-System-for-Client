@@ -38,7 +38,7 @@ a {
 
 // Button Overrides: Required because of hard-coded values in Bootstrap Alpha 6 Button Mixins
 
-button span {outline:0;}
+button span:focus {outline:0;}
 
 
 .btn-outline-secondary:hover {
@@ -372,6 +372,8 @@ and (max-device-width : 1024px){
 
 .popover {
 	background: transparent !important;
+	top: 5px !important;
+    left: -8px !important;
 }
 
 .popover-title {
@@ -398,7 +400,9 @@ and (max-device-width : 1024px){
 	color: $primary3;
 }
 
-
+.popover.popover-bottom::before, .popover.bs-tether-element-attached-top::before{
+	border-bottom-color: transparent !important;
+}
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
 // @include debug;

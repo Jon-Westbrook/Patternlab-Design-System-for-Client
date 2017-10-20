@@ -15,3 +15,6 @@ input[name="fromDate"].form-control, input[name="toDate"].form-control { //fixes
 label.custom-control { //fixes IE flexbox spacing issue on dropdown checkboxes
 	height: 24px;
 }
+button.close {
+	bottom: 11px !important;
+}
