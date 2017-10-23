@@ -42,7 +42,7 @@
 		transition: $transition-base;
 		.facet:after {
 			transition: $transition-base;
-			background: url('../../images/down-arrow-white.svg') no-repeat;
+			background: url('/assets/images/down-arrow-white.svg') no-repeat;
 		}
 	}
 }
@@ -59,7 +59,7 @@
 	&:after {
 		content: '';
 		display: inline-block;
-		background: url('../../images/up-arrow-white.svg') no-repeat;
+		background: url('/assets/images/up-arrow-white.svg') no-repeat;
 		width: 11px;
 		height: 8px;
 		margin-left: 32px;

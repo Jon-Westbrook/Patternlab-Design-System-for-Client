@@ -66,12 +66,12 @@
 		.nav-item {
 			.nav-link {
 				height: 46px;
-				cursor: default;
+				cursor: pointer;
 				@include media-breakpoint-down(sm) {
 					&:after {
 						content: "";
 						display: block;
-						background: url('../../images/down-arrow.svg') no-repeat;
+						background: url('/assets/images/down-arrow.svg') no-repeat;
 						width: 9px;
 						height: 9px;
 						float: right;
@@ -86,7 +86,7 @@
 						&:after {
 							content: "";
 							display: block;
-							background: url('../../images/up-arrow.svg') no-repeat;
+							background: url('/assets/images/up-arrow.svg') no-repeat;
 							width: 9px;
 							height: 9px;
 							float: right;
@@ -104,9 +104,9 @@
 		height: 13.6px;
 		transition: all 0.2s ease-in-out;
 		cursor: pointer;
-		background: url('../../images/magnifying-glass.svg') no-repeat;
+		background: url('/assets/images/magnifying-glass.svg') no-repeat;
 		&:hover {
-			background: url('../../images/magnifying-glass-red.svg') no-repeat;
+			background: url('/assets/images/magnifying-glass-red.svg') no-repeat;
 		}
 	}
 
@@ -122,7 +122,7 @@
 				&:after {
 					content: '';
 					display: block;
-					background: url('../../images/down-arrow.svg') no-repeat;
+					background: url('/assets/images/down-arrow.svg') no-repeat;
 					width: 9px;
 					height: 9px;
 					float: right;
@@ -137,7 +137,7 @@
 					&:after {
 						content: '';
 						display: block;
-						background: url('../../images/up-arrow.svg') no-repeat;
+						background: url('/assets/images/up-arrow.svg') no-repeat;
 						width: 9px;
 						height: 9px;
 						float: right;
@@ -177,12 +177,12 @@
 .icsc-logo {
 	width: 32px;
 	height: 29px;
-	background: url('../../images/icsc-mobile-logo.svg') no-repeat;
+	background: url('/assets/images/icsc-mobile-logo.svg') no-repeat;
 	background-size: contain;
 	@include media-breakpoint-up(md) {
 		width: 56px;
 		height: 74px;
-		background: url('../../images/ICSC-logo.svg') no-repeat;
+		background: url('/assets/images/ICSC-logo.svg') no-repeat;
 		background-size: contain;
 	}
 }
