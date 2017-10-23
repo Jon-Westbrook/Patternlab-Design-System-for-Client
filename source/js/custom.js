@@ -1,27 +1,253 @@
 
 function checkWidth() {
-	
-    var titles = $('body').find($('.truncate-lines'));
-    titles.each(function() {
-    	var string = $(this).html();
-    	var array = string.split(' ');
-    	var subString =  array.splice(0, 4).join(' ');
-    	if( /Android|webOS|iPhone|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    		var dot = '<span class="dot">...</span>';
-    		subString += dot;	
-    		$(this).html(subString);
-		} // phone detect
-	});
+	var titles_d6_3 = $('body').find($('.d6-truncate3')), //all & large
+		titles_d7_2 = $('body').find($('.d7-truncate2')), //all & large
+		titles_d8_3 = $('body').find($('.d8-truncate3')), //all & large - m19 cols
+		titles_d9_1 = $('body').find($('.d9-truncate1')), //all - event urls
+		titles_d9_2 = $('body').find($('.d9-truncate2')), //all
+		titles_d9_3 = $('body').find($('.d9-truncate3')); //all & large
+
+		if( $(window).width() >= 1000 ) { 
+			titles_d6_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 30;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 30 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() > 767  && $(window).width() < 1000 ) { 
+			titles_d6_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 45;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 45 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+			titles_d7_2.each(function() {
+				var string = $(this).html();
+				var startIndex = 99;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 99 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() > 402 && $(window).width() <= 767 ) { 
+			titles_d6_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 66;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 66 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+			titles_d7_2.each(function() {
+				var dot = '';
+				var string = $(this).html();
+				var startIndex = 75;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 75 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() > 331 &&  $(window).width() <= 402 ) {
+			titles_d6_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 45;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 45 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+			titles_d7_2.each(function() {
+				var dot = '';
+				var string = $(this).html();
+				var startIndex = 50;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 50 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() <= 331 ) { // iphone5
+			titles_d6_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 20;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 20 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+			titles_d7_2.each(function() {
+				var dot = '';
+				var string = $(this).html();
+				var startIndex = 30;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 30 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} // d6-truncate3 & d7-truncate2
+
+
+
+		titles_d9_2.each(function() { //image boxes
+			var string = $(this).html();
+			var startIndex = 50;
+			var result = [];
+			while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 50 ) {
+				result.push(startIndex);
+				var firstSpaceAfterIndex = result[0];
+				var finalString = string.substring(0, firstSpaceAfterIndex);
+				var dot = '<span class="dot">...</span>';
+				finalString+=dot;
+			}
+			$(this).html(finalString);
+		});  // d9-truncate2
+
+
+
+		if( $(window).width() > 1000 ) {
+			$('.tile-text.d7-truncate2').each(function() {
+				var string = $(this).html();
+				var startIndex = 18;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 18 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} // .tile-text.d7-truncate2
+
+
+
+		if( $(window).width() > 600 && $(window).width() < 1000  ) {
+			var dot = '';
+			titles_d9_1.each(function() {
+				var string = $(this).html();
+				var urlString = string.replace(string, string.substr(0, 80)); 
+				var dot = '<span>...</span>';
+				urlString+=dot; 
+				$(this).html(urlString);
+			});
+		} else if( $(window).width() < 600 ) {
+			var dot = '';
+			titles_d9_1.each(function() {
+				var string = $(this).html();
+				var urlString = string.replace(string, string.substr(0, 40)); 
+				var dot = '<span>...</span>';
+				urlString+=dot;  
+				$(this).html(urlString);
+			});
+		}  // d9-truncate1 used on event urls
+
+
+
+		if( $(window).width() > 1233  ) {
+			titles_d9_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 124;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 124 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() >= 1000 && $(window).width() <= 1233  ) {
+			titles_d9_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 90;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 90 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() > 402 && $(window).width() <= 999 ) { 
+			titles_d9_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 80;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 80 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		} else if( $(window).width() < 401 ) {
+			titles_d9_3.each(function() {
+				var string = $(this).html();
+				var startIndex = 35;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 35 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					finalString+='...';
+				}
+				$(this).html(finalString);
+			});
+		}  // d9-truncate3
     
 }; //checkWidth
 
-checkWidth();
+
+//on resize
+$(window).on('resize', checkWidth); 
+
 
 
 
 $(function() {
 
-	// Execute truncate on mobile on load
+	// on load
 	checkWidth();
 
 

@@ -16,21 +16,21 @@
 
 // Ellipse Classes for limiting copy lines in cards
 
-.d6-truncate3 {
+.d6-truncate3 { 
    @include limitLines(3, 20px);
    @include media-breakpoint-up(lg) {
       @include limitLines(3, 32px);
    }
 }
 
-.d6-truncate2 {
+.d6-truncate2 { //not in use
    @include limitLines(2, 20px);
    @include media-breakpoint-up(lg) {
       @include limitLines(2, 32px);
    }
 }
 
-.d7-truncate2 {
+.d7-truncate2 { 
   @include limitLines(2, 24px);
   @include media-breakpoint-up(lg) {
     @include limitLines(2, 28px);
@@ -52,7 +52,7 @@
 //}
 
 
-.d7-truncate3 {
+.d7-truncate3 { //not in use
   @include limitLines(3, 24px);
   @include media-breakpoint-up(lg) {
     @include limitLines(3, 28px);
