@@ -14,7 +14,7 @@
 		&:after {
 			content: '';
 			display: block;
-			background: url('../../images/filter.svg') no-repeat;
+			background: url('/assets/images/filter.svg') no-repeat;
 			width: 19px;
 			height: 19px;
 			float: right;
@@ -32,7 +32,7 @@
 			color: $primary2;
 			transition: all 0.2s ease-in-out;
 			&:after {
-				// background: url('../../images/filter-white.svg') no-repeat;
+				// background: url('/assets/images/filter-white.svg') no-repeat;
 				transition: all 0.2s ease-in-out;
 			}
 		}
@@ -47,7 +47,7 @@
 		&:after {
 			content: '';
 			display: block;
-			background: url('../../images/down-arrow.svg') no-repeat;
+			background: url('/assets/images/down-arrow.svg') no-repeat;
 			width: 9px;
 			height: 9px;
 			float: right;

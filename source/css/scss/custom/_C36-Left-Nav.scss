@@ -4,7 +4,7 @@
 		&:before {
 			content: '';
 			display: inline-block;
-			background: url('../../images/back-to-home.svg') no-repeat;
+			background: url('/assets/images/back-to-home.svg') no-repeat;
 			width: 24px;
 			height: 18px;
 			vertical-align: bottom;
@@ -12,7 +12,7 @@
 		}
 		&:hover { 
 			&:after {
-				background: url('../../images/back-to-home-dark.svg') no-repeat;
+				background: url('/assets/images/back-to-home-dark.svg') no-repeat;
 			}
 		}
 	}
@@ -40,7 +40,7 @@
 	&:after {
 			content: "";
 			display: block;
-			background: url('../../images/up-arrow.svg') no-repeat;
+			background: url('/assets/images/up-arrow.svg') no-repeat;
 			width: 10px;
 			height: 6px;
 			float: right;
@@ -49,12 +49,12 @@
 		}
 	&.collapsed {
 		&:after {
-			background: url('../../images/down-arrow.svg') no-repeat;
+			background: url('/assets/images/down-arrow.svg') no-repeat;
 		}
 	}
 	&.show {
 		&:after {
-			background: url('../../images/down-arrow.svg') no-repeat;
+			background: url('/assets/images/down-arrow.svg') no-repeat;
 		}
 	}
 }

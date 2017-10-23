@@ -5,7 +5,7 @@
 		&:after {
 			content: '';
 			display: inline-block;
-			background: url('../../images/download-icon-small.svg') no-repeat;
+			background: url('/assets/images/download-icon-small.svg') no-repeat;
 			width: 16px;
 			height: 20px;
 			margin-left: 16px;
@@ -25,7 +25,7 @@
 	.back:before {
 		content: '';
     display: inline-block;
-    background: url(../../images/back-to-home.svg) no-repeat;
+    background: url(/assets/images/back-to-home.svg) no-repeat;
     width: 24px;
     height: 16px;
     vertical-align: bottom;
@@ -40,7 +40,7 @@
 	.dropdown-toggle::after {
 		content: '';
 		display: inline-block !important;
-		background: url('../../images/up-arrow.svg') no-repeat;
+		background: url('/assets/images/up-arrow.svg') no-repeat;
 		border: 0 !important;
 		width: 10px;
 		height: 6px;
@@ -49,7 +49,7 @@
 	}
 	.dropdown-toggle:hover {
 		&:after {
-			background: url('../../images/down-arrow-white.svg') no-repeat;
+			background: url('/assets/images/down-arrow-white.svg') no-repeat;
 		}
 	}
 	.dropdown-item { 
@@ -59,7 +59,7 @@
 	.sub-links {
 		&:after {
 			content: "";
-			background: url('../../images/down-arrow.svg') no-repeat;
+			background: url('/assets/images/down-arrow.svg') no-repeat;
 			position: absolute;
 			right: 0;
 			width: 10px;

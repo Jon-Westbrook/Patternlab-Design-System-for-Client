@@ -65,7 +65,7 @@ gulp.task('pl-copy:img', function () {
 
 // Favicon copy
 gulp.task('pl-copy:favicon', function () {
-  return gulp.src('favicon.ico', {cwd: normalizePath(paths().source.root)} )
+  return gulp.src('favicon.ico', {cwd: normalizePath(paths().source.images)} )
     .pipe(gulp.dest(normalizePath(paths().public.root)));
 });
 

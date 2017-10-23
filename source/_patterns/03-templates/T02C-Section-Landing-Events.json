@@ -14,6 +14,6 @@
   "singleFeatureCallout": {
     "tagline": "Networking that works",
     "desc": "Whatever your skill or membership status, there’s an ICSC event for you. We host hundreds of programs a year so you can connect, learn and road test ideas with other professionals.",
-    "img": "../../images/chat-bubbles.svg"
+    "img": "/assets/images/chat-bubbles.svg"
   }
 }
