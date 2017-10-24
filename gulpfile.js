@@ -53,7 +53,7 @@ gulp.task('pl-copy:js', function () {
 
 // Bootstrap JS copy
 gulp.task('pl-copy:bootstrap_JS', function () {
-  return gulp.src('**/*.js', {cwd: normalizePath(paths().source.bootstrap_JS)} )
+  return gulp.src('**/*.js', {cwd: normalizePath(paths().source.bootstrap_JS)})
     .pipe(gulp.dest(normalizePath(paths().public.js)));
 });
 
@@ -232,6 +232,12 @@ function watch() {
       paths: [normalizePath(paths().source.css, '**', '*.css')],
       config: { awaitWriteFinish: true },
       tasks: gulp.series('pl-copy:css', reloadCSS)
+    },
+    {
+      name: 'BS',
+      paths: [normalizePath(paths().source.bootstrap_custom)],
+      config: { awaitWriteFinish: true },
+      tasks: gulp.series('sass', reloadCSS)
     },
     {
       name: 'SCSS',
