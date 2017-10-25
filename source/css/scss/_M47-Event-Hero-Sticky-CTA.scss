@@ -31,15 +31,13 @@
 		border-bottom: 1px solid $tertiary5;
 	}
 
-	.cta {	
+	.cta {
 		@include media-breakpoint-up(xs) {
-			padding-right:10px;
-			padding-left:10px;
-			text-align:left;
+			
 		}
 		@include media-breakpoint-up(sm) {
 			width: 100%;
-			text-align:center;
+			text-align: center;
 		}
 		@include media-breakpoint-up(md) {
 			width: 240px;

@@ -317,7 +317,18 @@ button span:focus {outline:0;}
 
 .share {
 	z-index: 100;
-	
+	&.share--cart {
+		width: 27px;
+		height: 24px;
+		background-image: url('/assets/images/cart.svg');
+		background-repeat: no-repeat;
+		&:hover {
+			background-image: url('/assets/images/cart.svg');
+		}
+		&.active {
+			background-image: url('/assets/images/cart.svg');
+		}
+	}
 	&.share--facebook {
 		width: 38px;
 		height: 15px;
