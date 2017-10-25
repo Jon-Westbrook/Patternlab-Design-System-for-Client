@@ -10,9 +10,9 @@ function checkWidth() {
 		if( $(window).width() >= 1000 ) { 
 			titles_d6_3.each(function() {
 				var string = $(this).html();
-				var startIndex = 30;
+				var startIndex = 40;
 				var result = [];
-				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 30 ) {
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 40 ) {
 					result.push(startIndex);
 					var firstSpaceAfterIndex = result[0];
 					var finalString = string.substring(0, firstSpaceAfterIndex);
