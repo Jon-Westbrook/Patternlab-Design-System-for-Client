@@ -1,3 +1,25 @@
+# ICSC Design System
+
+The design system utilizes a Gulp wrapper around Pattern Lab Node Core. More about that below. Note that is uses Gulp 4. [Here's how to upgrade to Gulp 4](https://github.com/pattern-lab/edition-node-gulp/wiki/Updating-to-Gulp-4).
+
+```
+    npm install
+    gulp patternlab:build
+    gulp patternlab:serve
+```
+
+(* sometimes you have to run the build task concurrently with the serve task, or before serving to get some assets to appear) 
+
+Notes: 
+
+- Most everything is in Source
+- _patterns corresponds with the main categories in Patternab
+- default data is in _data
+- overriding default data is done by putting a .json file with the exact same fields as there are in default _data, right next to any component / module / template
+- Custom SASS is in /css/scss/custom
+- Bootstrap SASS in /css/scss/bootstrap/scss and there is only 1 file that is modified there, the “_custom.scss” file (as per BS4 recommended best practices). All BS variable overrides are in this one BS file. 
+- You should be good with Node 7 or 8
+
 # Pattern Lab Node - Gulp Edition
 
 The Gulp wrapper around [Pattern Lab Node Core](https://github.com/pattern-lab/patternlab-node) providing tasks to interact with the core library and move supporting frontend assets.
