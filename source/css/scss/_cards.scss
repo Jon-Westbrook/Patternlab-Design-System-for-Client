@@ -73,6 +73,26 @@
 	}
 }
 
+.obj-fit-ie{
+	@include media-breakpoint-up(xs) {
+		height: 56px;
+		width: 56px;
+		margin-top:20px !important;
+	}
+	@include media-breakpoint-up(sm) {
+		height: 80px;
+		width: 80px;
+	}
+	@include media-breakpoint-up(md) {
+		width: 100%;
+		height: 90px;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 120px;
+		margin-top:35px !important;
+	}
+}
+
 .card-img-right {
 	object-fit: cover;
 	height: 56px;
