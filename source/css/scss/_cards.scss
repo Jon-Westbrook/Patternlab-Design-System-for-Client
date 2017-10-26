@@ -110,7 +110,7 @@
 
 .card-link {
 	color: $primary2;
-	margin:0 auto;
+	//margin:0 auto;
 	&:hover{
 		color: $primary2;
 	}
@@ -251,8 +251,11 @@
 		&:hover{
 			box-shadow:none !important;
 		}
-
-
+		.card-icons{border-top:none;}
+		.card-link{
+			display: flex;
+			flex-wrap: wrap;
+		}
 	}
 	.pub-text{
 	    padding:0px;
@@ -282,10 +285,6 @@
 		    font-family: "sofia_pro_regularregular";
 	    }
 		
-	}
-	.card-icons{border-top:none;}
-	.card-link{
-
 	}
 	.publication-card-img{
 	    display: inline !important;
