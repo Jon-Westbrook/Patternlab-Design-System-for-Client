@@ -1,11 +1,13 @@
-<div class="card">
-  <a href="#" class="card-link">
-    <img class="publication-card-img mt-4 d-block mx-auto" src="{{ cards.pubCardImg }}" alt="{{ cards.pubCardAlt }}">
-    <div class="card-block py-0">
-      <h3 class="card-title mt-4 mb-0 display6 d6-truncate3 bold truncate-lines">{{ cards.pubTitle }}</h3>
-      <p class="display8 secondary mt-3 mb-0">{{ cards.pubCat }}</p>
+<div class="card pub-card">
+     <div class="flex-card">
+        <img class="publication-card-img mt-4 d-block mx-auto" src="{{ cards.pubCardImg }}" alt="{{ cards.pubCardAlt }}">
+     </div>
+    <div class="flex-text">
+      <div class="card-block pub-text py-0">
+        <h3 class="card-title mt-4 mb-0 display6 d6-truncate3 bold truncate-lines">{{ cards.pubTitle }}</h3>
+        <p class="display8 secondary mt-3 mb-0">{{ cards.pubCat }}</p>
+      </div>
     </div>
-  </a>  
   <div class="card-icons mt-3 p-3 w-100 d-flex justify-content-start">
     <p class="display9 secondary mr-auto my-auto ml-3">{{ cards.optionalLabel }}</p>
    
@@ -23,7 +25,6 @@
             <a href='#' target='_self' class='light'>Log In to Save</a>
          </div>
       "></a>
-      
   </div>
 </div>
 

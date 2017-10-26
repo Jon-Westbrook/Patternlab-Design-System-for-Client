@@ -110,6 +110,7 @@
 
 .card-link {
 	color: $primary2;
+	margin:0 auto;
 	&:hover{
 		color: $primary2;
 	}
@@ -233,4 +234,82 @@
 
 
 
+//making publications cards a list here:
+@media (max-width: 768px) { 
+	.card.pub-card {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -15px;
+	    margin-left: -5px;
+		border-top: 1px solid #eceff1;
+	    position: relative;
+		margin-bottom: 2rem;
+		border-top: 1px solid $tertiary3;
+		position: relative;
+		height:180px;
+		box-shadow: none !important;
+		&:hover{
+			box-shadow:none !important;
+		}
+
+
+	}
+	.pub-text{
+	    padding:0px;
+	    margin:0px;
+	    padding-left: .5rem !important;
+	    .card-title{
+	    	font-size: 1rem;
+		    line-height: 1.5rem;
+		    opacity: .9;
+		    font-weight: 400;
+		    flex: 1 1 auto;
+	    }
+	    
+	}
+	.flex-card{
+		flex: 0 0 16.66667% !important;
+	    max-width: 16.66667% !important;
+	}
+	.flex-text{
+		flex: 0 0 83.33333% !important;
+	    max-width: 83.33333% !important;
+	    .display8{
+    	    font-size: .75rem !important;
+		    line-height: 1rem;
+		    opacity: .9;
+		    font-weight: 400;
+		    font-family: "sofia_pro_regularregular";
+	    }
+		
+	}
+	.card-icons{border-top:none;}
+	.card-link{
+
+	}
+	.publication-card-img{
+	    display: inline !important;
+		object-fit: cover;
+		height: 56px;
+		width: 56px;
+		margin-right:0px !important;
+		margin-left:10px !important;
+		padding-right: .5rem !important;
+    	padding-left: .5rem !important;
+    	box-shadow:none !important;
+    	&:hover{
+			box-shadow: none !important;
+    	}
+		@include media-breakpoint-up(sm) {
+			height: 64px;
+			width: 64px;
+		}
+		&.download {
+			object-fit: initial;
+		}
+		&.square {
+			border-radius: 0;
+		}
+	}
+}
 
