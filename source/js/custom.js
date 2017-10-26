@@ -252,30 +252,21 @@ $(function() {
 
 
 	//fix stretch image IE
-	var userAgent, ieReg, ie;
-	userAgent = window.navigator.userAgent;
-	ieReg = /msie|Trident.*rv[ :]*11\./gi;
-	ie = ieReg.test(userAgent);
+	function objectFitIEFix() {
+	    $('img.card-img-right').each(function(){
+	        var imgSrc = $(this).attr('src');
+	        var fitType = 'cover';
 
-	if(ie) {
-		function objectFitIEFix() {
-		    $('img.card-img-right').each(function(){
-		        var imgSrc = $(this).attr('src');
-		        var fitType = 'cover';
-
-		        $(this).parent().css({ 'background' : 'transparent url("'+imgSrc+'") no-repeat center center/'+fitType, });
-		        $(this).parent().addClass('obj-fit-ie');
-		        $(this).parent().parent().css('margin-left', '-10px');
-		        $(this).remove(); });
-		} //objectFitIEFix
-	} //ie check
-
+	        $(this).parent().css({ 'background' : 'transparent url("'+imgSrc+'") no-repeat center center/'+fitType, });
+	        $(this).parent().addClass('obj-fit-ie');
+	        $(this).parent().parent().css('margin-left', '-10px');
+	        $(this).remove(); 
+	    });
+	} //objectFitIEFix
+	
 	if(!Modernizr.objectfit) {
 	    objectFitIEFix();
 	}
-
-
-
 
 
 
