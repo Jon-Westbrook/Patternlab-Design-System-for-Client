@@ -64,9 +64,9 @@ function checkWidth() {
 			});
 			titles_d7_2_sticky.each(function() { //sticky 
 				var string = $(this).text();
-				var startIndex = 65;
+				var startIndex = 60;
 				var result = [];
-				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 65 ) {
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 60 ) {
 					result.push(startIndex);
 					var firstSpaceAfterIndex = result[0];
 					var finalString = string.substring(0, firstSpaceAfterIndex);
