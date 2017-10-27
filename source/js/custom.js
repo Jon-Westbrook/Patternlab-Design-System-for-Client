@@ -1,7 +1,8 @@
 
 function checkWidth() {
 	var titles_d6_3 = $('body').find($('.d6-truncate3')), //all & large
-		titles_d7_2 = $('body').find($('.d7-truncate2')), //all & large
+		titles_d7_2 = $('body').find($('.d7-truncate2')).not($('.sticky-cta .d7-truncate2')), //all & large
+		titles_d7_2_sticky = $('body').find($('.sticky-cta .d7-truncate2')), //all & large
 		titles_d8_3 = $('body').find($('.d8-truncate3')), //all & large - m19 cols
 		titles_d9_1 = $('body').find($('.d9-truncate1')), //all - event urls
 		titles_d9_2 = $('body').find($('.d9-truncate2')), //all
@@ -9,7 +10,7 @@ function checkWidth() {
 
 		if( $(window).width() >= 1000 ) { 
 			titles_d6_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 40;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 40 ) {
@@ -20,9 +21,25 @@ function checkWidth() {
 				}
 				$(this).html(finalString);
 			});
+			titles_d7_2_sticky.each(function() { //sticky 
+				var string = $(this).text();
+				var startIndex = 105;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 105 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					if(firstSpaceAfterIndex < string.length){
+						finalString+='...';
+					}else{ 
+						finalString = finalString;
+					}
+				}
+				$(this).html(finalString);
+			});
 		} else if( $(window).width() > 767  && $(window).width() < 1000 ) { 
 			titles_d6_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 45;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 45 ) {
@@ -34,7 +51,7 @@ function checkWidth() {
 				$(this).html(finalString);
 			});
 			titles_d7_2.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 99;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 99 ) {
@@ -45,12 +62,28 @@ function checkWidth() {
 				}
 				$(this).html(finalString);
 			});
+			titles_d7_2_sticky.each(function() { //sticky 
+				var string = $(this).text();
+				var startIndex = 65;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 65 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					if(firstSpaceAfterIndex < string.length){
+						finalString+='...';
+					}else{ 
+						finalString = finalString;
+					}
+				}
+				$(this).html(finalString);
+			});
 		} else if( $(window).width() > 402 && $(window).width() <= 767 ) { 
 			titles_d6_3.each(function() {
-				var string = $(this).html();
-				var startIndex = 60; 
+				var string = $(this).text();
+				var startIndex = 55; 
 				var result = [];
-				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 60 ) {
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 55 ) {
 					result.push(startIndex);
 					var firstSpaceAfterIndex = result[0];
 					var finalString = string.substring(0, firstSpaceAfterIndex);
@@ -60,7 +93,7 @@ function checkWidth() {
 			});
 			titles_d7_2.each(function() {
 				var dot = '';
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 75;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 75 ) {
@@ -71,12 +104,28 @@ function checkWidth() {
 				}
 				$(this).html(finalString);
 			});
+			titles_d7_2_sticky.each(function() { //sticky 
+				var string = $(this).text();
+				var startIndex = 50;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 50 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					if(firstSpaceAfterIndex < string.length){
+						finalString+='...';
+					}else{ 
+						finalString = finalString;
+					}
+				}
+				$(this).html(finalString);
+			});
 		} else if( $(window).width() > 331 &&  $(window).width() <= 402 ) {
 			titles_d6_3.each(function() {
-				var string = $(this).html();
-				var startIndex = 45;
+				var string = $(this).text();
+				var startIndex = 40;
 				var result = [];
-				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 45 ) {
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 40 ) {
 					result.push(startIndex);
 					var firstSpaceAfterIndex = result[0];
 					var finalString = string.substring(0, firstSpaceAfterIndex);
@@ -86,7 +135,7 @@ function checkWidth() {
 			});
 			titles_d7_2.each(function() {
 				var dot = '';
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 50;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 50 ) {
@@ -97,9 +146,25 @@ function checkWidth() {
 				}
 				$(this).html(finalString);
 			});
+			titles_d7_2_sticky.each(function() { //sticky 
+				var string = $(this).text();
+				var startIndex = 28;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 28 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					if(firstSpaceAfterIndex < string.length){
+						finalString+='...';
+					}else{ 
+						finalString = finalString;
+					}
+				}
+				$(this).html(finalString);
+			});
 		} else if( $(window).width() <= 331 ) { // iphone5
 			titles_d6_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 20;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 20 ) {
@@ -112,7 +177,7 @@ function checkWidth() {
 			});
 			titles_d7_2.each(function() {
 				var dot = '';
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 30;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 30 ) {
@@ -123,12 +188,29 @@ function checkWidth() {
 				}
 				$(this).html(finalString);
 			});
+			titles_d7_2_sticky.each(function() { //sticky 
+				var string = $(this).text();
+				var startIndex = 25;
+				var result = [];
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 25 ) {
+					result.push(startIndex);
+					var firstSpaceAfterIndex = result[0];
+					var finalString = string.substring(0, firstSpaceAfterIndex);
+					if(firstSpaceAfterIndex < string.length){
+						finalString+='...';
+					}else{ 
+						finalString = finalString;
+					}
+				}
+				$(this).html(finalString);
+			});
 		} // d6-truncate3 & d7-truncate2
 
 
 
+
 		titles_d9_2.each(function() { //image boxes
-			var string = $(this).html();
+			var string = $(this).text();
 			var startIndex = 50;
 			var result = [];
 			while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 50 ) {
@@ -145,7 +227,7 @@ function checkWidth() {
 
 		if( $(window).width() > 1000 ) {
 			$('.tile-text.d7-truncate2').each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 18;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 18 ) {
@@ -163,7 +245,7 @@ function checkWidth() {
 		if( $(window).width() > 600 && $(window).width() < 1000  ) {
 			var dot = '';
 			titles_d9_1.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var urlString = string.replace(string, string.substr(0, 80)); 
 				var dot = '<span>...</span>';
 				urlString+=dot; 
@@ -172,7 +254,7 @@ function checkWidth() {
 		} else if( $(window).width() < 600 ) {
 			var dot = '';
 			titles_d9_1.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var urlString = string.replace(string, string.substr(0, 40)); 
 				var dot = '<span>...</span>';
 				urlString+=dot;  
@@ -184,7 +266,7 @@ function checkWidth() {
 
 		if( $(window).width() > 1233  ) {
 			titles_d9_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 124;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 124 ) {
@@ -197,7 +279,7 @@ function checkWidth() {
 			});
 		} else if( $(window).width() >= 1000 && $(window).width() <= 1233  ) {
 			titles_d9_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 90;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 90 ) {
@@ -210,7 +292,7 @@ function checkWidth() {
 			});
 		} else if( $(window).width() > 402 && $(window).width() <= 999 ) { 
 			titles_d9_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 80;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 80 ) {
@@ -223,7 +305,7 @@ function checkWidth() {
 			});
 		} else if( $(window).width() < 401 ) {
 			titles_d9_3.each(function() {
-				var string = $(this).html();
+				var string = $(this).text();
 				var startIndex = 35;
 				var result = [];
 				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 35 ) {
@@ -330,7 +412,6 @@ $(function() {
 		addthis_config.pubid = 'ra-509abf9a50f845b6';
 		setTimeout(function(){ addthis.toolbox('.addthis_toolbox'); }, 400);
 		//remove all the others
-		console.log($('[data-toggle="popover"]').not(e.target));
 		$('[data-toggle="popover"]').not(e.target).popover("destroy");
 	});
 
@@ -369,9 +450,7 @@ $(function() {
 
 	$('.carousel-item').hover(function() {  //Fix pause ignored in Windows Chrome
 	  $(this).carousel('pause'); 
-	  console.log('pause');
 	}, function () { 
-		console.log($(this));
 	  $(this).carousel('cycle'); 
 	});
 
