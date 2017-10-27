@@ -48,9 +48,9 @@ function checkWidth() {
 		} else if( $(window).width() > 402 && $(window).width() <= 767 ) { 
 			titles_d6_3.each(function() {
 				var string = $(this).html();
-				var startIndex = 66;
+				var startIndex = 60; 
 				var result = [];
-				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 66 ) {
+				while( (startIndex = string.indexOf(' ', startIndex + 1 )) > 60 ) {
 					result.push(startIndex);
 					var firstSpaceAfterIndex = result[0];
 					var finalString = string.substring(0, firstSpaceAfterIndex);
