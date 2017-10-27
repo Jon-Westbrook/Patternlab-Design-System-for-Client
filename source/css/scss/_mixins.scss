@@ -10,7 +10,7 @@
 @mixin limitLines($lines, $lineHeight) {
   /* Limits text to $lines lines, adds ellipses in webkit browsers */
   overflow: hidden;
-  text-overflow: ellipsis;
+//  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: $lines;

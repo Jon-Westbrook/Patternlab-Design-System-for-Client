@@ -26,9 +26,14 @@ button.close {
 	background-size: 1.125rem 1.125rem !important;
 	border-color: #e31837 !important;
 }
+
 .parsley-errors-list, .parsley-errors-list li {
 	list-style: none !important;
 	color: #e31837 !important;
 	padding: 0 !important;
 	margin: 0.25rem 0 0 !important;
+}
+
+.error-message-list {
+	margin-top:-10px;
 }
