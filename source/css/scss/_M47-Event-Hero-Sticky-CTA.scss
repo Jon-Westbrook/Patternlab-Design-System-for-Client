@@ -40,7 +40,7 @@
 			text-align: center;
 		}
 		@include media-breakpoint-up(md) {
-			width: 240px;
+			width: 240px !important;
 		}
 	}
 	.footer-cta {
