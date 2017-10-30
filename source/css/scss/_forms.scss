@@ -22,3 +22,11 @@ button.close {
 .error-message-list{
 	margin-top:-10px !important;
 }
+
+@media only screen and (max-device-width : 459px) {
+	.form-inline{
+		.button{
+			width:100% !important;
+		}
+	}
+}
