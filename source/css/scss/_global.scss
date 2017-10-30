@@ -429,6 +429,12 @@ $carousel-control-next-icon-icsc: str-replace(url("data:image/svg+xml;charset=ut
   background-image: $carousel-control-next-icon-icsc !important;
 }
 
+@media only screen and (max-device-width : 459px) {
+    .table th, .table td{
+    	padding: .15rem !important;
+    }
+} //end query
+
 
 
 // Debug utility that makes grey boxes behind all blocks, for layout debugging
