@@ -1,4 +1,8 @@
 @media print {
+    html, body {
+        height: 15in !important;
+        page-break-inside:avoid;
+    }
 	
 	@-moz-document url-prefix() { 
 		html, body {
@@ -110,7 +114,7 @@
 		clear:none;
 		border-top:none;
 		max-width: 195px !important;
-		height: 165px;
+		height: 170px;
 		margin: 0px;
 		padding: 10px 0px 10px 0px !important;
 	}
@@ -210,5 +214,3 @@
 		margin-left: 5px !important;
 	}
 }
-	
-	
