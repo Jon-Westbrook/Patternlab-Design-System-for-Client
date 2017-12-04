@@ -219,7 +219,10 @@
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
    /* IE10+ specific styles go here */
-
+@media print {
+  body {
+    color:red;
+  }
    #results-container {
      width:100%;
  		margin: 0cm;
@@ -241,7 +244,8 @@
 		border-top:none;
 		max-width: 165cm !important;
 		height: 170cm;
-		margin-right:500cm;
+		/*margin-right:500cm;*/
 		padding: 3px 0px 3px 0px !important;
 	}
+}
 }
