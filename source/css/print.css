@@ -3,16 +3,16 @@
         height: 15in !important;
         page-break-inside:avoid;
     }
-	
-	@-moz-document url-prefix() { 
+
+	@-moz-document url-prefix() {
 		html, body {
 			height: 100% !important;
 			page-break-inside: avoid;
-			margin: 0mm !important; 
+			margin: 0mm !important;
 			padding: 0mm !important;
 		}
 	}
-	
+
 	* {
 		page-break-inside: avoid;
 		pointer-events: none;
@@ -23,28 +23,29 @@
 	}
 
 	.container-fluid, .container {
+
 		padding: 0px !important;
 		margin: 0px 0px 0px 5px !important;
 	}
 
 	body, html, a, p, .profile-co-link p {
 		background-color: transparent !important;
-		color: #000  !important; 
+		color: #000  !important;
 		text-decoration: none;
 	}
-	
+
 	.list-items {
 		display:block;
 	}
 
-	#search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads, 
-	.footer-menu, .bg-footer-gray2, .footer .nav, form, .container.py-4, .gen-list-item-icons, .mobile-buttons, 
-	.card-icons, .icsc-loading-overlay, button, button > img, .back, .dropdown, #dropdownMenuLink, .mainMenuDesktop, #cards, .header-menus .mainMenu .search-icon, 
+	#search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
+	.footer-menu, .bg-footer-gray2, .footer .nav, form, .container.py-4, .gen-list-item-icons, .mobile-buttons,
+	.card-icons, .icsc-loading-overlay, button, button > img, .back, .dropdown, #dropdownMenuLink, .mainMenuDesktop, #cards, .header-menus .mainMenu .search-icon,
 	.mobile-search-icon, .accent.back, .left-nav .back:before {
 		display: none !important;
 		page-break-after: avoid;
 	}
-	
+
 	.navbar {
 		page-break-after: avoid;
 		height: 70px;
@@ -52,7 +53,7 @@
 
 	.navbar-brand.hidden-sm-down, .navbar-brand.hidden-md-up{
 		display:inline-block !important;
-		page-break-before: avoid; 
+		page-break-before: avoid;
 		page-break-after: avoid;
 		page-break-inside: avoid;
 	}
@@ -69,7 +70,7 @@
 	.icsc-logo{
 		background:none; /*hide the svg*/
 		margin-top: 10px;
-		page-break-before: disabled; 
+		page-break-before: disabled;
 		page-break-after: disabled;
 		page-break-inside: disabled;
 	}
@@ -78,7 +79,7 @@
 		content: url(/assets/images/ICSC-logo-color-print.jpg);
 		margin: 0px;
 		padding: 0px;
-		page-break-before: disabled; 
+		page-break-before: disabled;
 		page-break-after: disabled;
 		page-break-inside: disabled;
 	}
@@ -119,7 +120,7 @@
 		padding: 10px 0px 10px 0px !important;
 	}
 
-	@-moz-document url-prefix() { 
+	@-moz-document url-prefix() {
 		.list-card {
 			float:left;
 			clear:none;
@@ -213,4 +214,14 @@
 	.ml-md-3, .ml-md-3 {
 		margin-left: 5px !important;
 	}
+}
+/*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY*/
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+   /* IE10+ specific styles go here */
+   .container {
+     width:100%;
+ 		margin: 0px;
+
+ 	}
 }
