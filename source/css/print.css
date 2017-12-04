@@ -214,38 +214,40 @@
 	.ml-md-3, .ml-md-3 {
 		margin-left: 5px !important;
 	}
-}
-/*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY*/
 
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
-   /* IE10+ specific styles go here */
-@media print {
-  body {
-    color:red;
-  }
-   #results-container {
-     width:100%;
- 		margin: 0cm;
-    color:red;
-    float:left;
+  /*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY*/
 
- 	}
-  @page:left {
-    margin: 1cm;
-  }
-  @page:right {
-    margin: 1cm;
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+     /* IE10+ specific styles go here */
+
+    body {
+      color:red;
+    }
+     #results-container {
+      width:100%;
+   		margin: 0cm;
+      color:red;
+      float:left;
+
+   	}
+    @page:left {
+      margin: 1cm;
+    }
+    @page:right {
+      margin: 1cm;
+    }
+
+    .list-card {
+  		float:left;
+  		clear:none;
+      color:red;
+  		border-top:none;
+  		max-width: 165cm !important;
+  		height: 170cm;
+  		/*margin-right:500cm;*/
+  		padding: 3px 0px 3px 0px !important;
+  	}
   }
 
-  .list-card {
-		float:left;
-		clear:none;
-    color:red;
-		border-top:none;
-		max-width: 165cm !important;
-		height: 170cm;
-		/*margin-right:500cm;*/
-		padding: 3px 0px 3px 0px !important;
-	}
-}
+
 }
