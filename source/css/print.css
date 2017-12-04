@@ -233,4 +233,14 @@
   @page:right {
     margin: 1cm;
   }
+
+  .list-card {
+		float:left;
+		clear:none;
+		border-top:none;
+		max-width: 165cm !important;
+		height: 170cm;
+		margin: 0px;
+		padding: 3px 0px 3px 0px !important;
+	}
 }
