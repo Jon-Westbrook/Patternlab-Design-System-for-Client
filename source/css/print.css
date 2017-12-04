@@ -241,7 +241,8 @@
     border-top:none;
     max-width: 125px !important;
     height: 170px;
-    margin-left:-25px;
+    margin-left:-20px;
+    margin-right:5px;
     padding: 3px 0px 3px 0px !important;
 
   }
