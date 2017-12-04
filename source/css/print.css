@@ -114,7 +114,7 @@
 		float:left;
 		clear:none;
 		border-top:none;
-		max-width: 195px !important;
+		max-width: 30px !important;
 		height: 170px;
 		margin: 0px;
 		padding: 10px 0px 10px 0px !important;
@@ -224,7 +224,6 @@
      #results-container {
       width:100%;
    		margin: 0cm;
-      float:left;
 
    	}
     @page:left {
@@ -238,9 +237,9 @@
   		float:left;
   		clear:none;
   		border-top:none;
-  		max-width: 165cm !important;
+  	
   		height: 170cm;
-  		/*margin-right:500cm;*/
+
   		padding: 3px 0px 3px 0px !important;
       display:none;
   	}
