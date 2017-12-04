@@ -237,6 +237,7 @@
   .list-card {
 		float:left;
 		clear:none;
+    color:red;
 		border-top:none;
 		max-width: 165cm !important;
 		height: 170cm;
