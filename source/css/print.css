@@ -230,10 +230,10 @@
 
   }
   @page:left {
-    margin: 10cm;
+    margin: 30px;
   }
   @page:right {
-    margin: 1cm;
+    margin: 0px;
   }
 
   .list-card {
