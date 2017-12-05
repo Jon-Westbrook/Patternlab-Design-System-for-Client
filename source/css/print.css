@@ -191,16 +191,16 @@
       margin: 1cm;
     }
     @page:right {
-      margin: 1cm;
+      margin: 0cm;
     }
 
     .list-card {
       float:left;
       clear:none;
       border-top:none;
-      max-width: 127px !important;
+      max-width: 115px !important;
       margin-right:5px;
-      height: 190px !important;
+      height: 200px !important;
       padding: 3px 0px 3px 0px !important;
 
     }
