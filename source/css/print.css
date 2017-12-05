@@ -247,7 +247,7 @@
     overflow-wrap: break-word;
 
   }
-  .card-block {
+  .card-block, .display9 {
     overflow-wrap: break-word;
   }
  }
