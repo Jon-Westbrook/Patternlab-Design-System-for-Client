@@ -240,11 +240,11 @@
     float:left;
     clear:none;
     border-top:none;
-    width: 125px;
-    margin-right:.1cm;
+    width: 127px;
+    margin-right:5px;
     height: 190px;
-    padding: 0px 0px 0px 0px !important;
-    overflow-wrap: break-word;
+    padding: 3px 0px 3px 0px !important;
+
 
 
   }
