@@ -230,25 +230,25 @@
 
   }
   @page:left {
-    margin:0px;
+    margin:0cm;
   }
   @page:right {
-    margin: 0px;
+    margin: 0cm;
   }
 
   .list-card {
     float:left;
     clear:none;
     border-top:none;
-    max-width: 125px !important;
+    width: 125px !important;
     margin-right:.2cm;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
     overflow-wrap: break-word;
-    background-color:red;
+     
 
   }
-  .card-block, .display9 {
+/*  .card-block, .display9 {
     overflow-wrap: break-word;
-  }
+  }*/
  }
