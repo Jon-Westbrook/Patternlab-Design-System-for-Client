@@ -240,10 +240,10 @@
     float:left;
     clear:none;
     border-top:none;
-    width: 1cm;
+    width: .5cm;
     margin-right:.2cm;
     height: 190px;
-    padding: 3px 0px 3px 0px !important;
+    padding: 0px 0px 0px 0px !important;
     overflow-wrap: break-word;
 
 
