@@ -1,5 +1,5 @@
 /*LATEST FOR CHROME*/
-@media print {
+@media print, all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
 
 	* {
 		pointer-events: none;
@@ -177,32 +177,32 @@
 
 
 
-/*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY
+/*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY*/
 
-@media print, screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 
+@media print {
 
-   #results-container {
-    width:100%;
-    margin: 0cm;
+     #results-container {
+      width:100%;
+      margin: 0cm;
+    }
+    @page:left {
+      margin: 1cm;
+    }
+    @page:right {
+      margin: 1cm;
+    }
 
+    .list-card {
+      float:left;
+      clear:none;
+      border-top:none;
+      max-width: 127px !important;
+      margin-right:5px;
+      height: 190px !important;
+      padding: 3px 0px 3px 0px !important;
+
+    }
   }
-  @page:left {
-    margin: 1cm;
-  }
-  @page:right {
-    margin: 1cm;
-  }
-
-  .list-card {
-    float:left;
-    clear:none;
-    border-top:none;
-    max-width: 127px !important;
-    margin-right:5px;
-    height: 190px !important;
-    padding: 3px 0px 3px 0px !important;
-
-  }
- }
- */
+}
