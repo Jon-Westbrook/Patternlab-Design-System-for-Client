@@ -226,29 +226,23 @@
    #results-container {
     width:100%;
     margin: 0cm;
-    padding:0cm;
 
   }
   @page:left {
-    margin:0px;
+    margin: 0cm;
   }
   @page:right {
-    margin: 0px;
+    margin: 0cm;
   }
 
   .list-card {
     float:left;
     clear:none;
     border-top:none;
-    max-width: 125px !important;
-    margin-right:.2cm;
+    max-width: 127px !important;
+    margin-right:3px;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
-  /*  overflow-wrap: break-word;
-     */
 
   }
-/*  .card-block, .display9 {
-    overflow-wrap: break-word;
-  }*/
  }
