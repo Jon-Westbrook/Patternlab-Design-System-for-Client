@@ -1,0 +1,240 @@
+
+/*ATTEMPTING TO TARGET IE 10/11 EXCLUSIVELY
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+@media print  {
+
+              html, body {
+                  height: 15in !important;
+                  page-break-inside:avoid;
+              }
+
+            @-moz-document url-prefix() {
+              html, body {
+                height: 100% !important;
+                page-break-inside: avoid;
+                margin: 0mm !important;
+                padding: 0mm !important;
+              }
+            }
+
+            * {
+              page-break-inside: avoid;
+              pointer-events: none;
+              opacity: 1 !important;
+              -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
+              color-adjust: exact !important;
+              background-color: transparent !important;
+            }
+
+            .container-fluid, .container {
+
+              padding: 0px !important;
+              margin: 0px 0px 0px 5px !important;
+            }
+
+            body, html, a, p, .profile-co-link p {
+              background-color: transparent !important;
+              color: #000  !important;
+              text-decoration: none;
+            }
+
+            .list-items {
+              display:block;
+            }
+
+            #search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
+            .footer-menu, .bg-footer-gray2, .footer .nav, form, .container.py-4, .gen-list-item-icons, .mobile-buttons,
+            .card-icons, .icsc-loading-overlay, button, button > img, .back, .dropdown, #dropdownMenuLink, .mainMenuDesktop, #cards, .header-menus .mainMenu .search-icon,
+            .mobile-search-icon, .accent.back, .left-nav .back:before {
+              display: none !important;
+              page-break-after: avoid;
+            }
+
+            .navbar {
+              page-break-after: avoid;
+              height: 70px;
+            }
+
+            .navbar-brand.hidden-sm-down, .navbar-brand.hidden-md-up{
+              display:inline-block !important;
+              page-break-before: avoid;
+              page-break-after: avoid;
+              page-break-inside: avoid;
+            }
+            .navbar-brand.hidden-sm-down{
+              width:80px;
+              height:90px;
+            }
+
+            .icsc-logo, a.navbar-brand{
+              -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
+              color-adjust: exact !important;
+            }
+
+            .icsc-logo{
+              background:none; /*hide the svg*/
+              margin-top: 10px;
+              page-break-before: disabled;
+              page-break-after: disabled;
+              page-break-inside: disabled;
+            }
+
+            .icsc-logo::after{
+              content: url(/assets/images/ICSC-logo-color-print.jpg);
+              margin: 0px;
+              padding: 0px;
+              page-break-before: disabled;
+              page-break-after: disabled;
+              page-break-inside: disabled;
+            }
+
+            #list-items{
+              margin-top: -50px;
+            }
+
+            .card, .card-block, .member-card {
+              margin:0px;
+              padding:0px;
+              height:auto;
+            }
+
+            h3.member-name, a.profile-name-link {
+              font-size: 14px !important;
+              padding-top:0px;
+              margin-top:0px !important;
+            }
+
+
+            #list-cards > .container {
+              margin-left: 0px;
+              margin-right: 0px;
+            }
+
+            #list-cards, .tab-content>.tab-pane {
+              display:block;
+            }
+
+            .list-card {
+              float:left;
+              clear:none;
+              border-top:none;
+              max-width: 195px !important;
+              height: 170px;
+              margin: 0px;
+              padding: 10px 0px 10px 0px !important;
+            }
+
+            @-moz-document url-prefix() {
+              .list-card {
+                float:left;
+                clear:none;
+                border-top:none;
+                max-width: 160px !important;
+                height: 140px;
+                margin: 0px;
+                padding: 10px 0px 10px 0px !important;
+              }
+            }
+
+            .card {
+              margin: 20px 5px 20px 5px;
+              padding:0px;
+            }
+
+            .card-img-right {
+              margin-top:0px !important;
+              height: 30px !important;
+              width: 30px !important;
+            }
+
+            .card-block {
+              padding-top: 5px !important;
+              padding-left: 10px !important;
+              max-width: 120px;
+              width: 140px;
+              margin: 0px;
+            }
+
+            .profile-co-link .display8 {
+                margin-top: 0px !important;
+            }
+
+            .member-default {
+              background-color: #fff;
+              border:.5px solid darkgray;
+            }
+
+            .member-default .letters {
+              color: darkgray !important
+            }
+
+            .resultStats {
+              margin-left:100px;
+              font-size: 14px !important;
+            }
+
+            .display1 {
+              font-size:30px;
+              line-height:45px;
+            }
+            .display2 {
+              font-size:20px;
+              line-height:35px;
+            }
+            .display3 {
+              font-size:18px;
+              line-height:30px;
+            }
+            .display4 {
+              font-size:20px;
+              line-height:25px;
+            }
+            .display5 {
+              font-size:18px;
+              line-height:24px;
+            }
+            .display6 {
+              font-size: 14px !important;
+              line-height: 16px;
+            }
+            .display7 {
+              font-size:12px;
+              line-height:13px;
+            }
+            .display8 {
+              font-size: 13px;
+              line-height: 17px;
+            }
+            .display9 {
+              font-size: 11px;
+              line-height: 14px;
+            }
+            .mt-0, .mt-1, .mt-2, .mt-3, .mt-4, .mt-5 {
+              margin-top: 0px !important;
+            }
+            .mb-0, .mb-1, .mb-2, .mb-3, .mb-4, .mb-5 {
+              margin-bottom: 0px !important;
+            }
+            .ml-md-3, .ml-md-3 {
+              margin-left: 5px !important;
+            }
+
+               #results-container {
+                width:100%;
+                margin: 0cm;
+                margin-top:20px;
+
+              }
+
+              .list-card {
+                float:left;
+                clear:none;
+                border-top:none;
+                max-width: 127px !important;
+                margin-right:5px;
+                height: 190px !important;
+                padding: 3px 0px 3px 0px !important;
+            }
+ }
