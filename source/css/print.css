@@ -245,6 +245,7 @@
     height: 190px;
     padding: 3px 0px 3px 0px !important;
     overflow-wrap: break-word;
+    background-color:red;
 
   }
   .card-block, .display9 {
