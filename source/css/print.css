@@ -240,7 +240,8 @@
     clear:none;
     border-top:none;
     max-width: 125px !important;
-    height: 170px;
+    margin-right:5px;
+    height: 190px;
     padding: 3px 0px 3px 0px !important;
 
   }
