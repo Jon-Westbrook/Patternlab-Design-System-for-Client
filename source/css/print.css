@@ -244,6 +244,7 @@
     margin-right:.2cm;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
+    overflow-wrap: break-word;
 
 
   }
