@@ -1,9 +1,5 @@
+/*LATEST FOR CHROME*/
 @media print {
-
-	html, body { /*avoid extra page printing*/
-        height: 99%;
-        margin: 0mm;
-    }
 
 	* {
 		pointer-events: none;
@@ -54,7 +50,7 @@
     }
 
     .icsc-logo::after{
-    	content: url(/assets/images/ICSC-logo-color-print.jpg);
+    	content: url(http://localhost:3000/assets/images/ICSC-logo-color-print.jpg);
     	margin: 0px;
     	padding: 0px;
     }
@@ -89,7 +85,7 @@
 		float:left;
 		clear:none;
 		border-top:none;
-		max-width: 195px !important;
+		max-width: 180px !important;
 		height: 130px;
 		margin: 0px;
 		padding: 10px 0px 10px 0px !important;
@@ -100,7 +96,7 @@
 		padding:0px;
 	}
 
-	.card-img-right {
+	.profile-img-list {
 		margin-top:0px !important;
 		height: 30px !important;
 		width: 30px !important;
@@ -108,9 +104,9 @@
 
 	.card-block {
 		padding-top: 5px !important;
-		padding-left: 10px !important;
-		max-width: 140px;
-		width: 140px;
+		padding-left: 0px !important;
+		max-width: 145px;
+		width: 145px;
 		margin: 0px;
 	}
 
@@ -127,7 +123,7 @@
 	}
 
     .resultStats {
-        margin-left:100px;
+        margin-left:160px;
         font-size: 14px !important;
     }
 
@@ -181,12 +177,10 @@
 
 
 
-
-
 /*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY*/
-/*
-@media print, screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 
+@media print, screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+   /* IE10+ specific styles go here */
 
    #results-container {
     width:100%;
@@ -211,4 +205,3 @@
 
   }
  }
- */
