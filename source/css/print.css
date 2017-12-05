@@ -239,9 +239,8 @@
     float:left;
     clear:none;
     border-top:none;
-    max-width: 130px !important;
-    /*margin-right:3px;
-    margin-left:3px;*/
+    max-width: 127px !important;
+    margin-right:5px;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
 
