@@ -229,19 +229,18 @@
 
   }
   @page:left {
-    margin: 0cm;
+    margin: 1cm;
   }
   @page:right {
-    margin: 0cm;
+    margin: 1cm;
   }
 
   .list-card {
     float:left;
     clear:none;
     border-top:none;
-    max-width: 127px !important;
-    margin-right:3px;
-    height: 190px;
+    max-width: 125px !important;
+    height: 170px;
     padding: 3px 0px 3px 0px !important;
 
   }
