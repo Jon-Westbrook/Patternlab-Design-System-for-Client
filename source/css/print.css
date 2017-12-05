@@ -246,6 +246,8 @@
     padding: 3px 0px 3px 0px !important;
     overflow-wrap: break-word;
 
-
+  }
+  .card-block {
+    overflow-wrap: break-word;
   }
  }
