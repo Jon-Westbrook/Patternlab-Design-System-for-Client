@@ -406,13 +406,7 @@
                 margin-top:20px;
 
               }
-              @page:left {
-                margin: 0cm;
-              }
-              @page:right {
-                margin: 0cm;
-              }
-
+          
               .list-card {
                 float:left;
                 clear:none;
