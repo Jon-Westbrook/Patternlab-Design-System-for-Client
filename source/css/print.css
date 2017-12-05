@@ -222,8 +222,7 @@
 
 /*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY */
 
-@media print, screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
-
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none), only print {
 
    #results-container {
     width:100%;
