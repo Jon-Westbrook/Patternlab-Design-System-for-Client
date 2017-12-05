@@ -240,12 +240,12 @@
     float:left;
     clear:none;
     border-top:none;
-    width: 125px !important;
+    width: 1cm;
     margin-right:.2cm;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
     overflow-wrap: break-word;
-     
+
 
   }
 /*  .card-block, .display9 {
