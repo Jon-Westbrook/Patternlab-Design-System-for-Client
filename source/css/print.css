@@ -226,10 +226,11 @@
    #results-container {
     width:100%;
     margin: 0cm;
+    padding: 0cm;
 
   }
   @page:left {
-    margin: 1cm;
+    margin: 10cm;
   }
   @page:right {
     margin: 1cm;
