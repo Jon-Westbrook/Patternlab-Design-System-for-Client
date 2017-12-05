@@ -222,7 +222,7 @@
 
 /*ATTEMPTING TO TARGET IE 10/!! EXCLUSIVELY */
 
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none), only print {
+@media only print, screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)  {
 
    #results-container {
     width:100%;
@@ -248,7 +248,7 @@
 
   }
  }
- @media print, all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+ @media only print, all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
    * {
      pointer-events: none;
      opacity: 1 !important;
