@@ -241,9 +241,10 @@
     clear:none;
     border-top:none;
     max-width: 125px !important;
-    margin-right:.1cm;
+    margin-right:.3cm;
     height: 190px;
     padding: 3px 0px 3px 0px !important;
+    word-wrap: break-word;
 
   }
  }
