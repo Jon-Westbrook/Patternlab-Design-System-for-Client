@@ -234,7 +234,9 @@
 
 
               .my-auto {
-                margin-top: -5px !important;
+                position:absolute;
+                margin-top: -15px;
+                z-index:20000;
               }
 
  }
