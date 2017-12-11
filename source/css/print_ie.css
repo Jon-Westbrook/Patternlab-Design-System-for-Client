@@ -221,8 +221,7 @@
                #results-container {
                 width:100%;
                 margin: 0cm;
-                margin-top:0px;
-              
+
 
 
               }
@@ -234,9 +233,9 @@
                 max-width: 127px !important;
                 margin-right:6px;
 
-                margin-bottom:0px;
+
                 height: 127px !important;
-                padding: 0px 0px 0px 0px !important;
+                padding: 10px 0px 0px 0px !important;
                 word-wrap: break-word;
             }
 
