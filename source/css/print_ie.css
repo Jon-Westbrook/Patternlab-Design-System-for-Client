@@ -61,7 +61,6 @@
             .navbar {
               page-break-after: avoid;
               height: 70px;
-              display:none;
             }
 
             .navbar-brand.hidden-sm-down, .navbar-brand.hidden-md-up{
@@ -100,9 +99,10 @@
             }
 /*
             #list-items{
-              margin-top: -100px !important;
+              margin-top: -70px;
             }
-*/
+            */
+
             .card, .card-block, .member-card {
               margin:5px;
               margin-top:5px;
@@ -224,7 +224,7 @@
 
                #results-container {
                 width:100%;
-                margin: 0px !important;
+                  margin:-50px 0px 0px 0px !important;
 
 
 
