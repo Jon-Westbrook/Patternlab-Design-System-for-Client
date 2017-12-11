@@ -21,7 +21,10 @@
 
 
               }
+pt-1 {
 
+  margin-top:50px;
+}
 
             * {
               page-break-inside: avoid;
@@ -172,7 +175,6 @@
 
             .resultStats {
               margin-left:100px;
-              margin-top:-15px;
               font-size: 12px !important;
             }
 
