@@ -18,8 +18,8 @@
 
                @page {
                  size:8.5in 11in;
-                 margin: 2cm;
-                 overflow:hidden;
+                 margin: 0cm;
+
 
 
                 }
@@ -223,6 +223,7 @@
                #results-container {
                 width:100%;
                 margin: 0cm;
+                margin-top:-20px;
 
 
 
