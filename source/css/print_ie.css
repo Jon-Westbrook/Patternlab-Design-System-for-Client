@@ -91,11 +91,11 @@
             }
 
             #list-items{
-              margin-top: -80px;
+              margin-top: -70px;
             }
 
             .card, .card-block, .member-card {
-              margin:0px;
+              margin:5px;
               padding:0px;
               height:auto;
             }
