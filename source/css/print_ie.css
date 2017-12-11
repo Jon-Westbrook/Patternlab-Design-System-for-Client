@@ -110,7 +110,7 @@
             }
 
             h3.member-name, a.profile-name-link {
-              font-size: 12px !important;
+              font-size: 11px !important;
               padding-top:0px;
               margin-top:0px !important;
             }
@@ -171,7 +171,7 @@
 
             .resultStats {
               margin-left:100px;
-              font-size: 12px !important;
+              font-size: 11px !important;
               margin-top:-15px !important;
             }
 
@@ -208,8 +208,8 @@
               line-height: 17px;
             }
             .display9 {
-              font-size: 11px;
-              line-height: 14px;
+              font-size: 10px;
+              line-height: 12px;
             }
             .mt-0, .mt-1, .mt-2, .mt-3, .mt-4, .mt-5 {
               margin-top: 0px !important;
