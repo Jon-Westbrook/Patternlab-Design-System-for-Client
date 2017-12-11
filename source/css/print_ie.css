@@ -6,7 +6,7 @@
 @media print  {
 
               html, body {
-                  height: 11in !important;
+                  height: 10.5in !important;
                   page-break-inside:avoid;
               }
 
@@ -215,7 +215,7 @@
                #results-container {
                 width:100%;
                 margin: 0cm;
-                margin-top:10px;
+                margin-top:0px;
 
               }
 
