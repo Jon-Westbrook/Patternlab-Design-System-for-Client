@@ -90,7 +90,7 @@
 
             .icsc-logo::after{
               content: url(/assets/images/ICSC-logo-color-print.jpg);
-              margin-top: 5px;
+              margin-top: -15px !important;
               margin-bottom: 5px;
               padding: 0px;
               page-break-before: disabled;
@@ -172,6 +172,7 @@
             .resultStats {
               margin-left:100px;
               font-size: 12px !important;
+              margin-top:-15px !important;
             }
 
             .display1 {
