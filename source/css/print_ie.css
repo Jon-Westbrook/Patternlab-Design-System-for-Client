@@ -6,7 +6,7 @@
 @media print  {
 
               html, body {
-                  height: 11in !important;
+                  height: 12in !important;
                   page-break-inside:avoid;
               }
 
@@ -103,6 +103,7 @@
             #list-cards > .container {
               margin-left: 0px;
               margin-right: 0px;
+
             }
 
             #list-cards, .tab-content>.tab-pane {
