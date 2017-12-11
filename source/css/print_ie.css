@@ -10,6 +10,10 @@
                   page-break-inside:avoid;
 
               }
+              body {
+
+                margin: 0px 0px 0px 0px;
+              }
 
               @page {
                   margin: 1cm;
@@ -242,8 +246,6 @@
             .profile-co-link p {
                 word-wrap: break-word;
               }
-
-
 
 
  }
