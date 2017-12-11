@@ -6,8 +6,12 @@
 @media print  {
 
               html, body {
-                  height: 12in !important;
+                  height: 11in !important;
                   page-break-inside:avoid;
+              }
+              
+              @page {
+                margin: 1cm;
               }
 
 
