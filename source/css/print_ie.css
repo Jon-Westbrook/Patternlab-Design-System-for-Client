@@ -14,7 +14,7 @@
               @page {
                   margin: 1cm;
                   height: 11in !important;
-                  page-break-after:always;
+
               }
 
 
@@ -229,6 +229,7 @@
                 border-top:none;
                 max-width: 127px !important;
                 margin-top:6px;
+                  margin-bottom:6px;
                 margin-right:5px;
                 height: 130px !important;
                 padding: 3px 0px 3px 0px !important;
