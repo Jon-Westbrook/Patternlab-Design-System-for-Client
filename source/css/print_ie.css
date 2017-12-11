@@ -6,18 +6,17 @@
 @media print  {
 
               html, body {
-                  height: 10in !important;
+                  height: 11in !important;
                   page-break-inside:avoid;
+                  page-break-after:always;
               }
 
               @page {
                 margin: 1cm;
+                    page-break-after:always;
               }
 
 
-.resultStats {
-  margin-top:-15px;
-}
             * {
               page-break-inside: avoid;
               pointer-events: none;
@@ -74,7 +73,7 @@
 
             .icsc-logo{
               background:none; /*hide the svg*/
-              margin-top: 5px;
+
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -83,7 +82,8 @@
 
             .icsc-logo::after{
               content: url(/assets/images/ICSC-logo-color-print.jpg);
-              margin: 0px;
+              margin-top: 10px;
+              margin-bottom: 10px;
               padding: 0px;
               page-break-before: disabled;
               page-break-after: disabled;
@@ -91,7 +91,7 @@
             }
 
             #list-items{
-              margin-top: -90px;
+              margin-top: -80px;
             }
 
             .card, .card-block, .member-card {
