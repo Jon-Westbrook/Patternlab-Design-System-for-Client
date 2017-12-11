@@ -11,12 +11,12 @@
 
               }
               body {
-   margin: 0px 0px -1px 0px
+   margin: 0px 0px 0px 0px
               }
 
                @page {
                  size:8.5in 11in;
-                 margin: 0px 0px -1px 0px;
+                 margin: 0px 0px 0px 0px;
                  page-break-inside: avoid;
 
 
@@ -35,7 +35,7 @@
             .container-fluid, .container {
 
               padding: 0px !important;
-              margin: 0px 0px 0px 5px !important;
+              margin: -15px 0px 0px 5px !important;
             }
 
             body, html, a, p, .profile-co-link p {
