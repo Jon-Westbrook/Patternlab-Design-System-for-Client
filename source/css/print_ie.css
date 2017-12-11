@@ -88,7 +88,7 @@
             }
 
             #list-items{
-              margin-top: -70px;
+              margin-top: -90px;
             }
 
             .card, .card-block, .member-card {
@@ -226,6 +226,7 @@
                 margin-right:5px;
                 height: 140px !important;
                 padding: 3px 0px 3px 0px !important;
+                word-wrap: break-word;
             }
             .profile-co-link p {
                 word-wrap: break-word;
