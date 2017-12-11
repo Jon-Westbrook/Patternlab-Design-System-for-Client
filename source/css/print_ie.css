@@ -9,7 +9,7 @@
                   height: 11in !important;
                   page-break-inside:avoid;
               }
-              
+
               @page {
                 margin: 1cm;
               }
@@ -214,7 +214,7 @@
                #results-container {
                 width:100%;
                 margin: 0cm;
-                margin-top:20px;
+                margin-top:10px;
 
               }
 
@@ -227,4 +227,7 @@
                 height: 140px !important;
                 padding: 3px 0px 3px 0px !important;
             }
+            .profile-co-link p {
+                word-wrap: break-word;
+              }
  }
