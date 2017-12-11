@@ -227,15 +227,11 @@
               }
 
               .list-card {
-                float:left;
-                clear:none;
-                border-top:none;
+
                 max-width: 127px !important;
                 margin-right:6px;
-
-
                 height: 127px !important;
-                padding: 10px 0px 0px 0px !important;
+              
                 word-wrap: break-word;
             }
 
