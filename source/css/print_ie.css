@@ -231,4 +231,10 @@
             .profile-co-link p {
                 word-wrap: break-word;
               }
+
+
+              .my-auto {
+                margin-top: -5px !important;
+              }
+
  }
