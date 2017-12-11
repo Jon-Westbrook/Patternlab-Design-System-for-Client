@@ -72,10 +72,11 @@
 
             .icsc-logo{
               background:none; /*hide the svg*/
-              margin-top: 10px;
+              margin-top: 5px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
+
             }
 
             .icsc-logo::after{
@@ -98,7 +99,7 @@
             }
 
             h3.member-name, a.profile-name-link {
-              font-size: 14px !important;
+              font-size: 12px !important;
               padding-top:0px;
               margin-top:0px !important;
             }
@@ -222,7 +223,7 @@
                 float:left;
                 clear:none;
                 border-top:none;
-                max-width: 127px !important;
+                max-width: 135px !important;
                 margin-right:5px;
                 height: 140px !important;
                 padding: 3px 0px 3px 0px !important;
@@ -233,10 +234,6 @@
               }
 
 
-              .my-auto {
 
-                margin-top: -15px;
-          
-              }
 
  }
