@@ -12,12 +12,13 @@
               }
               body {
 
-                margin: 0px 0px 0px 0px;
+                margin: 0px;
+                margin-top:-10px;
               }
 
               @page {
                   margin: 0cm;
-                  height: 8in !important;
+
 
               }
 
@@ -138,7 +139,7 @@
             }
 */
             .card {
-              margin: 20px 5px 20px 5px;
+              margin: 20px 10px 20px 10px;
               padding:0px;
             }
 
