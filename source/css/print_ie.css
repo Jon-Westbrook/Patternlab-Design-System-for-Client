@@ -21,10 +21,7 @@
 
 
               }
-pt-1 {
 
-  margin-top:50px;
-}
 
             * {
               page-break-inside: avoid;
@@ -141,10 +138,7 @@ pt-1 {
               }
             }
 */
-            .card {
-              margin: 20px 10px 20px 10px;
-              padding:0px;
-            }
+
 
             .card-img-right {
               margin-top:0px !important;
@@ -238,6 +232,8 @@ pt-1 {
                 border-top:none;
                 max-width: 127px !important;
                 margin-right:6px;
+                margin-top:10px;
+                margin-bottom:0px;
                 height: 127px !important;
                 padding: 0px 0px 0px 0px !important;
                 word-wrap: break-word;
