@@ -48,6 +48,7 @@
 
             .list-items {
               display:block;
+              page-break-after: avoid;
             }
 
             #search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
@@ -100,6 +101,7 @@
 
             #list-items{
               margin-top: -70px;
+              page-break-after: avoid;
             }
 
             .card, .card-block, .member-card {
@@ -238,7 +240,7 @@
                 margin-right:6px;
                margin-top: 5px !important;
                margin-bottom: 7px !important;
-
+page-break-after: avoid;
                 height: 127px !important;
                 padding:0px 0px 0px 0px !important;
                 word-wrap: break-word;
