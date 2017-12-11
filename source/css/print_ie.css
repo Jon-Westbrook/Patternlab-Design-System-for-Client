@@ -229,12 +229,15 @@
                 clear:none;
                 border-top:none;
                 max-width: 127px !important;
-                margin-top:10px;
-                  margin-bottom:6px;
+
                 margin-right:5px;
                 height: 130px !important;
                 padding: 3px 0px 3px 0px !important;
                 word-wrap: break-word;
+            }
+            .py4 {
+
+              padding-bottom:5px;
             }
             .profile-co-link p {
                 word-wrap: break-word;
