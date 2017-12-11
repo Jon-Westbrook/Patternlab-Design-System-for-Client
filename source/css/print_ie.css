@@ -7,10 +7,10 @@
 
               html, body {
                   height: 11in !important;
-                  /*page-break-inside:avoid;*/
+                  page-break-inside:avoid;
               }
 
-            
+
 
             * {
               page-break-inside: avoid;
@@ -109,16 +109,8 @@
               display:block;
             }
 
-            .list-card {
-              float:left;
-              clear:none;
-              border-top:none;
-              max-width: 195px !important;
-              height: 170px;
-              margin: 0px;
-              padding: 10px 0px 10px 0px !important;
-            }
 
+/*
             @-moz-document url-prefix() {
               .list-card {
                 float:left;
@@ -130,7 +122,7 @@
                 padding: 10px 0px 10px 0px !important;
               }
             }
-
+*/
             .card {
               margin: 20px 5px 20px 5px;
               padding:0px;
@@ -227,7 +219,7 @@
                 border-top:none;
                 max-width: 127px !important;
                 margin-right:5px;
-                height: 190px !important;
+                height: 140px !important;
                 padding: 3px 0px 3px 0px !important;
             }
  }
