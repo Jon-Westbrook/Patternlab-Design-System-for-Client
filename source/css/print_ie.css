@@ -13,7 +13,7 @@
 
               @page {
                 margin: 1cm;
-                    page-break-after:always;
+
               }
 
 
@@ -219,6 +219,7 @@
                 margin: 0cm;
                 margin-top:0px;
 
+
               }
 
               .list-card {
@@ -226,6 +227,7 @@
                 clear:none;
                 border-top:none;
                 max-width: 127px !important;
+                margin-top:3px;
                 margin-right:5px;
                 height: 130px !important;
                 padding: 3px 0px 3px 0px !important;
