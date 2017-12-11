@@ -243,7 +243,8 @@
             }
 
             .profile-co-link p {
-                word-wrap: break-word;
+                /*word-wrap: break-word;*/
+                overflow:hidden;
               }
 
 
