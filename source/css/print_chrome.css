@@ -78,10 +78,8 @@
     }
 
     .icsc-logo{
-			position:absolute !important;
     	background:none; /*hide the svg*/
-    	top:20px;
-			left:50px;
+    	margin-top: 10px;
     }
 
     .icsc-logo::after{
@@ -123,8 +121,6 @@
 		border-top:none;
 		max-width: 127px !important;
 		margin-right:10px !important;
-		/*margin-left:10px !important;*/
-
 	 margin-top: 8px !important;
 	 margin-bottom: 7px !important;
 
@@ -132,7 +128,10 @@
 		padding:15px 0px 0px 0px !important;
 		word-wrap: break-word;
 	}
+	.col-2 {
 
+	  display:none;
+	}
 	.card {
 		margin: 20px 5px 20px 5px;
 		padding:0px;
