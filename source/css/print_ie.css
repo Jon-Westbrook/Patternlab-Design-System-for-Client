@@ -97,7 +97,7 @@
                 position:absolute;
                 z-index:2000 !important;
               background:none; /*hide the svg*/
-              margin-top: 120px;
+              margin-top: 100px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -172,6 +172,8 @@
             }
 
             .resultStats {
+              position:absolute;
+              z-index:2001 !important;
               margin-left:100px;
               margin-top:100px;
               font-size: 11px !important;
