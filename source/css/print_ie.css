@@ -56,15 +56,13 @@
               color: #000  !important;
               text-decoration: none;
             }
-
+/*
             .list-items {
               display:block;
               margin-top:10px !important;
             }
-            .list-items:before {
+            */
 
-             content: '\A';
-            }
 
             #search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
             .footer-menu, .bg-footer-gray2, .footer .nav, form, .container.py-4, .gen-list-item-icons, .mobile-buttons,
@@ -102,7 +100,7 @@
                 position:absolute;
                 z-index:2000 !important;
               background:none; /*hide the svg*/
-              margin-top: 100px;
+              margin-top: 80px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
