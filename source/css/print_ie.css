@@ -31,7 +31,10 @@
               color-adjust: exact !important;
               background-color: transparent !important;
             }
+.col-2 {
 
+  display:none;
+}
             .container-fluid, .container {
 
               padding: 0px !important;
