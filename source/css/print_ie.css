@@ -89,11 +89,12 @@
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
             /*  display:none */
+            z-index:2000 !important;
             }
 
             .icsc-logo{
               background:none; /*hide the svg*/
-              margin-top: -10px;
+              margin-top: -20px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -227,8 +228,8 @@
                 border-top:none;
                 max-width: 127px !important;
                 margin-right:6px;
-               margin-top: 5px !important;
-               margin-bottom: 10px !important;
+               margin-top: 8px !important;
+               margin-bottom: 7px !important;
 
                 height: 127px !important;
                 padding:0px 0px 0px 0px !important;
