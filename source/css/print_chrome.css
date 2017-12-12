@@ -78,8 +78,10 @@
     }
 
     .icsc-logo{
+			position:absolute !important;
     	background:none; /*hide the svg*/
-    	margin-top: 90px !important;
+    	top:20px;
+			left:50px;
     }
 
     .icsc-logo::after{
@@ -120,8 +122,8 @@
 		clear:none;
 		border-top:none;
 		max-width: 127px !important;
-		margin-right:20px !important;
-		margin-left:10px !important;
+		margin-right:10px !important;
+		/*margin-left:10px !important;*/
 
 	 margin-top: 8px !important;
 	 margin-bottom: 7px !important;
