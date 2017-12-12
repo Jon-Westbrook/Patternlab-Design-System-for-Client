@@ -4,16 +4,14 @@
 */
 
 @media print  {
-/*
+
               html, body {
                  height: 11in !important;
                   page-break-inside:avoid;
+  margin: 0px 0px 0px 0px !important;
+              }
 
-              }
-              */
-              body {
-                margin: 0px 0px 0px 0px !important;
-              }
+
 /*
                @page {
                  size:8.5in 11in;
@@ -41,6 +39,7 @@
 
               padding: 0px !important;
               margin: 0px 0px 0px 5px !important;
+
             }
 
             body, html, a, p, .profile-co-link p {
@@ -228,7 +227,7 @@
                 width:100%;
                 margin: 0px !important;
 
-
+page-break-inside: avoid !important;
 
 
               }
