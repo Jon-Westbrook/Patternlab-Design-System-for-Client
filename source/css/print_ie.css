@@ -17,7 +17,7 @@
               }
 
               body > *:last-child {
-    page-break-after:avoid;
+    page-break-after:left;
 }
 
 
