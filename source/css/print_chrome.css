@@ -13,7 +13,7 @@ width:100%;
 	}
 
 	@page {
-		size:8.5in 8.7in;
+		size:8.5in 8in;
 		margin: 0px 0px 0px 0px;
 		page-break-inside: avoid !important;
 
