@@ -86,13 +86,16 @@
             }
 
             .icsc-logo, a.navbar-brand{
+
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
             /*  display:none */
-            z-index:2000 !important;
+
             }
 
             .icsc-logo{
+                position:absolute;
+                z-index:2000 !important;
               background:none; /*hide the svg*/
               margin-top: -20px;
               page-break-before: disabled;
