@@ -88,7 +88,7 @@
             .icsc-logo, a.navbar-brand{
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
-              display:none
+            /*  display:none */
             }
 
             .icsc-logo{
@@ -228,7 +228,7 @@
                 max-width: 127px !important;
                 margin-right:6px;
                margin-top: 5px !important;
-               margin-bottom: 7px !important;
+               margin-bottom: 10px !important;
 
                 height: 127px !important;
                 padding:0px 0px 0px 0px !important;
