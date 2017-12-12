@@ -108,7 +108,7 @@
     #list-cards > .container {
 		margin-left: 0px;
 		margin-right: 0px;
-		margin-top:-50;
+		margin-top:-50px;
 	}
 
 	#list-cards, .tab-content>.tab-pane {
@@ -120,7 +120,7 @@
 		clear:none;
 		border-top:none;
 		max-width: 127px !important;
-		margin-right:10px !important;
+		margin-right:6px;
 	 margin-top: 8px !important;
 	 margin-bottom: 7px !important;
 
@@ -128,10 +128,7 @@
 		padding:15px 0px 0px 0px !important;
 		word-wrap: break-word;
 	}
-	.col-2 {
 
-	  display:none;
-	}
 	.card {
 		margin: 20px 5px 20px 5px;
 		padding:0px;
@@ -165,8 +162,8 @@
 
     .resultStats {
         margin-left:160px;
-				margin-top:50px;
         font-size: 14px !important;
+				margin-top:50px;
     }
 
     .display1 {
