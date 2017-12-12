@@ -108,7 +108,7 @@
     #list-cards > .container {
 		margin-left: 0px;
 		margin-right: 0px;
-		margin-top:-20px;
+		margin-top:-50;
 	}
 
 	#list-cards, .tab-content>.tab-pane {
@@ -120,8 +120,9 @@
 		clear:none;
 		border-top:none;
 		max-width: 127px !important;
-		margin-right:10px;
-		padding-left:20px;
+		margin-right:20px;
+		margin-left:10px;
+
 	 margin-top: 8px !important;
 	 margin-bottom: 7px !important;
 
@@ -163,6 +164,7 @@
 
     .resultStats {
         margin-left:160px;
+				margin-top:50px;
         font-size: 14px !important;
     }
 
