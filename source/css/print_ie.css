@@ -101,6 +101,7 @@
                 z-index:2000 !important;
               background:none; /*hide the svg*/
               margin-top: 90px;
+              margin-bottom:15px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
