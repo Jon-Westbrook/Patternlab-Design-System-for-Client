@@ -97,8 +97,7 @@
             }
 
             .icsc-logo{
-                position:absolute;
-                z-index:2000 !important;
+              
               background:none; /*hide the svg*/
               margin-top: 90px;
 
