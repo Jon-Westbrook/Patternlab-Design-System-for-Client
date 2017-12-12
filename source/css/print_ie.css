@@ -17,7 +17,7 @@
               }
 
               body > *:last-child {
-    page-break-after:left;
+    page-break-after:avoid;
 }
 
 
@@ -92,7 +92,7 @@
 
             .icsc-logo{
               background:none; /*hide the svg*/
-
+margin-top: 10px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -101,9 +101,9 @@
 
             .icsc-logo::after{
               content: url(/assets/images/ICSC-logo-color-print.jpg);
-              margin-top: -15px !important;
-              margin-bottom: 5px;
-              padding: 0px;
+              margin: 0px;
+          		padding: 0px;
+          
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
