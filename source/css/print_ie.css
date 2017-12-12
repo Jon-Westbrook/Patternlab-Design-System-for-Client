@@ -97,7 +97,7 @@
             }
 
             .icsc-logo{
-              
+
               background:none; /*hide the svg*/
               margin-top: 90px;
 
@@ -109,6 +109,9 @@
             }
 
             .icsc-logo::after{
+
+              content:"\a";
+   white-space: pre;
               content: url(/assets/images/ICSC-logo-color-print.jpg);
               margin: 0px;
           		padding: 0px;
