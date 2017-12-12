@@ -59,6 +59,7 @@
 
             .list-items {
               display:block;
+              margin-top:10px !important;
             }
 
             #search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
