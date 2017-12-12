@@ -172,10 +172,9 @@
             }
 
             .resultStats {
-              position:absolute;
-              z-index:2001 !important;
+
               margin-left:100px;
-              margin-top:100px;
+              margin-top:50px;
               font-size: 11px !important;
 
             }
