@@ -1,5 +1,9 @@
 @media print {
 
+	body > *:last-child {
+page-break-after:avoid;
+}
+
 	@page {
 		size:8.5in 9in;
 		/*margin: 0px 0px 0px 0px;*/
