@@ -24,7 +24,7 @@
 
 
             * {
-              page-break-inside: avoid;
+              page-break-inside: avoid !important;
               pointer-events: none;
               opacity: 1 !important;
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
