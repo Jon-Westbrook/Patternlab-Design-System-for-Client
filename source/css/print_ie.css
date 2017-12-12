@@ -88,6 +88,7 @@
             .icsc-logo, a.navbar-brand{
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
+              display:none
             }
 
             .icsc-logo{
@@ -96,6 +97,7 @@
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
+              display:none;
 
             }
 
