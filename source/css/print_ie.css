@@ -4,16 +4,17 @@
 */
 
 @media print  {
-
+/*
               html, body {
                  height: 11in !important;
                   page-break-inside:avoid;
 
               }
+              */
               body {
                 margin: 0px 0px 0px 0px !important;
               }
-
+/*
                @page {
                  size:8.5in 11in;
                  margin: 0px 0px 0px 0px;
@@ -21,6 +22,7 @@
 
 
                 }
+                */
 
 
             * {
