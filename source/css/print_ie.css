@@ -47,7 +47,7 @@
             .container-fluid, .container {
 
               padding: 0px !important;
-              margin: 0px 0px 0px 5px !important;
+              margin: -100px 0px 0px 5px !important;
 
             }
 
@@ -111,9 +111,7 @@
               page-break-inside: disabled;
             }
 
-            #list-items{
-              margin-top: -100px;
-            }
+
 
             .card, .card-block, .member-card {
               margin:0px;
