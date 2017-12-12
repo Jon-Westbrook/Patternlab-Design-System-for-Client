@@ -92,7 +92,7 @@
 
             .icsc-logo{
               background:none; /*hide the svg*/
-margin-top: 10px;
+margin-top: -10px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -103,7 +103,7 @@ margin-top: 10px;
               content: url(/assets/images/ICSC-logo-color-print.jpg);
               margin: 0px;
           		padding: 0px;
-          
+
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -114,10 +114,9 @@ margin-top: 10px;
             }
 
             .card, .card-block, .member-card {
-              margin:5px;
-              margin-top:5px;
-              padding:0px;
-              height:auto;
+              margin:0px;
+          		padding:0px;
+          		height:auto;
             }
 
             h3.member-name, a.profile-name-link {
