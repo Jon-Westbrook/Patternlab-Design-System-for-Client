@@ -232,7 +232,8 @@ margin-top: -10px;
             }
 
                #results-container {
-                width:90% !important;
+                width:95% !important;
+                height:90% !important;
                 margin: 0px !important;
 
                 page-break-inside: avoid !important;
