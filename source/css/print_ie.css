@@ -21,15 +21,15 @@
 }
 
 
-/*
+
                @page {
-                 size:8.5in 11in;
+                 size:8.5in 9in;
                  margin: 0px 0px 0px 0px;
                  page-break-inside: avoid;
 
 
                 }
-                */
+
 
 
             * {
@@ -92,7 +92,7 @@
 
             .icsc-logo{
               background:none; /*hide the svg*/
-margin-top: -10px;
+              margin-top: -10px;
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -137,19 +137,7 @@ margin-top: -10px;
             }
 
 
-/*
-            @-moz-document url-prefix() {
-              .list-card {
-                float:left;
-                clear:none;
-                border-top:none;
-                max-width: 160px !important;
-                height: 140px;
-                margin: 0px;
-                padding: 10px 0px 10px 0px !important;
-              }
-            }
-*/
+
 
 
             .card-img-right {
@@ -231,15 +219,7 @@ margin-top: -10px;
               margin-left: 5px !important;
             }
 
-               #results-container {
-                width:95% !important;
-                height:90% !important;
-                margin: 0px !important;
 
-                page-break-inside: avoid !important;
-
-
-              }
 
               .list-card {
                 float:left;
