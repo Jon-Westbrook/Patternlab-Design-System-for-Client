@@ -100,7 +100,7 @@
                 position:absolute;
                 z-index:2000 !important;
               background:none; /*hide the svg*/
-              margin-top: 80px;
+
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
@@ -112,6 +112,7 @@
               content: url(/assets/images/ICSC-logo-color-print.jpg);
               margin: 0px;
           		padding: 0px;
+                margin-top: 80px;
 
               page-break-before: disabled;
               page-break-after: disabled;
