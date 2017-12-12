@@ -13,10 +13,6 @@
 	padding: 0mm !important;
 		}
 
-		body > *:last-child {
-	page-break-after:avoid;
-	}
-
 
 
 		 @page {
