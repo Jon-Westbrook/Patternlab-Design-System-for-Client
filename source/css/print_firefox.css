@@ -1,13 +1,11 @@
 
 @media print {
     html, body {
-        height: 15in !important;
         page-break-inside:avoid;
     }
 
 	@-moz-document url-prefix() {
 		html, body {
-			height: 100% !important;
 			page-break-inside: avoid;
 			margin: 0mm !important;
 			padding: 0mm !important;
@@ -48,6 +46,7 @@
 	}
 
 	.navbar {
+		display: none;
 		page-break-after: avoid;
 		height: 70px;
 	}
