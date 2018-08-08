@@ -11,10 +11,10 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.1",
     "minimist": "^1.2.0",
-    "node-static": "^0.7.10",
     "patternlab-node": "^2.0.0",
     "styleguidekit-assets-default": "^3.0.0",
-    "styleguidekit-mustache-default": "^3.0.0"
+    "styleguidekit-mustache-default": "^3.0.0",
+    "auth-static": "^1.0.3"
   },
   "keywords": [
     "Pattern Lab",
@@ -30,8 +30,8 @@
   "bugs": "https://github.com/pattern-lab/edition-node-gulp/issues",
   "author": "Brian Muenzenmeyer",
   "scripts": {
-    "start": "gulp patternlab:serve",
-    "postinstall": "node scripts/postinstall.js",
+    "start": "node index.js",
+    "postinstall": "gulp patternlab:build",
     "gulp": "gulp -- ",
     "build": "gulp patternlab:build"
   },
