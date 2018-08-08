@@ -1,37 +1,54 @@
 
-/*ATTEMPTING TO TARGET IE 10/11 EXCLUSIVELY
+/*ATTEMPTING TO TARGET IE 10/11 EXCLUSIVELY  //  PLEASE SEE UPDATE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
 @media print  {
 
               html, body {
-                  height: 15in !important;
+                /* height: 11in !important;
                   page-break-inside:avoid;
+  margin: 0px 0px 0px 0px !important;*/
+
+  height: 100% !important;
+  page-break-inside: avoid;
+  margin: 0mm !important;
+  padding: 0mm !important;
               }
 
-            @-moz-document url-prefix() {
-              html, body {
-                height: 100% !important;
-                page-break-inside: avoid;
-                margin: 0mm !important;
-                padding: 0mm !important;
-              }
-            }
+              body > *:last-child {
+    page-break-after:avoid;
+}
+
+
+
+               @page {
+                 size:8.5in 9in;
+                 margin: 0px 0px 0px 0px;
+                 page-break-inside: avoid;
+
+
+                }
+
+
 
             * {
-              page-break-inside: avoid;
+              page-break-inside: avoid !important;
               pointer-events: none;
               opacity: 1 !important;
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
               background-color: transparent !important;
             }
+.col-2 {
 
+  display:none;
+}
             .container-fluid, .container {
 
               padding: 0px !important;
-              margin: 0px 0px 0px 5px !important;
+              margin: -100px 0px 0px 5px !important;
+
             }
 
             body, html, a, p, .profile-co-link p {
@@ -39,10 +56,13 @@
               color: #000  !important;
               text-decoration: none;
             }
-
+/*
             .list-items {
               display:block;
+              margin-top:10px !important;
             }
+            */
+
 
             #search-module, .megaMenu, #menus, .results-hero, .search-bar, .listing-filters, #filterPanel, .pagination, .ads,
             .footer-menu, .bg-footer-gray2, .footer .nav, form, .container.py-4, .gen-list-item-icons, .mobile-buttons,
@@ -69,35 +89,48 @@
             }
 
             .icsc-logo, a.navbar-brand{
+
               -webkit-print-color-adjust: exact !important; /* prints background images webkit - logo */
               color-adjust: exact !important;
+            /*  display:none */
+
             }
 
             .icsc-logo{
+
               background:none; /*hide the svg*/
-              margin-top: 10px;
+              margin-top: 90px;
+
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
+            /*  display:none;*/
+
             }
 
             .icsc-logo::after{
+
+
+
               content: url(/assets/images/ICSC-logo-color-print.jpg);
+              white-space: pre;
               margin: 0px;
-              padding: 0px;
+          		padding: 0px;
+
               page-break-before: disabled;
               page-break-after: disabled;
               page-break-inside: disabled;
+              margin-bottom:15px !important;
+              padding-bottom: 15px !important;
+
             }
 
-            #list-items{
-              margin-top: -50px;
-            }
+
 
             .card, .card-block, .member-card {
               margin:0px;
-              padding:0px;
-              height:auto;
+          		padding:0px;
+          		height:auto;
             }
 
             h3.member-name, a.profile-name-link {
@@ -110,38 +143,16 @@
             #list-cards > .container {
               margin-left: 0px;
               margin-right: 0px;
+
             }
 
             #list-cards, .tab-content>.tab-pane {
               display:block;
             }
 
-            .list-card {
-              float:left;
-              clear:none;
-              border-top:none;
-              max-width: 195px !important;
-              height: 170px;
-              margin: 0px;
-              padding: 10px 0px 10px 0px !important;
-            }
 
-            @-moz-document url-prefix() {
-              .list-card {
-                float:left;
-                clear:none;
-                border-top:none;
-                max-width: 160px !important;
-                height: 140px;
-                margin: 0px;
-                padding: 10px 0px 10px 0px !important;
-              }
-            }
 
-            .card {
-              margin: 20px 5px 20px 5px;
-              padding:0px;
-            }
+
 
             .card-img-right {
               margin-top:0px !important;
@@ -171,8 +182,11 @@
             }
 
             .resultStats {
+
               margin-left:100px;
-              font-size: 14px !important;
+              margin-top:50px;
+              font-size: 11px !important;
+
             }
 
             .display1 {
@@ -208,8 +222,8 @@
               line-height: 17px;
             }
             .display9 {
-              font-size: 11px;
-              line-height: 14px;
+              font-size: 10px;
+              line-height: 12px;
             }
             .mt-0, .mt-1, .mt-2, .mt-3, .mt-4, .mt-5 {
               margin-top: 0px !important;
@@ -221,20 +235,26 @@
               margin-left: 5px !important;
             }
 
-               #results-container {
-                width:100%;
-                margin: 0cm;
-                margin-top:20px;
 
-              }
 
               .list-card {
                 float:left;
                 clear:none;
                 border-top:none;
                 max-width: 127px !important;
-                margin-right:5px;
-                height: 190px !important;
-                padding: 3px 0px 3px 0px !important;
+                margin-right:6px;
+               margin-top: 8px !important;
+               margin-bottom: 7px !important;
+
+                height: 127px !important;
+                padding:15px 0px 0px 0px !important;
+                word-wrap: break-word;
             }
+
+            .profile-co-link p {
+                /*word-wrap: break-word;*/
+                overflow:hidden;
+              }
+
+
  }
