@@ -1,8 +1,13 @@
-var static = require('node-static');
-var file = new static.Server();
+var server = require('auth-static')
 
-require('http').createServer(function(request, response) {
-  request.addListener('end', function() {
-    file.serve(request, response);
-  }).resume();
-}).listen(process.env.PORT || 3000);
+server({
+    options: {
+        cache: 3600,
+        gzip: true
+    },
+    password: process.env.PASSWORD,
+    port: 1234,
+    realm: 'Private',
+    root: './',
+    username: process.env.USERNAME
+})
