@@ -30,9 +30,8 @@
   "bugs": "https://github.com/pattern-lab/edition-node-gulp/issues",
   "author": "Brian Muenzenmeyer",
   "scripts": {
+    "heroku-postbuild": "gulp patternlab:build",
     "start": "node index.js",
-    "postinstall": "gulp patternlab:build",
-    "gulp": "gulp -- ",
     "build": "gulp patternlab:build"
   },
   "license": "MIT",
