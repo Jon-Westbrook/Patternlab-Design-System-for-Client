@@ -25,24 +25,24 @@ $tertiary6: #4a4a4a;
 $tertiary7: #343434;
 
 // Bootstrap Grays
-$gray-crazy-dark:           $tertiary7;
-$gray-dark:                 $tertiary6;
-$gray:                      $tertiary5;
-$gray-light:                $tertiary4;
-$gray-lighter:              $tertiary3;
-$gray-lightest:             $tertiary2;
-$gray-ultra-light:          $tertiary1;
-$gray-border:               $tertiary3;
-$footer-gray:               #3f3f3f;
-$footer-gray2:              #343434;
+$gray-crazy-dark: $tertiary7;
+$gray-dark: $tertiary6;
+$gray: $tertiary5;
+$gray-light: $tertiary4;
+$gray-lighter: $tertiary3;
+$gray-lightest: $tertiary2;
+$gray-ultra-light: $tertiary1;
+$gray-border: $tertiary3;
+$footer-gray: #3f3f3f;
+$footer-gray2: #343434;
 
 // // Reassign color vars to semantic color scheme
-$brand-primary:             $primary2;
+$brand-primary: $primary2;
 // $brand-success:             $secondary3;
-$brand-info:                $secondary2;
+$brand-info: $secondary2;
 // $brand-warning:             $primary1;
-$brand-danger:              $primary1;
-$brand-inverse:             $primary2;
+$brand-danger: $primary1;
+$brand-inverse: $primary2;
 
 // Grid breakpoints
 //
@@ -54,11 +54,10 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
 ) !default;
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
-
 
 // Grid containers
 //
@@ -68,23 +67,21 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1140px,
 );
 @include _assert-ascending($container-max-widths, "$container-max-widths");
-
 
 // // Options
 // //
 // // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            false;
+$enable-rounded: false;
 // $enable-shadows:            false;
-$enable-gradients:          true;
+$enable-gradients: true;
 // $enable-transitions:        true;
 // $enable-hover-media-query:  false;
 // $enable-grid-classes:       true;
 // $enable-print-styles:       true;
-
 
 // // Spacing
 // //
@@ -98,36 +95,60 @@ $enable-gradients:          true;
 $spacers: (
   0: (
     x: 0,
-    y: 0
+    y: 0,
   ),
   1: (
-    x: ($spacer-x * .25),
-    y: ($spacer-y * .25)
+    x: (
+      $spacer-x * 0.25,
+    ),
+    y: (
+      $spacer-y * 0.25,
+    ),
   ),
   2: (
-    x: ($spacer-x * .5),
-    y: ($spacer-y * .5)
+    x: (
+      $spacer-x * 0.5,
+    ),
+    y: (
+      $spacer-y * 0.5,
+    ),
   ),
   3: (
     x: $spacer-x,
-    y: $spacer-y
+    y: $spacer-y,
   ),
   4: (
-    x: ($spacer-x * 2.0),
-    y: ($spacer-y * 2.0)
+    x: (
+      $spacer-x * 2,
+    ),
+    y: (
+      $spacer-y * 2,
+    ),
   ),
   5: (
-    x: ($spacer-x * 3),
-    y: ($spacer-y * 3)
+    x: (
+      $spacer-x * 3,
+    ),
+    y: (
+      $spacer-y * 3,
+    ),
   ),
   6: (
-    x: ($spacer-x * 5),
-    y: ($spacer-y * 5)
+    x: (
+      $spacer-x * 5,
+    ),
+    y: (
+      $spacer-y * 5,
+    ),
   ),
   7: (
-    x: ($spacer-x * 7),
-    y: ($spacer-y * 7)
-  ) 
+    x: (
+      $spacer-x * 7,
+    ),
+    y: (
+      $spacer-y * 7,
+    ),
+  ),
 );
 
 $border-width: 2px;
@@ -145,44 +166,41 @@ $border-width: 2px;
 // // Settings for the `<body>` element.
 
 // $body-bg:       $white;
-$body-color:    $primary2;
+$body-color: $primary2;
 // $inverse-bg:    $gray-dark;
 // $inverse-color: $gray-lighter;
-
 
 // // Links
 // //
 // // Style anchor elements.
 
-$link-color:            $primary2;
-$link-decoration:       none;
-$link-hover-color:      darken($primary1, 10%);
+$link-color: $primary2;
+$link-decoration: none;
+$link-hover-color: darken($primary1, 10%);
 $link-hover-decoration: none;
-
 
 // // Fonts
 // //
 // // Font, line-height, and color for body text, headings, and more.
 
 @font-face {
-    font-family: 'sofia_pro_regularregular';  //, sans-serif
-    src: url('/assets/fonts/sofia-pro-regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/sofia-pro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sofia_pro_regularregular"; //, sans-serif
+  src: url("../../assets/fonts/sofia-pro-regular-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/sofia-pro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'sofia_probold';
-    src: url('/assets/fonts/sofia-pro-bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/sofia-pro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "sofia_probold";
+  src: url("../../assets/fonts/sofia-pro-bold-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/sofia-pro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-$font-family-sans-serif: 'sofia_pro_regularregular'; //, sans-serif
-$font-family-bold: 'sofia_probold', sans-serif;
-
+$font-family-sans-serif: "sofia_pro_regularregular"; //, sans-serif
+$font-family-bold: "sofia_probold", sans-serif;
 
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -207,8 +225,8 @@ $font-family-bold: 'sofia_probold', sans-serif;
 // $font-size-h6: 1rem;
 
 // $headings-margin-bottom: ($spacer / 2);
-$headings-font-family:   $font-family-sans-serif;
-$headings-font-weight:   400;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 400;
 // $headings-line-height:   1.1;
 // $headings-color:         inherit;
 
@@ -252,110 +270,108 @@ $text-muted: #ccc;
 
 // $list-inline-padding: 5px;
 
-
 /*------------------------------------*\
 # CUSTOM TYPE VARIABLES
 \*------------------------------------*/
 
-$display1-size-xs        : (64 / 16)+rem;
-$display1-size-sm        : (64 / 16)+rem;
-$display1-size-md        : (64 / 16)+rem;
-$display1-size-lg        : (72 / 16)+rem;
-$display1-size-xl        : (72 / 16)+rem;
-$display1-line-height-xs : (78 / 16)+rem;
-$display1-line-height-sm : (78 / 16)+rem;
-$display1-line-height-md : (78 / 16)+rem;
-$display1-line-height-lg : (86 / 16)+rem;
-$display1-line-height-xl : (86 / 16)+rem;
+$display1-size-xs: (64 / 16) + rem;
+$display1-size-sm: (64 / 16) + rem;
+$display1-size-md: (64 / 16) + rem;
+$display1-size-lg: (72 / 16) + rem;
+$display1-size-xl: (72 / 16) + rem;
+$display1-line-height-xs: (78 / 16) + rem;
+$display1-line-height-sm: (78 / 16) + rem;
+$display1-line-height-md: (78 / 16) + rem;
+$display1-line-height-lg: (86 / 16) + rem;
+$display1-line-height-xl: (86 / 16) + rem;
 
-$display2-size-xs        : (36 / 16)+rem;
-$display2-size-sm        : (36 / 16)+rem;
-$display2-size-md        : (36 / 16)+rem;
-$display2-size-lg        : (56 / 16)+rem;
-$display2-size-xl        : (56 / 16)+rem;
-$display2-line-height-xs : (40 / 16)+rem;
-$display2-line-height-sm : (40 / 16)+rem;
-$display2-line-height-md : (40 / 16)+rem;
-$display2-line-height-lg : (68 / 16)+rem;
-$display2-line-height-xl : (68 / 16)+rem;
+$display2-size-xs: (36 / 16) + rem;
+$display2-size-sm: (36 / 16) + rem;
+$display2-size-md: (36 / 16) + rem;
+$display2-size-lg: (56 / 16) + rem;
+$display2-size-xl: (56 / 16) + rem;
+$display2-line-height-xs: (40 / 16) + rem;
+$display2-line-height-sm: (40 / 16) + rem;
+$display2-line-height-md: (40 / 16) + rem;
+$display2-line-height-lg: (68 / 16) + rem;
+$display2-line-height-xl: (68 / 16) + rem;
 
-$display3-size-xs        : (28 / 16)+rem;
-$display3-size-sm        : (36 / 16)+rem;
-$display3-size-md        : (36 / 16)+rem;
-$display3-size-lg        : (48 / 16)+rem;
-$display3-size-xl        : (48 / 16)+rem;
-$display3-line-height-xs : (36 / 16)+rem;
-$display3-line-height-sm : (36 / 16)+rem;
-$display3-line-height-md : (48 / 16)+rem;
-$display3-line-height-lg : (56 / 16)+rem;
-$display3-line-height-xl : (56 / 16)+rem;
+$display3-size-xs: (28 / 16) + rem;
+$display3-size-sm: (36 / 16) + rem;
+$display3-size-md: (36 / 16) + rem;
+$display3-size-lg: (48 / 16) + rem;
+$display3-size-xl: (48 / 16) + rem;
+$display3-line-height-xs: (36 / 16) + rem;
+$display3-line-height-sm: (36 / 16) + rem;
+$display3-line-height-md: (48 / 16) + rem;
+$display3-line-height-lg: (56 / 16) + rem;
+$display3-line-height-xl: (56 / 16) + rem;
 
-$display4-size-xs        : (24 / 16)+rem;
-$display4-size-sm        : (24 / 16)+rem;
-$display4-size-md        : (24 / 16)+rem;
-$display4-size-lg        : (36 / 16)+rem;
-$display4-size-xl        : (36 / 16)+rem;
-$display4-line-height-xs : (32 / 16)+rem;
-$display4-line-height-sm : (32 / 16)+rem;
-$display4-line-height-md : (32 / 16)+rem;
-$display4-line-height-lg : (44 / 16)+rem;
-$display4-line-height-xl : (44 / 16)+rem;
+$display4-size-xs: (24 / 16) + rem;
+$display4-size-sm: (24 / 16) + rem;
+$display4-size-md: (24 / 16) + rem;
+$display4-size-lg: (36 / 16) + rem;
+$display4-size-xl: (36 / 16) + rem;
+$display4-line-height-xs: (32 / 16) + rem;
+$display4-line-height-sm: (32 / 16) + rem;
+$display4-line-height-md: (32 / 16) + rem;
+$display4-line-height-lg: (44 / 16) + rem;
+$display4-line-height-xl: (44 / 16) + rem;
 
-$display5-size-xs        : (20 / 16)+rem;
-$display5-size-sm        : (20 / 16)+rem;
-$display5-size-md        : (20 / 16)+rem;
-$display5-size-lg        : (24 / 16)+rem;
-$display5-size-xl        : (28 / 16)+rem;
-$display5-line-height-xs : (28 / 16)+rem;
-$display5-line-height-sm : (28 / 16)+rem;
-$display5-line-height-md : (28 / 16)+rem;
-$display5-line-height-lg : (32 / 16)+rem;
-$display5-line-height-xl : (36 / 16)+rem;
+$display5-size-xs: (20 / 16) + rem;
+$display5-size-sm: (20 / 16) + rem;
+$display5-size-md: (20 / 16) + rem;
+$display5-size-lg: (24 / 16) + rem;
+$display5-size-xl: (28 / 16) + rem;
+$display5-line-height-xs: (28 / 16) + rem;
+$display5-line-height-sm: (28 / 16) + rem;
+$display5-line-height-md: (28 / 16) + rem;
+$display5-line-height-lg: (32 / 16) + rem;
+$display5-line-height-xl: (36 / 16) + rem;
 
-$display6-size-xs        : (20 / 16)+rem;
-$display6-size-sm        : (20 / 16)+rem;
-$display6-size-md        : (20 / 16)+rem;
-$display6-size-lg        : (24 / 16)+rem;
-$display6-size-xl        : (24 / 16)+rem;
-$display6-line-height-xs : (28 / 16)+rem;
-$display6-line-height-sm : (28 / 16)+rem;
-$display6-line-height-md : (28 / 16)+rem;
-$display6-line-height-lg : (32 / 16)+rem;
-$display6-line-height-xl : (32 / 16)+rem;
+$display6-size-xs: (20 / 16) + rem;
+$display6-size-sm: (20 / 16) + rem;
+$display6-size-md: (20 / 16) + rem;
+$display6-size-lg: (24 / 16) + rem;
+$display6-size-xl: (24 / 16) + rem;
+$display6-line-height-xs: (28 / 16) + rem;
+$display6-line-height-sm: (28 / 16) + rem;
+$display6-line-height-md: (28 / 16) + rem;
+$display6-line-height-lg: (32 / 16) + rem;
+$display6-line-height-xl: (32 / 16) + rem;
 
-$display7-size-xs        : (16 / 16)+rem;
-$display7-size-sm        : (16 / 16)+rem;
-$display7-size-md        : (16 / 16)+rem;
-$display7-size-lg        : (20 / 16)+rem;
-$display7-size-xl        : (20 / 16)+rem;
-$display7-line-height-xs : (24 / 16)+rem;
-$display7-line-height-sm : (24 / 16)+rem;
-$display7-line-height-md : (24 / 16)+rem;
-$display7-line-height-lg : (28 / 16)+rem;
-$display7-line-height-xl : (28 / 16)+rem;
+$display7-size-xs: (16 / 16) + rem;
+$display7-size-sm: (16 / 16) + rem;
+$display7-size-md: (16 / 16) + rem;
+$display7-size-lg: (20 / 16) + rem;
+$display7-size-xl: (20 / 16) + rem;
+$display7-line-height-xs: (24 / 16) + rem;
+$display7-line-height-sm: (24 / 16) + rem;
+$display7-line-height-md: (24 / 16) + rem;
+$display7-line-height-lg: (28 / 16) + rem;
+$display7-line-height-xl: (28 / 16) + rem;
 
-$display8-size-xs        : (16 / 16)+rem;
-$display8-size-sm        : (16 / 16)+rem;
-$display8-size-md        : (16 / 16)+rem;
-$display8-size-lg        : (18 / 16)+rem;
-$display8-size-xl        : (18 / 16)+rem;
-$display8-line-height-xs : (24 / 16)+rem;
-$display8-line-height-sm : (24 / 16)+rem;
-$display8-line-height-md : (24 / 16)+rem;
-$display8-line-height-lg : (27 / 16)+rem;
-$display8-line-height-xl : (27 / 16)+rem;
+$display8-size-xs: (16 / 16) + rem;
+$display8-size-sm: (16 / 16) + rem;
+$display8-size-md: (16 / 16) + rem;
+$display8-size-lg: (18 / 16) + rem;
+$display8-size-xl: (18 / 16) + rem;
+$display8-line-height-xs: (24 / 16) + rem;
+$display8-line-height-sm: (24 / 16) + rem;
+$display8-line-height-md: (24 / 16) + rem;
+$display8-line-height-lg: (27 / 16) + rem;
+$display8-line-height-xl: (27 / 16) + rem;
 
-$display9-size-xs        : (12 / 16)+rem;
-$display9-size-sm        : (12 / 16)+rem;
-$display9-size-md        : (12 / 16)+rem;
-$display9-size-lg        : (12 / 16)+rem;
-$display9-size-xl        : (12 / 16)+rem;
-$display9-line-height-xs : (16 / 16)+rem;
-$display9-line-height-sm : (16 / 16)+rem;
-$display9-line-height-md : (16 / 16)+rem;
-$display9-line-height-lg : (16 / 16)+rem;
-$display9-line-height-xl : (16 / 16)+rem;
-
+$display9-size-xs: (12 / 16) + rem;
+$display9-size-sm: (12 / 16) + rem;
+$display9-size-md: (12 / 16) + rem;
+$display9-size-lg: (12 / 16) + rem;
+$display9-size-xl: (12 / 16) + rem;
+$display9-line-height-xs: (16 / 16) + rem;
+$display9-line-height-sm: (16 / 16) + rem;
+$display9-line-height-md: (16 / 16) + rem;
+$display9-line-height-lg: (16 / 16) + rem;
+$display9-line-height-xl: (16 / 16) + rem;
 
 // // Components
 // //
@@ -369,14 +385,13 @@ $display9-line-height-xl : (16 / 16)+rem;
 // $border-radius-sm:       .2rem;
 
 $component-active-color: $white;
-$component-active-bg:    $brand-primary;
+$component-active-bg: $brand-primary;
 
 // $caret-width:            .3em;
 
 // $transition-base:        all .2s ease-in-out;
 // $transition-fade:        opacity .15s linear;
 // $transition-collapse:    height .35s ease;
-
 
 // // Tables
 // //
@@ -400,30 +415,29 @@ $component-active-bg:    $brand-primary;
 // $table-border-width:            $border-width;
 // $table-border-color:            $gray-lighter;
 
-
 // // Buttons
 // //
 // // For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-padding-x:                   3rem;
-$btn-padding-y:                   1rem;
+$btn-padding-x: 3rem;
+$btn-padding-y: 1rem;
 // $btn-line-height:                1.25;
 // $btn-font-weight:                $font-weight-normal;
 // $btn-box-shadow:                 inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075);
 // $btn-focus-box-shadow:           0 0 0 2px rgba($brand-primary, .25);
 // $btn-active-box-shadow:          inset 0 3px 5px rgba($black,.125);
 
-$btn-primary-color:              $primary3;
-$btn-primary-bg:                 $primary1;
-$btn-primary-border:             $primary1;
+$btn-primary-color: $primary3;
+$btn-primary-bg: $primary1;
+$btn-primary-border: $primary1;
 
-$btn-secondary-color:            $primary3;
-$btn-secondary-bg:               $primary3;
-$btn-secondary-border:           $primary3;
+$btn-secondary-color: $primary3;
+$btn-secondary-bg: $primary3;
+$btn-secondary-border: $primary3;
 
-$btn-tertiary-color:            $primary2;
-$btn-tertiary-bg:               $tertiary3;
-$btn-tertiary-border:           $tertiary3;
+$btn-tertiary-color: $primary2;
+$btn-tertiary-bg: $tertiary3;
+$btn-tertiary-border: $tertiary3;
 
 // $btn-info-color:                 $white;
 // $btn-info-bg:                    $brand-info;
@@ -459,19 +473,18 @@ $btn-tertiary-border:           $tertiary3;
 
 // $btn-transition:                 all .2s ease-in-out;
 
-
 // // Forms
 
 // $input-padding-x:                .75rem;
-$input-padding-y:                   1.7rem;
+$input-padding-y: 1.7rem;
 // $input-line-height:              1.25;
 
 // $input-bg:                       $white;
 // $input-bg-disabled:              $gray-lighter;
 
 // $input-color:                    $gray;
-$input-border-color:                $tertiary4;
-$input-btn-border-width:            $border-width; // For form controls and buttons
+$input-border-color: $tertiary4;
+$input-btn-border-width: $border-width; // For form controls and buttons
 // $input-box-shadow:               inset 0 1px 1px rgba($black,.075);
 
 // $input-border-radius:            $border-radius;
@@ -479,8 +492,8 @@ $input-btn-border-width:            $border-width; // For form controls and butt
 // $input-border-radius-sm:         $border-radius-sm;
 
 // $input-bg-focus:                 $input-bg;
-$input-border-focus:                $tertiary5;
-$input-box-shadow-focus:            $primary1;
+$input-border-focus: $tertiary5;
+$input-box-shadow-focus: $primary1;
 // $input-color-focus:              $input-color;
 
 // $input-color-placeholder:        $gray-light;
@@ -518,9 +531,9 @@ $input-box-shadow-focus:            $primary1;
 // $custom-control-spacer-x: 1rem;
 // $custom-control-spacer-y: .25rem;
 
-$custom-control-indicator-size:      .75rem;
+$custom-control-indicator-size: 0.75rem;
 // $custom-control-indicator-margin-y:   (($line-height-base * 1rem) - $custom-control-indicator-size) / -2;
-$custom-control-indicator-bg:         transparent;
+$custom-control-indicator-bg: transparent;
 // $custom-control-indicator-bg-size:    50% 50%;
 // $custom-control-indicator-box-shadow: inset 0 .25rem .25rem rgba($black,.1);
 
@@ -529,19 +542,19 @@ $custom-control-indicator-bg:         transparent;
 // $custom-control-disabled-description-color:  $gray-light;
 
 // $custom-control-checked-indicator-color:      $white;
-$custom-control-checked-indicator-bg:            $primary3;
+$custom-control-checked-indicator-bg: $primary3;
 // $custom-control-checked-indicator-box-shadow: none;
 
 $custom-control-focus-indicator-box-shadow: none;
 
 // $custom-control-active-indicator-color:      $white;
-$custom-control-active-indicator-bg:         $primary3;
+$custom-control-active-indicator-bg: $primary3;
 // $custom-control-active-indicator-box-shadow: none;
 
 // $custom-checkbox-radius: $border-radius;
 $custom-checkbox-checked-icon: none;
 
-$custom-checkbox-indeterminate-bg: linear-gradient( 45deg, white, red );
+$custom-checkbox-indeterminate-bg: linear-gradient(45deg, white, red);
 $custom-checkbox-indeterminate-indicator-color: $custom-control-checked-indicator-color;
 $custom-checkbox-indeterminate-icon: none;
 // $custom-checkbox-indeterminate-box-shadow: none;
@@ -594,7 +607,6 @@ $custom-checkbox-indeterminate-icon: none;
 //   )
 // );
 
-
 // // Form validation icons
 // $form-icon-success-color: $brand-success;
 // $form-icon-success: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='#{$form-icon-success-color}' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E"), "#", "%23");
@@ -605,7 +617,6 @@ $custom-checkbox-indeterminate-icon: none;
 // $form-icon-danger-color: $brand-danger;
 // $form-icon-danger: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#{$form-icon-danger-color}' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E"), "#", "%23");
 
-
 // // Dropdowns
 // //
 // // Dropdown menu container and contents.
@@ -614,9 +625,9 @@ $custom-checkbox-indeterminate-icon: none;
 // $dropdown-padding-y:             .5rem;
 // $dropdown-margin-top:            .125rem;
 // $dropdown-bg:                    $white;
-$dropdown-border-color:          $tertiary3;
+$dropdown-border-color: $tertiary3;
 // $dropdown-border-width:          $border-width;
-$dropdown-divider-bg:            $tertiary3;
+$dropdown-divider-bg: $tertiary3;
 // $dropdown-box-shadow:            0 .5rem 1rem rgba($black,.175);
 
 // $dropdown-link-color:            $gray-dark;
@@ -624,14 +635,13 @@ $dropdown-divider-bg:            $tertiary3;
 // $dropdown-link-hover-bg:         $gray-lightest;
 
 // $dropdown-link-active-color:        $primary1;
-$dropdown-link-active-bg:           $primary1;
+$dropdown-link-active-bg: $primary1;
 
 // $dropdown-link-disabled-color:   $gray-light;
 
 // $dropdown-item-padding-x:        1.5rem;
 
 // $dropdown-header-color:          $gray-light;
-
 
 // // Z-index master list
 // //
@@ -647,7 +657,6 @@ $dropdown-link-active-bg:           $primary1;
 // $zindex-modal:              1050;
 // $zindex-popover:            1060;
 // $zindex-tooltip:            1070;
-
 
 // // Navbar
 
@@ -669,9 +678,9 @@ $dropdown-link-active-bg:           $primary1;
 // $navbar-inverse-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-inverse-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
 // $navbar-inverse-toggler-border:        rgba($white,.1);
 
-$navbar-light-color:                rgba($black,.9);
+$navbar-light-color: rgba($black, 0.9);
 // $navbar-light-hover-color:          rgba($black,.7);
-$navbar-light-active-color:         $primary1;
+$navbar-light-active-color: $primary1;
 // $navbar-light-disabled-color:       rgba($black,.3);
 // $navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
 // $navbar-light-toggler-border:       rgba($black,.1);
@@ -698,10 +707,9 @@ $navbar-light-active-color:         $primary1;
 // $nav-pills-active-link-color: $component-active-color;
 // $nav-pills-active-link-bg:    $component-active-bg;
 
-
 // // Pagination
 
-$pagination-padding-x:                   1.25rem;
+$pagination-padding-x: 1.25rem;
 // $pagination-padding-y:                .5rem;
 // $pagination-padding-x-sm:             .5rem;
 // $pagination-padding-y-sm:             .25rem;
@@ -709,7 +717,7 @@ $pagination-padding-x:                   1.25rem;
 // $pagination-padding-y-lg:             .75rem;
 // $pagination-line-height:              1.25;
 
-$pagination-color:                     $primary2;
+$pagination-color: $primary2;
 // $pagination-bg:                        $white;
 // $pagination-border-width:              $border-width;
 // $pagination-border-color:              #ddd;
@@ -726,12 +734,10 @@ $pagination-color:                     $primary2;
 // $pagination-disabled-bg:               $white;
 // $pagination-disabled-border:           #ddd;
 
-
 // // Jumbotron
 
 // $jumbotron-padding:              2rem;
 // $jumbotron-bg:                   $gray-lighter;
-
 
 // // Form states and alerts
 // //
@@ -754,10 +760,9 @@ $pagination-color:                     $primary2;
 // $state-danger-bg:                #f2dede;
 // $state-danger-border:            darken($state-danger-bg, 5%);
 
-
 // // Cards
 
-$card-spacer-x:            2rem;
+$card-spacer-x: 2rem;
 // $card-spacer-y:            .75rem;
 // $card-border-width:        1px;
 // $card-border-radius:       $border-radius;
@@ -776,43 +781,40 @@ $card-spacer-x:            2rem;
 // $card-columns-gap:          1.25rem;
 // $card-columns-margin:       $card-spacer-y;
 
-
 // // Tooltips
 
 // $tooltip-max-width:           200px;
 // $tooltip-color:               $white;
 // $tooltip-bg:                  $black;
 // $tooltip-opacity:             .9;
-$tooltip-padding-y:           8px; //6px
-$tooltip-padding-x:           40px; //8px
+$tooltip-padding-y: 8px; //6px
+$tooltip-padding-x: 40px; //8px
 // $tooltip-margin:              3px;
 
 // $tooltip-arrow-width:         5px;
 // $tooltip-arrow-color:         $tooltip-bg;
 
-
 // // Popovers
 
-$popover-inner-padding:               0px;
+$popover-inner-padding: 0px;
 // $popover-bg:                          $white;
 // $popover-max-width:                   276px;
-$popover-border-width:                0;
+$popover-border-width: 0;
 // $popover-border-color:                red;
 // $popover-box-shadow:                  0 5px 10px rgba($black,.2);
 
-$popover-title-bg:                    $gray-dark;
+$popover-title-bg: $gray-dark;
 // $popover-title-padding-x:             14px;
 // $popover-title-padding-y:             8px;
 
-$popover-content-padding-x:           20px;
-$popover-content-padding-y:           0px;
+$popover-content-padding-x: 20px;
+$popover-content-padding-y: 0px;
 
-$popover-arrow-width:                 12px;
-$popover-arrow-color:                 $gray-dark;
+$popover-arrow-width: 12px;
+$popover-arrow-color: $gray-dark;
 
 // $popover-arrow-outer-width:           ($popover-arrow-width + 1px);
 // $popover-arrow-outer-color:           fade-in($popover-border-color, .05);
-
 
 // // Badges
 
@@ -834,7 +836,6 @@ $popover-arrow-color:                 $gray-dark;
 // // Use a higher than normal value to ensure completely rounded edges when
 // // customizing padding or font-size on labels.
 // $badge-pill-border-radius:    10rem;
-
 
 // // Modals
 
@@ -866,7 +867,6 @@ $popover-arrow-color:                 $gray-dark;
 
 // $modal-transition:            transform .3s ease-out;
 
-
 // // Alerts
 // //
 // // Define alert colors, border radius, and padding.
@@ -893,7 +893,6 @@ $popover-arrow-color:                 $gray-dark;
 // $alert-danger-bg:             $state-danger-bg;
 // $alert-danger-text:           $state-danger-text;
 // $alert-danger-border:         $state-danger-border;
-
 
 // // Progress bars
 
@@ -934,7 +933,6 @@ $popover-arrow-color:                 $gray-dark;
 // $list-group-link-active-color:   $list-group-color;
 // $list-group-link-active-bg:      $gray-lighter;
 
-
 // // Image thumbnails
 
 // $thumbnail-padding:           .25rem;
@@ -945,12 +943,10 @@ $popover-arrow-color:                 $gray-dark;
 // $thumbnail-box-shadow:        0 1px 2px rgba($black,.075);
 // $thumbnail-transition:        all .2s ease-in-out;
 
-
 // // Figures
 
 // $figure-caption-font-size: 90%;
 // $figure-caption-color:     $gray-light;
-
 
 // // Breadcrumbs
 
@@ -963,17 +959,16 @@ $popover-arrow-color:                 $gray-dark;
 // $breadcrumb-active-color:       $gray-light;
 // $breadcrumb-divider:            "/";
 
-
 // // Carousel
 
 // $carousel-control-color:                      $white;
 // $carousel-control-width:                      15%;
 // $carousel-control-opacity:                    .5;
 
-$carousel-indicator-width:                    12px;
-$carousel-indicator-height:                   12px;
-$carousel-indicator-spacer:                   12px;
-$carousel-indicator-active-bg:                $tertiary6;
+$carousel-indicator-width: 12px;
+$carousel-indicator-height: 12px;
+$carousel-indicator-spacer: 12px;
+$carousel-indicator-active-bg: $tertiary6;
 
 // $carousel-caption-width:                      70%;
 // $carousel-caption-color:                      $white;
@@ -985,14 +980,12 @@ $carousel-indicator-active-bg:                $tertiary6;
 
 // $carousel-transition:           transform .6s ease-in-out;
 
-
 // // Close
 
 // $close-font-size:             $font-size-base * 1.5;
 // $close-font-weight:           $font-weight-bold;
 // $close-color:                 $black;
 // $close-text-shadow:           0 1px 0 $white;
-
 
 // // Code
 
@@ -1010,9 +1003,6 @@ $carousel-indicator-active-bg:                $tertiary6;
 // $pre-border-color:            #ccc;
 // $pre-scrollable-max-height:   340px;
 
-
 // ANIMATIONS
-$animation-duration:            450ms;
-$animation-delay:               150ms;
-
-
+$animation-duration: 450ms;
+$animation-delay: 150ms;
