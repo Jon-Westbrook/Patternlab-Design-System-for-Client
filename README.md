@@ -2,10 +2,14 @@
 
 The design system utilizes a Gulp wrapper around Pattern Lab Node Core. More about that below. Note that is uses Gulp 4. [Here's how to upgrade to Gulp 4](https://github.com/pattern-lab/edition-node-gulp/wiki/Updating-to-Gulp-4).
 
+
+Ensure you are using node lts/carbon via nvm use lts/carbon. 
 ```
+    nvm use lts/carbon
+    npm install -g gulp-cli
     npm install
-    gulp patternlab:build
-    gulp patternlab:serve
+    gulp patternlab:build (production)
+    gulp patternlab:serve (development)
 ```
 
 (* sometimes you have to run the build task concurrently with the serve task, or before serving to get some assets to appear) 
